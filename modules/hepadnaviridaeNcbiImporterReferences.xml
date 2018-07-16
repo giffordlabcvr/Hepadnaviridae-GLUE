@@ -1,0 +1,61 @@
+<!-- This NCBI importer module downloads Hepadnaviridae reference sequences -->
+
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+  <specificPrimaryAccessions>
+
+    <!-- Bluegill hepadnavirus -->
+    <primaryAccession>NC_030445</primaryAccession>
+    <!-- White sucker hepatitis B virus -->
+    <primaryAccession>NC_027922</primaryAccession>
+
+    <!-- Tibetan frog hepadnavirus  -->
+    <primaryAccession>NC_030446</primaryAccession>
+
+    <!-- Tinamou hepatitis B virus -->
+    <primaryAccession>NC_035210</primaryAccession>
+    <!-- Heron hepatitis B virus -->
+    <primaryAccession>NC_001486</primaryAccession>
+    <!-- Duck hepatitis B virus -->
+   	<primaryAccession>NC_001344</primaryAccession>
+    <!-- Parrot hepatitis B virus -->
+    <primaryAccession>NC_016561</primaryAccession>
+    <!-- Ross's goose hepatitis B virus  -->
+    <primaryAccession>NC_005888</primaryAccession>
+    <!-- Snow goose hepatitis B virus -->
+    <primaryAccession>NC_005950</primaryAccession>
+    <!-- Sheldgoose hepatitis B virus -->	
+    <primaryAccession>NC_005890</primaryAccession>
+
+    <!-- Psittacine endogenous elements in 3rd party annotation GenBank -->
+    <!-- eBHBV1 -->
+    <primaryAccession>BK008520</primaryAccession>
+    <!-- eBHBV2 -->
+    <primaryAccession>BK008521</primaryAccession>
+
+    <!-- Hepatitis B virus -->
+    <primaryAccession>NC_003977</primaryAccession>
+    <!-- Woolly monkey hepatitis B Virus -->
+    <primaryAccession>NC_028129</primaryAccession>
+
+    <!-- Woodchuck hepatitis virus -->
+    <primaryAccession>NC_004107</primaryAccession>
+    <!-- Ground squirrel hepatitis virus -->	
+    <primaryAccession>NC_001484</primaryAccession>
+
+    <!-- Tent-making bat hepatitis B virus -->
+    <primaryAccession>NC_024445</primaryAccession>
+    <!-- Horseshoe bat hepatitis B virus -->
+    <primaryAccession>NC_024444</primaryAccession>
+    <!-- Long-fingered bat hepatitis B virus -->
+    <primaryAccession>NC_020881</primaryAccession>
+    <!-- Roundleaf bat hepatitis B virus -->	
+    <primaryAccession>NC_024443</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
+

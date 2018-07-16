@@ -1,0 +1,5 @@
+  create module -f modules/DNA-rt/hepadnaviridae/hepadnaviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/DNA-rt/hepadnaviridae/unconstrainedAlignmentImporter.xml 
+  create module -f modules/DNA-rt/hepadnaviridae/hepadnaviridaeSideDataImporter.xml  hepadnaviridaeSideDataImporter
+  create module -f modules/DNA-rt/hepadnaviridae/featureLocationTextToGlue.xml
+  create module -f modules/DNA-rt/hepadnaviridae/eHBVsideDataImporter.xml

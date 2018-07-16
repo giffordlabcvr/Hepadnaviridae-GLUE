@@ -1,0 +1,19 @@
+sequence-ID	name	full_name	genus	type
+NC_030446	tfHBV	Tibetan frog hepadnavirus	Amphibian	Virus
+NC_001344	DHBV	Duck hepatitis B virus	Avihepadnavirus	Virus
+NC_001486	HHBV	Heron hepatitis B virus	Avihepadnavirus	Virus
+NC_016561	PaHBV	Parrot hepatitis B virus	Avihepadnavirus	Virus
+NC_005888	RGHBV	Ross's goose hepatitis B virus	Avihepadnavirus	Virus
+NC_005950	SGHBV	Snow goose hepatitis B virus	Avihepadnavirus	Virus
+NC_005890	SHBV	Sheldgoose hepatitis B virus	Avihepadnavirus	Virus
+NC_035210	THBV	Tinamou hepatitis B virus	Avihepadnavirus	Virus
+NC_030445	bgHBV	Bluegill hepadnavirus	Fish	Virus
+NC_027922	wsHBV	White sucker hepadnavirus	Fish	Virus
+NC_001484	GSHV	Ground squirrel hepatitis virus	Orthohepadnavirus	Virus
+NC_003977	HBV	Hepatitis B virus	Orthohepadnavirus	Virus
+NC_024444	HsbHBV	Horseshoe bat hepatitis B virus	Orthohepadnavirus	Virus
+NC_020881	LfbHBV	Long-fingered bat hepatitis B virus	Orthohepadnavirus	Virus
+NC_024443	RlbHBV	Roundleaf bat hepatitis B virus	Orthohepadnavirus	Virus
+NC_024445	TBHBV	Tent-making bat hepatitis B virus	Orthohepadnavirus	Virus
+NC_004107	WhBv	Woodchuck hepatitis virus	Orthohepadnavirus	Virus
+NC_028129	WMHBV	Woolly monkey hepatitis B virus	Orthohepadnavirus	Virus
