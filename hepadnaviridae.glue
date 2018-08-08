@@ -1,13 +1,13 @@
-delete project dfe_hepadnaviridae
+delete project hepadnaviridae
 
-create project dfe_hepadnaviridae "EVE-oriented GLUE project for the Hepadnaviridae" --minVersion 0.1.50
+create project hepadnaviridae "EVE-oriented GLUE project for the Hepadnaviridae" --minVersion 0.1.50
 
-schema-project dfe_hepadnaviridae
+schema-project hepadnaviridae
 
   run file glue/hepadnaviridaeSchemaExtensions.glue
   exit
 
-project dfe_hepadnaviridae
+project hepadnaviridae
 
   # load project settings
   run file glue/projectSettings.glue
@@ -21,13 +21,13 @@ project dfe_hepadnaviridae
   #module genbankXmlPopulator populate
 
   # Define genome features
-  #run file glue/hepadnaviridaeFeatures.glue
+  run file glue/hepadnaviridaeFeatures.glue
 
   # Create reference sequences
   run file glue/hepadnaviridaeReferences.glue
 
   # Import alignments
-  #run file glue/hepadnaviridaeAlignments.glue
+  run file glue/hepadnaviridaeAlignments.glue
  
   # Validate
   validate

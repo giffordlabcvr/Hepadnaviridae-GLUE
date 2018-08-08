@@ -1,21 +1,16 @@
-  # TIP alignments
-
-  module unconstrainedAlignmentImporter
-    import AL_UNCONSTRAINED_eHBV_serpentes -f alignments/DNA-rt/hepadnaviridae/tips/eHBV-serpentes.1.aln.fna
-    exit
-
-  # INTERNAL alignments
-  
-  module unconstrainedAlignmentImporter
-    import AL_UNCONSTRAINED_fishhepadna  -f alignments/DNA-rt/hepadnaviridae/internal/piscinehepadna.aln.fna
-    import AL_UNCONSTRAINED_avihepadna   -f alignments/DNA-rt/hepadnaviridae/internal/avihepadna.aln.fna
-    import AL_UNCONSTRAINED_orthohepadna -f alignments/DNA-rt/hepadnaviridae/internal/orthohepadna.aln.fna
-    import AL_UNCONSTRAINED_deep-1 -f alignments/DNA-rt/hepadnaviridae/internal/hepadna-deep-1.fna  
-    exit
-
-  # ROOT alignments
+  # ROOT alignment
     
   module unconstrainedAlignmentImporter
-    import AL_UNCONSTRAINED_hepadna_root -f alignments/DNA-rt/hepadnaviridae/root/hepadna-absolute-root.aln.fna
+    import AL_UNCONSTRAINED_hepadna_root -f alignments/root/hepadna-absolute-root.aln.fna
     exit
     
+
+  # INTERNAL alignment
+
+  module unconstrainedAlignmentImporter
+    import AL_UNCONSTRAINED_fishhepadna  -f alignments/internal/piscinehepadna.aln.fna
+    import AL_UNCONSTRAINED_avihepadna   -f alignments/internal/avihepadna.aln.fna
+    import AL_UNCONSTRAINED_orthohepadna -f alignments/internal/orthohepadna.aln.fna
+    #import AL_UNCONSTRAINED_deep-1 -f alignments/internal/hepadna-deep-1.fna  
+    exit
+
