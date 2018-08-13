@@ -2,7 +2,7 @@
 
 ## Description
 
-This is Hepadnaviridae-GLUE: a GLUE project for the [hepadnaviruses](https://viralzone.expasy.org/24?outline=all_by_species) (family Hepadnaviridae ).
+This is Hepadnaviridae-GLUE: a GLUE project for the [hepadnaviruses](https://viralzone.expasy.org/9?outline=all_by_species) (family Hepadnaviridae ).
 
 [GLUE](http://tools.glue.cvr.ac.uk) is an open source, data-centric bioinformatics environment specialised for developing virus genome data resources (VGDR).
 
