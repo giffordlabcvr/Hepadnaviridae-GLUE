@@ -2,3 +2,4 @@
   create module -f modules/unconstrainedAlignmentImporter.xml 
   create module -f modules/hepadnaviridaeSideDataImporter.xml  hepadnaviridaeSideDataImporter
   create module -f modules/featureLocationTextToGlue.xml
+  create module -f modules/hepadnaviridaeTabularUtility.xml hepadnaviridaeTabularUtility
