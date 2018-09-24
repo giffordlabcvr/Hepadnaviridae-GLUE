@@ -8,9 +8,19 @@
   # INTERNAL alignment
 
   module unconstrainedAlignmentImporter
-    import AL_UNCONSTRAINED_fishhepadna  -f alignments/internal/piscinehepadna.aln.fna
-    import AL_UNCONSTRAINED_avihepadna   -f alignments/internal/avihepadna.aln.fna
-    import AL_UNCONSTRAINED_orthohepadna -f alignments/internal/orthohepadna.aln.fna
-    #import AL_UNCONSTRAINED_deep-1 -f alignments/internal/hepadna-deep-1.fna  
+    import AL_UNCONSTRAINED_avihepadna     -f alignments/internal/avihepadna.aln.fna
+    import AL_UNCONSTRAINED_herpetohepadna -f alignments/internal/herpetohepadna.aln.fna
+    import AL_UNCONSTRAINED_metahepadna    -f alignments/internal/metahepadna.aln.fna
+    import AL_UNCONSTRAINED_orthohepadna   -f alignments/internal/orthohepadna.aln.fna
+    import AL_UNCONSTRAINED_piscinehepadna -f alignments/internal/piscinehepadna.aln.fna
+
+    #import AL_UNCONSTRAINED_deep-1         -f alignments/internal/hepadna-deep-1.fna  
+    #import AL_UNCONSTRAINED_parahepadna    -f alignments/internal/parahepadna.aln.fna
+    #import AL_UNCONSTRAINED_nackehepadna   -f alignments/internal/nackehepadna.aln.fna
+
     exit
 
+  # Protein alignments
+  module proteinAlignmentImporter
+    import AL_UNCONSTRAINED_nackehepadna   -f alignments/internal/nackehepadna.aln.faa
+    exit

@@ -3,3 +3,4 @@
   create module -f modules/hepadnaviridaeSideDataImporter.xml  hepadnaviridaeSideDataImporter
   create module -f modules/featureLocationTextToGlue.xml
   create module -f modules/hepadnaviridaeTabularUtility.xml hepadnaviridaeTabularUtility
+  create module -f modules/proteinAlignmentImporter.xml

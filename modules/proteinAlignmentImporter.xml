@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blastProteinFastaAlignmentImporter>
+    <idClauseExtractorFormatter>
+    	<outputTemplate>sequenceID = '${g1}'</outputTemplate>
+    </idClauseExtractorFormatter>
+    <updateExistingAlignment>true</updateExistingAlignment>
+    <updateExistingMembers>true</updateExistingMembers>
+    <ignoreMissingSequences>true</ignoreMissingSequences>
+</blastProteinFastaAlignmentImporter>
