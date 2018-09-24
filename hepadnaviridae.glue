@@ -1,6 +1,6 @@
 delete project hepadnaviridae
 
-create project hepadnaviridae "EVE-oriented GLUE project for the Hepadnaviridae" --minVersion 0.1.50
+create project hepadnaviridae "GLUE project for the Hepadnaviridae" --minVersion 0.1.50
 
 schema-project hepadnaviridae
 
@@ -17,6 +17,8 @@ project hepadnaviridae
 
   # Import exogenous sources and data 
   import source sources/ncbi-refseqs/
+  import source sources/fasta/
+  
   run script glue/loadExogenousData.js
   #module genbankXmlPopulator populate
 
