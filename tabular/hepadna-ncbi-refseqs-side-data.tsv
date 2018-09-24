@@ -1,19 +1,25 @@
-sequence-ID	name	full_name	genus	type
-NC_030446	tfHBV	Tibetan frog hepadnavirus	Amphibian	Virus
-NC_001344	DHBV	Duck hepatitis B virus	Avihepadnavirus	Virus
-NC_001486	HHBV	Heron hepatitis B virus	Avihepadnavirus	Virus
-NC_016561	PaHBV	Parrot hepatitis B virus	Avihepadnavirus	Virus
-NC_005888	RGHBV	Ross's goose hepatitis B virus	Avihepadnavirus	Virus
-NC_005950	SGHBV	Snow goose hepatitis B virus	Avihepadnavirus	Virus
-NC_005890	SHBV	Sheldgoose hepatitis B virus	Avihepadnavirus	Virus
-NC_035210	THBV	Tinamou hepatitis B virus	Avihepadnavirus	Virus
-NC_030445	bgHBV	Bluegill hepadnavirus	Fish	Virus
-NC_027922	wsHBV	White sucker hepadnavirus	Fish	Virus
-NC_001484	GSHV	Ground squirrel hepatitis virus	Orthohepadnavirus	Virus
-NC_003977	HBV	Hepatitis B virus	Orthohepadnavirus	Virus
-NC_024444	HsbHBV	Horseshoe bat hepatitis B virus	Orthohepadnavirus	Virus
-NC_020881	LfbHBV	Long-fingered bat hepatitis B virus	Orthohepadnavirus	Virus
-NC_024443	RlbHBV	Roundleaf bat hepatitis B virus	Orthohepadnavirus	Virus
-NC_024445	TBHBV	Tent-making bat hepatitis B virus	Orthohepadnavirus	Virus
-NC_004107	WhBv	Woodchuck hepatitis virus	Orthohepadnavirus	Virus
-NC_028129	WMHBV	Woolly monkey hepatitis B virus	Orthohepadnavirus	Virus
+sequence-ID	name	full_name	genus	type	host_sci_name	host_common_name
+NC_030446	tfHBV	Tibetan frog hepadnavirus	Amphibian	Virus	Nanorana parkeri	Tibetan frog
+NC_001344	DHBV	Duck hepatitis B virus	Avihepadnavirus	Virus		
+NC_001486	HHBV	Heron hepatitis B virus	Avihepadnavirus	Virus	Ardea cinerea	Grey heron
+NC_016561	PaHBV	Parrot hepatitis B virus	Avihepadnavirus	Virus	Psittacula krameri	Rose-ringed parakeet
+NC_005888	RGHBV	Ross's goose hepatitis B virus	Avihepadnavirus	Virus	Chen rossii	Ross's goose
+NC_005950	SGHBV	Snow goose hepatitis B virus	Avihepadnavirus	Virus	Anser caerulescens	Snow goose
+NC_005890	SHBV	Sheldgoose hepatitis B virus	Avihepadnavirus	Virus	Ashy-headed sheldgoose	Sheldgoose
+NC_035210	THBV	Tinamou hepatitis B virus	Avihepadnavirus	Virus	Eudromia elegans 	Elegant crested tinamou
+AY494851	DHBV	Duck hepatitis B virus	Avihepadnavirus	Virus	Spatula puna	Puna teal
+AJ441111	CCHBV	Crane hepatitis B virus 	Avihepadnavirus	Virus	Balearica regulorum	Grey crowned crane
+AJ251934	STHBV	Stork hepatitis B virus	Avihepadnavirus	Virus	Ciconia ciconia	White stork
+NC_030445	bgHBV	Bluegill hepadnavirus	Fish	Virus	Lepomis macrochirus	Bluegill
+NC_027922	wsHBV	White sucker hepadnavirus	Nackednavirus	Virus	Catostomus commersonii	White sucker
+KX058434	ACNDV	African cichlid hepadnavirus	Nackednavirus	Virus	Ophthalmotilapia ventralis	African cichild
+NC_001484	GSHV	Ground squirrel hepatitis virus	Orthohepadnavirus	Virus		Ground squirrel
+NC_003977	HBV	Hepatitis B virus	Orthohepadnavirus	Virus	Homo sapiens	Human
+NC_024444	HsbHBV	Horseshoe bat hepatitis B virus	Orthohepadnavirus	Virus	Rhinolophus alcyone	Horseshoe bat
+NC_020881	LfbHBV	Long-fingered bat hepatitis B virus	Orthohepadnavirus	Virus	Miniopterus fuliginosus	Long-fingered bat
+NC_024443	RlbHBV	Roundleaf bat hepatitis B virus	Orthohepadnavirus	Virus	Hipposideros cf. ruber	Roundleaf bat
+NC_024445	TBHBV	Tent-making bat hepatitis B virus	Orthohepadnavirus	Virus	Hipposideros cf. ruber	Tent-making bat
+NC_004107	WhBv	Woodchuck hepatitis virus	Orthohepadnavirus	Virus	Marmota monax	Woodchuck
+NC_028129	WMHBV	Woolly monkey hepatitis B virus	Orthohepadnavirus	Virus		Woolly monkey
+MH307930	DCHBV	Domestic cat hepadnavirus	Orthohepadnavirus	Virus	Felis catus	Domestic cat
+U29144	ASHV	Arctic ground squirrel hepatitis B virus 	Orthohepadnavirus	Virus	Spermophilus parryii	Arctic ground squirrel

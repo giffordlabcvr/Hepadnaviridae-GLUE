@@ -6,13 +6,16 @@
   <sourceName>ncbi-refseqs</sourceName>
   <specificPrimaryAccessions>
 
+    <!-- Tibetan frog hepadnavirus  -->
+    <primaryAccession>NC_030446</primaryAccession>
+
     <!-- Bluegill hepadnavirus -->
     <primaryAccession>NC_030445</primaryAccession>
     <!-- White sucker hepatitis B virus -->
     <primaryAccession>NC_027922</primaryAccession>
+    <!-- African cichlid hepatitis B virus -->
+    <primaryAccession>KX058434</primaryAccession>
 
-    <!-- Tibetan frog hepadnavirus  -->
-    <primaryAccession>NC_030446</primaryAccession>
 
     <!-- Tinamou hepatitis B virus -->
     <primaryAccession>NC_035210</primaryAccession>
@@ -28,12 +31,6 @@
     <primaryAccession>NC_005950</primaryAccession>
     <!-- Sheldgoose hepatitis B virus -->	
     <primaryAccession>NC_005890</primaryAccession>
-
-    <!-- Psittacine endogenous elements in 3rd party annotation GenBank -->
-    <!-- eBHBV1 -->
-    <primaryAccession>BK008520</primaryAccession>
-    <!-- eBHBV2 -->
-    <primaryAccession>BK008521</primaryAccession>
 
     <!-- Hepatitis B virus -->
     <primaryAccession>NC_003977</primaryAccession>
