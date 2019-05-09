@@ -1,36 +1,31 @@
   # Declare reference sequences
 
-  ### Exogenous viruses
 
-  # Fish
-  create reference wsHBV       		ncbi-refseqs NC_027922
-  create reference BBA91            ncbi-refseqs NC_030445
-
-
-  # Amphibian
-  create reference BBC22       		ncbi-refseqs NC_030446
+  # Mammal
+  create reference REF_MASTER_HBV   ncbi-refseqs NC_003977
+  create reference REF_WMHBV       		ncbi-refseqs NC_028129
+  create reference REF_WHBV      		ncbi-refseqs NC_004107
+  create reference REF_GSHV       		ncbi-refseqs NC_001484  
+  create reference REF_RBHBV       		ncbi-refseqs NC_024443
+  create reference REF_TBHBV       		ncbi-refseqs NC_024445  
+  create reference REF_HBHBV       		ncbi-refseqs NC_024444
+  create reference REF_LfBHBV       	ncbi-refseqs NC_020881
 
 
   # Avian
-  create reference DHBV       		ncbi-refseqs NC_001344
-  create reference SHBV       		ncbi-refseqs NC_005890
-  create reference PaHBV       		ncbi-refseqs NC_016561
-  create reference RGHBV       		ncbi-refseqs NC_005888
-  create reference SGHBV1       	ncbi-refseqs NC_005950
-  create reference CGU75       		ncbi-refseqs NC_035210
-  create reference HHBV       		ncbi-refseqs NC_001486
-  
-  
-  # Mammal
-  create reference HBV       		ncbi-refseqs NC_003977
-  create reference WMHBV       		ncbi-refseqs NC_028129
-  
-  create reference WHBV      		ncbi-refseqs NC_004107
-  create reference GSHV       		ncbi-refseqs NC_001484
-  
-  create reference RBHBV       		ncbi-refseqs NC_024443
-  create reference TBHBV       		ncbi-refseqs NC_024445  
-  create reference HBHBV       		ncbi-refseqs NC_024444
-  create reference LfBHBV       	ncbi-refseqs NC_020881
+  create reference REF_DHBV       		ncbi-refseqs NC_001344
+  create reference REF_SHBV       		ncbi-refseqs NC_005890
+  create reference REF_PaHBV       		ncbi-refseqs NC_016561
+  create reference REF_RGHBV       		ncbi-refseqs NC_005888
+  create reference REF_SGHBV1       	ncbi-refseqs NC_005950
+  create reference REF_CGU75       		ncbi-refseqs NC_035210
+  create reference REF_HHBV       		ncbi-refseqs NC_001486
 
 
+  # Amphibian
+  create reference REF_BBC22       		ncbi-refseqs NC_030446
+
+ 
+  # Fish
+  create reference REF_wsHBV       		ncbi-refseqs NC_027922
+  create reference REF_BBA91            ncbi-refseqs NC_030445

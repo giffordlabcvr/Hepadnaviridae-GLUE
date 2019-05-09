@@ -18,9 +18,18 @@ project hepadnaviridae
   # Import exogenous sources and data 
   import source sources/ncbi-refseqs/
   import source sources/fasta/
-  
+ 
+ 
+  # Import GenBank sources
   run script glue/loadExogenousData.js
-  #module genbankXmlPopulator populate
+  module genbankXmlPopulator populate
+
+  # Import metadata for exogenous reference sequences from tabular
+  module hepadnaviridaeSideDataImporter 
+    populate -f tabular/hepadna-ncbi-refseqs-side-data.tsv
+    exit
+  
+  module genbankXmlPopulator populate
 
   # Define genome features
   run file glue/hepadnaviridaeFeatures.glue
@@ -30,6 +39,9 @@ project hepadnaviridae
 
   # Import alignments
   run file glue/hepadnaviridaeAlignments.glue
+
+  # Import alignment tree
+  run file glue/hepadnaviridaeAlignmentTree.glue
  
   # Validate
   validate

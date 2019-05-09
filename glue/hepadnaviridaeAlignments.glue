@@ -1,26 +1,17 @@
-  # ROOT alignment
-    
+  # Import pre-built alignments
   module unconstrainedAlignmentImporter
-    import AL_UNCONSTRAINED_hepadna_root -f alignments/root/hepadna-absolute-root.aln.fna
-    exit
+
+    #~# Root
+    import AL_UNCONSTRAINED -f alignments/root/hepadna-absolute-root.aln.fna
+
+    #~# Major lineages
+    import AL_ORTHOHEPADNA_UNCONSTRAINED   -f alignments/internal/orthohepadna.aln.fna
+    import AL_AVIHEPADNA_UNCONSTRAINED     -f alignments/internal/avihepadna.aln.fna
+    import AL_HERPETOHEPADNA_UNCONSTRAINED -f alignments/internal/herpetohepadna.aln.fna
+    import AL_METAHEPADNA_UNCONSTRAINED    -f alignments/internal/metahepadna.aln.fna
+    import AL_PISCINEHEPADNA_UNCONSTRAINED -f alignments/internal/piscinehepadna.aln.fna
     
+    #import AL_PARAHEPADNA_UNCONSTRAINED    -f alignments/internal/parahepadna.aln.fna
+    #import AL_NACKEDHEPADNA_UNCONSTRAINED  -f alignments/internal/nackehepadna.aln.fna
 
-  # INTERNAL alignment
-
-  module unconstrainedAlignmentImporter
-    import AL_UNCONSTRAINED_avihepadna     -f alignments/internal/avihepadna.aln.fna
-    import AL_UNCONSTRAINED_herpetohepadna -f alignments/internal/herpetohepadna.aln.fna
-    import AL_UNCONSTRAINED_metahepadna    -f alignments/internal/metahepadna.aln.fna
-    import AL_UNCONSTRAINED_orthohepadna   -f alignments/internal/orthohepadna.aln.fna
-    import AL_UNCONSTRAINED_piscinehepadna -f alignments/internal/piscinehepadna.aln.fna
-
-    #import AL_UNCONSTRAINED_deep-1         -f alignments/internal/hepadna-deep-1.fna  
-    #import AL_UNCONSTRAINED_parahepadna    -f alignments/internal/parahepadna.aln.fna
-    #import AL_UNCONSTRAINED_nackehepadna   -f alignments/internal/nackehepadna.aln.fna
-
-    exit
-
-  # Protein alignments
-  module proteinAlignmentImporter
-    import AL_UNCONSTRAINED_nackehepadna   -f alignments/internal/nackehepadna.aln.faa
     exit
