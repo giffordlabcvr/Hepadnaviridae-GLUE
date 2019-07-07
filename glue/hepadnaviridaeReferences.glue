@@ -1,6 +1,5 @@
   # Declare reference sequences
 
-
   # Mammal
   create reference REF_MASTER_HBV   ncbi-refseqs NC_003977
   create reference REF_WMHBV       		ncbi-refseqs NC_028129
@@ -11,7 +10,6 @@
   create reference REF_HBHBV       		ncbi-refseqs NC_024444
   create reference REF_LfBHBV       	ncbi-refseqs NC_020881
 
-
   # Avian
   create reference REF_DHBV       		ncbi-refseqs NC_001344
   create reference REF_SHBV       		ncbi-refseqs NC_005890
@@ -21,11 +19,10 @@
   create reference REF_CGU75       		ncbi-refseqs NC_035210
   create reference REF_HHBV       		ncbi-refseqs NC_001486
 
-
   # Amphibian
   create reference REF_BBC22       		ncbi-refseqs NC_030446
 
- 
   # Fish
   create reference REF_wsHBV       		ncbi-refseqs NC_027922
   create reference REF_BBA91            ncbi-refseqs NC_030445
+  create reference REF_IMDV             fasta-refseqs IMDV

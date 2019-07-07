@@ -17,9 +17,8 @@ project hepadnaviridae
 
   # Import exogenous sources and data 
   import source sources/ncbi-refseqs/
-  import source sources/fasta/
- 
- 
+  import source sources/fasta-refseqs/
+
   # Import GenBank sources
   run script glue/loadExogenousData.js
   module genbankXmlPopulator populate
@@ -46,4 +45,3 @@ project hepadnaviridae
   # Validate
   validate
   exit
-  
