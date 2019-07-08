@@ -13,14 +13,17 @@ alignment AL_Hepadnaviridae_MASTER
   extract child AL_Avihepadna -r REF_DHBV
   demote member AL_Avihepadna --whereClause "sequence.genus = 'Avihepadnavirus'"
 
-  extract child AL_Herpetohepadna -r REF_BBC22
+  extract child AL_Herpetohepadna -r REF_SkHBV
   demote member AL_Herpetohepadna --whereClause "sequence.genus = 'Herpetohepadnavirus'"
 
-  extract child AL_Piscinehepadna -r REF_wsHBV
-  demote member AL_Piscinehepadna --whereClause "sequence.genus = 'Nackehepadnavirus'"
+  extract child AL_Piscinehepadna -r REF_BBA91
+  demote member AL_Piscinehepadna --whereClause "sequence.genus = 'Fish'"
 
-  extract child AL_Metahepadna -r REF_IMDV
-  demote member AL_Metahepadna --whereClause "sequence.genus = 'Nackehepadnavirus'"
+  extract child AL_Metahepadna -r REF_AMDV
+  demote member AL_Metahepadna --whereClause "sequence.genus = 'Metahepadnavirus'"
+
+  extract child AL_Nakedna -r REF_ACNDV
+  demote member AL_Nakedna --whereClause "sequence.genus = 'Nakednavirus'"
   exit
 
 ### Derive constrained alignment segments from unconstrained alignments  

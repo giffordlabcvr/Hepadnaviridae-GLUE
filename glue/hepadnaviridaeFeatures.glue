@@ -6,66 +6,123 @@
   feature 5UTR set field displayName "5' UTR"
   feature 5UTR set metatag INCLUDE_IN_SUMMARY true
 
+  create feature DR1 -p whole_genome "Direct repeat 1"
+  feature DR1 set field displayName "Direct repeat 1"
+  feature DR1 set metatag INCLUDE_IN_SUMMARY true
+
+  create feature DR2 -p whole_genome "Direct repeat 2"
+  feature DR2 set field displayName "Direct repeat 2"
+  feature DR2 set metatag INCLUDE_IN_SUMMARY true
+
   create feature HBeAg -p whole_genome "HBeAg"
   feature HBeAg set field displayName "HBV e-antigen"
   feature HBeAg set metatag OWN_CODON_NUMBERING true
   feature HBeAg set metatag INCLUDE_IN_SUMMARY true
   feature HBeAg set metatag CODES_AMINO_ACIDS true
-  feature HBeAg set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature HBeAg set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature Core -p whole_genome "Core"
   feature Core set field displayName "Core"
   feature Core set metatag OWN_CODON_NUMBERING true
   feature Core set metatag INCLUDE_IN_SUMMARY true
   feature Core set metatag CODES_AMINO_ACIDS true
-  feature Core set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature Core set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature RT-Pol -p whole_genome "RT-Pol"
-  feature RT-Pol set field displayName "RT-Pol"
-  feature RT-Pol set metatag OWN_CODON_NUMBERING true
-  feature RT-Pol set metatag INCLUDE_IN_SUMMARY true
-  feature RT-Pol set metatag CODES_AMINO_ACIDS true
-  feature RT-Pol set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  create feature Polymerase -p whole_genome "Polymerase"
+  feature Polymerase set field displayName "Polymerase"
+  feature Polymerase set metatag OWN_CODON_NUMBERING true
+  feature Polymerase set metatag INCLUDE_IN_SUMMARY true
+  feature Polymerase set metatag CODES_AMINO_ACIDS true
+  #feature Polymerase set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature RT -p RT-Pol "RT"
+  create feature RT -p Polymerase "RT"
   feature RT set field displayName "RT"
   feature RT set metatag OWN_CODON_NUMBERING true
   feature RT set metatag INCLUDE_IN_SUMMARY true
   feature RT set metatag CODES_AMINO_ACIDS true
-  feature RT set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature RT set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature RH -p RT-Pol "RH"
+  create feature RH -p Polymerase "RH"
   feature RH set field displayName "RH"
   feature RH set metatag OWN_CODON_NUMBERING true
   feature RH set metatag INCLUDE_IN_SUMMARY true
   feature RH set metatag CODES_AMINO_ACIDS true
-  feature RH set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature RH set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature large-S -p whole_genome "large-S"
   feature large-S set field displayName "large-S"
   feature large-S set metatag OWN_CODON_NUMBERING true
   feature large-S set metatag INCLUDE_IN_SUMMARY true
   feature large-S set metatag CODES_AMINO_ACIDS true
-  feature large-S set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature large-S set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature medium-S -p whole_genome "middle surface protein"
   feature medium-S set field displayName "middle surface protein"
   feature medium-S set metatag OWN_CODON_NUMBERING true
   feature medium-S set metatag INCLUDE_IN_SUMMARY true
   feature medium-S set metatag CODES_AMINO_ACIDS true
-  feature medium-S set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature medium-S set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
   create feature small-S -p whole_genome "small surface protein"
   feature small-S set field displayName "small surface protein"
   feature small-S set metatag OWN_CODON_NUMBERING true
   feature small-S set metatag INCLUDE_IN_SUMMARY true
   feature small-S set metatag CODES_AMINO_ACIDS true
-  feature small-S set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature small-S set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 
-  create feature X -p whole_genome "X"
-  feature X set field displayName "X"
+  create feature X -p whole_genome "ORF X"
+  feature X set field displayName "ORF X"
   feature X set metatag OWN_CODON_NUMBERING true
   feature X set metatag INCLUDE_IN_SUMMARY true
   feature X set metatag CODES_AMINO_ACIDS true
-  feature X set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+  #feature X set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Y -p whole_genome "ORF Y"
+  feature Y set field displayName "ORF Y"
+  feature Y set metatag OWN_CODON_NUMBERING true
+  feature Y set metatag INCLUDE_IN_SUMMARY true
+  feature Y set metatag CODES_AMINO_ACIDS true
+  #feature Y set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature TP -p whole_genome "TP"
+  feature TP set field displayName "TP"
+  feature TP set metatag OWN_CODON_NUMBERING true
+  feature TP set metatag INCLUDE_IN_SUMMARY true
+  feature TP set metatag CODES_AMINO_ACIDS true
+  #feature TP set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature Z -p whole_genome "ORF Z"
+  feature Z set field displayName "ORF Z"
+  feature Z set metatag OWN_CODON_NUMBERING true
+  feature Z set metatag INCLUDE_IN_SUMMARY true
+  feature Z set metatag CODES_AMINO_ACIDS true
+  #feature Z set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature smORF1 -p whole_genome "smORF1"
+  feature smORF1 set field displayName "smORF1"
+  feature smORF1 set metatag OWN_CODON_NUMBERING true
+  feature smORF1 set metatag INCLUDE_IN_SUMMARY true
+  feature smORF1 set metatag CODES_AMINO_ACIDS true
+  #feature smORF1 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature smORF2 -p whole_genome "smORF2"
+  feature smORF2 set field displayName "smORF2"
+  feature smORF2 set metatag OWN_CODON_NUMBERING true
+  feature smORF2 set metatag INCLUDE_IN_SUMMARY true
+  feature smORF2 set metatag CODES_AMINO_ACIDS true
+  #feature smORF2 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature smORF3 -p whole_genome "ORF smORF3"
+  feature smORF3 set field displayName "ORF smORF3"
+  feature smORF3 set metatag OWN_CODON_NUMBERING true
+  feature smORF3 set metatag INCLUDE_IN_SUMMARY true
+  feature smORF3 set metatag CODES_AMINO_ACIDS true
+  #feature smORF3 set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
+
+  create feature PrePreS -p whole_genome "ORF PrePreS"
+  feature PrePreS set field displayName "ORF PrePreS"
+  feature PrePreS set metatag OWN_CODON_NUMBERING true
+  feature PrePreS set metatag INCLUDE_IN_SUMMARY true
+  feature PrePreS set metatag CODES_AMINO_ACIDS true
+  #feature PrePreS set metatag CODON_LABELER_MODULE kuiken2006CodonLabeler
 

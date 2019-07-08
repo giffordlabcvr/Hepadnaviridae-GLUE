@@ -1,58 +1,43 @@
-sequence-ID	genus	featureName	startNT	endNT
-NC_030446	Amphibian	PreC/C	57	857
-NC_030446		Polymerase	676	3111
-NC_030446		PreS/S	893	2365
-NC_030446		S	1280	2365
-NC_001344	Avihepadnavirus	Core	2524	3027
-NC_001344		Polymerase	20	2536
-NC_001344		P-protein	170	2536
-NC_001344		PreS/S	693	1973
-NC_001344		S	1290	1793
-NC_030445	Fish	ORFY	26	343
-NC_030445		Core	139	690
-NC_030445		Polymerase	512	2821
-NC_030445		S	1071	2057
-NC_030445		ORFZ	2818	3144
-NC_003977	Orthohepadnavirus	Polymerase	2309	3182
-NC_003977		S	2850	3182
-NC_003977		ORFX	1376	1840
-NC_003977		Core	1816	2454
-NC_024444		S	1	675
-NC_024444		ORFX	1220	1645
-NC_024444		Core	1657	2310
-NC_024444		Polymerase	2147	3377
-SkHBV	Herpetohepadnavirus	DR1	1	12
-SkHBV		DR2	3442	3453
-SkHBV		Core	117	1121
-SkHBV		Polymerase	862	23
-SkHBV		S	2243	2758
-SkHBV		TP	862	1467
-SkHBV		RT	2275	23
-SkHBV		PreS	1421	2242
-AMDV	Metahepadnavirus	Core	199	750
-AMDV		Polymerase	620	3124
-AMDV		ORFY	3120	48
-AMDV		S	1704	2351
-AMDV		TP	620	1096
-AMDV		RT	1736	3124
-AMDV		PreS	1119	1703
-AMDV		PrePreS	1038	1118
-AMDV		DR1	1	8
-AMDV		DR2	3207	3214
-ACNDV	Nackednavirus	DR1	1	19
-ACNDV		DR2	2659	2677
-ACNDV		smORF1	100	294
-ACNDV		smORF2	303	554
-ACNDV		Core	615	1136
-ACNDV		smORF3	2444	2665
-ACNDV		Polymerase	919	2739
-ACNDV		TP	919	1455
-ACNDV		RT	1483	2739
-SSNDV		DR1	1	15
-SSNDV		DR2	2943	2957
-SSNDV		smORF1	7	495
-SSNDV		smORF2	498	845
-SSNDV		Core	848	1429
-SSNDV		Polymerase	1200	3011
-SSNDV		TP	1200	1727
-SSNDV		RT	1755	3011
+referenceName	genus	featureName	startNT	endNT	
+REF_MASTER_HBV	Orthohepadnavirus	Polymerase	1	1932	1820..3182
+REF_MASTER_HBV	Orthohepadnavirus	large-S	2850	3182	1..837
+REF_MASTER_HBV	Orthohepadnavirus	X	1376	1840	
+REF_MASTER_HBV	Orthohepadnavirus	Core	1816	2454	
+REF_MASTER_HBV	Orthohepadnavirus	small-S	1	675	
+REF_TFHBV	Amphibian	Core	57	857	
+REF_TFHBV	Amphibian	Polymerase	676	3111	
+REF_TFHBV	Amphibian	large-S	893	2365	
+REF_TFHBV	Amphibian	small-S	1280	2365	
+REF_DHBV	Avihepadnavirus	Core	2524	3027	1..114
+REF_DHBV	Avihepadnavirus	Polymerase	20	2536	
+REF_DHBV	Avihepadnavirus	large-S	693	1973	
+REF_DHBV	Avihepadnavirus	small-S	1290	1793	
+REF_BBA91	Fish	Y	26	343	
+REF_BBA91	Fish	Core	139	690	
+REF_BBA91	Fish	Polymerase	512	2821	
+REF_BBA91	Fish	large-S	1071	2057	
+REF_BBA91	Fish	Z	2818	3144	
+REF_SkHBV	Herpetohepadnavirus	DR1	1	12	
+REF_SkHBV	Herpetohepadnavirus	DR2	3442	3453	
+REF_SkHBV	Herpetohepadnavirus	Core	117	1121	
+REF_SkHBV	Herpetohepadnavirus	Polymerase	23	862	
+REF_SkHBV	Herpetohepadnavirus	medium-S	2243	2758	
+REF_SkHBV	Herpetohepadnavirus	TP	862	1467	
+REF_SkHBV	Herpetohepadnavirus	large-S	1421	2242	
+REF_AMDV	Metahepadnavirus	Core	199	750	
+REF_AMDV	Metahepadnavirus	Polymerase	620	3124	
+REF_AMDV	Metahepadnavirus	medium-S	1704	2351	
+REF_AMDV	Metahepadnavirus	TP	620	1096	
+REF_AMDV	Metahepadnavirus	large-S	1119	1703	
+REF_AMDV	Metahepadnavirus	small-S	1038	1118	
+REF_AMDV	Metahepadnavirus	DR1	1	8	
+REF_AMDV	Metahepadnavirus	DR2	3207	3214	
+REF_ACNDV	Nackednavirus	DR1	1	19	
+REF_ACNDV	Nackednavirus	DR2	2659	2677	
+REF_ACNDV	Nackednavirus	smORF1	100	294	
+REF_ACNDV	Nackednavirus	smORF2	303	554	
+REF_ACNDV	Nackednavirus	Core	615	1136	
+REF_ACNDV	Nackednavirus	smORF3	2444	2665	
+REF_ACNDV	Nackednavirus	Polymerase	919	2739	
+REF_ACNDV	Nackednavirus	TP	919	1455	
+REF_ACNDV	Nackednavirus	RT	1483	2739	
