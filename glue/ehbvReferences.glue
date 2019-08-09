@@ -1,0 +1,5 @@
+  #### EHBV references    
+
+  # EHBV-Avihepadna.1.1-Neoaves
+  create reference REF_EFV_Avi1  fasta-ehbv-consensus EHBV-Avi.1-Neoaves.consensus  
+

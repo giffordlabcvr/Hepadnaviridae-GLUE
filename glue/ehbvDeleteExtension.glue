@@ -1,0 +1,10 @@
+# Delete extension modules
+delete module --whereClause "name like 'ehbv%'"
+
+# Delete extension reference sequences
+delete reference REF_EFV_Avi1  
+
+# Delete extension sources
+delete source fasta-ehbv-consensus
+delete source fasta-ehbv-curated
+
