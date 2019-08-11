@@ -1,9 +1,9 @@
 delete alignment AL_eSNHBV1
-delete source fasta-ehbv-herp-1
+delete source fasta-eSNHBV1
 
-import source sources/separated/fasta-ehbv-herp-1
+import source sources/separated/fasta-eSNHBV1
 
 create alignment AL_eSNHBV1 -r REF_eSNHBV1
-alignment AL_eSNHBV1 add member --whereClause "source.name = 'fasta-ehbv-herp-1'"
-compute alignment AL_eSNHBV1 --whereClause "sequence.source = 'fasta-ehbv-herp-1'" hepadnavirusCompoundAligner 
+alignment AL_eSNHBV1 add member --whereClause "source.name = 'fasta-eSNHBV1'"
+compute alignment AL_eSNHBV1 --whereClause "sequence.source = 'fasta-eSNHBV1'" hepadnavirusCompoundAligner 
 

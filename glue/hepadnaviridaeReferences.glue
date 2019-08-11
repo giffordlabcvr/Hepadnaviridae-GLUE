@@ -5,6 +5,7 @@
 
   # Avian
   create reference REF_DHBV       		ncbi-refseqs NC_001344
+  create reference REF_eAVHBV1       	fasta-ehbv-consensus eAVHBV1-con
 
   # Amphibian
   create reference REF_TFHBV       		ncbi-refseqs NC_030446
@@ -15,6 +16,7 @@
   # Reptile
   create reference REF_SkHBV            fasta-refseqs SkHBV
   create reference REF_eSNHBV1          fasta-ehbv-consensus eSNHBV1-con
+  create reference REF_eCRHBV           fasta-ehbv-consensus eCRHBV-con
 
   # Metahepadna
   create reference REF_AMDV           	fasta-refseqs AMDV

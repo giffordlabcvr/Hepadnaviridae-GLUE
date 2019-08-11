@@ -8,8 +8,6 @@ schema-project hepadnaviridae
   
 project hepadnaviridae
 
-  run file glue/ehbvModules.glue
-
   # Import EHBV sequences and side data 
   run file glue/ehbvImportSources.glue
 
@@ -23,9 +21,6 @@ project hepadnaviridae
 
   # Create references
   run file glue/ehbvReferences.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/ehbv-reference_feature_locations.tsv -r
 
   # Import EHBV sequences and side data 
   #run file glue/ehbvAlignments.glue
