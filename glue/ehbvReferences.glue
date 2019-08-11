@@ -1,5 +1,17 @@
-  #### EHBV references    
+  # Declare EHBV reference sequences
 
-  # EHBV-Avihepadna.1.1-Neoaves
-  create reference REF_EFV_Avi1  fasta-ehbv-consensus EHBV-Avi.1-Neoaves.consensus  
+  # Mammal
+
+  # Avian
+  create reference REF_eAVHBV1       	fasta-ehbv-consensus eAVHBV1-con
+
+  # Amphibian
+
+  # Fish
+
+  # Reptile
+  create reference REF_eSNHBV1          fasta-ehbv-consensus eSNHBV1-con
+  create reference REF_eCRHBV           fasta-ehbv-consensus eCRHBV-con
+  create reference REF_eDRHBV	        fasta-ehbv-consensus eDRHBV-con
+  create reference REF_eTHBV	        fasta-ehbv-consensus eTHBV-con
 

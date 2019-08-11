@@ -19,8 +19,12 @@ project hepadnaviridae
   #  populate -f tabular/ehbv-side-data.tsv
   #  exit
 
-  # Create references
+
+  # Create reference sequences
   run file glue/ehbvReferences.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/ehbv_reference_feature_locations.tsv -r
 
   # Import EHBV sequences and side data 
   #run file glue/ehbvAlignments.glue

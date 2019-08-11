@@ -17,7 +17,10 @@
   create reference REF_SkHBV            fasta-refseqs SkHBV
   create reference REF_eSNHBV1          fasta-ehbv-consensus eSNHBV1-con
   create reference REF_eCRHBV           fasta-ehbv-consensus eCRHBV-con
+  create reference REF_eDRHBV	        fasta-ehbv-consensus eDRHBV-con
+  create reference REF_eTHBV	        fasta-ehbv-consensus eTHBV-con
 
+  
   # Metahepadna
   create reference REF_AMDV           	fasta-refseqs AMDV
 

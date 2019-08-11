@@ -10,7 +10,8 @@ delete reference REF_eSNHBV1
 delete reference REF_eAVHBV1
 delete reference REF_eCRHBV
 delete reference REF_EFV_Avi1 
-
+delete reference REF_eDRHBV
+delete reference REF_eTHBV
 
 # Delete extension sources
 delete source fasta-ehbv-consensus

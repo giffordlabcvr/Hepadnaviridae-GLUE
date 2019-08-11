@@ -1,6 +1,7 @@
+# Clean up any previous alignments, sources etc
 delete alignment AL_eCRHBV_croc
 delete alignment AL_eCRHBV_testud
-
+delete alignment AL_eCRHBV_testud-frog-ref
 
 delete source fasta-ehbv-croc-1
 delete source fasta-ehbv-testud-1
@@ -15,7 +16,7 @@ import source sources/separated/fasta-ehbv-croc-1
 create alignment AL_eCRHBV_croc -r REF_eCRHBV
 alignment AL_eCRHBV_croc add member --whereClause "source.name = 'fasta-ehbv-croc-1'"
 compute alignment AL_eCRHBV_croc --whereClause "sequence.source = 'fasta-ehbv-croc-1'" hepadnavirusCompoundAligner 
-module fastaAlignmentExporter export AL_eCRHBVV_croc -r REF_eCRHBV -f Polymerase -a -o AL_eCRHBV_croc-v1.fna
+module fastaAlignmentExporter export AL_eCRHBV_croc -r REF_eCRHBV -f Polymerase -a -o AL_eCRHBV_croc-v1.fna
 
 import source sources/separated/fasta-ehbv-testud-1
 
@@ -23,6 +24,19 @@ create alignment AL_eCRHBV_testud -r REF_eCRHBV
 alignment AL_eCRHBV_testud add member --whereClause "source.name = 'fasta-ehbv-testud-1'"
 compute alignment AL_eCRHBV_testud --whereClause "sequence.source = 'fasta-ehbv-testud-1'" hepadnavirusCompoundAligner 
 module fastaAlignmentExporter export AL_eCRHBV_testud -r REF_eCRHBV -f Polymerase -a -o AL_eCRHBV_testud-v1.fna
+
+
+create alignment AL_eCRHBV_testud-frog-ref -r REF_TFHBV
+alignment AL_eCRHBV_testud-frog-ref add member --whereClause "source.name = 'fasta-ehbv-testud-1'"
+compute alignment AL_eCRHBV_testud-frog-ref --whereClause "sequence.source = 'fasta-ehbv-testud-1'" hepadnavirusCompoundAligner 
+module fastaAlignmentExporter export AL_eCRHBV_testud-frog-ref -r REF_TFHBV -f Polymerase -a -o AL_eCRHBV_testud-frog-ref-v1.fna
+
+
+create alignment AL_eCRHBV_testud-duck -r REF_DHBV
+alignment AL_eCRHBV_testud-duck add member --whereClause "source.name = 'fasta-ehbv-testud-1'"
+compute alignment AL_eCRHBV_testud-duck --whereClause "sequence.source = 'fasta-ehbv-testud-1'" hepadnavirusCompoundAligner 
+module fastaAlignmentExporter export AL_eCRHBV_testud-duck -r REF_DHBV -f Polymerase -a -o AL_eCRHBV_testud-duck-v1.fna
+
 
 
 
