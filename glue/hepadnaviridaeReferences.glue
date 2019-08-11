@@ -14,11 +14,14 @@
 
   # Reptile
   create reference REF_SkHBV            fasta-refseqs SkHBV
+  create reference REF_eSNHBV1          fasta-ehbv-consensus eSNHBV1-con
 
   # Metahepadna
   create reference REF_AMDV           	fasta-refseqs AMDV
 
   # Nakedna
   create reference REF_ACNDV           	fasta-refseqs ACNDV
+  
+  
 
 
