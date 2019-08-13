@@ -1,13 +1,7 @@
-  # Declare EHBV reference sequences
-
-  # Mammal
+  ### Declare EHBV reference sequences
 
   # Avian
   create reference REF_eAVHBV1       	fasta-ehbv-consensus eAVHBV1-con
-
-  # Amphibian
-
-  # Fish
 
   # Reptile
   create reference REF_eSNHBV1          fasta-ehbv-consensus eSNHBV1-con
@@ -15,4 +9,8 @@
   create reference REF_eDRHBV	        fasta-ehbv-consensus eDRHBV-con
   create reference REF_eTHBV	        fasta-ehbv-consensus eTHBV-con
 
-#Add the sphenodon?
+
+  ### Add feature locations to EHBV reference sequences
+  module featureLocationTextToGlue
+    transform tabular/ehbv_reference_feature_locations.tsv -r
+    exit

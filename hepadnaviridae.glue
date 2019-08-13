@@ -20,8 +20,10 @@ project hepadnaviridae
   import source sources/fasta-refseqs/
   import source sources/fasta-ehbv-consensus/
 
-  # Import GenBank sources
-  run script glue/loadExogenousData.js
+  # Create links to isolate table for all viruses
+  run script glue/hepadnaviridaeLoadExogenousData.js
+
+  # Populate tables from GenBank files
   module genbankXmlPopulator populate
 
   # Import metadata for exogenous reference sequences from tabular
@@ -29,8 +31,6 @@ project hepadnaviridae
     populate -f tabular/hepadna-ncbi-refseqs-side-data.tsv
     exit
   
-  module genbankXmlPopulator populate
-
   # Define genome features
   run file glue/hepadnaviridaeFeatures.glue
 
@@ -39,13 +39,8 @@ project hepadnaviridae
 
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r
-
-  # Import alignments
-  run file glue/hepadnaviridaeAlignments.glue
-
-  # Import alignment tree
-  run file glue/hepadnaviridaeAlignmentTree.glue
  
   # Validate
   validate
+  
   exit

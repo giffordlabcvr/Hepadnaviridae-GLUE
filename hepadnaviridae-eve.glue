@@ -9,28 +9,20 @@ schema-project hepadnaviridae
 project hepadnaviridae
 
   # Import EHBV sequences and side data 
-  run file glue/ehbvImportSources.glue
+  run file glue/ehbvImportSources.glue 
+  run script glue/ehbvLoadEndogenousData1.js
+  run script glue/ehbvLoadEndogenousData2.js
 
-  run script glue/loadEndogenousData1.js
-  run script glue/loadEndogenousData2.js
-  
   # Import metadata for EHBV from tabular
   #module ehbvSideDataImporter 
   #  populate -f tabular/ehbv-side-data.tsv
   #  exit
-
-
-  # Create reference sequences
-  run file glue/ehbvReferences.glue
-
-  # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/ehbv_reference_feature_locations.tsv -r
-
-  # Import EHBV sequences and side data 
-  #run file glue/ehbvAlignments.glue
   
-  # Import alignment tree
-  #run file glue/ehbvAlignmentTree.glue
+  # Create EHBV reference sequences
+  run file glue/ehbvReferences.glue
+    
+  # Import alignments & generate constrained alignment tree 
+  run file glue/hepadnaviridaeAlignments.glue
 
   # Validate
   validate
