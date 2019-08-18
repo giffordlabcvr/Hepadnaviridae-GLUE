@@ -12,6 +12,7 @@
         <header>virus_name</header>
         <property>name</property>
     </textFileColumn>
+    
     <textFileColumn>
         <header>virus_full_name</header>
         <property>full_name</property>
@@ -25,6 +26,11 @@
     <textFileColumn>
         <header>clade</header>
         <property>clade</property>
+    </textFileColumn>
+
+    <textFileColumn>
+        <header>host_sci_name</header>
+        <property>host_sci_name</property>
     </textFileColumn>
 
     <skipMissing>true</skipMissing>
