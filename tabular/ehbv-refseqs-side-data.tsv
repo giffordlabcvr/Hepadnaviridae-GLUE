@@ -1,0 +1,8 @@
+id	virus_name	virus_full_name	virus_genus	clade	host_sci_name	host_common_name
+eSNHBV1-con	eSNHBV1-con	Endogenous snake hepatitis B virus 1	Herpetohepadnavirus		Colubroidea	snakes
+eCRHBV	eCRHBV-con	Endogenous crocodile hepatitis B virus 	Herpetohepadnavirus		Crocodylus	crocodiles
+eCRHBV2	eCRHBV2-con	Endogenous crocodile hepatitis B virus 2	Herpetohepadnavirus		Crocodylus	crocodiles and gharial
+eDRHPV	eDRHPV-con	Endogenous comodo dragon hepatitis B virus	Herpetohepadnavirus		Varanus komodoensis	Komodo dragon
+eTHBV	eTHBV-con	Endogenous turtle hepatitis B virus	Herpetohepadnavirus		Chrysemys	turtles
+eSpHBV	eSphHBV_con	Sphenodon hepatitis B virus	Fish		Sphenodon	tuatara
+eAVHBV1	eAVHBV1-con	Endogenous avian hepatitis B virus 1	Avihepadnavirus		Neognathae	birds

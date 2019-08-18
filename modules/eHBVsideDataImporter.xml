@@ -4,22 +4,24 @@
     
     <textFileColumn>
         <identifier>true</identifier>
-        <header>sequence-ID</header>
+        <header>id</header>
         <property>sequenceID</property>
     </textFileColumn>
 
     <textFileColumn>
-        <header>name</header>
+        <header>virus_name</header>
         <property>name</property>
     </textFileColumn>
     <textFileColumn>
-        <header>full_name</header>
+        <header>virus_full_name</header>
         <property>full_name</property>
     </textFileColumn>
+    
     <textFileColumn>
-        <header>genus</header>
+        <header>virus_genus</header>
         <property>genus</property>
     </textFileColumn>
+    
     <textFileColumn>
         <header>clade</header>
         <property>clade</property>

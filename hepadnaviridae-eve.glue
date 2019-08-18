@@ -8,15 +8,24 @@ schema-project hepadnaviridae
   
 project hepadnaviridae
 
+  # Import exogenous sources and data 
+  import source sources/fasta-ehbv-consensus
+  import source sources/fasta-ehbv-curated
+
   # Import EHBV sequences and side data 
-  run file glue/ehbvImportSources.glue 
   run script glue/ehbvLoadEndogenousData1.js
   run script glue/ehbvLoadEndogenousData2.js
 
-  # Import metadata for EHBV from tabular
-  #module ehbvSideDataImporter 
-  #  populate -f tabular/ehbv-side-data.tsv
-  #  exit
+  # Import metadata for EHBV reference sequences
+  create module -f modules/ehbvSideDataImporter.xml
+  module ehbvSideDataImporter 
+    populate -f tabular/ehbv-refseqs-side-data.tsv
+    exit
+
+  # Import metadata for individual EVE sequence
+  module ehbvSideDataImporter 
+    populate -f tabular/ehbv-side-data.tsv
+    exit
   
   # Create EHBV reference sequences
   run file glue/ehbvReferences.glue
