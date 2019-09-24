@@ -38,6 +38,16 @@ project hepadnaviridae
 
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r
+
+  # Create reference sequences
+  run file glue/hepadnaviridaeReferences.glue
+
+  # Add variations
+  run file glue/hepadnaviridaeVariations.glue
+
+  # Import alignments
+  run file glue/hepadnaviridaeAlignments.glue
+
  
   # Validate
   validate
