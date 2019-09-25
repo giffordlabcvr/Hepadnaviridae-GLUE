@@ -36,11 +36,12 @@
     <primaryAccession>NC_003977</primaryAccession>
     <!-- Woolly monkey hepatitis B Virus -->
     <primaryAccession>NC_028129</primaryAccession>
-
     <!-- Woodchuck hepatitis virus -->
     <primaryAccession>NC_004107</primaryAccession>
     <!-- Ground squirrel hepatitis virus -->	
     <primaryAccession>NC_001484</primaryAccession>
+    <!-- Arctic ground squirrel hepatitis virus -->	
+    <primaryAccession>U29144</primaryAccession>
 
     <!-- Tent-making bat hepatitis B virus -->
     <primaryAccession>NC_024445</primaryAccession>

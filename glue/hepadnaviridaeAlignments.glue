@@ -2,7 +2,8 @@
 module unconstrainedAlignmentImporter
 
   #~# Root
-  import AL_UNCONSTRAINED                 -f alignments/tree/root/hepadna-absolute-root.aln.fna
+  import AL_Hepadna_DEEP_UNCONSTRAINED    -f alignments/tree/root/absolute-root.aln.fna
+  import AL_Hepadnaviridae_UNCONSTRAINED  -f alignments/tree/root/hepadna-core-edited.fna
 
   #~# Major lineages
   import AL_ORTHOHEPADNA_UNCONSTRAINED    -f alignments/tree/internal/orthohepadna.aln.fna
@@ -47,7 +48,7 @@ alignment AL_Hepadnaviridae_MASTER
 
 ### Derive constrained alignment segments from unconstrained alignments  
 alignment AL_Hepadnaviridae_MASTER
-  derive segments AL_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_Hepadnaviridae_UNCONSTRAINED -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Orthohepadna

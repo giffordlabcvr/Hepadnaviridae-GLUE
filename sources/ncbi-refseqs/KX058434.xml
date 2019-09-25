@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>KX058434</GBSeq_locus>
+    <GBSeq_length>2485</GBSeq_length>
+    <GBSeq_strandedness>double</GBSeq_strandedness>
+    <GBSeq_moltype>DNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>24-AUG-2018</GBSeq_update-date>
+    <GBSeq_create-date>25-JUN-2016</GBSeq_create-date>
+    <GBSeq_definition>African cichlid hepadnavirus polymerase gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>KX058434</GBSeq_primary-accession>
+    <GBSeq_accession-version>KX058434.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|KX058434.1|</GBSeqid>
+      <GBSeqid>gi|1039151369</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>African cichlid hepadnavirus</GBSeq_source>
+    <GBSeq_organism>African cichlid hepadnavirus</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Retro-transcribing viruses; Hepadnaviridae; unclassified Hepadnaviridae</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..2485</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dill,J.A.</GBAuthor>
+          <GBAuthor>Camus,A.C.</GBAuthor>
+          <GBAuthor>Leary,J.H.</GBAuthor>
+          <GBAuthor>Di Giallonardo,F.</GBAuthor>
+          <GBAuthor>Holmes,E.C.</GBAuthor>
+          <GBAuthor>Ng,T.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Distinct Viral Lineages from Fish and Amphibians Reveal the Complex Evolutionary History of Hepadnaviruses</GBReference_title>
+        <GBReference_journal>J. Virol. 90 (17), 7920-7933 (2016)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1128/JVI.00832-16</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>27334580</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..2485</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Dill,J.A.</GBAuthor>
+          <GBAuthor>Camus,A.C.</GBAuthor>
+          <GBAuthor>Leary,J.H.</GBAuthor>
+          <GBAuthor>Di Giallonardo,F.</GBAuthor>
+          <GBAuthor>Holmes,E.C.</GBAuthor>
+          <GBAuthor>Ng,T.F.F.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (10-APR-2016) College of Veterinary Medicine, University of Georiga, 501 D. W. Brooks Drive, Athens, GA 30602, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..2485</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>2485</GBInterval_to>
+            <GBInterval_accession>KX058434.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>African cichlid hepadnavirus</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic DNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Ophthalmotilapia ventralis</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1862821</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Zambia</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>collection_date</GBQualifier_name>
+            <GBQualifier_value>12-May-2011</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>421..2226</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>421</GBInterval_from>
+            <GBInterval_to>2226</GBInterval_to>
+            <GBInterval_accession>KX058434.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>ANN02854.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MVLSKLNTMLNKSPCGKILLKRLGEINPNLHHSGQMGLQEVKDLLDLSSGVEVEAVAGDVVHSLPHAKGLYQSNQPSEFNPNWKIPSLTEIVLKDTIKEVVGKRITDKFFPVRLWTGKRNVKTKPKCKGVAPHYDKDPRHITVVNKYLNELYHAGVLYKRISRNKFLVSDKAQLYPWESSREVRVKGQIQDRCHGHAFCVRKNVQDNDNCRLVVDMSSHSRHMKEQGIKLPKYFTPSVKTISRTLRPHQWHMSLDLKNAFYSFPMHPESSVHLLVSDTANVYGFRKLPMGHWISPFVLQMFTARIAEWARKKFKVMVIAYMDDFLISHKHPRIVKKVCTAIQREMQRHGLQLNVDKSTPEPTRTPQFIGIQVGRRGLLPQARHWQLVRQQLQEIKGQHVDYKIIQKVLGLLNWTAPFTPCGIHPILPLYKRASREWSTKIPDHLYELMDMNWRKPMVVRYQTNRPNKVFVDASSKGLGIQHKRTAVYYSFDGLHINKAELLAAALGCDYANHVVTDSTYVFHHKFNTMPVVVACLFAFLFREVTLSWVCSKDNPADSPSRGHPVVTPFKGVLRGHARTRREKLTKLSESYVHSLFITYSIH</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>aaagagcaacaaacaaagataatttgatgcagctgctacaagtatgtgagagggcctgactcataggcacaccccatagcaactccttagataccagaactggttcaaccgtaaaaatgacgttcatagagctagtgaaaaacatgaagggatataaggaattactcctcccaatggaaatggttccactgcctgctgtcgtgttaaaacatgtaaaactaattcttacttctcaaaaagaacatcagccatggatgactgaaatggctttaaaagcagatcaatgtttgatacataaagcgacattggatttggcaggcaaagctacttcaaacgaagcaaaaccgttgatagaagcaatgcaacaaataatactagcaatgacaagagagttgtggggtcaaattcaaagacatcattatggtattgtccaagttgaacactatgttaaacaaatcaccctgtggcaagatactcctcaagcgtttaggggagatcaacccaaacctccatcattcaggtcagatgggcctacaagaggtcaaggatcttttagacctttcttcaggggtagaggtagaggccgtggcaggggacgtggttcacagtctcccgcacgcaaagggcctctaccaaagtaatcaaccatctgaatttaatcctaactggaaaattccatctttaacagagatagtactaaaagatactataaaagaagtggtaggaaaaagaataacagataaattctttccagttaggctttggacaggaaaaagaaatgtaaaaacaaaacccaaatgtaaaggggttgcgccccactatgataaagatcctagacatatcacagtggtgaataaatacttaaatgaactgtatcatgcaggagtattatacaaacgtatatctagaaacaaattcttagtaagtgataaggcacagctgtacccatgggaaagctcaagggaagtgagagttaaaggccaaattcaagacagatgccatggccatgcattctgtgtaagaaaaaatgtacaggacaatgacaattgcagattggtggtggacatgtcatctcattccagacacatgaaggaacaaggtataaaactaccaaagtatttcactccttcagtgaaaaccatcagcagaacattaagaccacatcagtggcacatgtccctggatttaaagaatgcattctactccttccccatgcatcctgaatcatcagtccatctgctggtctctgacacagctaatgtatatggatttaggaaactacccatgggacactggatttctccttttgttttacaaatgtttactgcccgcatagctgaatgggcacgaaaaaagtttaaggtgatggtgattgcctacatggatgattttcttatatcacacaaacatccacgcattgtaaagaaagtatgtactgccatacaaagggaaatgcaaagacatggcttgcaactgaatgttgataagtcaactccagagcccacaagaacaccccaatttattggaatacaggtgggacgaagaggacttttaccacaagcaagacactggcaactggtcagacaacaactacaagaaatcaaaggacaacatgtggattacaaaatcattcaaaaggttttgggattattgaactggacagcaccattcacaccctgcggcattcatcccattctccccctctacaagagagcatcgagagaatggtctacaaaaatacctgatcacctatatgaactaatggacatgaactggcgaaaacctatggtggtcaggtatcaaaccaacagaccaaacaaagtctttgttgatgcctccagcaaaggattgggcattcaacacaaaagaactgctgtttattacagttttgatggtctccatatcaacaaagctgaattactggcagccgcattaggatgtgattatgctaatcatgtggttactgactcaacatatgttttccatcataagttcaataccatgcctgttgttgttgcatgtcttttcgcattccttttcagggaggtcaccctttcatgggtgtgctcaaaggataatcctgctgattcaccatctcgcggtcaccctgttgtcacgccatttaagggcgtactcagaggtcatgcacgcacacgtcgagagaaactaaccaagctctccgagtcgtacgtgcattctctgtttataacgtatagcatccattaggatgtgcgttgttggttaataacctgtacaggaatgtctcaaggacaaaggacctatcagtttccaccaaagccaaaagatgaaaggaaggaacctcctaaacaagaagacttcgtaactgaaatggacacactctctgaatgcatgcaactggatatgataaaagaagaaatttctgaacagatgaagcagatccaggcacacgccaagaaactctttgaacaactgtaagtaccatgggtcagcatgcatctactac</GBSeq_sequence>
+  </GBSeq>
