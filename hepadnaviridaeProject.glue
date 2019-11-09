@@ -18,6 +18,8 @@ project hepadnaviridae
   # Import exogenous sources and data 
   import source sources/ncbi-refseqs/
   import source sources/fasta-refseqs/
+  import source sources/fasta-ehbv-refseqs/
+  import source sources/fasta-ehbv-curated/
 
   # Create links to isolate table for all viruses
   run script glue/hepadnaviridaeLoadExogenousData.js

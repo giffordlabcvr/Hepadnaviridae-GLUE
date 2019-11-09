@@ -31,6 +31,10 @@
     <primaryAccession>NC_005950</primaryAccession>
     <!-- Sheldgoose hepatitis B virus -->	
     <primaryAccession>NC_005890</primaryAccession>
+    <!-- Crane hepatitis B virus  -->	
+    <primaryAccession>AJ441111</primaryAccession>
+    <!-- Stork hepatitis B virus -->	
+    <primaryAccession>AJ251934</primaryAccession>
 
     <!-- Hepatitis B virus -->
     <primaryAccession>NC_003977</primaryAccession>
