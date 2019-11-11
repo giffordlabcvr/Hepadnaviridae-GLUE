@@ -4,13 +4,13 @@
   create reference REF_eAVHBV1    fasta-ehbv-refseqs eAVHBV1-con
 
   # Reptile
-  create reference REF_eSNHBV1    fasta-ehbv-refseqs eSNHBV1-con
-  create reference REF_eCRHBV     fasta-ehbv-refseqs eCRHBV-con
-  create reference REF_eDRHBV     fasta-ehbv-refseqs eDRHBV-con
-  create reference REF_eTHBV      fasta-ehbv-refseqs eTHBV-con
-
+  create reference REF_eHBV-Herpeto.1 fasta-ehbv-refseqs eHBV-Herpeto.1-Serpentes
+  create reference REF_eHBV-Herpeto.3 fasta-ehbv-refseqs eHBV-Herpeto.3-Crocodilia
+  create reference REF_eHBV-Herpeto.5 fasta-ehbv-refseqs eHBV-Herpeto.5-Testudines
+  create reference REF_eHBV-Herpeto.6 fasta-ehbv-refseqs eHBV-Herpeto.6-Varanus
 
   ### Add feature locations to EHBV reference sequences
   module featureLocationTextToGlue
     transform tabular/ehbv_reference_feature_locations.tsv -r
     exit
+
