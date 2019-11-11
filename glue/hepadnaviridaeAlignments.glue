@@ -9,10 +9,9 @@ module unconstrainedAlignmentImporter
   import AL_ORTHOHEPADNA_UNCONSTRAINED    -f alignments/tree/internal/orthohepadna.aln.fna
   import AL_AVIHEPADNA_UNCONSTRAINED      -f alignments/tree/internal/avihepadna.aln.fna
   import AL_HERPETOHEPADNA_UNCONSTRAINED  -f alignments/tree/internal/herpetohepadna.aln.fna
-  import AL_PISCINEHEPADNA_UNCONSTRAINED  -f alignments/tree/internal/piscinehepadna.aln.fna
+  import AL_PARAHEPADNA_UNCONSTRAINED     -f alignments/tree/internal/parahepadna.aln.fna
   import AL_METAHEPADNA_UNCONSTRAINED     -f alignments/tree/internal/metahepadna.aln.fna
   
-  #import AL_PARAHEPADNA_UNCONSTRAINED    -f alignments/tree/internal/parahepadna.aln.fna
   #import AL_NACKEDHEPADNA_UNCONSTRAINED  -f alignments/tree/internal/nackehepadna.aln.fna
 
   exit
@@ -64,7 +63,7 @@ alignment AL_Herpetohepadna
   exit
 
 alignment AL_Piscinehepadna
-  derive segments AL_PISCINEHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_PARAHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Metahepadna
