@@ -1,13 +1,13 @@
   ### Declare EHBV reference sequences
 
   # Avian
-  create reference REF_eAVHBV1       	fasta-ehbv-consensus eAVHBV1-con
+  create reference REF_eAVHBV1    fasta-ehbv-refseqs eAVHBV1-con
 
   # Reptile
-  create reference REF_eSNHBV1          fasta-ehbv-consensus eSNHBV1-con
-  create reference REF_eCRHBV           fasta-ehbv-consensus eCRHBV-con
-  create reference REF_eDRHBV	        fasta-ehbv-consensus eDRHBV-con
-  create reference REF_eTHBV	        fasta-ehbv-consensus eTHBV-con
+  create reference REF_eSNHBV1    fasta-ehbv-refseqs eSNHBV1-con
+  create reference REF_eCRHBV     fasta-ehbv-refseqs eCRHBV-con
+  create reference REF_eDRHBV     fasta-ehbv-refseqs eDRHBV-con
+  create reference REF_eTHBV      fasta-ehbv-refseqs eTHBV-con
 
 
   ### Add feature locations to EHBV reference sequences
