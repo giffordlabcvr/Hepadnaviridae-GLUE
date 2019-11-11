@@ -35,8 +35,11 @@ project hepadnaviridae
   # Define genome features
   run file glue/hepadnaviridaeFeatures.glue
 
-  # Create reference sequences
+  # Create virus reference sequences
   run file glue/hepadnaviridaeReferences.glue
+  
+  # Create EHBV reference sequences
+  run file glue/ehbvReferences.glue
 
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/reference_feature_locations.tsv -r

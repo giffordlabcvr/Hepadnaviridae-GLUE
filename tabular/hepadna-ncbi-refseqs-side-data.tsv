@@ -12,32 +12,34 @@ AJ251934	STHBV	Stork hepatitis B virus	Avihepadnavirus		Ciconia ciconia	White st
 NC_030446	tfHBV	Tibetan frog hepadnavirus	Herpetohepadnavirus		Nanorana parkeri	Tibetan frog
 SLHBV-1	SLHBV-1	Spiny lizard herpetohepadnavirus	Herpetohepadnavirus		Sceloporus adleri	Spiny lizard 
 SkHBV	SkHBV	Skink herpetohepadnavirus	Herpetohepadnavirus		Saproscincus basiliscus	Skink 
-AMDV	AMDV	Astatotilapia metahepadnavirus	Metahepadnavirus		Astatotilapia sp	Astatotilapia
-TMDV	TMDV	Tetra metahepadnavirus	Metahepadnavirus		Astyanax mexicanus	Mexican tetra
-IMDV	IMDV	Icefish metahepadnavirus	Metahepadnavirus		Chionodraco hamatus	Crocodile icefish
-KNDV-Lg	KNDV-Lg	Bluefin killifish nackednavirus	Nackednavirus		Lucania goodei	Bluefin killifish
-WMNDV	WMNDV	Western mosquitofish nackednavirus	Nackednavirus		Gambusia affinis	Western mosquitofish
-ANDV	ANDV	Astatotilapia nackednavirus	Nackednavirus		Astatotilapia sp	Astatotilapia
-KNDV-Lp-1	KNDV-Lp-1	Killifish nackednavirus Lp 1	Nackednavirus		Lucania parva	Rainwater killifish
-EENDV	EENDV	European eel nackednavirus	Nackednavirus		Anguilla anguilla	European eel 
-RNDV	RNDV	Tiger rockfish nackednavirus	Nackednavirus		Sebastes nigrocinctus	Tiger rockfish
-BWNDV-1	BWNDV-1	Baby whale nackednavirus	Nackednavirus		Brienomyrus brachyistius	Baby whale
-BWNDV-2	BWNDV-2	Baby whale nackednavirus	Nackednavirus		Brienomyrus brachyistius	Baby whale
-SSNDV	SSNDV	Sockeye salmon nackednavirus	Nackednavirus		Oncorhynchus nerka	Sockeye salmon
-YDNDV	YDNDV	Yellow drum nackednavirus	Nackednavirus		Nibea albiflora	Yellow drum
-SNDV	SNDV	Stickleback nackednavirus	Nackednavirus		Gasterosteus aculeatus	Three-spined stickleback
-KNDV-Lp-2	KNDV-Lp-2	Killifish nackednavirus Lp 2	Nackednavirus		Lucania parva	Rainwater killifish
+NC_030445	bgHBV	Bluegill hepadnavirus	Metahepadnavirus		Lepomis macrochirus	Bluegill
+MH716822	EsgHBV	Eastern sea garfish hepatitis	Metahepadnavirus		Hyporhamphus australis	Eastern sea garfish
+KNDV-Lg	KNDV-Lg	Bluefin killifish nackednavirus	Nackednavirus	RDNV-type	Lucania goodei	Bluefin killifish
+WMNDV	WMNDV	Western mosquitofish nackednavirus	Nackednavirus	RDNV-type	Gambusia affinis	Western mosquitofish
+ANDV	ANDV	Astatotilapia nackednavirus	Nackednavirus	RDNV-type	Astatotilapia sp	Astatotilapia
+KNDV-Lp-1	KNDV-Lp-1	Killifish nackednavirus Lp 1	Nackednavirus	RDNV-type	Lucania parva	Rainwater killifish
+EENDV	EENDV	European eel nackednavirus	Nackednavirus	RDNV-type	Anguilla anguilla	European eel 
+RNDV	RNDV	Tiger rockfish nackednavirus	Nackednavirus	RDNV-type	Sebastes nigrocinctus	Tiger rockfish
+BWNDV-1	BWNDV-1	Baby whale nackednavirus	Nackednavirus	SSDNV-type	Brienomyrus brachyistius	Baby whale
+BWNDV-2	BWNDV-2	Baby whale nackednavirus	Nackednavirus	SSDNV-type	Brienomyrus brachyistius	Baby whale
+SSNDV	SSNDV	Sockeye salmon nackednavirus	Nackednavirus	SSDNV-type	Oncorhynchus nerka	Sockeye salmon
+YDNDV	YDNDV	Yellow drum nackednavirus	Nackednavirus	SSDNV-type	Nibea albiflora	Yellow drum
+SNDV	SNDV	Stickleback nackednavirus	Nackednavirus	SSDNV-type	Gasterosteus aculeatus	Three-spined stickleback
+KNDV-Lp-2	KNDV-Lp-2	Killifish nackednavirus Lp 2	Nackednavirus	SSDNV-type	Lucania parva	Rainwater killifish
+KX058434	ACNDV	African cichlid hepadnavirus	Nackednavirus	RDNV-type	Ophthalmotilapia ventralis	African cichild
 NC_001484	GSHV	Ground squirrel hepatitis virus	Orthohepadnavirus			Ground squirrel
-NC_003977	HBV	Hepatitis B virus	Orthohepadnavirus		Homo sapiens	Human
+NC_003977	HBV	Hepatitis B virus	Orthohepadnavirus	Primate	Homo sapiens	Human
 NC_024444	HsbHBV	Horseshoe bat hepatitis B virus	Orthohepadnavirus		Rhinolophus alcyone	Horseshoe bat
 NC_020881	LfbHBV	Long-fingered bat hepatitis B virus	Orthohepadnavirus		Miniopterus fuliginosus	Long-fingered bat
 NC_024443	RlbHBV	Roundleaf bat hepatitis B virus	Orthohepadnavirus		Hipposideros cf. ruber	Roundleaf bat
 NC_024445	TBHBV	Tent-making bat hepatitis B virus	Orthohepadnavirus		Hipposideros cf. ruber	Tent-making bat
 NC_004107	WhBv	Woodchuck hepatitis virus	Orthohepadnavirus		Marmota monax	Woodchuck
-NC_028129	WMHBV	Woolly monkey hepatitis B virus	Orthohepadnavirus			Woolly monkey
+NC_028129	WMHBV	Woolly monkey hepatitis B virus	Orthohepadnavirus	Primate	Lagothrix lagothricha 	Woolly monkey
 MH307930	DCHBV	Domestic cat hepadnavirus	Orthohepadnavirus		Felis catus	Domestic cat
+MH484442	ClHBV	Shrew hepatitis B virus	Orthohepadnavirus		Crocidura lasiura	Ussuri white-toothed shrew
 U29144	ASHV	Arctic ground squirrel hepatitis B virus 	Orthohepadnavirus		Spermophilus parryii	Arctic ground squirrel
+AMDV	AMDV	Astatotilapia metahepadnavirus	Metahepadnavirus		Astatotilapia sp	Astatotilapia
+TMDV	TMDV	Tetra metahepadnavirus	Metahepadnavirus		Astyanax mexicanus	Mexican tetra
+IMDV	IMDV	Icefish metahepadnavirus	Metahepadnavirus		Chionodraco hamatus	Crocodile icefish
 CSKV	CSKV	Coho salmon parahepadnavirus	Parahepadnavirus		Oncorhynchus kisutch	Coho salmon
-NC_030445	bgHBV	Bluegill hepadnavirus	Fish		Lepomis macrochirus	Bluegill
-NC_027922	wsHBV	White sucker hepadnavirus	Fish		Catostomus commersonii	White sucker
-KX058434	ACNDV	African cichlid hepadnavirus	Unclassified		Ophthalmotilapia ventralis	African cichild
+NC_027922	wsHBV	White sucker hepadnavirus	Parahepadnavirus		Catostomus commersonii	White sucker
