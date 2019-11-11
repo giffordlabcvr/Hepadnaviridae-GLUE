@@ -1,7 +1,6 @@
 referenceName	genus	featureName	startNT	endNT
-REF_eSNHBV1	Herpetohepadnavirus	Polymerase	1	2448
+REF_eHBV-Herpeto.1	Herpetohepadnavirus	Polymerase	1	2448
+REF_eHBV-Herpeto.3	Herpetohepadnavirus	Polymerase	1	1768
+REF_eHBV-Herpeto.5	Herpetohepadnavirus	Polymerase	1	636
+REF_eHBV-Herpeto.6	Herpetohepadnavirus	Polymerase	1	1704
 REF_eAVHBV1	Avihepadnavirus	Polymerase	1	2949
-REF_eCRHBV	Herpetohepadnavirus	Polymerase	1	2307
-REF_eCRHBV2	Herpetohepadnavirus	Polymerase		
-REF_eTHBV	Herpetohepadnavirus	Polymerase	1	636
-REF_eDRHBV	Herpetohepadnavirus	Polymerase	1	1704
