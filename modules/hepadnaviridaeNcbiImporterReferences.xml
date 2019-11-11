@@ -6,17 +6,23 @@
   <sourceName>ncbi-refseqs</sourceName>
   <specificPrimaryAccessions>
 
-    <!-- Tibetan frog hepadnavirus  -->
-    <primaryAccession>NC_030446</primaryAccession>
-
-    <!-- Bluegill hepadnavirus -->
-    <primaryAccession>NC_030445</primaryAccession>
+	<!-- Parahepadnavirus -->
     <!-- White sucker hepatitis B virus -->
     <primaryAccession>NC_027922</primaryAccession>
     <!-- African cichlid hepatitis B virus -->
     <primaryAccession>KX058434</primaryAccession>
 
+	<!-- Herpetohepadnavirus -->
+    <!-- Tibetan frog hepadnavirus  -->
+    <primaryAccession>NC_030446</primaryAccession>
 
+	<!-- Metahepadnavirus -->
+    <!-- Bluegill hepadnavirus -->
+    <primaryAccession>NC_030445</primaryAccession>
+    <!-- Eastern sea garfish hepatitis B virus -->	
+    <primaryAccession>MH716822</primaryAccession>
+
+	<!-- Avihepadnavirus -->
     <!-- Tinamou hepatitis B virus -->
     <primaryAccession>NC_035210</primaryAccession>
     <!-- Heron hepatitis B virus -->
@@ -36,7 +42,7 @@
     <!-- Stork hepatitis B virus -->	
     <primaryAccession>AJ251934</primaryAccession>
 
-    <!-- Hepatitis B virus -->
+	<!-- Orthohepadnavirus -->
     <primaryAccession>NC_003977</primaryAccession>
     <!-- Woolly monkey hepatitis B Virus -->
     <primaryAccession>NC_028129</primaryAccession>
@@ -46,7 +52,8 @@
     <primaryAccession>NC_001484</primaryAccession>
     <!-- Arctic ground squirrel hepatitis virus -->	
     <primaryAccession>U29144</primaryAccession>
-
+    <!-- Domestic cat hepadnavirus -->	
+    <primaryAccession>MH307930</primaryAccession>
     <!-- Tent-making bat hepatitis B virus -->
     <primaryAccession>NC_024445</primaryAccession>
     <!-- Horseshoe bat hepatitis B virus -->
@@ -55,6 +62,8 @@
     <primaryAccession>NC_020881</primaryAccession>
     <!-- Roundleaf bat hepatitis B virus -->	
     <primaryAccession>NC_024443</primaryAccession>
+
+
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
