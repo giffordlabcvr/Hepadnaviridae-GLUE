@@ -1,22 +1,19 @@
   # Declare reference sequences
 
-  # Mammal
+  # Ortho
   create reference REF_MASTER_HBV       ncbi-refseqs NC_003977
 
-  # Avian
+  # Avi
   create reference REF_DHBV       		ncbi-refseqs NC_001344
 
-  # Amphibian
+  # Herpeto
   create reference REF_TFHBV       		ncbi-refseqs NC_030446
 
-  # Fish
-  create reference REF_BBA91            ncbi-refseqs NC_030445
+  # Meta
+  create reference REF_bgHBV            ncbi-refseqs NC_030445
 
-  # Reptile
-  create reference REF_SkHBV            fasta-refseqs SkHBV
-
-  # Metahepadna
-  create reference REF_AMDV           	fasta-refseqs AMDV
+  # Para
+  create reference REF_wsHBV           	ncbi-refseqs NC_027922
 
   # Nakedna
   create reference REF_ACNDV           	fasta-refseqs ACNDV
