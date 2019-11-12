@@ -22,10 +22,13 @@ module unconstrainedAlignmentImporter
 create alignment AL_RT_Root_MASTER -r REF_MASTER_HBV
 alignment AL_RT_Root_MASTER add member --allSequences
 
+### Major subclade alignments
+alignment AL_RT_Root_MASTER
 
-### Hepadnaviridae     
-create alignment AL_Hepadnaviridae_MASTER -r REF_MASTER_HBV
-alignment AL_Hepadnaviridae_MASTER add member --whereClause "family = 'Hepadnaviridae'"
+  extract child AL_Hepadnaviridae_MASTER -r REF_MASTER_HBV
+  demote member AL_Hepadnaviridae_MASTER --whereClause "sequence.family = 'Hepadnaviridae'"
+  exit
+
 
 ### Major subclade alignments
 alignment AL_Hepadnaviridae_MASTER
