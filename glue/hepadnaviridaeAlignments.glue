@@ -11,17 +11,24 @@ module unconstrainedAlignmentImporter
   import AL_HERPETOHEPADNA_UNCONSTRAINED  -f alignments/tree/internal/herpetohepadna.aln.fna
   import AL_PARAHEPADNA_UNCONSTRAINED     -f alignments/tree/internal/parahepadna.aln.fna
   import AL_METAHEPADNA_UNCONSTRAINED     -f alignments/tree/internal/metahepadna.aln.fna
-  
-  #import AL_NACKEDHEPADNA_UNCONSTRAINED  -f alignments/tree/internal/nackehepadna.aln.fna
+  import AL_NACKEDHEPADNA_UNCONSTRAINED  -f alignments/tree/internal/nackehepadna.aln.fna
 
   exit
 
 
 ### Constrained alignment tree
 
-### Root alignments    
-create alignment AL_Hepadnaviridae_MASTER -r REF_MASTER_HBV
-alignment AL_Hepadnaviridae_MASTER add member --allSequences
+### Hepadnaviridae     
+create alignment AL_RT_Root_MASTER -r REF_MASTER_HBV
+alignment AL_RT_Root_MASTER add member --allSequences
+
+### Major subclade alignments
+alignment AL_RT_Root_MASTER
+
+  extract child AL_Hepadnaviridae_MASTER -r REF_MASTER_HBV
+  demote member AL_Hepadnaviridae_MASTER --whereClause "sequence.family = 'Hepadnaviridae'"
+  exit
+
 
 ### Major subclade alignments
 alignment AL_Hepadnaviridae_MASTER
@@ -32,14 +39,14 @@ alignment AL_Hepadnaviridae_MASTER
   extract child AL_Avihepadna -r REF_DHBV
   demote member AL_Avihepadna --whereClause "sequence.genus = 'Avihepadnavirus'"
 
-  extract child AL_Herpetohepadna -r REF_SkHBV
+  extract child AL_Herpetohepadna -r REF_TFHBV
   demote member AL_Herpetohepadna --whereClause "sequence.genus = 'Herpetohepadnavirus'"
 
-  extract child AL_Piscinehepadna -r REF_BBA91
-  demote member AL_Piscinehepadna --whereClause "sequence.genus = 'Fish'"
+  extract child AL_Metahepadna -r REF_bgHBV
+  demote member AL_Metahepadna --whereClause "sequence.genus = 'Fish'"
 
-  extract child AL_Metahepadna -r REF_AMDV
-  demote member AL_Metahepadna --whereClause "sequence.genus = 'Metahepadnavirus'"
+  extract child AL_Parahepadna -r REF_wsHBV
+  demote member AL_Parahepadna --whereClause "sequence.genus = 'Parahepadnavirus'"
 
   extract child AL_Nakedna -r REF_ACNDV
   demote member AL_Nakedna --whereClause "sequence.genus = 'Nakednavirus'"
@@ -62,7 +69,7 @@ alignment AL_Herpetohepadna
   derive segments AL_HERPETOHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Piscinehepadna
+alignment AL_Parahepadna
   derive segments AL_PARAHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
   exit
 
