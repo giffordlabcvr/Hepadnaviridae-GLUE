@@ -16,5 +16,5 @@
   create reference REF_wsHBV           	ncbi-refseqs NC_027922
 
   # Nakedna
-  create reference REF_ACNDV           	fasta-refseqs ACNDV
+  create reference REF_ACNDV           	ncbi-refseqs MH158727
   

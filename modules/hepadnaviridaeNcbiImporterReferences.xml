@@ -6,11 +6,13 @@
   <sourceName>ncbi-refseqs</sourceName>
   <specificPrimaryAccessions>
 
+	<!-- Nackednavirus -->
+    <!-- African cichlid hepatitis B virus -->
+    <primaryAccession>MH158727</primaryAccession>
+
 	<!-- Parahepadnavirus -->
     <!-- White sucker hepatitis B virus -->
     <primaryAccession>NC_027922</primaryAccession>
-    <!-- African cichlid hepatitis B virus -->
-    <primaryAccession>KX058434</primaryAccession>
     <!-- Australasian snapper hepatitis B virus -->
     <primaryAccession>MH716821</primaryAccession>
 
@@ -64,8 +66,6 @@
     <primaryAccession>NC_020881</primaryAccession>
     <!-- Roundleaf bat hepatitis B virus -->	
     <primaryAccession>NC_024443</primaryAccession>
-
-
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
