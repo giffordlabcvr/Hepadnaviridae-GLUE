@@ -9,8 +9,8 @@
   create reference REF_eHBV-Herpeto.5 fasta-ehbv-refseqs eHBV-Herpeto.5-Testudines
   create reference REF_eHBV-Herpeto.6 fasta-ehbv-refseqs eHBV-Herpeto.6-Varanus
 
-  ### Add feature locations to EHBV reference sequences
-  module featureLocationTextToGlue
-    transform tabular/ehbv_reference_feature_locations.tsv -r
-    exit
 
+  ### Declare retrotransposable element reference sequences  
+
+  # 'HEART' element
+  create reference REF_HEART    fasta-ehbv-refseqs eAVHBV1-con
