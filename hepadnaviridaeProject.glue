@@ -10,7 +10,7 @@ schema-project hepadnaviridae
 project hepadnaviridae
 
   # load project settings
-  run file glue/projectSettings.glue
+  run file glue/hepadnaviridaeProjectSettings.glue
 
   # create modules
   run file glue/hepadnaviridaeModules.glue
