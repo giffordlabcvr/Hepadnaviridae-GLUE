@@ -1,22 +1,3 @@
-#~# Import pre-built alignments
-module unconstrainedAlignmentImporter
-
-  #~# Root
-  #import AL_Hepadna_DEEP_UNCONSTRAINED    -f alignments/tree/root/hepadna-like-root.aln.fna
-
-  #~# Hepadnaviridae
-  import AL_Hepadnaviridae_UNCONSTRAINED  -f alignments/tree/internal/hepadna-root.aln.fna
-
-  #~# Hepadnavirus genera
-  import AL_ORTHOHEPADNA_UNCONSTRAINED    -f alignments/tree/internal/orthohepadna.aln.fna
-  import AL_AVIHEPADNA_UNCONSTRAINED      -f alignments/tree/internal/avihepadna.aln.fna
-  import AL_HERPETOHEPADNA_UNCONSTRAINED  -f alignments/tree/internal/herpetohepadna.aln.fna
-  import AL_PARAHEPADNA_UNCONSTRAINED     -f alignments/tree/internal/parahepadna.aln.fna
-  import AL_METAHEPADNA_UNCONSTRAINED     -f alignments/tree/internal/metahepadna.aln.fna
-  import AL_NACKEDHEPADNA_UNCONSTRAINED   -f alignments/tree/internal/nackehepadna.aln.fna
-  exit
-
-
 ### Constrained alignment tree
 
 ### Hepadnaviridae     
