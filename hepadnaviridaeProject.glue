@@ -1,6 +1,6 @@
 delete project hepadnaviridae
 
-create project hepadnaviridae "GLUE project for the Flaviviridae" --minVersion 1.1.65
+create project hepadnaviridae "GLUE project for the Hepadnaviridae" --minVersion 1.1.65
 
 schema-project hepadnaviridae
 
@@ -12,5 +12,5 @@ schema-project hepadnaviridae
 run file glue/build/buildCoreProject.glue
 
 # Build endogenous hepadnavirus component
-#run file glue/build/buildEveExtension.glue
+run file glue/build/buildEveExtension.glue
 
