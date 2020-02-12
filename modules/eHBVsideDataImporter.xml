@@ -19,11 +19,6 @@
         <property>full_name</property>
     </textFileColumn>
  
-     <textFileColumn>
-        <header>virus_family</header>
-        <property>family</property>
-    </textFileColumn>
-   
     <textFileColumn>
         <header>virus_genus</header>
         <property>genus</property>

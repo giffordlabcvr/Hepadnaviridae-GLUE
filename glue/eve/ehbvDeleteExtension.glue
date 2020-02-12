@@ -16,4 +16,4 @@ delete reference REF_eTHBV
 # Delete extension sources
 delete source fasta-ehbv-consensus
 delete source fasta-ehbv-curated
-
+delete source fasta-ehbv-refseqs

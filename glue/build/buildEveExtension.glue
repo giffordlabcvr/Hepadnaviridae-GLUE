@@ -27,15 +27,15 @@ project hepadnaviridae
     exit
   
   # Create EHBV reference sequences
-  run file glue/ehbvReferences.glue
+  run file glue/eve/ehbvReferences.glue
 
   # Add feature locations to EHBV reference sequences
-  module featureLocationTextToGlue
-    transform tabular/ehbv_reference_feature_locations.tsv -r
-    exit
+  #module featureLocationTextToGlue
+  #  transform tabular/ehbv_reference_feature_locations.tsv -r
+  #  exit
 
   # Import alignments & generate constrained alignment tree 
-  run file glue/hepadnaviridaeAlignments.glue
+  #run file glue/eve/ehbvAlignments.glue
 
   # Validate
   validate
