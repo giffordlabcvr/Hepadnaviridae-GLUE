@@ -7,7 +7,7 @@ glue.inMode("module/hepadnaviridaeTabularUtility", function() {
 
 _.each(loadResult, function(eveObj) {
 
-	glue.inMode("custom-table-row/endogenous_data/"+eveObj.id, function() {
+	glue.inMode("custom-table-row/locus_data/"+eveObj.id, function() {
 	
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
 		glue.command(["set", "field", "start_position", eveObj.extract_start]);

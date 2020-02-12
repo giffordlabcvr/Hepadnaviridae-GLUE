@@ -1,14 +1,37 @@
-  delete custom-table endogenous_data
-  delete link sequence endogenous_data
-  
-  # Create schema extension
-  create custom-table endogenous_data
+  delete custom-table eve_refcon_data
+  delete link sequence eve_refcon_data
+  delete custom-table locus_data
+  delete link sequence locus_data
 
-  table endogenous_data
-    create field scaffold VARCHAR 50
+  # Create schema extensions
+
+
+  # Table for EVE consensus and reference sequence data
+  create custom-table eve_refcon_data
+  
+  table eve_refcon_data
+    create field reftype VARCHAR 50
+    create field host_group_taxlevel VARCHAR 50
+    create field host_group_name VARCHAR 50
+    create field host_group_common_name VARCHAR 50
+    create field num_copies INTEGER
+    create field locus_id VARCHAR 50
+  exit
+  
+  create link sequence eve_refcon_data
+  
+
+  # Table for EVE locus data
+  create custom-table locus_data
+
+  table locus_data
+    create field scaffold VARCHAR 100
     create field start_position INTEGER
     create field end_position INTEGER
     create field orientation VARCHAR 10
+    create field host_sci_name VARCHAR 50
   exit
 
-  create link sequence endogenous_data
+  create link sequence locus_data
+
+

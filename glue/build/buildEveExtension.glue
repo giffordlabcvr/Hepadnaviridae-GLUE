@@ -1,16 +1,19 @@
 project hepadnaviridae
-  run file glue/ehbvDeleteExtension.glue
+  run file glue/eve/ehbvDeleteExtension.glue
   exit
 
 schema-project hepadnaviridae
-  run file glue/ehbvSchemaExtensions.glue
+  run file glue/eve/ehbvSchemaExtensions.glue
   exit
   
 project hepadnaviridae
 
   # Import EHBV sequences and side data 
-  run script glue/ehbvLoadEndogenousData1.js
-  run script glue/ehbvLoadEndogenousData2.js
+  import source sources/fasta-ehbv-refseqs/
+  import source sources/fasta-ehbv-curated/
+
+  run script glue/eve/ehbvLoadLocusData1.js
+  run script glue/eve/ehbvLoadLocusData2.js
 
   # Import metadata for EHBV reference sequences
   create module -f modules/ehbvSideDataImporter.xml
@@ -18,7 +21,7 @@ project hepadnaviridae
     populate -f tabular/ehbv-refseqs-side-data.tsv
     exit
 
-  # Import metadata for individual EVE sequence
+  # Import metadata for individual EVE sequences
   module ehbvSideDataImporter 
     populate -f tabular/ehbv-side-data.tsv
     exit
