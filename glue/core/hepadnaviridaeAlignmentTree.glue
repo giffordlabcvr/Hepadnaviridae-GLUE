@@ -25,13 +25,13 @@ alignment AL_Hepadnaviridae_MASTER
   demote member AL_Herpetohepadna --whereClause "sequence.genus = 'Herpetohepadnavirus'"
 
   extract child AL_Metahepadna -r REF_bgHBV
-  demote member AL_Metahepadna --whereClause "sequence.genus = 'Fish'"
+  demote member AL_Metahepadna --whereClause "sequence.genus = 'Metahepadnavirus'"
 
   extract child AL_Parahepadna -r REF_wsHBV
   demote member AL_Parahepadna --whereClause "sequence.genus = 'Parahepadnavirus'"
 
   extract child AL_Nakedna -r REF_ACNDV
-  demote member AL_Nakedna --whereClause "sequence.genus = 'Nakednavirus'"
+  demote member AL_Nakedna --whereClause "sequence.genus = 'Nackednavirus'"
   exit
 
 
