@@ -6,22 +6,19 @@ glue.command(["multi-unset", "field", "sequence", "-w", whereClause, "rotation"]
 
 /*
 
-  References requiring rotation
+  In this project I have chosen a start point corresponding to the transcriptional
+  start site of the hepadnavirus genome (just upstream of the Core protein)
+  
+  Most refseqs outside the orthohepadnavirus group meet the standard.
+  References requiring rotation:
+  
     REF_MASTER_HBV: NC_003977
     REF_DHBV: NC_001344
 	
 */
 
-// a more automated way to do this might be to just recognise the EcoR1 nucleotide motif, which seems to be
-// TGGAA[CT]TC
-// The '1' location is then just after the AA within this motif
-
-
-/**
- * Most refseqs meet the standard. Those that don't are just a little bit off.
- */
-shiftLeft("ncbi-refseqs/NC_003977", 2);
-shiftRight("ncbi-refseqs/NC_001344", 1812);
+shiftRight("ncbi-refseqs/NC_003977", 1387);
+shiftRight("ncbi-refseqs/NC_001344", 487);
 
 function shiftLeft(refSeqId, leftShift) {
 	glue.inMode("sequence/"+refSeqId, function() {

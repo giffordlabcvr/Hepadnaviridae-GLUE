@@ -1,6 +1,9 @@
 <compoundAligner>
 	<aligners>
 		<codonAwareBlastAligner>
+			<featureName>Core</featureName>
+		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
 			<featureName>Polymerase</featureName>
 		</codonAwareBlastAligner>
 		<blastAligner/>
