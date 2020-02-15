@@ -1,0 +1,14 @@
+### Add EVE sequences to constrained alignment tree
+
+alignment AL_Hepadnaviridae_MASTER
+
+  add member -w "source.name = 'fasta-ehbv-curated'"
+  
+  demote member AL_Orthohepadna -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_Avihepadna -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_Herpetohepadna -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_Metahepadna -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_Parahepadna -w "sequence.genus = 'Parahepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_Nakedna -w "sequence.genus = 'Nackednavirus' and sequence.source.name = 'fasta-ehbv-curated'"
+  exit
+
