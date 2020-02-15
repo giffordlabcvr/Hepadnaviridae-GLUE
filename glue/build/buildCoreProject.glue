@@ -22,7 +22,7 @@ project hepadnaviridae
     exit
 
   # Apply rotations
-  run script hepadnaviridaeRefseqsApplyRotations.js
+  run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
   
   # Define genome features
   run file glue/core/hepadnaviridaeFeatures.glue
