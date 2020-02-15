@@ -8,9 +8,3 @@
   create reference REF_eHBV-Herpeto.3 fasta-ehbv-refseqs eHBV-Herpeto.3-Crocodilia
   create reference REF_eHBV-Herpeto.5 fasta-ehbv-refseqs eHBV-Herpeto.5-Testudines
   create reference REF_eHBV-Herpeto.6 fasta-ehbv-refseqs eHBV-Herpeto.6-Varanus
-
-
-  ### Declare retrotransposable element reference sequences  
-
-  # 'HEART' element
-  create reference REF_HEART    fasta-ehbv-refseqs eAVHBV1-con

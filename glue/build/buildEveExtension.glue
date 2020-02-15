@@ -18,24 +18,22 @@ project hepadnaviridae
   # Import metadata for EHBV reference sequences
   create module -f modules/ehbvSideDataImporter.xml
   module ehbvSideDataImporter 
-    populate -f tabular/ehbv-refseqs-side-data.tsv
+    populate -f tabular/eve/ehbv-refseqs-side-data.tsv
     exit
 
   # Import metadata for individual EVE sequences
   module ehbvSideDataImporter 
-    populate -f tabular/ehbv-side-data.tsv
+    populate -f tabular/eve/ehbv-side-data.tsv
     exit
   
   # Create EHBV reference sequences
   run file glue/eve/ehbvReferences.glue
 
-  # Add feature locations to EHBV reference sequences
-  #module featureLocationTextToGlue
-  #  transform tabular/ehbv_reference_feature_locations.tsv -r
-  #  exit
+  # Import alignments
+  run file glue/eve/ehbvAlignments.glue
 
-  # Import alignments & generate constrained alignment tree 
-  #run file glue/eve/ehbvAlignments.glue
+  # Adde EVEs to constrained alignment tree 
+  run file glue/eve/hepadnaviridaeAlignmentTree.glue
 
   # Validate
   validate
