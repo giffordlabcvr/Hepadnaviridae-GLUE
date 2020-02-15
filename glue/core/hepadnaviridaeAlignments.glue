@@ -14,6 +14,5 @@ module unconstrainedAlignmentImporter
   import AL_PARAHEPADNA_UNCONSTRAINED     -f alignments/core/internal/parahepadna.aln.fna
   import AL_METAHEPADNA_UNCONSTRAINED     -f alignments/core/internal/metahepadna.aln.fna
   import AL_NACKEDHEPADNA_UNCONSTRAINED   -f alignments/core/internal/nackehepadna.aln.fna
+  
   exit
-
-
