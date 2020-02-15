@@ -1,0 +1,10 @@
+#~# Import pre-built alignments of EVE sequences derived from the 
+
+module unconstrainedAlignmentImporter
+
+  #import AL_EHBV-Avi.1-Aves_UNCONSTRAINED           -f alignments/tree/tip/ehbv-avi.1-aves.aln.fna
+  #import AL_EHBV-Herpeto.1-Serpentes_UNCONSTRAINED  -f alignments/tree/tip/ehbv-herpeto.1-serpentes.aln.fna
+  #import AL_EHBV-Herpeto.3-Croc_UNCONSTRAINED       -f alignments/tree/tip/ehbv-herpeto.3-crocodylia.aln.fna
+  #import AL_EHBV-Herpeto.5-Testudines_UNCONSTRAINED -f alignments/tree/tip/ehbv-herpeto.5-testudines.aln.fna
+
+  exit

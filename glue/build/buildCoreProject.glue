@@ -20,6 +20,9 @@ project hepadnaviridae
   module hepadnaviridaeSideDataImporter 
     populate -f tabular/core/hepadna-ncbi-refseqs-side-data.tsv
     exit
+
+  # Apply rotations
+  run script hepadnaviridaeRefseqsApplyRotations.js
   
   # Define genome features
   run file glue/core/hepadnaviridaeFeatures.glue

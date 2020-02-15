@@ -1,10 +1,15 @@
   ### Declare EHBV reference sequences
 
   # Avian
-  create reference REF_eAVHBV1    fasta-ehbv-refseqs eAVHBV1-con
+  create reference REF_EHBV-Avi.1-Aves           fasta-ehbv-refseqs EHBV-Avi.1-Aves-con
+  create reference REF_EHBV-Avi.2-Psittaciformes fasta-ehbv-refseqs EHBV-Avi.2-Psittaciformes-con
 
   # Reptile
-  create reference REF_eHBV-Herpeto.1 fasta-ehbv-refseqs eHBV-Herpeto.1-Serpentes
-  create reference REF_eHBV-Herpeto.3 fasta-ehbv-refseqs eHBV-Herpeto.3-Crocodilia
-  create reference REF_eHBV-Herpeto.5 fasta-ehbv-refseqs eHBV-Herpeto.5-Testudines
-  create reference REF_eHBV-Herpeto.6 fasta-ehbv-refseqs eHBV-Herpeto.6-Varanus
+  create reference REF_EHBV-Herpeto.1            fasta-ehbv-refseqs EHBV-Herpeto.1-Serpentes-con
+  create reference REF_EHBV-Herpeto.2            fasta-ehbv-refseqs EHBV-Herpeto.2-Serpentes-con
+  create reference REF_EHBV-Herpeto.3            fasta-ehbv-refseqs EHBV-Herpeto.3-Crocodilia-con
+  create reference REF_EHBV-Herpeto.5            fasta-ehbv-refseqs EHBV-Herpeto.5-Testudines-con
+  create reference REF_EHBV-Herpeto.6            fasta-ehbv-refseqs EHBV-Herpeto.6-Varanus-con
+
+  # Tuatara
+  create reference REF_EHBV-Meta.1               fasta-ehbv-refseqs EHBV-Meta.1-Sphenodon

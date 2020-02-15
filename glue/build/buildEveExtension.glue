@@ -33,7 +33,7 @@ project hepadnaviridae
   run file glue/eve/ehbvAlignments.glue
 
   # Adde EVEs to constrained alignment tree 
-  run file glue/eve/hepadnaviridaeAlignmentTree.glue
+  run file glue/eve/ehbvAlignmentTree.glue
 
   # Validate
   validate

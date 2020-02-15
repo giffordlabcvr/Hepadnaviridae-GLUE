@@ -28,11 +28,12 @@
         <header>clade</header>
         <property>clade</property>
     </textFileColumn>
-
+    
     <textFileColumn>
         <header>host_sci_name</header>
-        <property>host_sci_name</property>
+        <property>locus_data.host_sci_name</property>
     </textFileColumn>
+
 
     <skipMissing>true</skipMissing>
 
