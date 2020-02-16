@@ -23,7 +23,7 @@ project hepadnaviridae
 
   # Import metadata for individual EVE sequences
   module ehbvSideDataImporter 
-    populate -f tabular/eve/ehbv-side-data.tsv
+    populate -f tabular/locus/ehbv-side-data.tsv
     exit
   
   # Create EHBV reference sequences

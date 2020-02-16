@@ -1,7 +1,10 @@
-id	virus_name	virus_full_name	virus_genus	clade	host_sci_name	host_common_name
-eSNHBV1-con	eSNHBV1-con	Endogenous snake hepatitis B virus 1	Herpetohepadnavirus		Colubroidea	snakes
-eCRHBV-con	eCRHBV2-con	Endogenous crocodile hepatitis B virus 	Herpetohepadnavirus		Crocodylus	crocodiles and gharial
-eDRHPV	eDRHPV-con	Endogenous comodo dragon hepatitis B virus	Herpetohepadnavirus		Varanus komodoensis	Komodo dragon
-eTHBV-con	eTHBV-con	Endogenous turtle hepatitis B virus	Herpetohepadnavirus		Chrysemys	turtles
-SphHBV-con	SphHBV-con	Sphenodon hepatitis B virus	Fish		Sphenodon	tuatara
-eAVHBV1-con	eAVHBV1-con	Endogenous avian hepatitis B virus 1	Avihepadnavirus		Neognathae	birds
+id	locus_id	full_name	genus	clade	host_sci_name	host_common_name
+EHBV-Avi.1-Aves-con	EHBV-Avi.1-Aves	Endogenous avian hepatitis B virus 1	Avihepadnavirus		Neognathae	birds
+EHBV-Avi.2-Psittaciformes-con	EHBV-Avi.2-Psittaciformes	Endogenous avian hepatitis B virus 1	Avihepadnavirus		eAVHBV2-con	
+EHBV-Herpeto.5-Testudines-con	EHBV-Herpeto.5-Testudines	Endogenous turtle hepatitis B virus	Herpetohepadnavirus		Chrysemys	turtles
+EHBV-Meta.1-Sphenodon	EHBV-Meta.1-Sphenodon	Sphenodon hepatitis B virus	Metahepadnavirus		Sphenodon	tuatara
+EHBV-Herpeto.6-Varanus-con	EHBV-Herpeto.6-Varanus	Endogenous komodo dragon hepatitis B virus	Herpetohepadnavirus		Varanus komodoensis	Komodo dragon
+EHBV-Herpeto.1-Serpentes-con	EHBV-Herpeto.1-Serpentes	Endogenous snake hepatitis B virus 1	Herpetohepadnavirus		Colubroidea	snakes
+EHBV-Herpeto.2-Serpentes-con	EHBV-Herpeto.2-Serpentes	Endogenous snake hepatitis B virus 2	Herpetohepadnavirus		Serpentes	snakes
+EHBV-Herpeto.3-Crocodilia-con	EHBV-Herpeto.3-Crocodilia	Endogenous crocodile hepatitis B virus 	Herpetohepadnavirus		Crocodylus	crocodiles and gharial
+HEART-con	HEART-con-DS633349	HEART consensus DS633349	HEART		Ixodes	Ticks

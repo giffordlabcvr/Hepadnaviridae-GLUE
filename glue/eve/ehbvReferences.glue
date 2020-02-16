@@ -5,11 +5,12 @@
   create reference REF_EHBV-Avi.2-Psittaciformes fasta-ehbv-refseqs EHBV-Avi.2-Psittaciformes-con
 
   # Reptile
-  create reference REF_EHBV-Herpeto.1            fasta-ehbv-refseqs EHBV-Herpeto.1-Serpentes-con
-  create reference REF_EHBV-Herpeto.2            fasta-ehbv-refseqs EHBV-Herpeto.2-Serpentes-con
-  create reference REF_EHBV-Herpeto.3            fasta-ehbv-refseqs EHBV-Herpeto.3-Crocodilia-con
-  create reference REF_EHBV-Herpeto.5            fasta-ehbv-refseqs EHBV-Herpeto.5-Testudines-con
-  create reference REF_EHBV-Herpeto.6            fasta-ehbv-refseqs EHBV-Herpeto.6-Varanus-con
+  create reference REF_EHBV-Herpeto.1-Serpentes  fasta-ehbv-refseqs EHBV-Herpeto.1-Serpentes-con
+  create reference REF_EHBV-Herpeto.2-Serpentes  fasta-ehbv-refseqs EHBV-Herpeto.2-Serpentes-con
+  create reference REF_EHBV-Herpeto.3-Crocodilia fasta-ehbv-refseqs EHBV-Herpeto.3-Crocodilia-con
+  create reference REF_EHBV-Herpeto.5-Testudines fasta-ehbv-refseqs EHBV-Herpeto.5-Testudines-con
+  create reference REF_EHBV-Herpeto.6-Varanus    fasta-ehbv-refseqs EHBV-Herpeto.6-Varanus-con
 
   # Tuatara
-  create reference REF_EHBV-Meta.1               fasta-ehbv-refseqs EHBV-Meta.1-Sphenodon
+  create reference REF_EHBV-Meta.1-Sphenodon     fasta-ehbv-refseqs EHBV-Meta.1-Sphenodon
+

@@ -10,17 +10,17 @@
     </textFileColumn>
 
     <textFileColumn>
-        <header>virus_name</header>
+        <header>locus_id</header>
         <property>name</property>
     </textFileColumn>
     
     <textFileColumn>
-        <header>virus_full_name</header>
+        <header>full_name</header>
         <property>full_name</property>
     </textFileColumn>
  
     <textFileColumn>
-        <header>virus_genus</header>
+        <header>genus</header>
         <property>genus</property>
     </textFileColumn>
     

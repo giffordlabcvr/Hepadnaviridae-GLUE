@@ -9,15 +9,25 @@ alignment AL_RT_Root_MASTER
 
   extract child AL_Hepadnaviridae_MASTER -r REF_MASTER_HBV
   demote member AL_Hepadnaviridae_MASTER --whereClause "sequence.family = 'Hepadnaviridae'"
+  exit
+
+#~# Major subclade alignments
+
+alignment AL_Hepadnaviridae_MASTER
+
+  extract child AL_Nakedna -r REF_ACNDV
+  demote member AL_Nakedna --whereClause "sequence.genus = 'Nackednavirus'"
 
   extract child AL_Hepadna_Env -r REF_MASTER_HBV
-  demote member AL_Hepadna_Env --whereClause "sequence.family = 'Hepadnaviridae'"
-
+  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Orthohepadnavirus'"
+  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Avihepadnavirus'"
+  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Herpetohepadnavirus'"
+  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Metahepadnavirus'"
+  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Parahepadnavirus'"
   exit
 
 
-#~# Major subclade alignments
-alignment AL_Hepadnaviridae_MASTER
+alignment AL_Hepadna_Env
 
   extract child AL_Orthohepadna -r REF_MASTER_HBV
   demote member AL_Orthohepadna --whereClause "sequence.genus = 'Orthohepadnavirus'"
@@ -33,9 +43,6 @@ alignment AL_Hepadnaviridae_MASTER
 
   extract child AL_Parahepadna -r REF_wsHBV
   demote member AL_Parahepadna --whereClause "sequence.genus = 'Parahepadnavirus'"
-
-  extract child AL_Nakedna -r REF_ACNDV
-  demote member AL_Nakedna --whereClause "sequence.genus = 'Nackednavirus'"
   exit
 
 

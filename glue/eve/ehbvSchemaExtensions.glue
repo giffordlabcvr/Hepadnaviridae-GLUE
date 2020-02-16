@@ -15,7 +15,6 @@
     create field host_group_name VARCHAR 50
     create field host_group_common_name VARCHAR 50
     create field num_copies INTEGER
-    create field locus_id VARCHAR 50
   exit
   
   create link sequence eve_refcon_data
