@@ -20,15 +20,15 @@ project hepadnaviridae
   module hepadnaviridaeSideDataImporter 
     populate -f tabular/core/hepadna-ncbi-refseqs-side-data.tsv
     exit
-
-  # Apply rotations
-  run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
   
   # Define genome features
   run file glue/core/hepadnaviridaeFeatures.glue
 
   # Create virus reference sequences
   run file glue/core/hepadnaviridaeReferences.glue
+
+  # Apply rotations
+  run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
   
   # Add feature locations to reference sequences
   module featureLocationTextToGlue transform tabular/core/reference_feature_locations.tsv -r

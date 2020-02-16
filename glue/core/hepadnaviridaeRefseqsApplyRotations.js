@@ -19,6 +19,11 @@ glue.command(["multi-unset", "field", "sequence", "-w", whereClause, "rotation"]
 
 shiftRight("ncbi-refseqs/NC_003977", 1387);
 shiftRight("ncbi-refseqs/NC_001344", 487);
+shiftRight("ncbi-refseqs/NC_027922", 269);
+
+shiftLeft("ncbi-refseqs/NC_004107", 290);
+
+
 
 function shiftLeft(refSeqId, leftShift) {
 	glue.inMode("sequence/"+refSeqId, function() {
