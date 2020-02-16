@@ -14,12 +14,32 @@
 		</gbQualifier>
 
 		<gbQualifier name="host">
-			<propertyPopulator property="host_sci_name">
+			<propertyPopulator property="isolate_data.host_sci_name">
 
 				<!-- #### Human -->																																									
 				<valueConverter>
 					<matchPattern>.*Homo [sS]apiens.*</matchPattern>
 					<outputTemplate>Homo sapiens</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*white stork.*</matchPattern>
+					<outputTemplate>Ciconia ciconia</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*Grey crowned crane.*</matchPattern>
+					<outputTemplate>Balearica regulorum</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*Ashy-headed sheldgoose.*</matchPattern>
+					<outputTemplate>Chloephaga poliocephala</outputTemplate>
+				</valueConverter>
+				
+				<valueConverter>
+					<matchPattern>.*Eudromia elegans (elegant-crested tinamou).*</matchPattern>
+					<outputTemplate>Eudromia elegans</outputTemplate>
 				</valueConverter>
 
 

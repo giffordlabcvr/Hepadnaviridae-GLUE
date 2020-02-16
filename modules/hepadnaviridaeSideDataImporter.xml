@@ -33,7 +33,14 @@
         <header>clade</header>
         <property>clade</property>
     </textFileColumn>
-s
+
+     <textFileColumn>
+        <header>host_sci_name</header>
+        <property>isolate_data.host_sci_name</property>
+    </textFileColumn>
+
+
+
     <skipMissing>true</skipMissing>
 
 

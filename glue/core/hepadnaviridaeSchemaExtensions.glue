@@ -5,7 +5,6 @@
     create field genus VARCHAR 50
     create field clade VARCHAR 50
     create field type VARCHAR 20
-    create field host_sci_name VARCHAR 100
     create field rotation INTEGER
     create field reverse_complement BOOLEAN
   exit
@@ -22,6 +21,7 @@
     create field isolate VARCHAR 100
     create field sample_date DATE
     create field place_sampled VARCHAR 100
+    create field host_sci_name VARCHAR 100
     create field country_iso VARCHAR
     create field country VARCHAR 200
     create field collection_year INTEGER 
