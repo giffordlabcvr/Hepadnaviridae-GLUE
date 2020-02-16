@@ -2,17 +2,20 @@
 module unconstrainedAlignmentImporter
 
   #~# Root
-  #import AL_Hepadna_DEEP_UNCONSTRAINED    -f alignments/core/root/hepadna-like-root.aln.fna
+  #import AL_HEPADNA_DEEP_UNCONSTRAINED   -f alignments/core/root/hepadna-like-root.aln.fna
 
   #~# Hepadnaviridae
-  import AL_Hepadnaviridae_UNCONSTRAINED  -f alignments/core/internal/hepadna-root.aln.fna
+  import AL_HEPADNAVIRIDAE_UNCONSTRAINED  -f alignments/core/internal/hepadna-root.aln.fna
+
+  #~# Enveloped hepadnaviruses (no nackedna)
+  import AL_HEPADNA_ENV_UNCONSTRAINED     -f alignments/core/internal/hepadna-env.aln.fna
 
   #~# Hepadnavirus genera
-  import AL_ORTHOHEPADNA_UNCONSTRAINED    -f alignments/core/internal/orthohepadna.aln.fna
+  import AL_NACKEDHEPADNA_UNCONSTRAINED   -f alignments/core/internal/nackehepadna.aln.fna
   import AL_AVIHEPADNA_UNCONSTRAINED      -f alignments/core/internal/avihepadna.aln.fna
   import AL_HERPETOHEPADNA_UNCONSTRAINED  -f alignments/core/internal/herpetohepadna.aln.fna
   import AL_PARAHEPADNA_UNCONSTRAINED     -f alignments/core/internal/parahepadna.aln.fna
   import AL_METAHEPADNA_UNCONSTRAINED     -f alignments/core/internal/metahepadna.aln.fna
-  import AL_NACKEDHEPADNA_UNCONSTRAINED   -f alignments/core/internal/nackehepadna.aln.fna
+  import AL_ORTHOHEPADNA_UNCONSTRAINED    -f alignments/core/internal/orthohepadna.aln.fna
   
   exit
