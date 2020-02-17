@@ -38,7 +38,7 @@
 				</valueConverter>
 				
 				<valueConverter>
-					<matchPattern>.*Eudromia elegans (elegant-crested tinamou).*</matchPattern>
+					<matchPattern>.*Eudromia elegans.*</matchPattern>
 					<outputTemplate>Eudromia elegans</outputTemplate>
 				</valueConverter>
 
