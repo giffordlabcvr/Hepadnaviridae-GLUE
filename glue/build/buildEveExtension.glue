@@ -8,6 +8,9 @@ schema-project hepadnaviridae
   
 project hepadnaviridae
 
+  # Create modules required for EVE extension
+  run file glue/eve/ehbvModules.glue
+  
   # Import EHBV sequences and side data 
   import source sources/fasta-ehbv-refseqs/
   import source sources/fasta-ehbv-curated/
@@ -16,7 +19,6 @@ project hepadnaviridae
   run script glue/eve/ehbvLoadLocusData2.js
 
   # Import metadata for EHBV reference sequences
-  create module -f modules/ehbvSideDataImporter.xml
   module ehbvSideDataImporter 
     populate -f tabular/eve/ehbv-refseqs-side-data.tsv
     exit
