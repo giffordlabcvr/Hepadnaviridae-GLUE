@@ -48,29 +48,34 @@ alignment AL_Hepadna_Env
 
 #~# Derive constrained alignment segments from unconstrained alignments  
 alignment AL_Hepadnaviridae_MASTER
-  derive segments AL_HEPADNAVIRIDAE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_HEPADNAVIRIDAE -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_Nakedna
+  derive segments AL_UNC_NACKEDHEPADNA -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Hepadna_Env
-  derive segments AL_HEPADNA_ENV_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_HEPADNA_ENV -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Orthohepadna
-  derive segments AL_ORTHOHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_ORTHOHEPADNA -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Avihepadna
-  derive segments AL_AVIHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_AVIHEPADNA -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Herpetohepadna
-  derive segments AL_HERPETOHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_HERPETOHEPADNA -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Parahepadna
-  derive segments AL_PARAHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_PARAHEPADNA -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Metahepadna
-  derive segments AL_METAHEPADNA_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_METAHEPADNA -a --mergeStrategy OVERWRITE
   exit
+

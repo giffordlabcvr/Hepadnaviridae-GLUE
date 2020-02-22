@@ -18,19 +18,22 @@ glue.command(["multi-unset", "field", "sequence", "-w", whereClause, "rotation"]
 */
 
 // Orthohepadnavirus
-shiftRight("ncbi-refseqs/NC_003977", 1387); // Hepatitis B virus (strain ayw)
+shiftLeft("ncbi-refseqs/NC_003977", 157); // Hepatitis B virus (strain ayw)
 shiftLeft("ncbi-refseqs/NC_004107", 290); // Woodchuck hepatitis virus
-shiftRight("ncbi-refseqs/NC_027922", 269); // Woodchuck hepatitis virus
+//shiftLeft("ncbi-refseqs/NC_027922", 269); // Woodchuck hepatitis virus
+shiftLeft("ncbi-refseqs/NC_001484", 1671); // Ground squirrel hepatitis virus
+
+
+shiftLeft("ncbi-refseqs/U29144", 1669); // Arctic ground squirrel
 
 // Avihepadnavirus
-shiftRight("ncbi-refseqs/NC_001344", 1346); // Duck hepatitis B virus
-shiftRight("ncbi-refseqs/NC_035210", 1290); // Tinamou hepatitis B virus
-shiftRight("ncbi-refseqs/NC_001486", 1290); // Heron hepatitis B virus
-shiftRight("ncbi-refseqs/NC_016561", 1305); // Parrot hepatitis B virus
-shiftRight("ncbi-refseqs/NC_005890", 1314); // Parrot hepatitis B virus
-shiftRight("ncbi-refseqs/NC_005950", 1287); // Snow goose hepatitis B virus
-shiftRight("ncbi-refseqs/NC_005888", 1281); // Ross's goose hepatitis B virus
-
+shiftLeft("ncbi-refseqs/NC_001344", 1289); // Duck hepatitis B virus
+shiftLeft("ncbi-refseqs/NC_035210", 1289); // Tinamou hepatitis B virus
+shiftLeft("ncbi-refseqs/NC_001486", 1289); // Heron hepatitis B virus
+shiftLeft("ncbi-refseqs/NC_016561", 1304); // Parrot hepatitis B virus
+shiftLeft("ncbi-refseqs/NC_005890", 1313); // Parrot hepatitis B virus
+shiftLeft("ncbi-refseqs/NC_005950", 1286); // Snow goose hepatitis B virus
+shiftLeft("ncbi-refseqs/NC_005888", 1280); // Ross's goose hepatitis B virus
 
 function shiftLeft(refSeqId, leftShift) {
 	glue.inMode("sequence/"+refSeqId, function() {
