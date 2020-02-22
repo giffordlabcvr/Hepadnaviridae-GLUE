@@ -18,13 +18,11 @@ glue.command(["multi-unset", "field", "sequence", "-w", whereClause, "rotation"]
 */
 
 // Orthohepadnavirus
-shiftLeft("ncbi-refseqs/NC_003977", 157); // Hepatitis B virus (strain ayw)
-shiftLeft("ncbi-refseqs/NC_004107", 290); // Woodchuck hepatitis virus
-//shiftLeft("ncbi-refseqs/NC_027922", 269); // Woodchuck hepatitis virus
+shiftLeft("ncbi-refseqs/NC_003977", 157);  // Hepatitis B virus (strain ayw)
+shiftLeft("ncbi-refseqs/NC_004107", 290);  // Woodchuck hepatitis virus
 shiftLeft("ncbi-refseqs/NC_001484", 1671); // Ground squirrel hepatitis virus
-
-
-shiftLeft("ncbi-refseqs/U29144", 1669); // Arctic ground squirrel
+shiftLeft("ncbi-refseqs/NC_001484", 159);  // Long-fingered bat hepatitis virus
+shiftLeft("ncbi-refseqs/U29144", 1669);    // Arctic ground squirrel
 
 // Avihepadnavirus
 shiftLeft("ncbi-refseqs/NC_001344", 1289); // Duck hepatitis B virus
@@ -34,6 +32,8 @@ shiftLeft("ncbi-refseqs/NC_016561", 1304); // Parrot hepatitis B virus
 shiftLeft("ncbi-refseqs/NC_005890", 1313); // Parrot hepatitis B virus
 shiftLeft("ncbi-refseqs/NC_005950", 1286); // Snow goose hepatitis B virus
 shiftLeft("ncbi-refseqs/NC_005888", 1280); // Ross's goose hepatitis B virus
+shiftLeft("ncbi-refseqs/AJ441111", 1283);  // Crane hepatitis B virus
+shiftLeft("ncbi-refseqs/AJ251934", 1295);  // Stork hepatitis B virus
 
 function shiftLeft(refSeqId, leftShift) {
 	glue.inMode("sequence/"+refSeqId, function() {
