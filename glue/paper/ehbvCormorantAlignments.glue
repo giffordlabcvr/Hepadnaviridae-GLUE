@@ -1,0 +1,25 @@
+delete alignment AL_eAvHBV1
+delete alignment AL_eAvHBV2
+
+delete source fasta-eAvHBV1
+delete source fasta-eAvHBV2
+
+delete module fastaAlignmentExporter
+
+create module -t fastaAlignmentExporter
+
+import source sources/fasta-ehbv-separated/fasta-eAvHBV1
+import source sources/fasta-ehbv-separated/fasta-eAvHBV2
+
+create alignment AL_eAvHBV1 -r REF_DHBV
+alignment AL_eAvHBV1 add member --whereClause "source.name = 'fasta-eAvHBV1'"
+compute alignment AL_eAvHBV1 --whereClause "sequence.source = 'fasta-eAvHBV1'" hepadnavirusCompoundAligner 
+
+module fastaAlignmentExporter export AL_eAvHBV1 -r REF_DHBV -f Polymerase -a -o AL_eAvHBV1.fna
+
+create alignment AL_eAvHBV2 -r REF_DHBV
+alignment AL_eAvHBV2 add member --whereClause "source.name = 'fasta-eAvHBV2'"
+compute alignment AL_eAvHBV2 --whereClause "sequence.source = 'fasta-eAvHBV2'" hepadnavirusCompoundAligner 
+
+module fastaAlignmentExporter export AL_eAvHBV2 -r REF_DHBV -f Polymerase -a -o AL_eAvHBV2.fna
+

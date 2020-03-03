@@ -1,5 +1,5 @@
 // list the hepadnavirus sequences
-var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'fasta-ehbv-curated'"]);
+var listSeqResult = glue.command(["list", "sequence", "-w", "source.name = 'fasta-ehbv-digs'"]);
 // extract from the result a list of sequence IDs.
 var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
 
@@ -8,7 +8,7 @@ _.each(seqIds, function(seqId) {
     // create an object in the custom table which uses the sequence ID as the row ID.
     glue.command(["create", "custom-table-row", "locus_data", seqId]);
     // associate the corresponding sequence with this object.
-    glue.inMode("sequence/fasta-ehbv-curated/"+seqId, function() {
+    glue.inMode("sequence/fasta-ehbv-digs/"+seqId, function() {
         glue.command(["set", "link-target", "locus_data", "custom-table-row/locus_data/"+seqId]);
     });
 });

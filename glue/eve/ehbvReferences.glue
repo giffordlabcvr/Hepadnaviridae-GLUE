@@ -16,5 +16,5 @@
   create reference REF_EHBV-Meta.1-Sphenodon     fasta-ehbv-refseqs EHBV-Meta.1-Sphenodon
 
   # Nackednavirus
-  create reference REF_EHBV-Nackedna.1-Sebastes  fasta-ehbv-refseqs EHBV-Nackedna.1-Sebastes
+  #create reference REF_EHBV-Nackedna.1-Sebastes  fasta-ehbv-refseqs EHBV-Nackedna.1-Sebastes
 

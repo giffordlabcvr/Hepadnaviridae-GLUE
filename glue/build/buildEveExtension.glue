@@ -13,7 +13,7 @@ project hepadnaviridae
   
   # Import EHBV sequences and side data 
   import source sources/fasta-ehbv-refseqs/
-  import source sources/fasta-ehbv-curated/
+  import source sources/fasta-ehbv-digs/
 
   run script glue/eve/ehbvLoadLocusData1.js
   run script glue/eve/ehbvLoadLocusData2.js
