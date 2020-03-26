@@ -37,6 +37,9 @@ project hepadnaviridae
   # Adde EVEs to constrained alignment tree 
   run file glue/eve/ehbvAlignmentTree.glue
 
+  # Record feature presence
+  run file glue/eve/ehbvRecordFeaturePresence.glue
+
   # Validate
   validate
 

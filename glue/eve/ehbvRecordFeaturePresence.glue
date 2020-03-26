@@ -1,0 +1,9 @@
+  delete module hepadnaviridaeFeaturePresenceRecorder
+  create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
+
+  module hepadnaviridaeFeaturePresenceRecorder 
+    record feature-presence AL_Avihepadna     --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_Herpetohepadna --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_Metahepadna    --recursive -f whole_genome --descendentFeatures
+    exit
+
