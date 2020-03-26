@@ -18,7 +18,12 @@
         <header>full_name</header>
         <property>full_name</property>
     </textFileColumn>
- 
+  
+    <textFileColumn>
+        <header>family</header>
+        <property>family</property>
+    </textFileColumn>
+    
     <textFileColumn>
         <header>genus</header>
         <property>genus</property>

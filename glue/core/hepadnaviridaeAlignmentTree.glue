@@ -9,6 +9,7 @@ alignment AL_RT_Root_MASTER
 
   extract child AL_Hepadnaviridae_MASTER -r REF_MASTER_HBV
   demote member AL_Hepadnaviridae_MASTER --whereClause "sequence.family = 'Hepadnaviridae'"
+
   exit
 
 #~# Major subclade alignments

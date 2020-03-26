@@ -4,8 +4,12 @@ alignment AL_RT_Root_MASTER
 
   add member -w "source.name = 'fasta-ehbv-curated'"
   add member -w "source.name = 'fasta-ehbv-refseqs'"
-  demote member AL_Hepadnaviridae_MASTER -w "sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_Hepadnaviridae_MASTER -w "sequence.source.name = 'fasta-ehbv-refseqs'"
+
+  extract child AL_HEART -r REF_HEART
+  demote member AL_HEART --whereClause "sequence.family = 'HEART'"
+
+  demote member AL_Hepadnaviridae_MASTER -w "sequence.source.name = 'fasta-ehbv-curated' and sequence.family = 'Hepadnaviridae'"
+  demote member AL_Hepadnaviridae_MASTER -w "sequence.source.name = 'fasta-ehbv-refseqs' and sequence.family = 'Hepadnaviridae'"
   exit
 
 
