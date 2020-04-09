@@ -3,15 +3,15 @@
 module unconstrainedAlignmentImporter
 
   #~# Internal node aligns
-  import AL_eHBV_UNC-Herpeto               -f alignments/eve/internal/herpetohepadna-eves.aln.fna
-  import AL_eHBV_UNC-Meta                  -f alignments/eve/internal/metahepadna-eves.aln.fna
-  import AL_eHBV_UNC-Meta                  -f alignments/eve/internal/metahepadna-eves.aln.fna
+  import AL_UNC_eHBV-Herpeto               -f alignments/eve/internal/herpetohepadna-eves.aln.fna
+  import AL_UNC_eHBV-Meta                  -f alignments/eve/internal/metahepadna-eves.aln.fna
+  import AL_UNC_eHBV-Ave                   -f alignments/eve/internal/avehepadna-eves.aln.fna
   
   
   #~# Tip aligns
-  #import AL_eHBV_UNC-Avi.1-Aves           -f alignments/eve/tip/ehbv-avi.1-aves.aln.fna
-  #import AL_eHBV_UNC-Herpeto.1-Serpentes  -f alignments/eve/tip/ehbv-herpeto.1-serpentes.aln.fna
-  #import AL_eHBV_UNC-Herpeto.3-Croc       -f alignments/eve/tip/ehbv-herpeto.3-crocodylia.aln.fna
-  #import AL_eHBV_UNC-Herpeto.5-Testudines -f alignments/eve/tip/ehbv-herpeto.5-testudines.aln.fna
+  #import AL_UNC_eHBV-Avi.1-Aves           -f alignments/eve/tip/ehbv-avi.1-aves.aln.fna
+#import AL_UNC_eHBV-Herpeto.1-Serpentes  -f alignments/eve/tip/ehbv-herpeto.1-serpentes.aln.fna
+#import AL_UNC_eHBV-Herpeto.3-Croc       -f alignments/eve/tip/ehbv-herpeto.3-crocodylia.aln.fna
+  import AL_UNC_eHBV-Herpeto.5-Testudines -f alignments/eve/tip/ehbv-herpeto.5-testudines.aln.fna
 
   exit
