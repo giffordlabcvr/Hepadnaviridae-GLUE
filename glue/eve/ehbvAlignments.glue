@@ -10,8 +10,8 @@ module unconstrainedAlignmentImporter
   
   #~# Tip aligns
   #import AL_UNC_eHBV-Avi.1-Aves           -f alignments/eve/tip/ehbv-avi.1-aves.aln.fna
-#import AL_UNC_eHBV-Herpeto.1-Serpentes  -f alignments/eve/tip/ehbv-herpeto.1-serpentes.aln.fna
-#import AL_UNC_eHBV-Herpeto.3-Croc       -f alignments/eve/tip/ehbv-herpeto.3-crocodylia.aln.fna
+  #import AL_UNC_eHBV-Herpeto.1-Serpentes  -f alignments/eve/tip/ehbv-herpeto.1-serpentes.aln.fna
+  #import AL_UNC_eHBV-Herpeto.2-Serpentes  -f alignments/eve/tip/ehbv-herpeto.2-serpentes.aln.fna
+  import AL_UNC_eHBV-Herpeto.3-Croc       -f alignments/eve/tip/ehbv-herpeto.3-crocodylia.aln.fna
   import AL_UNC_eHBV-Herpeto.5-Testudines -f alignments/eve/tip/ehbv-herpeto.5-testudines.aln.fna
-
   exit
