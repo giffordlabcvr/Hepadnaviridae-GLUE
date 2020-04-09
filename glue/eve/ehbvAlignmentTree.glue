@@ -51,43 +51,43 @@ alignment AL_Hepadna_Env
 #~# Avian EVE aligns
 alignment AL_Avihepadna
 
-  extract child AL_EHBV-Avi.1-Aves -r REF_EHBV-Avi.1-Aves
-  demote member AL_EHBV-Avi.1-Aves -w "sequence.name = 'EHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_EHBV-Avi.1-Aves -w "sequence.name = 'EHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  extract child AL_eHBV-Avi.1-Aves -r REF_eHBV-Avi.1-Aves
+  demote member AL_eHBV-Avi.1-Aves -w "sequence.name = 'eHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_eHBV-Avi.1-Aves -w "sequence.name = 'eHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-refseqs'"
 
-  extract child AL_EHBV-Avi.2-Psittaciformes -r REF_EHBV-Avi.1-Aves
-  demote member AL_EHBV-Avi.2-Psittaciformes -w "sequence.name = 'EHBV-Avi.2-Psittaciformes' and sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_EHBV-Avi.2-Psittaciformes -w "sequence.name = 'EHBV-Avi.2-Psittaciformes' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  extract child AL_eHBV-Avi.2-Psittaciformes -r REF_eHBV-Avi.1-Aves
+  demote member AL_eHBV-Avi.2-Psittaciformes -w "sequence.name = 'eHBV-Avi.2-Psittaciformes' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_eHBV-Avi.2-Psittaciformes -w "sequence.name = 'eHBV-Avi.2-Psittaciformes' and sequence.source.name = 'fasta-ehbv-refseqs'"
   exit
 
 #~# Herpeto EVE aligns
 alignment AL_Herpetohepadna
 
-  extract child AL_EHBV-Herpeto.1-Serpentes -r REF_EHBV-Herpeto.1-Serpentes
-  demote member AL_EHBV-Herpeto.1-Serpentes -w "sequence.name = 'EHBV-Herpeto.1-Serpentes' and sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_EHBV-Herpeto.1-Serpentes -w "sequence.name = 'EHBV-Herpeto.1-Serpentes' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  extract child AL_eHBV-Herpeto.1-Serpentes -r REF_eHBV-Herpeto.1-Serpentes
+  demote member AL_eHBV-Herpeto.1-Serpentes -w "sequence.name = 'eHBV-Herpeto.1-Serpentes' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_eHBV-Herpeto.1-Serpentes -w "sequence.name = 'eHBV-Herpeto.1-Serpentes' and sequence.source.name = 'fasta-ehbv-refseqs'"
 
-  extract child AL_EHBV-Herpeto.2-Serpentes -r REF_EHBV-Herpeto.2-Serpentes
-  demote member AL_EHBV-Herpeto.2-Serpentes -w "sequence.name = 'EHBV-Herpeto.2-Serpentes' and sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_EHBV-Herpeto.2-Serpentes -w "sequence.name = 'EHBV-Herpeto.2-Serpentes' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  extract child AL_eHBV-Herpeto.2-Serpentes -r REF_eHBV-Herpeto.2-Serpentes
+  demote member AL_eHBV-Herpeto.2-Serpentes -w "sequence.name = 'eHBV-Herpeto.2-Serpentes' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_eHBV-Herpeto.2-Serpentes -w "sequence.name = 'eHBV-Herpeto.2-Serpentes' and sequence.source.name = 'fasta-ehbv-refseqs'"
 
-  extract child AL_EHBV-Herpeto.3-Crocodilia -r REF_EHBV-Herpeto.3-Crocodilia
-  demote member AL_EHBV-Herpeto.3-Crocodilia -w "sequence.name = 'EHBV-Herpeto.3-Crocodilia' and sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_EHBV-Herpeto.3-Crocodilia -w "sequence.name = 'EHBV-Herpeto.3-Crocodilia' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  extract child AL_eHBV-Herpeto.3-Crocodilia -r REF_eHBV-Herpeto.3-Crocodilia
+  demote member AL_eHBV-Herpeto.3-Crocodilia -w "sequence.name = 'eHBV-Herpeto.3-Crocodilia' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_eHBV-Herpeto.3-Crocodilia -w "sequence.name = 'eHBV-Herpeto.3-Crocodilia' and sequence.source.name = 'fasta-ehbv-refseqs'"
 
-  extract child AL_EHBV-Herpeto.5-Testudines -r REF_EHBV-Herpeto.5-Testudines
-  demote member AL_EHBV-Herpeto.5-Testudines -w "sequence.name = 'EHBV-Herpeto.5-Testudines' and sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_EHBV-Herpeto.5-Testudines -w "sequence.name = 'EHBV-Herpeto.5-Testudines' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  extract child AL_eHBV-Herpeto.5-Testudines -r REF_eHBV-Herpeto.5-Testudines
+  demote member AL_eHBV-Herpeto.5-Testudines -w "sequence.name = 'eHBV-Herpeto.5-Testudines' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_eHBV-Herpeto.5-Testudines -w "sequence.name = 'eHBV-Herpeto.5-Testudines' and sequence.source.name = 'fasta-ehbv-refseqs'"
 
-  extract child AL_EHBV-Herpeto.6-Varanus -r REF_EHBV-Herpeto.6-Varanus
-  demote member AL_EHBV-Herpeto.6-Varanus -w "sequence.name = 'EHBV-Herpeto.6-Varanus' and sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_EHBV-Herpeto.6-Varanus -w "sequence.name = 'EHBV-Herpeto.6-Varanus' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  extract child AL_eHBV-Herpeto.6-Varanus -r REF_eHBV-Herpeto.6-Varanus
+  demote member AL_eHBV-Herpeto.6-Varanus -w "sequence.name = 'eHBV-Herpeto.6-Varanus' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_eHBV-Herpeto.6-Varanus -w "sequence.name = 'eHBV-Herpeto.6-Varanus' and sequence.source.name = 'fasta-ehbv-refseqs'"
   exit
 
 #~# Metahepadna EVE aligns
 alignment AL_Metahepadna
 
-  extract child AL_EHBV-Meta.1-Sphenodon -r REF_EHBV-Meta.1-Sphenodon
-  demote member AL_EHBV-Meta.1-Sphenodon -w "sequence.name = 'EHBV-Meta.1-Sphenodon' and sequence.source.name = 'fasta-ehbv-curated'"
-  demote member AL_EHBV-Meta.1-Sphenodon -w "sequence.name = 'EHBV-Meta.1-Sphenodon' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  extract child AL_eHBV-Meta.1-Sphenodon -r REF_eHBV-Meta.1-Sphenodon
+  demote member AL_eHBV-Meta.1-Sphenodon -w "sequence.name = 'eHBV-Meta.1-Sphenodon' and sequence.source.name = 'fasta-ehbv-curated'"
+  demote member AL_eHBV-Meta.1-Sphenodon -w "sequence.name = 'eHBV-Meta.1-Sphenodon' and sequence.source.name = 'fasta-ehbv-refseqs'"
   exit
