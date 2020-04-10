@@ -29,9 +29,10 @@ project hepadnaviridae
 
   # Apply rotations
   run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
-  
+
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/core/reference_feature_locations.tsv -r
+  #module featureLocationTextToGlue transform tabular/core/reference_feature_locations.tsv -r
+  run file glue/core/hepadnaviridaeFeatureLocations.glue
 
   # Add variations
   run file glue/core/hepadnaviridaeVariations.glue

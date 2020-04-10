@@ -1,39 +1,193 @@
+
  reference REF_MASTER_HBV
   
   add feature-location Core
   feature-location Core
-    add segment 1 447
+    add segment 1816 2454
+    exit
+  
+  add feature-location Polymerase
+  feature-location Polymerase
+    add segment 2309 3182  --spliceIndex 1
+    add segment 1 1625  --spliceIndex 2
+    exit
+  
+
+  add feature-location large-S
+  feature-location large-S
+    add segment 2850 3182 --spliceIndex 1
+    add segment 1 837 --spliceIndex 2   
+    exit
+      
+  add feature-location small-S
+  feature-location small-S
+    add segment 1 675
+    exit
+ 
+  add feature-location X
+    feature-location X    
+    add segment 1376 1840
+    exit
+
+  exit 
+
+
+reference REF_DHBV
+  
+  add feature-location Core
+  feature-location Core
+    add segment 2524 3027 --spliceIndex 1
+    add segment 1 114  --spliceIndex 2
+    exit
+  
+  add feature-location Polymerase
+  feature-location Polymerase
+    add segment 20 2536
+    exit
+
+  add feature-location large-S
+  feature-location large-S
+    add segment 693 1973
+    exit
+      
+  add feature-location small-S
+  feature-location small-S
+    add segment 1290 1793
+    exit
+
+  exit 
+
+
+reference REF_TFHBV
+  
+  add feature-location Core
+  feature-location Core
+    add segment 57 857
+    exit
+  
+  add feature-location Polymerase
+  feature-location Polymerase
+    add segment 676 3111
+    exit
+
+  add feature-location large-S
+  feature-location large-S
+    add segment 893 2365
+    exit
+      
+  add feature-location small-S
+  feature-location small-S
+    add segment 1280 2365
+    exit
+
+  exit 
+
+
+reference REF_bgHBV
+  
+  add feature-location Y
+  feature-location Y
+    add segment 26 343
+    exit
+    
+  add feature-location Core
+  feature-location Core
+    add segment 139 690
+    exit
+  
+  add feature-location Polymerase
+  feature-location Polymerase
+    add segment 512 2821
+    exit
+  
+  add feature-location large-S
+  feature-location large-S
+    add segment 1071 2057
+    exit
+  
+  add feature-location Z
+    feature-location Z    
+    add segment 2818 3144
+    exit
+
+  exit 
+
+
+reference REF_wsHBV
+  
+  add feature-location Core
+  feature-location Core
+    add segment 3216 3542
     exit
   
   add feature-location P
   feature-location P
-    add segment 407 2902
-    exit
-  
-  add feature-location S1
-  feature-location S1
-    add segment 948 2114
-    exit
-  
-  add feature-location S2
-  feature-location S2
-    add segment 1272 2114
-    exit
-  
-  add feature-location S3
-  feature-location S3
-    add segment 1437 2114
-    exit
-  
-  add feature-location X
-    feature-location X    
-    add segment 2656 3117
+    add segment 170 2536
     exit
 
-  add feature-location HBeAg
-    feature-location HBeAg    
-    add segment 3096 3176
+  add feature-location large-S
+    feature-location large-S    
+    add segment 684 1724
     exit
 
-exit 
+  exit 
+
+
+reference REF_ACNDV
+  
+  add feature-location DR1
+  feature-location DR1
+    add segment 1 19
+    exit
+  
+  add feature-location DR2
+  feature-location DR2
+    add segment 2659 2677
+    exit
+  
+  add feature-location smORF1
+  feature-location smORF1
+    add segment 1 19
+    exit
+  
+  add feature-location smORF2
+  feature-location smORF2
+    add segment 2659 2677
+    exit
+
+  add feature-location smORF3
+  feature-location smORF3
+    add segment 2659 2677
+    exit
+
+  add feature-location Polymerase
+  feature-location Polymerase
+    add segment 919 2739
+    exit
+
+  add feature-location Polymerase
+  feature-location Polymerase
+    add segment 919 2739
+    exit
+
+  add feature-location TP
+  feature-location TP
+    add segment 919 1455
+    exit
+  
+  add feature-location RT
+  feature-location RT
+    add segment 1483 2739
+    exit
+   
+  add feature-location Core
+  feature-location Core
+    add segment 615 1136
+    exit
+
+
+  exit 
+
+
+
 
