@@ -1,0 +1,15 @@
+  
+  # Load refcon data
+  run script glue/eve/ehbvLoadLocusData1.js
+  run script glue/eve/ehbvLoadLocusData2.js
+
+  # Import metadata for EHBV reference sequences
+  module ehbvSideDataImporter 
+    populate -f tabular/eve/ehbv-refseqs-side-data.tsv
+    exit
+
+  # Import metadata for individual EVE sequences
+  module ehbvSideDataImporter 
+    populate -f tabular/locus/ehbv-side-data.tsv
+    exit
+

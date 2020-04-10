@@ -36,12 +36,16 @@ alignment AL_Hepadna_Env
   
   demote member AL_Orthohepadna -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
   demote member AL_Orthohepadna -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-ehbv-refseqs'"
+
   demote member AL_Avihepadna -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
   demote member AL_Avihepadna -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-ehbv-refseqs'"
+
   demote member AL_Herpetohepadna -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
   demote member AL_Herpetohepadna -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-ehbv-refseqs'"
+
   demote member AL_Metahepadna -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
   demote member AL_Metahepadna -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-ehbv-refseqs'"
+
   demote member AL_Parahepadna -w "sequence.genus = 'Parahepadnavirus' and sequence.source.name = 'fasta-ehbv-curated'"
   demote member AL_Parahepadna -w "sequence.genus = 'Parahepadnavirus' and sequence.source.name = 'fasta-ehbv-refseqs'" 
   exit
