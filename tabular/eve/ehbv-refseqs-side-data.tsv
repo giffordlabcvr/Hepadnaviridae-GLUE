@@ -1,12 +1,26 @@
 id	locus_id	full_name	family	genus	clade	host_sci_name	host_common_name
-EHBV-Avi.1-Aves-con	EHBV-Avi.1-Aves	Endogenous avian hepatitis B virus 1	Hepadnaviridae	Avihepadnavirus		Neognathae	birds
-EHBV-Avi.2-Psittaciformes-con	EHBV-Avi.2-Psittaciformes	Endogenous avian hepatitis B virus 1	Hepadnaviridae	Avihepadnavirus		Melopsittacus	budgerigar
-HVe1-MelUnd	EHBV-Avi.3-Psittaciformes	Endogenous avian hepatitis B virus 1	Hepadnaviridae	Avihepadnavirus		Melopsittacus	budgerigar
-EHBV-Herpeto.5-Testudines-con	EHBV-Herpeto.5-Testudines	Endogenous turtle hepatitis B virus	Hepadnaviridae	Herpetohepadnavirus		Chrysemys	turtles
-EHBV-Herpeto.6-Varanus-con	EHBV-Herpeto.6-Varanus	Endogenous komodo dragon hepatitis B virus	Hepadnaviridae	Herpetohepadnavirus		Varanus komodoensis	Komodo dragon
-EHBV-Herpeto.1-Serpentes-con	EHBV-Herpeto.1-Serpentes	Endogenous snake hepatitis B virus 1	Hepadnaviridae	Herpetohepadnavirus		Colubroidea	snakes
-EHBV-Herpeto.2-Serpentes-con	EHBV-Herpeto.2-Serpentes	Endogenous snake hepatitis B virus 2	Hepadnaviridae	Herpetohepadnavirus		Serpentes	snakes
-EHBV-Herpeto.3-Crocodilia-con	EHBV-Herpeto.3-Crocodilia	Endogenous crocodile hepatitis B virus 	Hepadnaviridae	Herpetohepadnavirus		Crocodylus	crocodiles and gharial
-EHBV-Herpeto.7-Paroedura	EHBV-Herpeto.7-Paroedura	Endogenous gekko hepatitis B virus	Hepadnaviridae	Herpetohepadnavirus		Paroedura	ocelot gekko
-EHBV-Meta.1-Sphenodon	EHBV-Meta.1-Sphenodon	Endogenous tuatara hepatitis B virus	Hepadnaviridae	Metahepadnavirus		Sphenodon	tuatara
 HEART-con	HEART-con-DS633349	HEART consensus DS633349	HEART	HEART		Ixodes	Ticks
+ehbv-ave.1-neognathea	ehbv-ave.1-neognathea	Endogenous avehepadnairus 1	Hepadnaviridae	Avihepadnavirus		Neognathae	null
+ehbv-ave.2-passeriformes	ehbv-ave.2-passeriformes	Endogenous avehepadnairus 2	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
+ehbv-ave.3-passeriformes	ehbv-ave.3-passeriformes	Endogenous avehepadnairus 3	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
+ehbv-ave.5-passeriformes	ehbv-ave.5-passeriformes	Endogenous avehepadnairus 4	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
+ehbv-ave.6-passeriformes	ehbv-ave.6-passeriformes	Endogenous avehepadnairus 6	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
+ehbv-ave.7-passeriformes	ehbv-ave.7-passeriformes	Endogenous avehepadnairus 7	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
+ehbv-ave.8-passeriformes	ehbv-ave.8-passeriformes	Endogenous avehepadnairus 8	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
+ehbv-ave.9-melopsittacus	ehbv-ave.9-melopsittacus	Endogenous avehepadnairus 9	Hepadnaviridae	Avihepadnavirus		Melopsittacus	null
+ehbv-ave.10-melopsittacus	ehbv-ave.10-melopsittacus	Endogenous avehepadnairus 10	Hepadnaviridae	Avihepadnavirus		Melopsittacus	null
+ehbv-ave.11-tyto	ehbv-ave.11-tyto	Endogenous avehepadnairus 11	Hepadnaviridae	Avihepadnavirus		Tyto	null
+ehbv-ave.12-anser	ehbv-ave.12-anser	Endogenous avehepadnairus 12	Hepadnaviridae	Avihepadnavirus		Anser	null
+ehbv-ave.13-paleognathae-con	ehbv-ave.13-paleognathae-con	Endogenous avehepadnairus 13	Hepadnaviridae	Avihepadnavirus		Paleognathae	null
+ehbv-ave.14-gaviiformes	ehbv-ave.14-gaviiformes	Endogenous avehepadnairus 14	Hepadnaviridae	Avihepadnavirus		Gaviiformes	null
+ehbv-ave.16-accipter	ehbv-ave.16-accipter	Endogenous avehepadnairus 16	Hepadnaviridae	Avihepadnavirus		Accipiter	null
+ehbv-ave.17-passeriformes-con	ehbv-ave.17-passeriformes-con	Endogenous avehepadnairus 17	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
+ehbv-ave.18-calypte	ehbv-ave.18-calypte	Endogenous avehepadnairus 18	Hepadnaviridae	Avihepadnavirus		Calypte	null
+ehbv-ave.19-buceros	ehbv-ave.19-buceros	Endogenous avehepadnairus 19	Hepadnaviridae	Avihepadnavirus		Buceros	null
+ehbv-ave.20-cariama	ehbv-ave.20-cariama	Endogenous avehepadnairus 20	Hepadnaviridae	Avihepadnavirus		Cariama	null
+ehbv-herpeto.1-serpentes-con	ehbv-herpeto.1-serpentes-con	Endogenous herpetohepadnairus 1	Hepadnaviridae	Herpetohepadnavirus		Serpentes	null
+ehbv-herpeto.3-crocodilia-con	ehbv-herpeto.3-crocodilia-con	Endogenous herpetohepadnairus 3	Hepadnaviridae	Herpetohepadnavirus		Crocodilia	null
+ehbv-herpeto.5-testudines-con	ehbv-herpeto.5-testudines-con	Endogenous herpetohepadnairus 5	Hepadnaviridae	Herpetohepadnavirus		Testudines	null
+ehbv-herpeto.6-varanus-con	ehbv-herpeto.6-varanus-con	Endogenous herpetohepadnairus 6	Hepadnaviridae	Herpetohepadnavirus		Varanus	null
+ehbv-herpeto.7-paroedura	ehbv-herpeto.7-paroedura	Endogenous herpetohepadnairus 7	Hepadnaviridae	Herpetohepadnavirus		Paroedura	null
+ehbv-meta.1-sphenodon	ehbv-meta.1-sphenodon	Endogenous metahepadnairus 1	Hepadnaviridae	Metahepadnavirus		Sphenodon	null
