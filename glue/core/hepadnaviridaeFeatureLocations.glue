@@ -1,5 +1,5 @@
 
- reference REF_MASTER_HBV
+ reference REF_Ortho_MASTER_HBV
   
   add feature-location Core
   feature-location Core
@@ -32,7 +32,7 @@
   exit 
 
 
-reference REF_DHBV
+reference REF_Ave_MASTER_DHBV
   
   add feature-location Core
   feature-location Core
@@ -58,7 +58,7 @@ reference REF_DHBV
   exit 
 
 
-reference REF_TFHBV
+reference REF_Herpeto_MASTER_tfHBV
   
   add feature-location Core
   feature-location Core
@@ -83,7 +83,7 @@ reference REF_TFHBV
   exit 
 
 
-reference REF_bgHBV
+reference REF_Meta_MASTER_bgHBV
   
   add feature-location Y
   feature-location Y
@@ -113,7 +113,7 @@ reference REF_bgHBV
   exit 
 
 
-reference REF_wsHBV
+reference REF_Para_MASTER_wsHBV
   
   add feature-location Core
   feature-location Core
@@ -133,7 +133,7 @@ reference REF_wsHBV
   exit 
 
 
-reference REF_ACNDV
+reference REF_Nackedna_MASTER_ACNDV
   
   add feature-location DR1
   feature-location DR1

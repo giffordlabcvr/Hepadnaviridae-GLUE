@@ -66,6 +66,13 @@
     <primaryAccession>NC_020881</primaryAccession>
     <!-- Roundleaf bat hepatitis B virus -->	
     <primaryAccession>NC_024443</primaryAccession>
+    <!-- Domestic cat hepadnavirus -->	
+    <primaryAccession>MH307930</primaryAccession>
+    <!-- Shrew hepatitis B virus -->	
+    <primaryAccession>MH484442</primaryAccession>
+    <!-- Tai Forest hepadnavirus -->	
+    <primaryAccession>MK620908</primaryAccession>
+
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
