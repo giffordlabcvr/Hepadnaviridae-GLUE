@@ -1,6 +1,6 @@
 id	locus_id	full_name	family	genus	clade	host_sci_name	host_common_name
 HEART-con	HEART-con-DS633349	HEART consensus DS633349	HEART	HEART		Ixodes	Ticks
-ehbv-ave.1-neognathea	ehbv-ave.1-neognathea	Endogenous avehepadnairus 1	Hepadnaviridae	Avihepadnavirus		Neognathae	null
+ehbv-ave.1-neognathae-con	ehbv-ave.1-neognathea	Endogenous avehepadnairus 1	Hepadnaviridae	Avihepadnavirus		Neognathae	null
 ehbv-ave.2-passeriformes	ehbv-ave.2-passeriformes	Endogenous avehepadnairus 2	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
 ehbv-ave.3-passeriformes	ehbv-ave.3-passeriformes	Endogenous avehepadnairus 3	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
 ehbv-ave.5-passeriformes	ehbv-ave.5-passeriformes	Endogenous avehepadnairus 4	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
