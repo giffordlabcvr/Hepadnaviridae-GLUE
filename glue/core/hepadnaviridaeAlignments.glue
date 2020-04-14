@@ -11,7 +11,7 @@ module unconstrainedAlignmentImporter
   import AL_UNC_HEPADNA_ENV     -f alignments/core/internal/hepadna-env.aln.fna
 
   #~# Hepadnavirus genera
-  import AL_UNC_AVIHEPADNA      -f alignments/core/internal/avihepadna.aln.fna
+  import AL_UNC_AVEHEPADNA      -f alignments/core/internal/avehepadna.aln.fna
   import AL_UNC_HERPETOHEPADNA  -f alignments/core/internal/herpetohepadna.aln.fna
   import AL_UNC_PARAHEPADNA     -f alignments/core/internal/parahepadna.aln.fna
   import AL_UNC_METAHEPADNA     -f alignments/core/internal/metahepadna.aln.fna

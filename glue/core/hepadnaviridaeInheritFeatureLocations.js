@@ -100,12 +100,10 @@ function get_genus_references(genusName) {
 	         glue.logInfo("Adding "+genusName+" reference: "+refSeqObj+" - id='"+refSeqID+"', name='"+refSeqName+"'");;
 			 genusRefSeqObjs.push(refSeqObj); 
 		}
-
-
+		
 	});
-
 	return genusRefSeqObjs;
-
+	
 }
 
 

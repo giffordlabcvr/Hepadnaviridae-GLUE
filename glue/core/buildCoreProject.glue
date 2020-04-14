@@ -39,6 +39,7 @@ project hepadnaviridae
 
   # Inherit feature locations to non-master references
   run script glue/core/hepadnaviridaeInheritFeatureLocations.js
+  #run file glue/core/fixFeatureLocations.glue
 
   # Add variations
   run file glue/core/hepadnaviridaeVariations.glue

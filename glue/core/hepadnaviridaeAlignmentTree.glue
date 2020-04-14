@@ -65,7 +65,7 @@ alignment AL_Orthohepadna
   exit
 
 alignment AL_Avihepadna
-  derive segments AL_UNC_AVIHEPADNA -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_AVEHEPADNA -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Herpetohepadna

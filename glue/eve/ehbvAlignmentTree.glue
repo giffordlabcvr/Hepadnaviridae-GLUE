@@ -57,7 +57,7 @@ alignment AL_Avihepadna
   demote member AL_eHBV-Avi.1-Aves -w "sequence.name = 'eHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-curated'"
   demote member AL_eHBV-Avi.1-Aves -w "sequence.name = 'eHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-refseqs'"
 
-  extract child AL_eHBV-Avi.2-Psittaciformes -r REF_eHBV-Avi.1-Aves
+  extract child AL_eHBV-Avi.2-Psittaciformes -r REF_EHBV-Ave.1-neognathae
   demote member AL_eHBV-Avi.2-Psittaciformes -w "sequence.name = 'eHBV-Avi.2-Psittaciformes' and sequence.source.name = 'fasta-ehbv-curated'"
   demote member AL_eHBV-Avi.2-Psittaciformes -w "sequence.name = 'eHBV-Avi.2-Psittaciformes' and sequence.source.name = 'fasta-ehbv-refseqs'"
   exit
