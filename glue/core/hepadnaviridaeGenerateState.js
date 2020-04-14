@@ -12,7 +12,7 @@ process_refseqs();
 
 // Summarise the alignments in this project
 glue.logInfo("Processing constrained alignment tree ");
-process_alignment_tree("AL_RT_Root_MASTER");
+process_alignment_tree("AL_Hepadnaviridae_MASTER");
 
 // Summarise the virus isolates in this project
 glue.logInfo("Processing virus isolates ");

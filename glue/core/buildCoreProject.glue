@@ -33,15 +33,15 @@ project hepadnaviridae
   # Add feature locations to genus master reference sequences
   run file glue/core/hepadnaviridaeFeatureLocations.glue
 
+  # Import alignments
+  run file glue/core/hepadnaviridaeAlignments.glue
+  run file glue/core/hepadnaviridaeAlignmentTree.glue
+
   # Inherit feature locations to non-master references
   run script glue/core/hepadnaviridaeInheritFeatureLocations.js
 
   # Add variations
   run file glue/core/hepadnaviridaeVariations.glue
-
-  # Import alignments
-  run file glue/core/hepadnaviridaeAlignments.glue
-  run file glue/core/hepadnaviridaeAlignmentTree.glue
 
   # Validate
   validate
