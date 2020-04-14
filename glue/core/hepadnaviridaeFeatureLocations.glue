@@ -8,15 +8,15 @@
   
   add feature-location Polymerase
   feature-location Polymerase
-    add segment 2309 3182  --spliceIndex 1
-    add segment 1 1625  --spliceIndex 2
+    add segment 2309 3181  --spliceIndex 1
+    #add segment 1 1625  --spliceIndex 2
     exit
   
 
   add feature-location large-S
   feature-location large-S
     add segment 2850 3182 --spliceIndex 1
-    add segment 1 837 --spliceIndex 2   
+    #add segment 1 837 --spliceIndex 2   
     exit
       
   add feature-location small-S
@@ -37,7 +37,7 @@ reference REF_DHBV
   add feature-location Core
   feature-location Core
     add segment 2524 3027 --spliceIndex 1
-    add segment 1 114  --spliceIndex 2
+   # add segment 1 114  --spliceIndex 2
     exit
   
   add feature-location Polymerase
@@ -120,8 +120,8 @@ reference REF_wsHBV
     add segment 3216 3542
     exit
   
-  add feature-location P
-  feature-location P
+  add feature-location Polymerase
+  feature-location Polymerase
     add segment 170 2536
     exit
 
@@ -147,22 +147,17 @@ reference REF_ACNDV
   
   add feature-location smORF1
   feature-location smORF1
-    add segment 1 19
+    add segment 100 294
     exit
   
   add feature-location smORF2
   feature-location smORF2
-    add segment 2659 2677
+    add segment 303 554
     exit
 
   add feature-location smORF3
   feature-location smORF3
-    add segment 2659 2677
-    exit
-
-  add feature-location Polymerase
-  feature-location Polymerase
-    add segment 919 2739
+    add segment 2444 2665
     exit
 
   add feature-location Polymerase

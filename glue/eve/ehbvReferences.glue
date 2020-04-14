@@ -1,8 +1,24 @@
   ### Declare EHBV reference sequences
 
   # Avehepadnavirus
-  create reference REF_EHBV-Avi.1-Aves            fasta-ehbv-refseqs EHBV-Avi.1-Aves-con
-  create reference REF_EHBV-Avi.2-Psittaciformes  fasta-ehbv-refseqs EHBV-Avi.2-Psittaciformes-con
+  create reference REF_EHBV-Ave.1-neognathea      fasta-ehbv-refseqs ehbv-ave.1-neognathea
+  create reference REF_EHBV-Ave.2-passeriformes   fasta-ehbv-refseqs ehbv-ave.2-passeriformes
+  create reference REF_EHBV-Ave.3-passeriformes   fasta-ehbv-refseqs ehbv-ave.3-passeriformes
+  create reference REF_EHBV-Ave.4-passeriformes   fasta-ehbv-refseqs ehbv-ave.4-passeriformes
+  create reference REF_EHBV-Ave.5-passeriformes   fasta-ehbv-refseqs ehbv-ave.5-passeriformes
+  create reference REF_EHBV-Ave.6-passeriformes   fasta-ehbv-refseqs ehbv-ave.6-passeriformes
+  create reference REF_EHBV-Ave.7-passeriformes   fasta-ehbv-refseqs ehbv-ave.7-passeriformes
+  create reference REF_EHBV-Ave.8-passeriformes   fasta-ehbv-refseqs ehbv-ave.8-passeriformes
+  create reference REF_EHBV-Ave.9-melopsittacus   fasta-ehbv-refseqs ehbv-ave.9-melopsittacus
+  create reference REF_EHBV-Ave.10-melopsittacus  fasta-ehbv-refseqs ehbv-ave.10-melopsittacus
+  create reference REF_EHBV-Ave.11-tyto           fasta-ehbv-refseqs ehbv-ave.11-tyto
+  create reference REF_EHBV-Ave.12-anser          fasta-ehbv-refseqs ehbv-ave.12-anser
+  create reference REF_EHBV-Ave.13-paleognathea   fasta-ehbv-refseqs ehbv-ave.13-paleognathea
+  create reference REF_EHBV-Ave.21-paleognathea   fasta-ehbv-refseqs ehbv-ave.21-paleognathea
+  create reference REF_EHBV-Ave.14-gaviiformes    fasta-ehbv-refseqs ehbv-ave.14-gaviiformes
+  create reference REF_EHBV-Ave.15-gaviiformes    fasta-ehbv-refseqs ehbv-ave.15-gaviiformes
+
+  create reference REF_EHBV-ave.2-Psittaciformes  fasta-ehbv-refseqs EHBV-Avi.2-Psittaciformes-con
 
   # Herpetohepadnavirus
   create reference REF_EHBV-Herpeto.1-Serpentes   fasta-ehbv-refseqs EHBV-Herpeto.1-Serpentes-con
