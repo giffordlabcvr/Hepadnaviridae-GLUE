@@ -2,7 +2,7 @@
 glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name not like '%MASTER%'"]);
 
 var generaArray = [ "Orthohepadnavirus", "Avehepadnavirus", "Herpetohepadnavirus", 
-                     "Metahepadnavirus", "Parahepadnavirus", "Nakednavirus"  ];
+                     "Metahepadnavirus", "Parahepadnavirus"  ];
 
 var generaMap = {};
 generaMap['Orthohepadnavirus']    = 'REF_Ortho_MASTER_HBV';

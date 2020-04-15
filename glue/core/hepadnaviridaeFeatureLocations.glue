@@ -105,10 +105,10 @@ reference REF_Meta_MASTER_bgHBV
     add segment 1071 2057
     exit
   
-  add feature-location Z
-    feature-location Z    
-    add segment 2818 3144
-    exit
+  #add feature-location Z
+  #  feature-location Z    
+  #  add segment 2818 3144
+  #  exit
 
   exit 
 
