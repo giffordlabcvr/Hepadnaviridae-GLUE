@@ -39,7 +39,7 @@
   # Para
   create reference REF_Para_MASTER_wsHBV      ncbi-refseqs NC_027922
   create reference REF_Para_AsHBV             ncbi-refseqs MH716821
-  create reference REF_Meta_CSKV              fasta-refseqs CSKV
+  create reference REF_Para_CSKV              fasta-refseqs CSKV
 
   # Nakedna
   create reference REF_Nackedna_MASTER_ACNDV  ncbi-refseqs MH158727
