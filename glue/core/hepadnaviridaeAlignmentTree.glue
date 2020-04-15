@@ -16,8 +16,8 @@ alignment AL_RT_Root_MASTER
 
 alignment AL_Hepadnaviridae_MASTER
 
-  extract child AL_GENUS_Nakedna -r REF_Nackedna_MASTER_ACNDV
-  demote member AL_GENUS_Nakedna --whereClause "sequence.genus = 'Nakednavirus'"
+  extract child AL_Nakedna -r REF_Nackedna_MASTER_ACNDV
+  demote member AL_Nakedna --whereClause "sequence.genus = 'Nakednavirus'"
 
   extract child AL_Hepadna_Env -r REF_Ortho_MASTER_HBV
   demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Orthohepadnavirus'"
@@ -30,11 +30,11 @@ alignment AL_Hepadnaviridae_MASTER
 
 alignment AL_Hepadna_Env
 
-  extract child AL_Orthohepadna -r REF_Ortho_MASTER_HBV
-  demote member AL_Orthohepadna --whereClause "sequence.genus = 'Orthohepadnavirus'"
+  extract child AL_GENUS_Ortho -r REF_Ortho_MASTER_HBV
+  demote member AL_GENUS_Ortho --whereClause "sequence.genus = 'Orthohepadnavirus'"
 
-  extract child AL_Avihepadna -r REF_Ave_MASTER_DHBV
-  demote member AL_Avihepadna --whereClause "sequence.genus = 'Avihepadnavirus'"
+  extract child AL_GENUS_Avi -r REF_Avi_MASTER_DHBV
+  demote member AL_GENUS_Avi --whereClause "sequence.genus = 'Avihepadnavirus'"
 
   extract child AL_GENUS_Herpeto -r REF_Herpeto_MASTER_tfHBV
   demote member AL_GENUS_Herpeto --whereClause "sequence.genus = 'Herpetohepadnavirus'"
@@ -52,7 +52,7 @@ alignment AL_Hepadnaviridae_MASTER
   derive segments AL_UNC_HEPADNAVIRIDAE -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_GENUS_Nakedna
+alignment AL_Nakedna
   derive segments AL_UNC_NAKEDNA -a --mergeStrategy OVERWRITE
   exit
 
@@ -60,11 +60,11 @@ alignment AL_Hepadna_Env
   derive segments AL_UNC_HEPADNA_ENV -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Orthohepadna
+alignment AL_GENUS_Ortho
   derive segments AL_UNC_GENUS_ORTHO -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Avihepadna
+alignment AL_GENUS_Avi
   derive segments AL_UNC_GENUS_AVI -a --mergeStrategy OVERWRITE
   exit
 

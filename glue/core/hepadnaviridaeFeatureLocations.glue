@@ -32,7 +32,7 @@
   exit 
 
 
-reference REF_Ave_MASTER_DHBV
+reference REF_Avi_MASTER_DHBV
   
   add feature-location Core
   feature-location Core

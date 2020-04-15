@@ -5,20 +5,20 @@ var generaArray = [ "Orthohepadnavirus", "Avehepadnavirus", "Herpetohepadnavirus
                      "Metahepadnavirus", "Parahepadnavirus"  ];
 
 var generaMap = {};
-generaMap['Orthohepadnavirus']    = 'REF_Ortho_MASTER_HBV';
-generaMap['Avehepadnavirus']      = 'REF_Ave_MASTER_DHBV';
-generaMap['Herpetohepadnavirus']  = 'REF_Herpeto_MASTER_tfHBV';
-generaMap['Metahepadnavirus']     = 'REF_Meta_MASTER_bgHBV';
-generaMap['Parahepadnavirus']     = 'REF_Para_MASTER_wsHBV';
+generaMap['Orthohepadnavirus']   = 'REF_Ortho_MASTER_HBV';
+generaMap['Avehepadnavirus']     = 'REF_Avi_MASTER_DHBV';
+generaMap['Herpetohepadnavirus'] = 'REF_Herpeto_MASTER_tfHBV';
+generaMap['Metahepadnavirus']    = 'REF_Meta_MASTER_bgHBV';
+generaMap['Parahepadnavirus']    = 'REF_Para_MASTER_wsHBV';
 generaMap['Nakednavirus']        = 'REF_Nackedna_MASTER_ACNDV';
 
 var alignmentMap = {};
-alignmentMap['Orthohepadnavirus'] = 'AL_Orthohepadna';
-alignmentMap['Avehepadnavirus'] = 'AL_Avehepadna';
-alignmentMap['Herpetohepadnavirus'] = 'AL_Herpetohepadna';
-alignmentMap['Metahepadnavirus'] = 'AL_Metahepadna';
-alignmentMap['Parahepadnavirus'] = 'AL_Parahepadna';
-alignmentMap['Nakednavirus']  = 'AL_Nakedna';
+alignmentMap['Nakednavirus']        = 'AL_Nakedna';
+alignmentMap['Orthohepadnavirus']   = 'AL_GENUS_Ortho';
+alignmentMap['Avehepadnavirus']     = 'AL_GENUS_Avi';
+alignmentMap['Herpetohepadnavirus'] = 'AL_GENUS_Herpeto';
+alignmentMap['Metahepadnavirus']    = 'AL_GENUS_Meta';
+alignmentMap['Parahepadnavirus']    = 'AL_GENUS_Para';
 
 
 var featureExcludeMap = {};
