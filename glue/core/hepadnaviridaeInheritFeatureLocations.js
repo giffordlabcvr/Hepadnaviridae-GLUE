@@ -20,6 +20,12 @@ alignmentMap['Metahepadnavirus'] = 'AL_Metahepadna';
 alignmentMap['Parahepadnavirus'] = 'AL_Parahepadna';
 alignmentMap['Nakednavirus']  = 'AL_Nakedna';
 
+
+var featureExcludeMap = {};
+featureExcludeMap['Y'] = 'Exclude';
+featureExcludeMap['Z'] = 'Exclude';
+featureExcludeMap['large-S'] = 'Exclude';
+
 // Iterate through genera
 _.each(generaArray, function(genusName) {
     inheritFeaturesFromGenusMaster(genusName);
@@ -48,12 +54,18 @@ function inheritFeaturesFromGenusMaster(genusName) {
 	
 			for(var k = 0; k < featuresToInherit.length; k++) {
 				var featureID = featuresToInherit[k];
-				glue.logInfo(" Inheriting feature: "+featureID+" from "+genusRefMaster+" to "+refSeqObj.name);		
 
-				glue.inMode("reference/"+refSeqObj.name, function() {
-					glue.command(["inherit", "feature-location", 			
-						genusAlignment, "-l", genusRefMaster, featureID]);
-				});
+		        if (featureExcludeMap[featureID]) {
+		            // exclude
+		        }
+		        else {
+		    		glue.logInfo(" Inheriting feature: "+featureID+" from "+genusRefMaster+" to "+refSeqObj.name);
+		    				
+					glue.inMode("reference/"+refSeqObj.name, function() {
+						glue.command(["inherit", "feature-location", 			
+							genusAlignment, "-l", genusRefMaster, featureID]);
+					});
+			    }
 			}			
 		}
 	});

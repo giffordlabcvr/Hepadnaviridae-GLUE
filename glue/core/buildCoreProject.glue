@@ -37,6 +37,9 @@ project hepadnaviridae
   run file glue/core/hepadnaviridaeAlignments.glue
   run file glue/core/hepadnaviridaeAlignmentTree.glue
 
+  # Record feature coverage in alignments
+  run file glue/core/hepadnaviridaeRecordFeaturePresence.glue
+
   # Inherit feature locations to non-master references
   run script glue/core/hepadnaviridaeInheritFeatureLocations.js
   #run file glue/core/fixFeatureLocations.glue
