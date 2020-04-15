@@ -16,8 +16,8 @@ alignment AL_RT_Root_MASTER
 
 alignment AL_Hepadnaviridae_MASTER
 
-  extract child AL_Nakedna -r REF_Nackedna_MASTER_ACNDV
-  demote member AL_Nakedna --whereClause "sequence.genus = 'Nakednavirus'"
+  extract child AL_GENUS_Nakedna -r REF_Nackedna_MASTER_ACNDV
+  demote member AL_GENUS_Nakedna --whereClause "sequence.genus = 'Nakednavirus'"
 
   extract child AL_Hepadna_Env -r REF_Ortho_MASTER_HBV
   demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Orthohepadnavirus'"
@@ -36,14 +36,14 @@ alignment AL_Hepadna_Env
   extract child AL_Avihepadna -r REF_Ave_MASTER_DHBV
   demote member AL_Avihepadna --whereClause "sequence.genus = 'Avihepadnavirus'"
 
-  extract child AL_Herpetohepadna -r REF_Herpeto_MASTER_tfHBV
-  demote member AL_Herpetohepadna --whereClause "sequence.genus = 'Herpetohepadnavirus'"
+  extract child AL_GENUS_Herpeto -r REF_Herpeto_MASTER_tfHBV
+  demote member AL_GENUS_Herpeto --whereClause "sequence.genus = 'Herpetohepadnavirus'"
 
-  extract child AL_Metahepadna -r REF_Meta_MASTER_bgHBV
-  demote member AL_Metahepadna --whereClause "sequence.genus = 'Metahepadnavirus'"
+  extract child AL_GENUS_Meta -r REF_Meta_MASTER_bgHBV
+  demote member AL_GENUS_Meta --whereClause "sequence.genus = 'Metahepadnavirus'"
 
-  extract child AL_Parahepadna -r REF_Para_MASTER_wsHBV
-  demote member AL_Parahepadna --whereClause "sequence.genus = 'Parahepadnavirus'"
+  extract child AL_GENUS_Para -r REF_Para_MASTER_wsHBV
+  demote member AL_GENUS_Para --whereClause "sequence.genus = 'Parahepadnavirus'"
   exit
 
 
@@ -52,7 +52,7 @@ alignment AL_Hepadnaviridae_MASTER
   derive segments AL_UNC_HEPADNAVIRIDAE -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Nakedna
+alignment AL_GENUS_Nakedna
   derive segments AL_UNC_NAKEDNA -a --mergeStrategy OVERWRITE
   exit
 
@@ -61,22 +61,22 @@ alignment AL_Hepadna_Env
   exit
 
 alignment AL_Orthohepadna
-  derive segments AL_UNC_ORTHOHEPADNA -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_GENUS_ORTHO -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_Avihepadna
-  derive segments AL_UNC_AVEHEPADNA -a --mergeStrategy OVERWRITE
+  derive segments AL_UNC_GENUS_AVI -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Herpetohepadna
-  derive segments AL_UNC_HERPETOHEPADNA -a --mergeStrategy OVERWRITE
+alignment AL_GENUS_Herpeto
+  derive segments AL_UNC_GENUS_HERPETO -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Parahepadna
-  derive segments AL_UNC_PARAHEPADNA -a --mergeStrategy OVERWRITE
+alignment AL_GENUS_Para
+  derive segments AL_UNC_GENUS_PARA -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Metahepadna
-  derive segments AL_UNC_METAHEPADNA -a --mergeStrategy OVERWRITE
+alignment AL_GENUS_Meta
+  derive segments AL_UNC_GENUS_META -a --mergeStrategy OVERWRITE
   exit
 

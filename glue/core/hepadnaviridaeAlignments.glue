@@ -8,16 +8,16 @@ module unconstrainedAlignmentImporter
   import AL_UNC_HEPADNAVIRIDAE  -f alignments/core/internal/hepadna-root.aln.fna
 
   #~# Enveloped hepadnaviruses (no nackedna)
-  import AL_UNC_HEPADNA_ENV     -f alignments/core/internal/hepadna-env.aln.fna
+  #import AL_UNC_HEPADNA_ENV     -f alignments/core/internal/hepadna-env.aln.fna
 
   #~# Hepadnavirus genera
-  import AL_UNC_AVEHEPADNA      -f alignments/core/internal/genus-avehepadna.aln.fna
-  import AL_UNC_HERPETOHEPADNA  -f alignments/core/internal/genus-herpetohepadna.aln.fna
-  import AL_UNC_PARAHEPADNA     -f alignments/core/internal/genus-parahepadna.aln.fna
-  import AL_UNC_METAHEPADNA     -f alignments/core/internal/genus-metahepadna.aln.fna
-  import AL_UNC_ORTHOHEPADNA    -f alignments/core/internal/genus-orthohepadna.aln.fna
+  import AL_UNC_GENUS_AVI      -f alignments/core/internal/genus-avihepadna.aln.fna
+  import AL_UNC_GENUS_HERPETO  -f alignments/core/internal/genus-herpetohepadna.aln.fna
+  import AL_UNC_GENUS_PARA     -f alignments/core/internal/genus-parahepadna.aln.fna
+  import AL_UNC_GENUS_META     -f alignments/core/internal/genus-metahepadna.aln.fna
+  import AL_UNC_GENUS_ORTHO    -f alignments/core/internal/genus-orthohepadna.aln.fna
 
   #~# Nakednavirus genera
-  import AL_UNC_NAKEDNA         -f alignments/core/internal/genus-nakedna.aln.fna
+  import AL_UNC_GENUS_NAKEDNA  -f alignments/core/internal/genus-nakedna.aln.fna
   
   exit
