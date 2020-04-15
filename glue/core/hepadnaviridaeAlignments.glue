@@ -18,6 +18,6 @@ module unconstrainedAlignmentImporter
   import AL_UNC_GENUS_ORTHO    -f alignments/core/internal/genus-orthohepadna.aln.fna
 
   #~# Nakednavirus
-  import AL_UNC_NAKEDNA  -f alignments/core/internal/genus-nakedna.aln.fna
+  import AL_UNC_NAKEDNA  -f alignments/core/internal/nakedna.aln.fna
   
   exit
