@@ -35,9 +35,9 @@
   feature Core set metatag CODES_AMINO_ACIDS true
 
   create feature SP -p Core "Signal peptide"
-  feature alpha3 set field displayName "Signal peptide"
-  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
-  feature alpha3 set metatag CODES_AMINO_ACIDS true
+  feature SP set field displayName "Signal peptide"
+  feature SP set metatag INCLUDE_IN_SUMMARY true
+  feature SP set metatag CODES_AMINO_ACIDS true
 
   create feature alpha1 -p Core "Alpha 1"
   feature alpha1 set field displayName "Alpha 1"
