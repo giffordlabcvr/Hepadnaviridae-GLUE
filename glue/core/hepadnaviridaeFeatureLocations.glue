@@ -6,13 +6,17 @@
     add segment 1816 2454
     exit
   
+  add feature-location SP
+  feature-location SP
+    add segment 1816 1902
+    exit
+  
   add feature-location Polymerase
   feature-location Polymerase
     add segment 2309 3181  --spliceIndex 1
     #add segment 1 1625  --spliceIndex 2
     exit
   
-
   add feature-location large-S
   feature-location large-S
     add segment 2850 3182 --spliceIndex 1
