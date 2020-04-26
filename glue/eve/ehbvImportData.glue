@@ -8,8 +8,3 @@
     populate -f tabular/eve/ehbv-refseqs-side-data.tsv
     exit
 
-  # Import metadata for individual EVE sequences
-  module ehbvSideDataImporter 
-    populate -f tabular/locus/ehbv-side-data.tsv
-    exit
-
