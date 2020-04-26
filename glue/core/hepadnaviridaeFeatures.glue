@@ -34,6 +34,51 @@
   feature Core set metatag INCLUDE_IN_SUMMARY true
   feature Core set metatag CODES_AMINO_ACIDS true
 
+  create feature SP -p Core "Signal peptide"
+  feature alpha3 set field displayName "Signal peptide"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha1 -p Core "Alpha 1"
+  feature alpha1 set field displayName "Alpha 1"
+  feature alpha1 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha1 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha2 -p Core "Alpha 2"
+  feature alpha2 set field displayName "Alpha 2"
+  feature alpha2 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha2 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha2b -p Core "Alpha 2b"
+  feature alpha2b set field displayName "Alpha 2b"
+  feature alpha2b set metatag INCLUDE_IN_SUMMARY true
+  feature alpha2b set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha3 -p Core "Alpha 3"
+  feature alpha3 set field displayName "Alpha 3"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha3b -p Core "Alpha 3b"
+  feature alpha3 set field displayName "Alpha 3b"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha4 -p Core "Alpha 4"
+  feature alpha3 set field displayName "Alpha 4"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha5 -p Core "Alpha 5"
+  feature alpha3 set field displayName "Alpha 5"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature nabd -p Core "Nucleic acid binding domain"
+  feature alpha3 set field displayName "Nucleic acid binding domain"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
   create feature Polymerase -p whole_genome "Polymerase"
   feature Polymerase set field displayName "Polymerase"
   feature Polymerase set metatag OWN_CODON_NUMBERING true
