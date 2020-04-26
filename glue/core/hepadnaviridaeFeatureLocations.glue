@@ -20,7 +20,32 @@
   feature-location alpha2
     add segment 1981 2013
     exit
-  
+
+  add feature-location alpha2b
+  feature-location alpha2b
+    add segment 2014 2031
+    exit
+
+  add feature-location alpha3
+  feature-location alpha3
+    add segment 2137 2172
+    exit
+
+  add feature-location alpha3b
+  feature-location alpha3b
+    add segment 2176 2232
+    exit
+
+  add feature-location alpha4
+  feature-location alpha4
+    add segment 2236 2283
+    exit
+
+  add feature-location nabd
+  feature-location nabd
+    add segment 2350 2454
+    exit
+
   add feature-location Polymerase
   feature-location Polymerase
     add segment 2309 3181  --spliceIndex 1

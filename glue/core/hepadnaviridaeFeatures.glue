@@ -133,17 +133,14 @@
   feature X set metatag INCLUDE_IN_SUMMARY true
   feature X set metatag CODES_AMINO_ACIDS true
 
+
+  # Non-orthohepadnavirus features
+
   create feature Y -p whole_genome "ORF Y"
   feature Y set field displayName "ORF Y"
   feature Y set metatag OWN_CODON_NUMBERING true
   feature Y set metatag INCLUDE_IN_SUMMARY true
   feature Y set metatag CODES_AMINO_ACIDS true
-
-  create feature TP -p whole_genome "TP"
-  feature TP set field displayName "TP"
-  feature TP set metatag OWN_CODON_NUMBERING true
-  feature TP set metatag INCLUDE_IN_SUMMARY true
-  feature TP set metatag CODES_AMINO_ACIDS true
 
   create feature Z -p whole_genome "ORF Z"
   feature Z set field displayName "ORF Z"
