@@ -28,7 +28,7 @@ project hepadnaviridae
   run file glue/eve/ehbvAlignmentTree.glue
 
   # Record feature presence
-  run file glue/eve/ehbvRecordFeaturePresence.glue
+  #run file glue/eve/ehbvRecordFeaturePresence.glue
 
   # Validate
   validate
