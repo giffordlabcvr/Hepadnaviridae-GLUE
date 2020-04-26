@@ -85,13 +85,25 @@
   feature Polymerase set metatag INCLUDE_IN_SUMMARY true
   feature Polymerase set metatag CODES_AMINO_ACIDS true
 
-  create feature RT -p Polymerase "RT"
+  create feature spacer -p Polymerase "Spacer protein"
+  feature spacer set field displayName "Spacer"
+  feature spacer set metatag OWN_CODON_NUMBERING true
+  feature spacer set metatag INCLUDE_IN_SUMMARY true
+  feature spacer set metatag CODES_AMINO_ACIDS true
+
+  create feature TP -p Polymerase "Terminal protein domain"
+  feature TP set field displayName "Terminal"
+  feature TP set metatag OWN_CODON_NUMBERING true
+  feature TP set metatag INCLUDE_IN_SUMMARY true
+  feature TP set metatag CODES_AMINO_ACIDS true
+
+  create feature RT -p Polymerase "RT domain"
   feature RT set field displayName "RT"
   feature RT set metatag OWN_CODON_NUMBERING true
   feature RT set metatag INCLUDE_IN_SUMMARY true
   feature RT set metatag CODES_AMINO_ACIDS true
 
-  create feature RH -p Polymerase "RH"
+  create feature RH -p Polymerase "RNase-H domain"
   feature RH set field displayName "RH"
   feature RH set metatag OWN_CODON_NUMBERING true
   feature RH set metatag INCLUDE_IN_SUMMARY true

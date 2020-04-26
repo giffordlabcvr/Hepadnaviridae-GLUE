@@ -10,6 +10,16 @@
   feature-location SP
     add segment 1816 1902
     exit
+
+  add feature-location alpha1
+  feature-location alpha1
+    add segment 1939 1950
+    exit
+
+  add feature-location alpha2
+  feature-location alpha2
+    add segment 1981 2013
+    exit
   
   add feature-location Polymerase
   feature-location Polymerase
