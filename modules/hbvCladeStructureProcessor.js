@@ -8,7 +8,7 @@
 
 
 function getRefSeqName(alignmentObj, refSeqObj) {
-	return "REF_"+getCladeID(alignmentObj)+"_"+refSeqObj.sequenceID;
+	return "REF_HBV_"+getCladeID(alignmentObj)+"_"+refSeqObj.sequenceID;
 }
 
 function getCladeID(alignmentObj) {

@@ -2,18 +2,21 @@ glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name 
 
 var refSeqObjs = glue.tableToObjects(glue.command(["list", "reference", "-w", "name like 'REF_HBV_%'", "name", "sequence.gb_length"]));
 
-// pre-Core is allowed to be non-functional. This happens sometimes and is well documented.
-
+// pre-Core is allowed to be non-functional. This happens sometimes and is well documented.=
 var codingFeaturesToCheck = ["X", "S", "PRE_S2", "PRE_S1", /*"PRE_C",*/ "P", "C"];
 
 var problematicRefs = {};
 
 _.each(refSeqObjs, function(refSeqObj) {
+	
+	 glue.logInfo("Processing refseq: "+refSeqObj.name);
+
 	glue.inMode("reference/"+refSeqObj.name, function() {
 		glue.command(["add", "feature-location", "whole_genome"]);
 		glue.inMode("feature-location/whole_genome", function() {
 			glue.command(["add", "segment", 1, refSeqObj["sequence.gb_length"]]);
 		});
+		
 		glue.command(["inherit", "feature-location", 
 			"--recursive", "--spanGaps", 
 			"AL_UNCONSTRAINED", "--relRefName", "REF_NUMBERING_X02763", "whole_genome"]);
