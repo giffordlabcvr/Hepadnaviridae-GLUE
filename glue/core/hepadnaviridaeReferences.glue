@@ -1,7 +1,7 @@
   # Declare reference sequences
 
   # Ortho
-  create reference REF_Ortho_MASTER_HBV       ncbi-refseqs NC_003977
+  create reference REF_MASTER_NC_003977       ncbi-refseqs NC_003977  # HBV genotype D
   create reference REF_Ortho_WMHBV            ncbi-refseqs NC_028129
   create reference REF_Ortho_GSHV             ncbi-refseqs NC_001484
   create reference REF_Ortho_HsbHBV           ncbi-refseqs NC_024444
@@ -54,13 +54,5 @@
   create reference REF_Nackedna_YDNDV         fasta-refseqs YDNDV
   create reference REF_Nackedna_SNDV          fasta-refseqs SNDV
   create reference REF_Nackedna_KNDV-Lp-2     fasta-refseqs KNDV-Lp-2
-
-
-
-
-
-
-
-
 
 

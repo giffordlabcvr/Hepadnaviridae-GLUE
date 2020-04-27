@@ -10,36 +10,30 @@ project hepadnaviridae
   import source sources/ncbi-refseqs/
   import source sources/fasta-refseqs/
 
-  # Create links to isolate table for all viruses
-  run script glue/core/hepadnaviridaeLoadIsolateData.js
-
-  # Populate tables from GenBank files
-  module genbankXmlPopulator populate
-
-  # Import metadata for exogenous reference sequences from tabular
-  module hepadnaviridaeSideDataImporter 
-    populate -f tabular/core/hepadna-ncbi-refseqs-side-data.tsv
-    exit
-  
-  # Define genome features
+  # Define HBV genome features
   run file glue/core/hepadnaviridaeFeatures.glue
 
-  # Create virus reference sequences
-  run file glue/core/hepadnaviridaeReferences.glue
-
-  # Apply rotations
-  run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
-
-  # Add feature locations to genus master reference sequences
-  run file glue/core/hepadnaviridaeFeatureLocations.glue
-
+  # Load sequence-associated data for Hepadnaviridae reference sequences (exogenous)
+  run file glue/hepadnaviridaeLoadreferenceData.glue
+  
   # Import alignments
   run file glue/core/hepadnaviridaeAlignments.glue
-  run file glue/core/hepadnaviridaeAlignmentTree.glue
 
   # Record feature coverage in alignments
   run file glue/core/hepadnaviridaeRecordFeaturePresence.glue
 
+
+
+  # The master reference sequence used in this project is hepatitis B virus (HBV)
+  # We use set up the HBV master reference in line with HBV-GLUE (hbv-glue.cvr.gla.ac.uk)
+  run file glue/core/setUpMasterReferenceInLineWithHbvGlue.glue
+
+  # Declare hepadnaviridae reference sequences
+  run file glue/core/hepadnaviridaeReferences.glue
+  #run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
+
+  # Add feature locations to genus master reference sequences
+  run file glue/core/hepadnaviridaeFeatureLocations.glue
   # Inherit feature locations to non-master references
   #run script glue/core/hepadnaviridaeInheritFeatureLocations.js
   #run file glue/core/fixFeatureLocations.glue
@@ -47,6 +41,9 @@ project hepadnaviridae
   # Add variations
   run file glue/core/hepadnaviridaeVariations.glue
 
+  # import the reference phylogeny into the alignment tree
+  #run file glue/hepadnaviridaeImportPhylogeny.glue
+  
   # Validate
   validate
   

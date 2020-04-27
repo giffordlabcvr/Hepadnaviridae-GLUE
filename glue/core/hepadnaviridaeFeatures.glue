@@ -28,11 +28,20 @@
   feature HBeAg set metatag INCLUDE_IN_SUMMARY true
   feature HBeAg set metatag CODES_AMINO_ACIDS true
 
-  create feature Core -p whole_genome "Core"
-  feature Core set field displayName "Core"
-  feature Core set metatag OWN_CODON_NUMBERING true
-  feature Core set metatag INCLUDE_IN_SUMMARY true
-  feature Core set metatag CODES_AMINO_ACIDS true
+
+  # CAPSID
+
+  create feature PRE_C -p whole_genome "Pre-Core protein"
+  feature PRE_C set field displayName "Core"
+  feature PRE_C set metatag OWN_CODON_NUMBERING true
+  feature PRE_C set metatag INCLUDE_IN_SUMMARY true
+  feature PRE_C set metatag CODES_AMINO_ACIDS true
+
+  create feature C -p whole_genome "Core protein"
+  feature C set field displayName "C"
+  feature C set metatag OWN_CODON_NUMBERING true
+  feature C set metatag INCLUDE_IN_SUMMARY true
+  feature C set metatag CODON_LABELER_MODULE hbvCodonLabeler
 
   create feature SP -p Core "Signal peptide"
   feature SP set field displayName "Signal peptide"
@@ -79,41 +88,55 @@
   feature alpha3 set metatag INCLUDE_IN_SUMMARY true
   feature alpha3 set metatag CODES_AMINO_ACIDS true
 
-  create feature Polymerase -p whole_genome "Polymerase"
-  feature Polymerase set field displayName "Polymerase"
-  feature Polymerase set metatag OWN_CODON_NUMBERING true
-  feature Polymerase set metatag INCLUDE_IN_SUMMARY true
-  feature Polymerase set metatag CODES_AMINO_ACIDS true
 
-  create feature spacer -p Polymerase "Spacer protein"
+  # POLYMERASE
+
+  create feature P -p whole_genome "Polymerase"
+  feature P set field displayName "P"
+  feature P set metatag OWN_CODON_NUMBERING true
+  feature P set metatag INCLUDE_IN_SUMMARY true
+  feature P set metatag CODES_AMINO_ACIDS true
+
+  create feature spacer -p P "Spacer protein"
   feature spacer set field displayName "Spacer"
   feature spacer set metatag OWN_CODON_NUMBERING true
   feature spacer set metatag INCLUDE_IN_SUMMARY true
   feature spacer set metatag CODES_AMINO_ACIDS true
 
-  create feature TP -p Polymerase "Terminal protein domain"
-  feature TP set field displayName "Terminal"
-  feature TP set metatag OWN_CODON_NUMBERING true
-  feature TP set metatag INCLUDE_IN_SUMMARY true
-  feature TP set metatag CODES_AMINO_ACIDS true
-
-  create feature RT -p Polymerase "RT domain"
+  create feature RT -p P "RT domain"
   feature RT set field displayName "RT"
   feature RT set metatag OWN_CODON_NUMBERING true
   feature RT set metatag INCLUDE_IN_SUMMARY true
   feature RT set metatag CODES_AMINO_ACIDS true
 
-  create feature RH -p Polymerase "RNase-H domain"
+  create feature RH -p P "RNase-H domain"
   feature RH set field displayName "RH"
   feature RH set metatag OWN_CODON_NUMBERING true
   feature RH set metatag INCLUDE_IN_SUMMARY true
   feature RH set metatag CODES_AMINO_ACIDS true
 
-  create feature large-S -p whole_genome "large-S"
-  feature large-S set field displayName "large-S"
-  feature large-S set metatag OWN_CODON_NUMBERING true
-  feature large-S set metatag INCLUDE_IN_SUMMARY true
-  feature large-S set metatag CODES_AMINO_ACIDS true
+  create feature TP -p P "Terminal protein domain"
+  feature TP set field displayName "Terminal"
+  feature TP set metatag OWN_CODON_NUMBERING true
+  feature TP set metatag INCLUDE_IN_SUMMARY true
+  feature TP set metatag CODES_AMINO_ACIDS true
+
+
+  # ENVELOPE
+
+  # "For the HBV master reference, amino acid numbering restarts at the first methionine of each of the subparts."
+  # https://doi.org/10.1053/jhep.2001.22166 
+  create feature S -p whole_genome "Large surface protein"
+  feature S set field displayName "S"
+  feature S set metatag OWN_CODON_NUMBERING true
+  feature S set metatag INCLUDE_IN_SUMMARY true
+  feature S set metatag CODES_AMINO_ACIDS true
+
+  create feature S -p whole_genome "Large surface protein"
+  feature S set field displayName "S"
+  feature S set metatag OWN_CODON_NUMBERING true
+  feature S set metatag INCLUDE_IN_SUMMARY true
+  feature S set metatag CODES_AMINO_ACIDS true
 
   create feature medium-S -p whole_genome "middle surface protein"
   feature medium-S set field displayName "middle surface protein"
@@ -133,8 +156,23 @@
   feature X set metatag INCLUDE_IN_SUMMARY true
   feature X set metatag CODES_AMINO_ACIDS true
 
+  # Subunits of envelope
+  create feature PRE_S1 -p whole_genome "Pre-S1 subunit"
+  feature PRE_S1 set field displayName "Pre-S1"
+  feature PRE_S1 set metatag OWN_CODON_NUMBERING true
+  feature PRE_S1 set metatag INCLUDE_IN_SUMMARY true
+  feature PRE_S1 set metatag CODES_AMINO_ACIDS true
+  feature PRE_S1 set metatag CIRCULAR_BRIDGING true
 
-  # Non-orthohepadnavirus features
+  create feature PRE_S2 -p whole_genome "Pre-S2 subunit"
+  feature PRE_S2 set field displayName "Pre-S2"
+  feature PRE_S2 set metatag OWN_CODON_NUMBERING true
+  feature PRE_S2 set metatag INCLUDE_IN_SUMMARY true
+  feature PRE_S2 set metatag CODES_AMINO_ACIDS true
+  feature PRE_S2 set metatag CIRCULAR_BRIDGING true
+
+
+  # Non-orthohepadnavirus coding features
 
   create feature Y -p whole_genome "ORF Y"
   feature Y set field displayName "ORF Y"
