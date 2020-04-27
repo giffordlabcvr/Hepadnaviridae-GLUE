@@ -1,0 +1,40 @@
+  create feature alpha1 -p C "Alpha helix 1 loop"
+  feature alpha1 set field displayName "Alpha helix 1"
+  feature alpha1 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha1 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha2 -p C "Alpha helix 2"
+  feature alpha2 set field displayName "Alpha helix 2"
+  feature alpha2 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha2 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha2b -p C "Alpha helix 2b"
+  feature alpha2b set field displayName "Alpha helix 2b"
+  feature alpha2b set metatag INCLUDE_IN_SUMMARY true
+  feature alpha2b set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha3 -p C "Alpha helix 3"
+  feature alpha3 set field displayName "Alpha helix 3"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha3b -p C "Alpha helix 3b"
+  feature alpha3 set field displayName "Alpha helix 3b"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha4 -p C "Alpha helix 4"
+  feature alpha3 set field displayName "Alpha helix 4"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha5 -p C "Alpha helix 5"
+  feature alpha3 set field displayName "Alpha helix 5"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+
+  create feature nabd -p C "Nucleic acid binding domain"
+  feature alpha3 set field displayName "Nucleic acid binding domain"
+  feature alpha3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha3 set metatag CODES_AMINO_ACIDS true
+

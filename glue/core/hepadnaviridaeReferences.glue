@@ -1,7 +1,12 @@
   # Declare reference sequences
 
+  # Ortho HBV primate
+  create reference REF_HBV_MASTER_NC_003977   ncbi-refseqs NC_003977  # HBV genotype D
+  create reference REF_HBV_WMHBV_AF046996     ncbi-refseqs AF046996  
+  create reference REF_HBV_CMHBV_KY703886     ncbi-refseqs KY703886  
+  
   # Ortho
-  create reference REF_MASTER_NC_003977       ncbi-refseqs NC_003977  # HBV genotype D
+  create reference REF_Ortho_MASTER_HBV       ncbi-refseqs NC_003977  # HBV genotype D
   create reference REF_Ortho_WMHBV            ncbi-refseqs NC_028129
   create reference REF_Ortho_GSHV             ncbi-refseqs NC_001484
   create reference REF_Ortho_HsbHBV           ncbi-refseqs NC_024444
@@ -12,6 +17,7 @@
   create reference REF_Ortho_DCHBV            ncbi-refseqs MH307930
   create reference REF_Ortho_ClHBV            ncbi-refseqs MH484442
   create reference REF_Ortho_ASHV             ncbi-refseqs U29144
+
 
   # Avi
   create reference REF_Avi_MASTER_DHBV        ncbi-refseqs NC_001344

@@ -1,0 +1,8 @@
+delete alignment AL_UNCONSTRAINED
+delete module hbvMcNaughton2019AlignmentImporter
+
+create module hbvMcNaughton2019AlignmentImporter -f modules/hbvMcNaughton2019AlignmentImporter.xml
+
+module hbvMcNaughton2019AlignmentImporter 
+  import AL_UNCONSTRAINED -f alignments/core/internal/McNaughton2019_refs_plus_outgroups.fna
+  exit

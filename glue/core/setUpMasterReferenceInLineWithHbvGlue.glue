@@ -1,0 +1,15 @@
+ 
+   # Import unconstrained alignment
+  run file glue/core/hbvUnconstrainedAlignment.glue
+  
+  # Rotate master/numbering reference sequences to the standard HBV numbering where necessary
+  run script glue/core/hbvRefseqsApplyRotations.js
+
+  # Create numbering reference
+  create reference REF_NUMBERING_X02763 ncbi-refseqs X02763
+
+  # Feature locations on the numbering reference
+  run file glue/core/hbvFeatureLocations.glue
+  
+  # inherit feature locations across other primate references
+  run script glue/core/hbvRefseqsInheritFeatureLocations.js

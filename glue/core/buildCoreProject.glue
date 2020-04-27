@@ -8,35 +8,39 @@ project hepadnaviridae
 
   # Import exogenous sources and data 
   import source sources/ncbi-refseqs/
+  import source sources/ncbi-outgroups/
   import source sources/fasta-refseqs/
 
   # Define HBV genome features
   run file glue/core/hepadnaviridaeFeatures.glue
 
   # Load sequence-associated data for Hepadnaviridae reference sequences (exogenous)
-  run file glue/hepadnaviridaeLoadreferenceData.glue
+  run file glue/core/hepadnaviridaeLoadreferenceData.glue
+
+  # Declare hepadnaviridae reference sequences
+  run file glue/core/hepadnaviridaeReferences.glue
   
   # Import alignments
   run file glue/core/hepadnaviridaeAlignments.glue
 
-  # Record feature coverage in alignments
-  run file glue/core/hepadnaviridaeRecordFeaturePresence.glue
-
-
+  # Define alignment tree 
+  run file glue/core/hepadnaviridaeAlignmentTree.glue
 
   # The master reference sequence used in this project is hepatitis B virus (HBV)
   # We use set up the HBV master reference in line with HBV-GLUE (hbv-glue.cvr.gla.ac.uk)
   run file glue/core/setUpMasterReferenceInLineWithHbvGlue.glue
 
-  # Declare hepadnaviridae reference sequences
-  run file glue/core/hepadnaviridaeReferences.glue
   #run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
 
   # Add feature locations to genus master reference sequences
   run file glue/core/hepadnaviridaeFeatureLocations.glue
+  
   # Inherit feature locations to non-master references
   #run script glue/core/hepadnaviridaeInheritFeatureLocations.js
   #run file glue/core/fixFeatureLocations.glue
+
+  # Record feature coverage in alignments
+  run file glue/core/hepadnaviridaeRecordFeaturePresence.glue
 
   # Add variations
   run file glue/core/hepadnaviridaeVariations.glue

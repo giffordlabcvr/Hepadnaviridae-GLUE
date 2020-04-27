@@ -1,4 +1,7 @@
 <genbankXmlPopulator>
+	<gbLength>
+		<propertyPopulator property="gb_length"/>
+	</gbLength>
 	
 	<gbFeature key="source">
 	

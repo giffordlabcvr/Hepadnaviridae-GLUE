@@ -5,8 +5,15 @@
     create field genus VARCHAR 50
     create field clade VARCHAR 50
     create field type VARCHAR 20
+    create field gb_length INTEGER
+ 
+   # set based on hbvBlastSequenceRotator result
     create field rotation INTEGER
+    
+    # set to true if the hbvSequenceRecogniser determines reverse complement, or false if it determines forward, null otherwise.
     create field reverse_complement BOOLEAN
+    create field non_n_length INTEGER
+
   exit
 
   table alignment

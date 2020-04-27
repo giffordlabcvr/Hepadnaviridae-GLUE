@@ -1,6 +1,6 @@
-glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name != 'REF_NUMBERING_X02763'"]);
+glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name like 'REF_HBV_%'"]);
 
-var refSeqObjs = glue.tableToObjects(glue.command(["list", "reference", "-w", "name != 'REF_NUMBERING_X02763'", "name", "sequence.gb_length"]));
+var refSeqObjs = glue.tableToObjects(glue.command(["list", "reference", "-w", "name like 'REF_HBV_%'", "name", "sequence.gb_length"]));
 
 // pre-Core is allowed to be non-functional. This happens sometimes and is well documented.
 
