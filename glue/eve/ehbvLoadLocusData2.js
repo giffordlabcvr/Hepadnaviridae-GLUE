@@ -23,6 +23,9 @@ _.each(loadResult, function(eveObj) {
 
 		glue.command(["set", "field", "name", eveObj.locus_id]);
 		glue.command(["set", "field", "full_name", eveObj.locus_id]);
+		glue.command(["set", "field", "family", eveObj.virus_family]);
+		glue.command(["set", "field", "genus", eveObj.virus_genus]);
+		glue.command(["set", "field", "clade", eveObj.virus_clade]);
 
 	});
 
