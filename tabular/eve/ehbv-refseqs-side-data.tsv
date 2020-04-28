@@ -1,30 +1,48 @@
-id	locus_id	full_name	family	genus	clade	host_sci_name	host_common_name
-HEART-con	HEART-con-DS633349	HEART consensus DS633349	HEART	HEART		Ixodes	Ticks
-ehbv-herpeto.1-serpentes-con	ehbv-herpeto.1-serpentes-con	Endogenous x 1	Hepadnaviridae	Herpetohepadnavirus		Serpentes	null
-ehbv-herpeto.3-crocodilia-con	ehbv-herpeto.3-crocodilia-con	Endogenous herpetohepadnavirus 3	Hepadnaviridae	Herpetohepadnavirus		Crocodilia	null
-ehbv-herpeto.5-testudines-con	ehbv-herpeto.5-testudines-con	Endogenous herpetohepadnavirus 5	Hepadnaviridae	Herpetohepadnavirus		Testudines	null
-ehbv-herpeto.6-varanus-con	ehbv-herpeto.6-varanus-con	Endogenous herpetohepadnavirus 6	Hepadnaviridae	Herpetohepadnavirus		Varanus	null
-ehbv-herpeto.7-paroedura	ehbv-herpeto.7-paroedura	Endogenous herpetohepadnavirus 7	Hepadnaviridae	Herpetohepadnavirus		Paroedura	null
-ehbv-meta.1-sphenodon	ehbv-meta.1-sphenodon	Endogenous metahepadnavirus 1	Hepadnaviridae	Metahepadnavirus		Sphenodon	null
-ehbv-meta.2-paroedura	ehbv-meta.2-paroedura	ehbv-meta.2-paroedura	Hepadnaviridae	Metahepadnavirus		paroedura	null
-ehbv-meta.3-pelusios	ehbv-meta.3-pelusios	ehbv-meta.3-pelusios	Hepadnaviridae	Metahepadnavirus		pelusios	null
-ehbv-meta.4-pelusios	ehbv-meta.4-pelusios	ehbv-meta.4-pelusios	Hepadnaviridae	Metahepadnavirus		pelusios	null
-ehbv-meta.5-neoavis	ehbv-meta.5-neoaves	Endogenous metahepadnavirus 2	Hepadnaviridae	Metahepadnavirus		neoaves	null
-ehbv-avi.1-neognathae-con	ehbv-ave.1-neognathea	Endogenous avihepadnavirus 1	Hepadnaviridae	Avihepadnavirus		Neognathae	null
-ehbv-avi.2-passeriformes	ehbv-ave.2-passeriformes	Endogenous avihepadnavirus 2	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
-ehbv-avi.3-passeriformes	ehbv-ave.3-passeriformes	Endogenous avihepadnavirus 3	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
-ehbv-avi.5-passeriformes	ehbv-ave.5-passeriformes	Endogenous avihepadnavirus 4	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
-ehbv-avi.6-passeriformes	ehbv-ave.6-passeriformes	Endogenous avihepadnavirus 6	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
-ehbv-avi.7-passeriformes	ehbv-ave.7-passeriformes	Endogenous avihepadnavirus 7	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
-ehbv-avi.8-passeriformes	ehbv-ave.8-passeriformes	Endogenous avihepadnavirus 8	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
-ehbv-avi.9-melopsittacus	ehbv-ave.9-melopsittacus	Endogenous avihepadnavirus 9	Hepadnaviridae	Avihepadnavirus		Melopsittacus	null
-ehbv-avi.10-melopsittacus	ehbv-ave.10-melopsittacus	Endogenous avihepadnavirus 10	Hepadnaviridae	Avihepadnavirus		Melopsittacus	null
-ehbv-avi.11-tyto	ehbv-ave.11-tyto	Endogenous avihepadnavirus 11	Hepadnaviridae	Avihepadnavirus		Tyto	null
-ehbv-avi.12-anser	ehbv-ave.12-anser	Endogenous avihepadnavirus 12	Hepadnaviridae	Avihepadnavirus		Anser	null
-ehbv-avi.13-paleognathae-con	ehbv-ave.13-paleognathae-con	Endogenous avihepadnavirus 13	Hepadnaviridae	Avihepadnavirus		Paleognathae	null
-ehbv-avi.14-gaviiformes	ehbv-ave.14-gaviiformes	Endogenous avihepadnavirus 14	Hepadnaviridae	Avihepadnavirus		Gaviiformes	null
-ehbv-avi.16-accipter	ehbv-ave.16-accipter	Endogenous avihepadnavirus 16	Hepadnaviridae	Avihepadnavirus		Accipiter	null
-ehbv-avi.17-passeriformes-con	ehbv-ave.17-passeriformes-con	Endogenous avihepadnavirus 17	Hepadnaviridae	Avihepadnavirus		Passeriformes	null
-ehbv-avi.18-calypte	ehbv-ave.18-calypte	Endogenous avihepadnavirus 18	Hepadnaviridae	Avihepadnavirus		Calypte	null
-ehbv-avi.19-buceros	ehbv-ave.19-buceros	Endogenous avihepadnavirus 19	Hepadnaviridae	Avihepadnavirus		Buceros	null
-ehbv-avi.20-cariama	ehbv-ave.20-cariama	Endogenous avihepadnavirus 20	Hepadnaviridae	Avihepadnavirus		Cariama	null
+id	full_name	locus_id	locus_numeric_id	num_seqs	included_msa	nearest_upstream_orf	nearest_downstream_orf	minimum_age_ortho	family	genus	clade	host_group_taxlevel	host_group_name	host_sci_name	host_common_name
+HEART-con	HEART consensus DS633349	HEART-con-DS633349			no				TE	TE				Ixodes	Ticks
+ehbv-herpeto.1-serpentes-con	Endogenous x 1	ehbv-herpeto.1-serpentes-con	1		yes	TSHZ1	ZNF516		Hepadnaviridae	Herpetohepadnavirus	null	clade		Serpentes	null
+ehbv-herpeto.3-crocodilia-con	Endogenous herpetohepadnavirus 3	ehbv-herpeto.3-crocodilia-con	2		yes				Hepadnaviridae	Herpetohepadnavirus	null			Crocodilia	null
+ehbv-herpeto.5-testudines-con	Endogenous herpetohepadnavirus 5	ehbv-herpeto.5-testudines-con	5		yes				Hepadnaviridae	Herpetohepadnavirus	null			Testudines	null
+ehbv-herpeto.6-varanus-con	Endogenous herpetohepadnavirus 6	ehbv-herpeto.6-varanus-con	6		yes			N/A	Hepadnaviridae	Herpetohepadnavirus	null	species		Varanus	null
+ehbv-meta.1-sphenodon	Endogenous metahepadnavirus 1	ehbv-meta.1-sphenodon	1	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		Sphenodon	null
+ehbv-meta.2-varanus	Endogenous metahepadnavirus 2	ehbv-meta.2-varanus	2	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		Varanus	
+ehbv-meta.3-paroedura	Endogenous metahepadnavirus 3	ehbv-meta.3-paroedura	3	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		paroedura	null
+ehbv-meta.4-pelusios	Endogenous metahepadnavirus 4	ehbv-meta.4-pelusios	4	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		pelusios	null
+ehbv-meta.5-pelusios	Endogenous metahepadnavirus 5	ehbv-meta.5-pelusios	5	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		pelusios	null
+ehbv-meta.6-neoavis	Endogenous metahepadnavirus 6	ehbv-meta.6-neoaves	6		yes				Hepadnaviridae	Metahepadnavirus	null			neoaves	null
+ehbv-hepadna.1-paroedura	Endogenous hepadnavirus 1	ehbv-hepadna.1-paroedura	1		yes				Hepadnaviridae	Orthohepadnavirus				Paroedura	null
+ehbv-avi.1-neoaves	Endogenous avihepadnavirus 1	ehbv-avi.1-neoaves	1		yes				Hepadnaviridae	Avihepadnavirus				Neognathae	null
+ehbv-avi.2-estrildidae	Endogenous avihepadnavirus 2	ehbv-avi.2-estrildidae	2		yes				Hepadnaviridae	Avihepadnavirus				Passeriformes	null
+ehbv-avi.3-passeriformes	Endogenous avihepadnavirus 3	ehbv-avi.3-passeriformes	3		yes				Hepadnaviridae	Avihepadnavirus				Passeriformes	null
+ehbv-avi.4-passeriformes	Endogenous avihepadnavirus 4	ehbv-avi.4-passeriformes	4		yes				Hepadnaviridae	Avihepadnavirus				Passeriformes	null
+ehbv-avi.5-unranked	Endogenous avihepadnavirus 5	ehbv-avi.5-unranked	5		yes				Hepadnaviridae	Avihepadnavirus				Passeriformes	null
+ehbv-avi.6-passeriformes	Endogenous avihepadnavirus 6	ehbv-avi.6-passeriformes	6		yes				Hepadnaviridae	Avihepadnavirus				Passeriformes	null
+ehbv-avi.7-passeriformes	Endogenous avihepadnavirus 7	ehbv-avi.7-passeriformes	7		yes				Hepadnaviridae	Avihepadnavirus				Passeriformes	null
+ehbv-avi.8-australiaves	Endogenous avihepadnavirus 8	ehbv-avi.8-australiaves	8		yes				Hepadnaviridae	Avihepadnavirus				Melopsittacus	null
+ehbv-avi.9-melopsittacus	Endogenous avihepadnavirus 9	ehbv-avi.9-melopsittacus	9		yes				Hepadnaviridae	Avihepadnavirus				Melopsittacus	null
+ehbv-avi.10-melopsittacus	Endogenous avihepadnavirus 10	ehbv-avi.10-melopsittacus	10		yes	E2F7	neuron navigator 3		Hepadnaviridae	Avihepadnavirus				Tyto	null
+ehbv-avi.11-tyto	Endogenous avihepadnavirus 11	ehbv-avi.11-tyto	11		yes				Hepadnaviridae	Avihepadnavirus				Anser	null
+ehbv-avi.12-anatidae	Endogenous avihepadnavirus 12	ehbv-avi.12-anatidae	12		yes				Hepadnaviridae	Avihepadnavirus				Paleognathae	null
+ehbv-avi.13-paleognathea	Endogenous avihepadnavirus 13	ehbv-avi.13-paleognathea	13		yes				Hepadnaviridae	Avihepadnavirus				Gaviiformes	null
+ehbv-avi.14-gaviiformes	Endogenous avihepadnavirus 14	ehbv-avi.14-gaviiformes	14		yes				Hepadnaviridae	Avihepadnavirus				Gaviiformes	null
+ehbv-avi.15-gaviiformes	Endogenous avihepadnavirus 15	ehbv-avi.15-gaviiformes	15		yes				Hepadnaviridae	Avihepadnavirus				Accipiter	null
+ehbv-avi.16-accipter	Endogenous avihepadnavirus 16	ehbv-avi.16-accipter	16		yes	TIMM21/FBXO15	NETO1/CBLN2/lncRNA		Hepadnaviridae	Avihepadnavirus				Passeriformes	null
+ehbv-avi.17-Passeriformes	Endogenous avihepadnavirus 17	ehbv-avi.17-Passeriformes	17		yes				Hepadnaviridae	Avihepadnavirus				Calypte	null
+ehbv-avi.18-Calypte	Endogenous avihepadnavirus 18	ehbv-avi.18-Calypte	18		no				Hepadnaviridae	Avihepadnavirus				Buceros	null
+ehbv-avi.19-Buceros	Endogenous avihepadnavirus 19	ehbv-avi.19-Buceros	19		yes				Hepadnaviridae	Avihepadnavirus				Cariama	null
+ehbv-avi.20-Cariama	Endogenous avihepadnavirus 20	ehbv-avi.20-Cariama	20		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.21-Paleognathea	Endogenous avihepadnavirus 21	ehbv-avi.21-Paleognathea	21		yes				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.22-Tyto	Endogenous avihepadnavirus 22	ehbv-avi.22-Tyto	22		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.23-Nothoprocta	Endogenous avihepadnavirus 23	ehbv-avi.23-Nothoprocta	23		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.24-Apaloderma	Endogenous avihepadnavirus 24	ehbv-avi.24-Apaloderma	24		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.25-Sphenisciformes	Endogenous avihepadnavirus 25	ehbv-avi.25-Sphenisciformes	25		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.26-Psittaciformes	Endogenous avihepadnavirus 26	ehbv-avi.26-Psittaciformes	26		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.27-Suliformes	Endogenous avihepadnavirus 27	ehbv-avi.27-Suliformes	27		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.28-Amazona	Endogenous avihepadnavirus 28	ehbv-avi.28-Amazona	28		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.29-Psittacula	Endogenous avihepadnavirus 29	ehbv-avi.29-Psittacula	29		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.30-Anser	Endogenous avihepadnavirus 30	ehbv-avi.30-Anser	30		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.31-Passeriformes	Endogenous avihepadnavirus 31	ehbv-avi.31-Passeriformes	31		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.32-Tinamiformes	Endogenous avihepadnavirus 32	ehbv-avi.32-Tinamiformes	32		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.33-Psittaciformes	Endogenous avihepadnavirus 33	ehbv-avi.33-Psittaciformes	33		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.34-Gallirallus	Endogenous avihepadnavirus 34	ehbv-avi.34-Gallirallus	34		no				Hepadnaviridae	Avihepadnavirus					
+ehbv-avi.35-Chaetura	Endogenous avihepadnavirus 35	ehbv-avi.35-Chaetura	35		no				Hepadnaviridae	Avihepadnavirus					
