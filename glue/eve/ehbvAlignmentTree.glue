@@ -54,13 +54,13 @@ alignment AL_Hepadna_Env
 #~# Avian EVE aligns
 alignment AL_GENUS_Avi
 
-  extract child AL_eHBV-Avi.1-Neognathae -r REF_EHBV-Avi.1-neognathae
-  demote member AL_eHBV-Avi.1-Neognathae -w "sequence.name = 'eHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-digs'"
-  demote member AL_eHBV-Avi.1-Neognathae -w "sequence.name = 'eHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  #extract child AL_eHBV-Avi.1-Neoaves -r REF_EHBV-Avi.1-neoaves
+  #demote member AL_eHBV-Avi.1-Neoaves -w "sequence.name = 'eHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-digs'"
+  #demote member AL_eHBV-Avi.1-Neoaves -w "sequence.name = 'eHBV-Avi.1-Aves' and sequence.source.name = 'fasta-ehbv-refseqs'"
 
-  extract child AL_eHBV-Avi.9-Psittaciformes -r REF_EHBV-Avi.9-melopsittacus
-  demote member AL_eHBV-Avi.9-Psittaciformes -w "sequence.name = 'eHBV-Avi.9-Psittaciformes' and sequence.source.name = 'fasta-ehbv-digs'"
-  demote member AL_eHBV-Avi.9-Psittaciformes -w "sequence.name = 'eHBV-Avi.9-Psittaciformes' and sequence.source.name = 'fasta-ehbv-refseqs'"
+  #extract child AL_eHBV-Avi.9-Psittaciformes -r REF_EHBV-Avi.9-melopsittacus
+  #demote member AL_eHBV-Avi.9-Psittaciformes -w "sequence.name = 'eHBV-Avi.9-Psittaciformes' and sequence.source.name = 'fasta-ehbv-digs'"
+  #demote member AL_eHBV-Avi.9-Psittaciformes -w "sequence.name = 'eHBV-Avi.9-Psittaciformes' and sequence.source.name = 'fasta-ehbv-refseqs'"
   exit
 
 #~# Herpeto EVE aligns

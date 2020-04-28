@@ -1,7 +1,7 @@
   ### Declare EHBV reference sequences
 
   # Avihepadnavirus
-  create reference REF_EHBV-Avi.1-neognathae      fasta-ehbv-refseqs ehbv-avi.1-neognathae-con # eZHBVc
+  create reference REF_EHBV-Avi.1-neoaves         fasta-ehbv-refseqs ehbv-avi.1-neoaves-con    # eZHBVc
   create reference REF_EHBV-Avi.2-passeriformes   fasta-ehbv-refseqs ehbv-avi.2-passeriformes  # eZHBVm
   create reference REF_EHBV-Avi.3-passeriformes   fasta-ehbv-refseqs ehbv-avi.3-passeriformes  # eZHBV01
   #create reference REF_EHBV-Avi.4-passeriformes  fasta-ehbv-refseqs ehbv-avi.4-passeriformes  # eZHBV02
