@@ -8,10 +8,10 @@ module unconstrainedAlignmentImporter
   import AL_UNC_eHBV-Avi                   -f alignments/eve/internal/avihepadna-eves.aln.fna
   
   #~# Tip aligns Herpetohepadna genus
-  import AL_UNC_eHBV-Herpeto.1-Serpentes  -f alignments/eve/tip/ehbv-herpeto.1-serpentes.aln.fna
-  import AL_UNC_eHBV-Herpeto.3-Croc       -f alignments/eve/tip/ehbv-herpeto.3-crocodylia.aln.fna
-  import AL_UNC_eHBV-Herpeto.5-Testudines -f alignments/eve/tip/ehbv-herpeto.5-testudines.aln.fna
-  import AL_UNC_eHBV-Herpeto.6-Varanus    -f alignments/eve/tip/ehbv-herpeto.6-varanus.aln.fna
+  #import AL_UNC_eHBV-Herpeto.1-Serpentes  -f alignments/eve/tip/ehbv-herpeto.1-serpentes.aln.fna
+  #import AL_UNC_eHBV-Herpeto.3-Croc       -f alignments/eve/tip/ehbv-herpeto.3-crocodylia.aln.fna
+  #import AL_UNC_eHBV-Herpeto.5-Testudines -f alignments/eve/tip/ehbv-herpeto.5-testudines.aln.fna
+  #import AL_UNC_eHBV-Herpeto.6-Varanus    -f alignments/eve/tip/ehbv-herpeto.6-varanus.aln.fna
 
   #~# Tip aligns Avihepadna genus
   
