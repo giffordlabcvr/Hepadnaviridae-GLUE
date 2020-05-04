@@ -12,7 +12,7 @@
   create reference REF_EHBV-Avi.9-melopsittacus   fasta-ehbv-refseqs ehbv-avi.9-melopsittacus
   create reference REF_EHBV-Avi.10-melopsittacus  fasta-ehbv-refseqs ehbv-avi.10-melopsittacus
   create reference REF_EHBV-Avi.11-tyto           fasta-ehbv-refseqs ehbv-avi.11-tyto
-  create reference REF_EHBV-Avi.12-anser          fasta-ehbv-refseqs ehbv-avi.12-anser
+  create reference REF_EHBV-Avi.12-anser          fasta-ehbv-refseqs ehbv-avi.12-anser-con
   create reference REF_EHBV-Avi.13-paleognathea   fasta-ehbv-refseqs ehbv-avi.13-paleognathae-con
   create reference REF_EHBV-Avi.14-gaviiformes    fasta-ehbv-refseqs ehbv-avi.14-gaviiformes
   create reference REF_EHBV-Avi.16-accipter       fasta-ehbv-refseqs ehbv-avi.16-accipter
@@ -21,7 +21,7 @@
   create reference REF_EHBV-Avi.19-buceros        fasta-ehbv-refseqs ehbv-avi.19-buceros
   create reference REF_EHBV-Avi.20-cariama        fasta-ehbv-refseqs ehbv-avi.20-cariama
   create reference REF_EHBV-Avi.15-gaviiformes    fasta-ehbv-refseqs ehbv-avi.15-gaviiformes
-  create reference REF_EHBV-Avi.21-paleognathea   fasta-ehbv-refseqs ehbv-avi.21-paleognathea
+  create reference REF_EHBV-Avi.21-paleognathea   fasta-ehbv-refseqs ehbv-avi.21-paleognathea-con
   create reference REF_EHBV-Avi.31-passeriformes  fasta-ehbv-refseqs ehbv-avi.31-passeriformes
   create reference REF_EHBV-Avi.40-australiaves   fasta-ehbv-refseqs ehbv-avi.40-australiaves-con
 
