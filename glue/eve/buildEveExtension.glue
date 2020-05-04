@@ -22,7 +22,7 @@ project hepadnaviridae
   run file glue/eve/ehbvReferences.glue
 
   # Import alignments
-  #run file glue/eve/ehbvAlignments.glue
+  run file glue/eve/ehbvAlignments.glue
 
   # Adde EVEs to constrained alignment tree 
   run file glue/eve/ehbvAlignmentTree.glue
