@@ -1,7 +1,7 @@
 // Load EVE data from tab file 
 var loadResult;
 glue.inMode("module/hepadnaviridaeTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/locus/ehbv-side-data.tsv"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/ehbv-digs/ehbv-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 

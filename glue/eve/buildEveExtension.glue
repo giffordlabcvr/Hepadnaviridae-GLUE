@@ -11,7 +11,7 @@ project hepadnaviridae
   # Create modules required for EVE extension
   run file glue/eve/ehbvModules.glue
   
-  # Import EHBV sequences and side data 
+  # Import endogenous hepadnaviral element (EHBV) sequences
   import source sources/fasta-ehbv-refseqs/
   import source sources/fasta-ehbv-digs/
 
