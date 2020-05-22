@@ -1,42 +1,42 @@
   ### Declare EHBV reference sequences
 
   # Avihepadnavirus
-  create reference REF_EHBV-Avi.1-neoaves           fasta-ehbv-refseqs ehbv-avi.1-neoaves-con    # eZHBVc
-  create reference REF_EHBV-Avi.2-estrildidae       fasta-ehbv-refseqs ehbv-avi.2-estrildidae    # eZHBVm
-  create reference REF_EHBV-Avi.3-passeriformes     fasta-ehbv-refseqs ehbv-avi.3-passeriformes  # eZHBV01
-  create reference REF_EHBV-Avi.4-passeriformes     fasta-ehbv-refseqs ehbv-avi.4-passeriformes  # eZHBV02
-  create reference REF_EHBV-Avi.5-passeriformes     fasta-ehbv-refseqs ehbv-avi.5-passeriformes-unranked  # eZHBV03
-  create reference REF_EHBV-Avi.6-passeriformes     fasta-ehbv-refseqs ehbv-avi.6-passeriformes  # eZHBV04
-  create reference REF_EHBV-Avi.7-passeriformes     fasta-ehbv-refseqs ehbv-avi.7-passeriformes  # eZHBV05
-  create reference REF_EHBV-Avi.8-australiaves      fasta-ehbv-refseqs ehbv-avi.8-australiaves   # eZHBV0e
-  create reference REF_EHBV-Avi.9-melopsittacus     fasta-ehbv-refseqs ehbv-avi.9-melopsittacus
-  create reference REF_EHBV-Avi.10-melopsittacus    fasta-ehbv-refseqs ehbv-avi.10-melopsittacus
+  create reference REF_EHBV-Avi.1-neoaves           fasta-refseqs-ehbv ehbv-avi.1-neoaves-con    # eZHBVc
+  create reference REF_EHBV-Avi.2-estrildidae       fasta-refseqs-ehbv ehbv-avi.2-estrildidae    # eZHBVm
+  create reference REF_EHBV-Avi.3-passeriformes     fasta-refseqs-ehbv ehbv-avi.3-passeriformes  # eZHBV01
+  create reference REF_EHBV-Avi.4-passeriformes     fasta-refseqs-ehbv ehbv-avi.4-passeriformes  # eZHBV02
+  create reference REF_EHBV-Avi.5-passeriformes     fasta-refseqs-ehbv ehbv-avi.5-passeriformes-unranked  # eZHBV03
+  create reference REF_EHBV-Avi.6-passeriformes     fasta-refseqs-ehbv ehbv-avi.6-passeriformes  # eZHBV04
+  create reference REF_EHBV-Avi.7-passeriformes     fasta-refseqs-ehbv ehbv-avi.7-passeriformes  # eZHBV05
+  create reference REF_EHBV-Avi.8-australiaves      fasta-refseqs-ehbv ehbv-avi.8-australiaves   # eZHBV0e
+  create reference REF_EHBV-Avi.9-melopsittacus     fasta-refseqs-ehbv ehbv-avi.9-melopsittacus
+  create reference REF_EHBV-Avi.10-melopsittacus    fasta-refseqs-ehbv ehbv-avi.10-melopsittacus
   
-  create reference REF_EHBV-Avi.11-tyto             fasta-ehbv-refseqs ehbv-avi.11-tyto
-  create reference REF_EHBV-Avi.12-anatidae         fasta-ehbv-refseqs ehbv-avi.12-anatidae-con
-  create reference REF_EHBV-Avi.13-paleognathea     fasta-ehbv-refseqs ehbv-avi.13-paleognathae-con
-  create reference REF_EHBV-Avi.14-gaviiformes      fasta-ehbv-refseqs ehbv-avi.14-gaviiformes
-  create reference REF_EHBV-Avi.15-gaviiformes      fasta-ehbv-refseqs ehbv-avi.15-gaviiformes
-  create reference REF_EHBV-Avi.16-accipter         fasta-ehbv-refseqs ehbv-avi.16-accipter
-  create reference REF_EHBV-Avi.17-passeriformes    fasta-ehbv-refseqs ehbv-avi.17-passeriformes-con
+  create reference REF_EHBV-Avi.11-tyto             fasta-refseqs-ehbv ehbv-avi.11-tyto
+  create reference REF_EHBV-Avi.12-anatidae         fasta-refseqs-ehbv ehbv-avi.12-anatidae-con
+  create reference REF_EHBV-Avi.13-paleognathea     fasta-refseqs-ehbv ehbv-avi.13-paleognathae-con
+  create reference REF_EHBV-Avi.14-gaviiformes      fasta-refseqs-ehbv ehbv-avi.14-gaviiformes
+  create reference REF_EHBV-Avi.15-gaviiformes      fasta-refseqs-ehbv ehbv-avi.15-gaviiformes
+  create reference REF_EHBV-Avi.16-accipter         fasta-refseqs-ehbv ehbv-avi.16-accipter
+  create reference REF_EHBV-Avi.17-passeriformes    fasta-refseqs-ehbv ehbv-avi.17-passeriformes-con
   
-  create reference REF_EHBV-Avi.18-calypte          fasta-ehbv-refseqs ehbv-avi.18-calypte
-  create reference REF_EHBV-Avi.19-buceros          fasta-ehbv-refseqs ehbv-avi.19-buceros
-  create reference REF_EHBV-Avi.20-cariama          fasta-ehbv-refseqs ehbv-avi.20-cariama
-  create reference REF_EHBV-Avi.21-paleognathea     fasta-ehbv-refseqs ehbv-avi.21-paleognathea-con
-  create reference REF_EHBV-Avi.25-sphenisciformes  fasta-ehbv-refseqs ehbv-avi.25-sphenisciformes-con
-  create reference REF_EHBV-Avi.26-psittaciformes   fasta-ehbv-refseqs ehbv-avi.26-psittaciformes
-  create reference REF_EHBV-Avi.27-suliformes       fasta-ehbv-refseqs ehbv-avi.27-suliformes-con
-  create reference REF_EHBV-Avi.31-passeriformes    fasta-ehbv-refseqs ehbv-avi.31-passeriformes
-  create reference REF_EHBV-Avi.40-australiaves     fasta-ehbv-refseqs ehbv-avi.40-australiaves-con
+  create reference REF_EHBV-Avi.18-calypte          fasta-refseqs-ehbv ehbv-avi.18-calypte
+  create reference REF_EHBV-Avi.19-buceros          fasta-refseqs-ehbv ehbv-avi.19-buceros
+  create reference REF_EHBV-Avi.20-cariama          fasta-refseqs-ehbv ehbv-avi.20-cariama
+  create reference REF_EHBV-Avi.21-paleognathea     fasta-refseqs-ehbv ehbv-avi.21-paleognathea-con
+  create reference REF_EHBV-Avi.25-sphenisciformes  fasta-refseqs-ehbv ehbv-avi.25-sphenisciformes-con
+  create reference REF_EHBV-Avi.26-psittaciformes   fasta-refseqs-ehbv ehbv-avi.26-psittaciformes
+  create reference REF_EHBV-Avi.27-suliformes       fasta-refseqs-ehbv ehbv-avi.27-suliformes-con
+  create reference REF_EHBV-Avi.31-passeriformes    fasta-refseqs-ehbv ehbv-avi.31-passeriformes
+  create reference REF_EHBV-Avi.40-australiaves     fasta-refseqs-ehbv ehbv-avi.40-australiaves-con
 
   # Herpetohepadnavirus
-  create reference REF_EHBV-Herpeto.1-Serpentes     fasta-ehbv-refseqs ehbv-herpeto.1-serpentes-con
-  create reference REF_EHBV-Herpeto.3-Crocodilia    fasta-ehbv-refseqs ehbv-herpeto.3-crocodilia-con
-  create reference REF_EHBV-Herpeto.5-Testudines    fasta-ehbv-refseqs ehbv-herpeto.5-testudines-con 
-  create reference REF_EHBV-Herpeto.6-Varanus       fasta-ehbv-refseqs ehbv-herpeto.6-varanus-con
-  create reference REF_EHBV-Herpeto.7-Varanus       fasta-ehbv-refseqs ehbv-herpeto.7-varanus
-  create reference REF_EHBV-Herpeto.8-Paroedura     fasta-ehbv-refseqs ehbv-herpeto.8-paroedura
+  create reference REF_EHBV-Herpeto.1-Serpentes     fasta-refseqs-ehbv ehbv-herpeto.1-serpentes-con
+  create reference REF_EHBV-Herpeto.3-Crocodilia    fasta-refseqs-ehbv ehbv-herpeto.3-crocodilia-con
+  create reference REF_EHBV-Herpeto.5-Testudines    fasta-refseqs-ehbv ehbv-herpeto.5-testudines-con 
+  create reference REF_EHBV-Herpeto.6-Varanus       fasta-refseqs-ehbv ehbv-herpeto.6-varanus-con
+  create reference REF_EHBV-Herpeto.7-Varanus       fasta-refseqs-ehbv ehbv-herpeto.7-varanus
+  create reference REF_EHBV-Herpeto.8-Paroedura     fasta-refseqs-ehbv ehbv-herpeto.8-paroedura
   
   # Metahepadnavirus
-  create reference REF_EHBV-Meta.1-Sphenodon        fasta-ehbv-refseqs ehbv-meta.1-sphenodon
+  create reference REF_EHBV-Meta.1-Sphenodon        fasta-refseqs-ehbv ehbv-meta.1-sphenodon

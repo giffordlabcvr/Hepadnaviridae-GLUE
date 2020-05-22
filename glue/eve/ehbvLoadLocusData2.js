@@ -17,7 +17,7 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "orientation", eveObj.orientation]);
 	});
 
-	glue.inMode("sequence/fasta-ehbv-digs/"+eveObj.id, function() {
+	glue.inMode("sequence/fasta-digs-ehbv/"+eveObj.id, function() {
 	
 		glue.log("INFO", "Entering sequence table data for DIGS sequence:", eveObj.id);
 
