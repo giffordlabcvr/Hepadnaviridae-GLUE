@@ -18,11 +18,17 @@ glue.command(["multi-unset", "field", "sequence", "-w", whereClause, "rotation"]
 */
 
 // Orthohepadnavirus
-shiftLeft("ncbi-refseqs/NC_003977", 157);  // Hepatitis B virus (strain ayw)
-shiftLeft("ncbi-refseqs/NC_004107", 290);  // Woodchuck hepatitis virus
-shiftLeft("ncbi-refseqs/NC_001484", 1671); // Ground squirrel hepatitis virus
-shiftLeft("ncbi-refseqs/NC_001484", 159);  // Long-fingered bat hepatitis virus
-shiftLeft("ncbi-refseqs/U29144", 1669);    // Arctic ground squirrel
+shiftLeft("ncbi-refseqs/NC_003977", 1367); // HBV: adjustment = 3182 - (1816 + 1) 
+shiftLeft("ncbi-refseqs/NC_028129", 1302); // Woolly monkey hepadnavirus = 3179 - (1876 + 1)
+shiftLeft("ncbi-refseqs/NC_004107", 1391); // Woodchuck hepatitis virus = 3323 - (1931 + 1)
+shiftLeft("ncbi-refseqs/NC_020881", 1815); // Long-fingered bat hepatitis virus
+shiftLeft("ncbi-refseqs/NC_024443", 1657); // Roundleaf bat hepatitis virus
+shiftLeft("ncbi-refseqs/NC_024444", 1657); // Horseshoe bat hepatitis virus
+shiftLeft("ncbi-refseqs/NC_024445", 1630); // Tent-making bat bat hepatitis virus
+shiftLeft("ncbi-refseqs/MH307930", 1665);  // Feline hepadnavirus
+// Ground squirrel hepatitis virus (no adjustment)
+// Arctic ground squirrel (no adjustment)
+
 
 // Avihepadnavirus
 shiftLeft("ncbi-refseqs/NC_001344", 1289); // Duck hepatitis B virus
@@ -42,7 +48,7 @@ function shiftLeft(refSeqId, leftShift) {
 	});
 }
 
-function shiftRight(refSeqId, rightShift) {
+function shiftLeft(refSeqId, rightShift) {
 	glue.inMode("sequence/"+refSeqId, function() {
 		glue.command(["set", "field", "rotation", rightShift]);
 	});

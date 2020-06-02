@@ -4,11 +4,11 @@
   create reference REF_Ortho_MASTER_HBV       ncbi-refseqs NC_003977
   create reference REF_Ortho_WMHBV            ncbi-refseqs NC_028129
   create reference REF_Ortho_GSHV             ncbi-refseqs NC_001484
-  create reference REF_Ortho_HsbHBV           ncbi-refseqs NC_024444
   create reference REF_Ortho_LfbHBV           ncbi-refseqs NC_020881
   create reference REF_Ortho_RlbHBV           ncbi-refseqs NC_024443
   create reference REF_Ortho_TBHBV            ncbi-refseqs NC_024445
   create reference REF_Ortho_WhBv             ncbi-refseqs NC_004107
+  create reference REF_Ortho_HsbHBV           ncbi-refseqs NC_024444
   create reference REF_Ortho_DCHBV            ncbi-refseqs MH307930
   create reference REF_Ortho_ClHBV            ncbi-refseqs MH484442
   create reference REF_Ortho_ASHV             ncbi-refseqs U29144
@@ -54,13 +54,4 @@
   create reference REF_Nackedna_YDNDV         fasta-refseqs YDNDV
   create reference REF_Nackedna_SNDV          fasta-refseqs SNDV
   create reference REF_Nackedna_KNDV-Lp-2     fasta-refseqs KNDV-Lp-2
-
-
-
-
-
-
-
-
-
 

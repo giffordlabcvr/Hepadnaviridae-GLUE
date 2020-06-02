@@ -1,73 +1,16 @@
 
- reference REF_Ortho_MASTER_HBV
+reference REF_Ortho_MASTER_HBV
   
   add feature-location Core
   feature-location Core
-    add segment 1816 2454
-    exit
-  
-  add feature-location SP
-  feature-location SP
-    add segment 1816 1902
-    exit
-
-  add feature-location alpha1
-  feature-location alpha1
-    add segment 1939 1950
-    exit
-
-  add feature-location alpha2
-  feature-location alpha2
-    add segment 1981 2013
-    exit
-
-  add feature-location alpha2b
-  feature-location alpha2b
-    add segment 2014 2031
-    exit
-
-  add feature-location alpha3
-  feature-location alpha3
-    add segment 2137 2172
-    exit
-
-  add feature-location alpha3b
-  feature-location alpha3b
-    add segment 2176 2232
-    exit
-
-  add feature-location alpha4
-  feature-location alpha4
-    add segment 2236 2283
-    exit
-
-  add feature-location nabd
-  feature-location nabd
-    add segment 2350 2454
+    add segment 1 534
     exit
 
   add feature-location Polymerase
   feature-location Polymerase
-    add segment 2309 3181  --spliceIndex 1
-    #add segment 1 1625  --spliceIndex 2
+    add segment 494 2941
     exit
-  
-  add feature-location large-S
-  feature-location large-S
-    add segment 2850 3182 --spliceIndex 1
-    #add segment 1 837 --spliceIndex 2   
-    exit
-      
-  add feature-location small-S
-  feature-location small-S
-    add segment 1 675
-    exit
- 
-  add feature-location X
-    feature-location X    
-    add segment 1376 1840
-    exit
-
+    
   exit 
 
 
