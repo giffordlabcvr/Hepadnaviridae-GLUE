@@ -9,10 +9,10 @@
   create reference REF_Ortho_TBHBV            ncbi-refseqs NC_024445
   create reference REF_Ortho_WhBv             ncbi-refseqs NC_004107
   create reference REF_Ortho_HsbHBV           ncbi-refseqs NC_024444
-  create reference REF_Ortho_DCHBV            ncbi-refseqs MH307930
+  create reference REF_Ortho_DcHBV            ncbi-refseqs MH307930
   create reference REF_Ortho_ClHBV            ncbi-refseqs MH484442
   create reference REF_Ortho_ASHV             ncbi-refseqs U29144
-
+  
   # Avi
   create reference REF_Avi_MASTER_DHBV        ncbi-refseqs NC_001344
   create reference REF_Avi_HHBV               ncbi-refseqs NC_001486

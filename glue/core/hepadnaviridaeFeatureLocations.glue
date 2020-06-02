@@ -14,6 +14,38 @@ reference REF_Ortho_MASTER_HBV
   exit 
 
 
+reference REF_Ortho_DcHBV
+  
+  add feature-location Core
+  feature-location Core
+    add segment 1 534
+    exit
+    
+  exit 
+
+
+reference REF_Ortho_WMHBV
+  
+  add feature-location Core
+  feature-location Core
+    add segment 1 534
+    exit
+    
+  exit 
+
+reference REF_Ortho_LfbHBV
+  
+  add feature-location Core
+  feature-location Core
+    add segment 1 534
+    exit
+    
+  exit 
+
+
+
+
+
 reference REF_Avi_MASTER_DHBV
   
   add feature-location Core
