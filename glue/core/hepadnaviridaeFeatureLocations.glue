@@ -53,30 +53,26 @@ reference REF_Ortho_LfbHBV
   exit 
 
 
-
-
-
 reference REF_Avi_MASTER_DHBV
   
   add feature-location Core
   feature-location Core
-    add segment 2524 3027 --spliceIndex 1
-   # add segment 1 114  --spliceIndex 2
+    add segment 1 852
     exit
   
   add feature-location Polymerase
   feature-location Polymerase
-    add segment 20 2536
+    #add segment 20 2536
     exit
 
   add feature-location large-S
   feature-location large-S
-    add segment 693 1973
+    #add segment 693 1973
     exit
       
   add feature-location small-S
   feature-location small-S
-    add segment 1290 1793
+    #add segment 1290 1793
     exit
 
   exit 
@@ -127,12 +123,12 @@ reference REF_Meta_MASTER_bgHBV
   
   add feature-location Z
     feature-location Z    
-    //add segment 2818 3144
+    #add segment 2818 3144
     exit
 
   add feature-location Y
   feature-location Y
-    //add segment 26 343
+    add segment 26 343
     exit
 
   exit 
@@ -142,7 +138,7 @@ reference REF_Para_MASTER_wsHBV
   
   add feature-location Core
   feature-location Core
-    add segment 3216 3542
+    add segment 1 587
     exit
   
   add feature-location Polymerase

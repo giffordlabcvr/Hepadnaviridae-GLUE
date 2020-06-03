@@ -31,7 +31,7 @@ shiftLeft("ncbi-refseqs/MH307930", 1556);  // Feline hepadnavirus = 3187 - (1665
 
 
 // Avihepadnavirus
-shiftLeft("ncbi-refseqs/NC_001344", 502); // Duck hepatitis B virus: adjustment =3027 - (2524 + 1) 
+shiftLeft("ncbi-refseqs/NC_001344", 504); // Duck hepatitis B virus: adjustment = 3027 - (2524 - 1)
 //shiftLeft("ncbi-refseqs/NC_035210", 1289); // Tinamou hepatitis B virus
 //shiftLeft("ncbi-refseqs/NC_001486", 1289); // Heron hepatitis B virus
 //shiftLeft("ncbi-refseqs/NC_016561", 1304); // Parrot hepatitis B virus
@@ -41,8 +41,14 @@ shiftLeft("ncbi-refseqs/NC_001344", 502); // Duck hepatitis B virus: adjustment 
 //shiftLeft("ncbi-refseqs/AJ441111", 1283);  // Crane hepatitis B virus
 //shiftLeft("ncbi-refseqs/AJ251934", 1295);  // Stork hepatitis B virus
 
+// Avihepadnavirus
+// Tibetan frog hepadnavirus (no adjustment)
+
 // Metahepadnavirus
-shiftLeft("ncbi-refseqs/NC_001344", 3120); // Bluegill hepatitis B virus: adjustment = 3260 - (139 + 1) 
+shiftLeft("ncbi-refseqs/NC_030445", 3122); // Bluegill hepatitis B virus: adjustment = 3260 - (139 - 1) 
+
+// Parahepadnavirus
+shiftLeft("ncbi-refseqs/NC_027922", 326);// White sucker hepadnavirus: adjustment = 3542 - (3216 - 1) 
 
 
 
@@ -53,7 +59,7 @@ function shiftLeft(refSeqId, leftShift) {
 	});
 }
 
-function shiftLeft(refSeqId, rightShift) {
+function shiftRight(refSeqId, rightShift) {
 	glue.inMode("sequence/"+refSeqId, function() {
 		glue.command(["set", "field", "rotation", rightShift]);
 	});
