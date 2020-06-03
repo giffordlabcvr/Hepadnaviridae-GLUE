@@ -1,34 +1,11 @@
 ### Constrained alignment tree
 
 ### Hepadnaviridae     
-create alignment AL_RT_Root_MASTER -r REF_Ortho_MASTER_HBV
-alignment AL_RT_Root_MASTER add member --allSequences
-
-### Major subclade alignments
-alignment AL_RT_Root_MASTER
-
-  extract child AL_Hepadnaviridae_MASTER -r REF_Ortho_MASTER_HBV
-  demote member AL_Hepadnaviridae_MASTER --whereClause "sequence.family = 'Hepadnaviridae'"
-
-  exit
-
-#~# Major subclade alignments
-
-alignment AL_Hepadnaviridae_MASTER
-
-  extract child AL_Nakedna -r REF_Nackedna_MASTER_ACNDV
-  demote member AL_Nakedna --whereClause "sequence.genus = 'Nakednavirus'"
-
-  extract child AL_Hepadna_Env -r REF_Ortho_MASTER_HBV
-  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Orthohepadnavirus'"
-  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Avihepadnavirus'"
-  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Herpetohepadnavirus'"
-  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Metahepadnavirus'"
-  demote member AL_Hepadna_Env --whereClause "sequence.genus = 'Parahepadnavirus'"
-  exit
-
-
-alignment AL_Hepadna_Env
+create alignment AL_Hepadnaviridae -r REF_Ortho_MASTER_HBV
+alignment AL_Hepadnaviridae add member --whereClause "family = 'Hepadnaviridae'"
+  
+#~# Genus alignments
+alignment AL_Hepadnaviridae
 
   extract child AL_GENUS_Ortho -r REF_Ortho_MASTER_HBV
   demote member AL_GENUS_Ortho --whereClause "sequence.genus = 'Orthohepadnavirus'"
@@ -48,16 +25,8 @@ alignment AL_Hepadna_Env
 
 
 #~# Derive constrained alignment segments from unconstrained alignments  
-alignment AL_Hepadnaviridae_MASTER
+alignment AL_Hepadnaviridae
   derive segments AL_UNC_HEPADNAVIRIDAE -a --mergeStrategy OVERWRITE
-  exit
-
-alignment AL_Nakedna
-  derive segments AL_UNC_NAKEDNA -a --mergeStrategy OVERWRITE
-  exit
-
-alignment AL_Hepadna_Env
-  derive segments AL_UNC_HEPADNA_ENV -a --mergeStrategy OVERWRITE
   exit
 
 alignment AL_GENUS_Ortho

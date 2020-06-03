@@ -1,39 +1,7 @@
 ### Add EVE sequences to constrained alignment tree
 
-alignment AL_RT_Root_MASTER
-
-  add member -w "source.name = 'fasta-digs-ehbv'"
-  add member -w "source.name = 'fasta-refseqs-ehbv'"
-
-  #extract child AL_HEART -r REF_HEART
-  #demote member AL_HEART --whereClause "sequence.family = 'HEART'"
-
-  demote member AL_Hepadnaviridae_MASTER -w "sequence.source.name = 'fasta-digs-ehbv' and sequence.family = 'Hepadnaviridae'"
-  demote member AL_Hepadnaviridae_MASTER -w "sequence.source.name = 'fasta-refseqs-ehbv' and sequence.family = 'Hepadnaviridae'"
-  exit
-
-
 #~# EVEs derived from hepadnaviruses
-alignment AL_Hepadnaviridae_MASTER
-
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-digs-ehbv'"
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-digs-ehbv'"
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-digs-ehbv'"
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-digs-ehbv'"
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Parahepadnavirus' and sequence.source.name = 'fasta-digs-ehbv'"
-  demote member AL_Hepadna_Env -w "sequence.genus = 'Parahepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  exit
-
-#~# EVEs derived from enveloped hepadnaviruses
-alignment AL_Hepadna_Env
+alignment AL_Hepadnaviridae
   
   demote member AL_GENUS_Ortho -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-digs-ehbv'"
   demote member AL_GENUS_Ortho -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
