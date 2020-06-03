@@ -31,15 +31,20 @@ shiftLeft("ncbi-refseqs/MH307930", 1556);  // Feline hepadnavirus = 3187 - (1665
 
 
 // Avihepadnavirus
-shiftLeft("ncbi-refseqs/NC_001344", 1289); // Duck hepatitis B virus
-shiftLeft("ncbi-refseqs/NC_035210", 1289); // Tinamou hepatitis B virus
-shiftLeft("ncbi-refseqs/NC_001486", 1289); // Heron hepatitis B virus
-shiftLeft("ncbi-refseqs/NC_016561", 1304); // Parrot hepatitis B virus
-shiftLeft("ncbi-refseqs/NC_005890", 1313); // Parrot hepatitis B virus
-shiftLeft("ncbi-refseqs/NC_005950", 1286); // Snow goose hepatitis B virus
-shiftLeft("ncbi-refseqs/NC_005888", 1280); // Ross's goose hepatitis B virus
-shiftLeft("ncbi-refseqs/AJ441111", 1283);  // Crane hepatitis B virus
-shiftLeft("ncbi-refseqs/AJ251934", 1295);  // Stork hepatitis B virus
+shiftLeft("ncbi-refseqs/NC_001344", 502); // Duck hepatitis B virus: adjustment =3027 - (2524 + 1) 
+//shiftLeft("ncbi-refseqs/NC_035210", 1289); // Tinamou hepatitis B virus
+//shiftLeft("ncbi-refseqs/NC_001486", 1289); // Heron hepatitis B virus
+//shiftLeft("ncbi-refseqs/NC_016561", 1304); // Parrot hepatitis B virus
+//shiftLeft("ncbi-refseqs/NC_005890", 1313); // Parrot hepatitis B virus
+//shiftLeft("ncbi-refseqs/NC_005950", 1286); // Snow goose hepatitis B virus
+//shiftLeft("ncbi-refseqs/NC_005888", 1280); // Ross's goose hepatitis B virus
+//shiftLeft("ncbi-refseqs/AJ441111", 1283);  // Crane hepatitis B virus
+//shiftLeft("ncbi-refseqs/AJ251934", 1295);  // Stork hepatitis B virus
+
+// Metahepadnavirus
+shiftLeft("ncbi-refseqs/NC_001344", 3120); // Bluegill hepatitis B virus: adjustment = 3260 - (139 + 1) 
+
+
 
 function shiftLeft(refSeqId, leftShift) {
 	glue.inMode("sequence/"+refSeqId, function() {

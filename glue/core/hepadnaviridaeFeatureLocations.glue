@@ -109,29 +109,30 @@ reference REF_Herpeto_MASTER_tfHBV
 
 reference REF_Meta_MASTER_bgHBV
   
-  add feature-location Y
-  feature-location Y
-    add segment 26 343
-    exit
     
   add feature-location Core
   feature-location Core
-    add segment 139 690
+    add segment 1 459
     exit
   
   add feature-location Polymerase
   feature-location Polymerase
-    add segment 512 2821
+    add segment 374 2689
     exit
   
   add feature-location large-S
   feature-location large-S
-    add segment 1071 2048
+    add segment 933 1979
     exit
   
   add feature-location Z
     feature-location Z    
-    add segment 2818 3144
+    //add segment 2818 3144
+    exit
+
+  add feature-location Y
+  feature-location Y
+    //add segment 26 343
     exit
 
   exit 
