@@ -19,7 +19,7 @@ glue.command(["multi-unset", "field", "sequence", "-w", whereClause, "rotation"]
 
 // Orthohepadnavirus
 shiftLeft("ncbi-refseqs/NC_003977", 1367); // HBV: adjustment = 3182 - (1816 + 1) 
-shiftLeft("ncbi-refseqs/NC_028129", 1302); // Woolly monkey hepadnavirus = 3179 - (1876 + 1)
+shiftLeft("ncbi-refseqs/NC_028129", 1364); // Woolly monkey hepadnavirus = 3179 - (1816 - 1)
 shiftLeft("ncbi-refseqs/NC_004107", 1391); // Woodchuck hepatitis virus = 3323 - (1931 + 1)
 shiftLeft("ncbi-refseqs/NC_020881", 1414); // Long-fingered bat hepatitis virus = 3230 - (1815 + 1)
 shiftLeft("ncbi-refseqs/NC_024443", 1657); // Roundleaf bat hepatitis virus = 3368 - (1710 + 1)
@@ -53,3 +53,4 @@ function shiftLeft(refSeqId, rightShift) {
 		glue.command(["set", "field", "rotation", rightShift]);
 	});
 }
+

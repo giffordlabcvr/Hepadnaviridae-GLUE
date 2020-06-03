@@ -24,6 +24,16 @@ reference REF_Ortho_DcHBV
   exit 
 
 
+reference REF_Ortho_WhBv
+  
+  add feature-location Core
+  feature-location Core
+    add segment 1 534
+    exit
+    
+  exit 
+
+
 reference REF_Ortho_WMHBV
   
   add feature-location Core
