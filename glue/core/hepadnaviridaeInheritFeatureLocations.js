@@ -1,7 +1,7 @@
 // Remove feature location annotations all reference sequences except master
 glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name not like '%MASTER%'"]);
 
-//var generaArray = [ "Orthohepadnavirus", "Avihepadnavirus", "Herpetohepadnavirus", 
+//var generaArray = [ "Orthohepadnavirus", "f", "Herpetohepadnavirus", 
 //                     "Metahepadnavirus", "Parahepadnavirus"  ];
 
 var generaArray = [ "Orthohepadnavirus"  ]; // Dev
@@ -10,9 +10,9 @@ var generaArray = [ "Orthohepadnavirus"  ]; // Dev
 var generaMap = {};
 generaMap['Orthohepadnavirus']   = 'REF_Ortho_MASTER_HBV';
 generaMap['Avihepadnavirus']     = 'REF_Avi_MASTER_DHBV';
-//generaMap['Herpetohepadnavirus'] = 'REF_Herpeto_MASTER_tfHBV';
-//generaMap['Metahepadnavirus']    = 'REF_Meta_MASTER_bgHBV';
-//generaMap['Parahepadnavirus']    = 'REF_Para_MASTER_wsHBV';
+generaMap['Herpetohepadnavirus'] = 'REF_Herpeto_MASTER_tfHBV';
+generaMap['Metahepadnavirus']    = 'REF_Meta_MASTER_bgHBV';
+generaMap['Parahepadnavirus']    = 'REF_Para_MASTER_wsHBV';
 
 var alignmentMap = {};
 alignmentMap['Orthohepadnavirus']   = 'AL_GENUS_Ortho';

@@ -147,6 +147,7 @@
   feature Y set metatag OWN_CODON_NUMBERING true
   feature Y set metatag INCLUDE_IN_SUMMARY true
   feature Y set metatag CODES_AMINO_ACIDS true
+  feature Y set metatag CIRCULAR_BRIDGING true
 
   create feature Z -p whole_genome "ORF Z"
   feature Z set field displayName "ORF Z"
