@@ -4,8 +4,7 @@
   module hepadnaviridaeFeaturePresenceRecorder 
 
     #~# Major subclade alignments
-    record feature-presence AL_Nakedna --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Hepadna_Env --recursive --featureName whole_genome --descendentFeatures
+     record feature-presence AL_Hepadnaviridae --recursive --featureName whole_genome --descendentFeatures
     
     #~# Genus alignments
     record feature-presence AL_GENUS_Ortho --recursive --featureName whole_genome --descendentFeatures

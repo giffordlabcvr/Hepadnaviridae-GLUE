@@ -28,29 +28,30 @@ shiftRight("ncbi-refseqs/NC_024445", 1518); // Tent-making bat bat hepatitis vir
 shiftRight("ncbi-refseqs/MH307930", 1556);  // Feline hepadnavirus = 3187 - (1665 + 1)
 // Ground squirrel hepatitis virus (no adjustment)
 // Arctic ground squirrel (no adjustment)
-
+// Tai Forest hepadnavirus (to do)
+// Shrew hepadnavirus (to do)
 
 // Avihepadnavirus
 shiftRight("ncbi-refseqs/NC_001344", 504); // Duck hepatitis B virus: adjustment = 3027 - (2524 - 1)
-//shiftRight("ncbi-refseqs/NC_035210", 1289); // Tinamou hepatitis B virus
-//shiftRight("ncbi-refseqs/NC_001486", 1289); // Heron hepatitis B virus
-//shiftRight("ncbi-refseqs/NC_016561", 1304); // Parrot hepatitis B virus
-//shiftRight("ncbi-refseqs/NC_005890", 1313); // Parrot hepatitis B virus
-//shiftRight("ncbi-refseqs/NC_005950", 1286); // Snow goose hepatitis B virus
-//shiftRight("ncbi-refseqs/NC_005888", 1280); // Ross's goose hepatitis B virus
-//shiftRight("ncbi-refseqs/AJ441111", 1283);  // Crane hepatitis B virus
-//shiftRight("ncbi-refseqs/AJ251934", 1295);  // Stork hepatitis B virus
+shiftRight("ncbi-refseqs/NC_035210", 504); // Tinamou hepatitis B virus: adjustment = 3024 - (2521 - 1)
+shiftRight("ncbi-refseqs/NC_001486", 504); // Heron hepatitis B virus: adjustment = 3027 - (2524 - 1)
+shiftRight("ncbi-refseqs/NC_016561", 504); // Parrot hepatitis B virus: adjustment = 3027 - (2524 - 1)
+shiftRight("ncbi-refseqs/NC_005890", 503); // Sheldgoose hepatitis B virus: adjustment = 3027 - (2524 - 1)
+shiftRight("ncbi-refseqs/NC_005888", 503); // Ross's goose hepatitis B virus: adjustment = 3018 - (2515 - 1)
+shiftRight("ncbi-refseqs/NC_005950", 504); // Snow goose hepatitis B virus
+shiftRight("ncbi-refseqs/AJ441111", 504);  // Crane hepatitis B virus
+shiftRight("ncbi-refseqs/AJ251934", 504);  // Stork hepatitis B virus
 
-// Avihepadnavirus
+// Herpetohepadnavirus
 // Tibetan frog hepadnavirus (no adjustment)
 
 // Metahepadnavirus
 shiftRight("ncbi-refseqs/NC_030445", 3122); // Bluegill hepatitis B virus: adjustment = 3260 - (139 - 1) 
+// Eastern sea garfish hepatitis B virus: adjustment = 3260 - (139 - 1) | MH716822
 
 // Parahepadnavirus
 shiftRight("ncbi-refseqs/NC_027922", 327);// White sucker hepadnavirus: adjustment = 3542 - (3216 - 1) 
-
-
+// Australasian snapper hepatitis B virus | MH716821
 
 function shiftLeft(refSeqId, leftShift) {
 	glue.inMode("sequence/"+refSeqId, function() {
