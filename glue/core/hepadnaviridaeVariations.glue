@@ -1,19 +1,19 @@
 reference REF_Ortho_MASTER_HBV
 
-  feature-location Core
+  feature-location PreCore-Core
   
-    create variation core_motif_I -t aminoAcidRegexPolymorphism --labeledCodon 48 60
-    variation core_motif_I
+    create variation PreCore-Core_motif_I -t aminoAcidRegexPolymorphism --labeledCodon 48 60
+    variation PreCore-Core_motif_I
       set metatag REGEX_AA_PATTERN LP\wD[FY]FP\w{5}[VL] 
     exit                          
     
-    create variation core_motif_II -t aminoAcidRegexPolymorphism --labeledCodon 131 152
-    variation core_motif_II
+    create variation PreCore-Core_motif_II -t aminoAcidRegexPolymorphism --labeledCodon 131 152
+    variation PreCore-Core_motif_II
        set metatag REGEX_AA_PATTERN W\wH\w{2}[SC][LI]\w[WF]G
     exit
 
-    create variation core_motif_III -t aminoAcidRegexPolymorphism --labeledCodon 154 168
-    variation core_motif_III
+    create variation PreCore-Core_motif_III -t aminoAcidRegexPolymorphism --labeledCodon 154 168
+    variation PreCore-Core_motif_III
       set metatag REGEX_AA_PATTERN W\w{2}[TP]\w{2}YR\w{3}AP\w[IL]
     exit
    

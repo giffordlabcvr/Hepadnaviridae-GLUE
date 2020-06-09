@@ -28,53 +28,59 @@
   feature HBeAg set metatag INCLUDE_IN_SUMMARY true
   feature HBeAg set metatag CODES_AMINO_ACIDS true
 
-  create feature Core -p whole_genome "Core"
-  feature Core set field displayName "Core"
-  feature Core set metatag OWN_CODON_NUMBERING true
-  feature Core set metatag INCLUDE_IN_SUMMARY true
-  feature Core set metatag CODES_AMINO_ACIDS true
+  create feature PreCore-Core -p whole_genome "PreCore-Core"
+  feature PreCore-Core set field displayName "PreCore-Core"
+  feature PreCore-Core set metatag OWN_CODON_NUMBERING true
+  feature PreCore-Core set metatag INCLUDE_IN_SUMMARY true
+  feature PreCore-Core set metatag CODES_AMINO_ACIDS true
 
-  create feature SP -p Core "Signal peptide"
+  create feature Nucleocapsid -p whole_genome "Nucleocapsid"
+  feature Nucleocapsid set field displayName "Nucleocapsid"
+  feature Nucleocapsid set metatag OWN_CODON_NUMBERING true
+  feature Nucleocapsid set metatag INCLUDE_IN_SUMMARY true
+  feature Nucleocapsid set metatag CODES_AMINO_ACIDS true
+
+  create feature SP -p PreCore-Core "Signal peptide"
   feature SP set field displayName "Signal peptide"
   feature SP set metatag INCLUDE_IN_SUMMARY true
   feature SP set metatag CODES_AMINO_ACIDS true
 
-  create feature alpha1 -p Core "Alpha 1"
+  create feature alpha1 -p PreCore-Core "Alpha 1"
   feature alpha1 set field displayName "Alpha 1"
   feature alpha1 set metatag INCLUDE_IN_SUMMARY true
   feature alpha1 set metatag CODES_AMINO_ACIDS true
 
-  create feature alpha2 -p Core "Alpha 2"
+  create feature alpha2 -p PreCore-Core "Alpha 2"
   feature alpha2 set field displayName "Alpha 2"
   feature alpha2 set metatag INCLUDE_IN_SUMMARY true
   feature alpha2 set metatag CODES_AMINO_ACIDS true
 
-  create feature alpha2b -p Core "Alpha 2b"
+  create feature alpha2b -p PreCore-Core "Alpha 2b"
   feature alpha2b set field displayName "Alpha 2b"
   feature alpha2b set metatag INCLUDE_IN_SUMMARY true
   feature alpha2b set metatag CODES_AMINO_ACIDS true
 
-  create feature alpha3 -p Core "Alpha 3"
+  create feature alpha3 -p PreCore-Core "Alpha 3"
   feature alpha3 set field displayName "Alpha 3"
   feature alpha3 set metatag INCLUDE_IN_SUMMARY true
   feature alpha3 set metatag CODES_AMINO_ACIDS true
 
-  create feature alpha3b -p Core "Alpha 3b"
+  create feature alpha3b -p PreCore-Core "Alpha 3b"
   feature alpha3 set field displayName "Alpha 3b"
   feature alpha3 set metatag INCLUDE_IN_SUMMARY true
   feature alpha3 set metatag CODES_AMINO_ACIDS true
 
-  create feature alpha4 -p Core "Alpha 4"
+  create feature alpha4 -p PreCore-Core "Alpha 4"
   feature alpha3 set field displayName "Alpha 4"
   feature alpha3 set metatag INCLUDE_IN_SUMMARY true
   feature alpha3 set metatag CODES_AMINO_ACIDS true
 
-  create feature alpha5 -p Core "Alpha 5"
+  create feature alpha5 -p PreCore-Core "Alpha 5"
   feature alpha3 set field displayName "Alpha 5"
   feature alpha3 set metatag INCLUDE_IN_SUMMARY true
   feature alpha3 set metatag CODES_AMINO_ACIDS true
 
-  create feature nabd -p Core "Nucleic acid binding domain"
+  create feature nabd -p PreCore-Core "Nucleic acid binding domain"
   feature alpha3 set field displayName "Nucleic acid binding domain"
   feature alpha3 set metatag INCLUDE_IN_SUMMARY true
   feature alpha3 set metatag CODES_AMINO_ACIDS true

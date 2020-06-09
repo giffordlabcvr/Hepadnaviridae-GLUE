@@ -1,78 +1,79 @@
 
 reference REF_Ortho_MASTER_HBV
   
-  add feature-location Core
-  feature-location Core
+  add feature-location PreCore-Core
+  feature-location PreCore-Core
     add segment 1 534
+    exit
+
+  add feature-location SP
+  feature-location SP
+    add segment 39 104
+    exit
+
+  add feature-location Nucleocapsid
+  feature-location Nucleocapsid
+    add segment 88 534
     exit
 
   add feature-location Polymerase
   feature-location Polymerase
     add segment 494 2941
     exit
-    
-  exit 
 
-
-reference REF_Ortho_DcHBV
-  
-  add feature-location Core
-  feature-location Core
-    add segment 1 534
+  add feature-location large-S
+  feature-location large-S
+    add segment 1035 2201
     exit
-    
-  exit 
 
-
-reference REF_Ortho_WhBv
-  
-  add feature-location Core
-  feature-location Core
-    add segment 1 534
+  add feature-location medium-S
+  feature-location medium-S
+    add segment 1359 2201
     exit
-    
-  exit 
 
-
-reference REF_Ortho_WMHBV
-  
-  add feature-location Core
-  feature-location Core
-    add segment 1 534
+  add feature-location small-S
+  feature-location small-S
+    add segment 1524 2201
     exit
-    
-  exit 
 
-reference REF_Ortho_LfbHBV
-  
-  add feature-location Core
-  feature-location Core
-    add segment 1 534
+  add feature-location X
+  feature-location X
+    add segment 2743 3180
     exit
-    
+   
   exit 
 
 
 reference REF_Avi_MASTER_DHBV
   
-  add feature-location Core
-  feature-location Core
+  add feature-location PreCore-Core
+  feature-location PreCore-Core
     add segment 1 852
     exit
-  
+    
+  add feature-location Nucleocapsid
+  feature-location Nucleocapsid
+    add segment 130 852
+    exit
+    
   add feature-location Polymerase
   feature-location Polymerase
-    #add segment 20 2536
+    add segment 524 3025
     exit
 
   add feature-location large-S
   feature-location large-S
-    #add segment 693 1973
+	add segment 1197 2294
     exit
-      
+ 
+  add feature-location medium-S
+  feature-location medium-S
+    add segment 1305 2294
+    exit
+
   add feature-location small-S
   feature-location small-S
-    #add segment 1290 1793
+    add segment 1794 2294
     exit
 
   exit 
@@ -80,8 +81,8 @@ reference REF_Avi_MASTER_DHBV
 
 reference REF_Herpeto_MASTER_tfHBV
   
-  add feature-location Core
-  feature-location Core
+  add feature-location PreCore-Core
+  feature-location PreCore-Core
     add segment 57 857
     exit
   
@@ -106,8 +107,8 @@ reference REF_Herpeto_MASTER_tfHBV
 reference REF_Meta_MASTER_bgHBV
   
     
-  add feature-location Core
-  feature-location Core
+  add feature-location PreCore-Core
+  feature-location PreCore-Core
     add segment 1 459
     exit
   
@@ -136,8 +137,8 @@ reference REF_Meta_MASTER_bgHBV
 
 reference REF_Para_MASTER_wsHBV
   
-  add feature-location Core
-  feature-location Core
+  add feature-location PreCore-Core
+  feature-location PreCore-Core
     add segment 1 587
     exit
   
@@ -196,8 +197,8 @@ reference REF_Nackedna_MASTER_ACNDV
     add segment 1483 2739
     exit
    
-  add feature-location Core
-  feature-location Core
+  add feature-location PreCore-Core
+  feature-location PreCore-Core
     add segment 615 1136
     exit
 

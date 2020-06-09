@@ -1,7 +1,7 @@
 // Remove feature location annotations all reference sequences except master
 glue.command(["multi-delete", "feature_location", "-w", "referenceSequence.name not like '%MASTER%'"]);
 
-//var generaArray = [ "Orthohepadnavirus", "Avehepadnavirus", "Herpetohepadnavirus", 
+//var generaArray = [ "Orthohepadnavirus", "Avihepadnavirus", "Herpetohepadnavirus", 
 //                     "Metahepadnavirus", "Parahepadnavirus"  ];
 
 var generaArray = [ "Orthohepadnavirus"  ]; // Dev
@@ -9,16 +9,14 @@ var generaArray = [ "Orthohepadnavirus"  ]; // Dev
 
 var generaMap = {};
 generaMap['Orthohepadnavirus']   = 'REF_Ortho_MASTER_HBV';
-generaMap['Avehepadnavirus']     = 'REF_Avi_MASTER_DHBV';
-generaMap['Herpetohepadnavirus'] = 'REF_Herpeto_MASTER_tfHBV';
-generaMap['Metahepadnavirus']    = 'REF_Meta_MASTER_bgHBV';
-generaMap['Parahepadnavirus']    = 'REF_Para_MASTER_wsHBV';
-generaMap['Nakednavirus']        = 'REF_Nackedna_MASTER_ACNDV';
+generaMap['Avihepadnavirus']     = 'REF_Avi_MASTER_DHBV';
+//generaMap['Herpetohepadnavirus'] = 'REF_Herpeto_MASTER_tfHBV';
+//generaMap['Metahepadnavirus']    = 'REF_Meta_MASTER_bgHBV';
+//generaMap['Parahepadnavirus']    = 'REF_Para_MASTER_wsHBV';
 
 var alignmentMap = {};
-alignmentMap['Nakednavirus']        = 'AL_Nakedna';
 alignmentMap['Orthohepadnavirus']   = 'AL_GENUS_Ortho';
-alignmentMap['Avehepadnavirus']     = 'AL_GENUS_Avi';
+alignmentMap['Avihepadnavirus']     = 'AL_GENUS_Avi';
 alignmentMap['Herpetohepadnavirus'] = 'AL_GENUS_Herpeto';
 alignmentMap['Metahepadnavirus']    = 'AL_GENUS_Meta';
 alignmentMap['Parahepadnavirus']    = 'AL_GENUS_Para';
