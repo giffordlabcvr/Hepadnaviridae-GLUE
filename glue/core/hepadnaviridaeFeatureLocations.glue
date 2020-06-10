@@ -6,11 +6,6 @@ reference REF_Ortho_MASTER_HBV
     add segment 1 534
     exit
 
-  add feature-location SP
-  feature-location SP
-    add segment 39 104
-    exit
-
   add feature-location Nucleocapsid
   feature-location Nucleocapsid
     add segment 88 534
@@ -140,12 +135,12 @@ reference REF_Para_MASTER_wsHBV
   
   add feature-location PreCore-Core
   feature-location PreCore-Core
-    add segment 1 587
+    add segment 1 588
     exit
   
   add feature-location Polymerase
   feature-location Polymerase
-    add segment 170 2536
+    add segment 497 2860
     exit
 
   add feature-location large-S
