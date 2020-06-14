@@ -1,5 +1,10 @@
 
 reference REF_Ortho_MASTER_HBV
+
+  add feature-location whole_genome
+  feature-location whole_genome
+    add segment 1 3182
+    exit
   
   add feature-location PreCore-Core
   feature-location PreCore-Core
@@ -40,6 +45,11 @@ reference REF_Ortho_MASTER_HBV
 
 
 reference REF_Avi_MASTER_DHBV
+
+  add feature-location whole_genome
+  feature-location whole_genome
+    add segment 1 3027
+    exit
   
   add feature-location PreCore-Core
   feature-location PreCore-Core
@@ -75,7 +85,13 @@ reference REF_Avi_MASTER_DHBV
 
 
 reference REF_Herpeto_MASTER_tfHBV
-  
+
+
+  add feature-location whole_genome
+  feature-location whole_genome
+    add segment 1 3138
+    exit
+   
   add feature-location PreCore-Core
   feature-location PreCore-Core
     add segment 57 857
@@ -101,6 +117,11 @@ reference REF_Herpeto_MASTER_tfHBV
 
 reference REF_Meta_MASTER_bgHBV
   
+
+  add feature-location whole_genome
+  feature-location whole_genome
+    add segment 1 3260
+    exit
     
   add feature-location PreCore-Core
   feature-location PreCore-Core
@@ -133,6 +154,11 @@ reference REF_Meta_MASTER_bgHBV
 
 reference REF_Para_MASTER_wsHBV
   
+  add feature-location whole_genome
+  feature-location whole_genome
+    add segment 1 3542
+    exit
+    
   add feature-location PreCore-Core
   feature-location PreCore-Core
     add segment 1 588
