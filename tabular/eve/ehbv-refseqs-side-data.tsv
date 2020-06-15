@@ -4,7 +4,7 @@ ehbv-herpeto.1-serpentes-con	Endogenous x 1	ehbv-herpeto.1-serpentes-con	1		yes	
 ehbv-herpeto.3-crocodilia-con	Endogenous herpetohepadnavirus 3	ehbv-herpeto.3-crocodilia-con	2		yes				Hepadnaviridae	Herpetohepadnavirus	null			Crocodilia	null
 ehbv-herpeto.5-testudines-con	Endogenous herpetohepadnavirus 5	ehbv-herpeto.5-testudines-con	5		yes				Hepadnaviridae	Herpetohepadnavirus	null			Testudines	null
 ehbv-herpeto.6-varanus-con	Endogenous herpetohepadnavirus 6	ehbv-herpeto.6-varanus-con	6		yes	WSCD2 (intronic)	WSCD2 (intronic)	N/A	Hepadnaviridae	Herpetohepadnavirus	null	species		Varanus	null
-ehbv-meta.1-sauropsida	Endogenous metahepadnavirus 1	ehbv-meta.1-sauropsida	1	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		Sauropsids	null
+ehbv-meta.1-sauria	Endogenous metahepadnavirus 1	ehbv-meta.1-sauria	1	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		Sauropsids	null
 ehbv-meta.2-varanus	Endogenous metahepadnavirus 2	ehbv-meta.2-varanus	2	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		Varanus	
 ehbv-meta.3-paroedura	Endogenous metahepadnavirus 3	ehbv-meta.3-paroedura	3	1	yes			N/A	Hepadnaviridae	Metahepadnavirus	null	species		paroedura	null
 ehbv-meta.4-pelusios	Endogenous metahepadnavirus 4	ehbv-meta.4-pelusios	4	1	-	LCP1	RUBCNL	N/A	Hepadnaviridae	Metahepadnavirus	null	species		pelusios	null

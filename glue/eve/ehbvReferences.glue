@@ -36,7 +36,6 @@
   create reference REF_EHBV-Herpeto.5-Testudines    fasta-refseqs-ehbv ehbv-herpeto.5-testudines-con 
   create reference REF_EHBV-Herpeto.6-Varanus       fasta-refseqs-ehbv ehbv-herpeto.6-varanus-con
   create reference REF_EHBV-Herpeto.7-Varanus       fasta-refseqs-ehbv ehbv-herpeto.7-varanus
-  create reference REF_EHBV-Herpeto.8-Paroedura     fasta-refseqs-ehbv ehbv-herpeto.8-paroedura
-  
+
   # Metahepadnavirus
-  create reference REF_EHBV-Meta.1-Sphenodon        fasta-refseqs-ehbv ehbv-meta.1-sphenodon
+  create reference REF_EHBV-Meta.1-Sauria           fasta-refseqs-ehbv ehbv-meta.1-sauria

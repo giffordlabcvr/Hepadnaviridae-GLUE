@@ -5,6 +5,6 @@
 
   # Import metadata for EHBV reference sequences
   module ehbvSideDataImporter 
-    populate -f tabular/eve/ehbv-refseqs/ehbv-refseqs-side-data.tsv
+    populate -f tabular/eve/ehbv-refseqs-side-data.tsv
     exit
 
