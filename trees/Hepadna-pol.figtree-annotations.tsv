@@ -1,0 +1,6 @@
+taxon	sequenceID	clade	isolate	host_sci_name	host_sci_name	sample_date	country
+alignment/AL_UNC_Hepadna_P/member/ncbi-refseqs/NC_001344	NC_001344	-	DHBVQCA34	Anas platyrhynchos	-	-	-
+alignment/AL_UNC_Hepadna_P/member/ncbi-refseqs/NC_003977	NC_003977	Primate	-	Homo sapiens	-	-	-
+alignment/AL_UNC_Hepadna_P/member/ncbi-refseqs/NC_027922	NC_027922	-	RR173	Catostomus commersonii	-	-	USA
+alignment/AL_UNC_Hepadna_P/member/ncbi-refseqs/NC_030445	NC_030445	-	-	Lepomis macrochirus	-	-	USA
+alignment/AL_UNC_Hepadna_P/member/ncbi-refseqs/NC_030446	NC_030446	-	243398	Nanorana parkeri	-	-	China

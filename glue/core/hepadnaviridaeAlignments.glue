@@ -10,6 +10,5 @@ module unconstrainedAlignmentImporter
   import AL_UNC_GENUS_PARA     -f alignments/core/internal/parahepadna.aln.fna
   import AL_UNC_GENUS_META     -f alignments/core/internal/metahepadna.aln.fna
   import AL_UNC_GENUS_ORTHO    -f alignments/core/internal/orthohepadna.aln.fna
-
   
   exit

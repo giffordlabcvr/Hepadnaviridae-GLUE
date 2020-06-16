@@ -1,0 +1,85 @@
+
+  # Clean up from any previous run of this file
+  delete alignment AL_UNC_Hepadna_C
+  delete alignment AL_UNC_Hepadna_P
+  delete alignment AL_UNC_Hepadna_S
+
+  delete alignment AL_UNC_Avihepadna_C
+  delete alignment AL_UNC_Avihepadna_P
+  delete alignment AL_UNC_Avihepadna_S
+
+  delete alignment AL_UNC_Orthohepadna_C
+  delete alignment AL_UNC_Orthohepadna_P
+  delete alignment AL_UNC_Orthohepadna_S
+
+  delete alignment AL_UNC_Herpetohepadna_C
+  delete alignment AL_UNC_Herpetohepadna_P
+  delete alignment AL_UNC_Herpetohepadna_S
+
+  delete alignment AL_UNC_Metahepadna_C
+  delete alignment AL_UNC_Metahepadna_P
+  delete alignment AL_UNC_Metahepadna_S
+
+
+
+
+  
+  delete module fastaAlignmentExporter
+  delete module hepadnaTreeAlignmentImporterNucs
+  delete module raxmlPhylogenyGenerator
+  delete module hepadnaPhyloUtility
+  delete module hepadnaFigTreeAnnotationExporter
+  
+  # Create all the modules we need
+  create module -f modules/fastaAlignmentExporter.xml
+  create module -f modules/hepadnaTreeAlignmentImporterNucs.xml
+  create module -t raxmlPhylogenyGenerator
+  create module -f modules/hepadnaPhyloUtility.xml
+  create module -f modules/hepadnaFigTreeAnnotationExporter.xml
+
+  # Export the gene alignments 
+  module fastaAlignmentExporter
+ 	export AL_HEPADNAVIRIDAE -r  REF_Ortho_MASTER_HBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-core.aln.fna
+ 	export AL_HEPADNAVIRIDAE -r  REF_Ortho_MASTER_HBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-pol.aln.fna
+ 	export AL_HEPADNAVIRIDAE -r  REF_Ortho_MASTER_HBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-surface.aln.fna
+	exit
+
+  # Import the alignments to GLUE
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Hepadna_C -f alignments/tree/Hepadna-core.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Hepadna_P -f alignments/tree/Hepadna-pol.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Hepadna_S -f alignments/tree/Hepadna-surface.aln.fna
+
+  # Create the phylogeny
+  module raxmlPhylogenyGenerator
+    generate nucleotide phylogeny AL_UNC_Hepadna_C -a -o trees/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Hepadna_P -a -o trees/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Hepadna_S -a -o trees/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
+    exit
+
+  # Re-root phylogeny 
+  module HepadnaPhyloUtility 
+
+	reroot-phylogeny \
+      --inputFile trees/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Hepadna-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Hepadna-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Hepadna-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+    exit
+
+  # Export annotations
+  module HepadnaFigTreeAnnotationExporter 
+    export figtree-annotation AL_UNC_Hepadna_C -f trees/Hepadna-core.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Hepadna_P -f trees/Hepadna-pol.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Hepadna_S -f trees/Hepadna-surface.figtree-annotations.tsv
+  exit
+

@@ -46,6 +46,9 @@ project hepadnaviridae
   # Add variations
   run file glue/core/hepadnaviridaeVariations.glue
 
+ # Create phylogenies
+  run file glue/core/hepadnaviridaeCreateRootPhylogenies.glue
+
   # Validate
   validate
   
