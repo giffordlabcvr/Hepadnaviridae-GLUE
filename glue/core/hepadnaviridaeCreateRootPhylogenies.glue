@@ -21,9 +21,6 @@
   delete alignment AL_UNC_Metahepadna_S
 
 
-
-
-  
   delete module fastaAlignmentExporter
   delete module hepadnaTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
@@ -39,40 +36,126 @@
 
   # Export the gene alignments 
   module fastaAlignmentExporter
- 	export AL_HEPADNAVIRIDAE -r  REF_Ortho_MASTER_HBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-core.aln.fna
- 	export AL_HEPADNAVIRIDAE -r  REF_Ortho_MASTER_HBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-pol.aln.fna
- 	export AL_HEPADNAVIRIDAE -r  REF_Ortho_MASTER_HBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-surface.aln.fna
+ 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Ortho-core.aln.fna
+ 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Ortho-pol.aln.fna
+ 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Ortho-surface.aln.fna
+
+ 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Avi-core.aln.fna
+ 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Avi-pol.aln.fna
+ 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Avi-surface.aln.fna
+
+ 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-core.aln.fna
+ 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-pol.aln.fna
+ 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-surface.aln.fna
+
+ 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-core.aln.fna
+ 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-pol.aln.fna
+ 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-surface.aln.fna
+
 	exit
 
   # Import the alignments to GLUE
-  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Hepadna_C -f alignments/tree/Hepadna-core.aln.fna
-  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Hepadna_P -f alignments/tree/Hepadna-pol.aln.fna
-  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Hepadna_S -f alignments/tree/Hepadna-surface.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Ortho_C -f alignments/tree/Ortho-core.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Ortho_P -f alignments/tree/Ortho-pol.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Ortho_S -f alignments/tree/Ortho-surface.aln.fna
+
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Avi_C -f alignments/tree/Avi-core.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Avi_P -f alignments/tree/Avi-pol.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Avi_S -f alignments/tree/Avi-surface.aln.fna
+
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Herpeto_C -f alignments/tree/Herpeto-core.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Herpeto_P -f alignments/tree/Herpeto-pol.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Herpeto_S -f alignments/tree/Herpeto-surface.aln.fna
+
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Meta_C -f alignments/tree/Meta-core.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Meta_P -f alignments/tree/Meta-pol.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_Meta_S -f alignments/tree/Meta-surface.aln.fna
+
 
   # Create the phylogeny
   module raxmlPhylogenyGenerator
-    generate nucleotide phylogeny AL_UNC_Hepadna_C -a -o trees/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Hepadna_P -a -o trees/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Hepadna_S -a -o trees/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
+
+    generate nucleotide phylogeny AL_UNC_Ortho_C -a -o trees/Ortho-core.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Ortho_P -a -o trees/Ortho-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Ortho_S -a -o trees/Ortho-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
+
+    generate nucleotide phylogeny AL_UNC_Avi_C -a -o trees/Avi-core.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Avi_P -a -o trees/Avi-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Avi_S -a -o trees/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
+
+    generate nucleotide phylogeny AL_UNC_Herpeto_C -a -o trees/Herpeto-core.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Herpeto_P -a -o trees/Herpeto-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Herpeto_S -a -o trees/Herpeto-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
+ 
+    generate nucleotide phylogeny AL_UNC_Meta_C -a -o trees/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Meta_P -a -o trees/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_UNC_Meta_S -a -o trees/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
+
+
     exit
 
   # Re-root phylogeny 
   module HepadnaPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/Ortho-core.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/Hepadna-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/Ortho-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/Ortho-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/Hepadna-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/Ortho-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/Ortho-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/Hepadna-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/Ortho-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Avi-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Avi-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Avi-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Avi-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Avi-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Herpeto-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Herpeto-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Herpeto-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Herpeto-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Herpeto-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Herpeto-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Meta-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Meta-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/Meta-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -81,5 +164,23 @@
     export figtree-annotation AL_UNC_Hepadna_C -f trees/Hepadna-core.figtree-annotations.tsv
     export figtree-annotation AL_UNC_Hepadna_P -f trees/Hepadna-pol.figtree-annotations.tsv
     export figtree-annotation AL_UNC_Hepadna_S -f trees/Hepadna-surface.figtree-annotations.tsv
+
+    export figtree-annotation AL_UNC_Ortho_C -f trees/Hepadna-core.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Ortho_P -f trees/Hepadna-pol.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Ortho_S -f trees/Hepadna-surface.figtree-annotations.tsv
+
+    export figtree-annotation AL_UNC_Avi_C -f trees/Hepadna-core.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Avi_P -f trees/Hepadna-pol.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Avi_S -f trees/Hepadna-surface.figtree-annotations.tsv
+
+    export figtree-annotation AL_UNC_Herpeto_C -f trees/Hepadna-core.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Herpeto_P -f trees/Hepadna-pol.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Herpeto_S -f trees/Hepadna-surface.figtree-annotations.tsv
+
+    export figtree-annotation AL_UNC_Meta_C -f trees/Hepadna-core.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Meta_P -f trees/Hepadna-pol.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Meta_S -f trees/Hepadna-surface.figtree-annotations.tsv
+
   exit
+
 
