@@ -1,0 +1,4 @@
+
+  # Delete EVE sources
+  delete source fasta-refseqs-ehbv
+  delete source fasta-digs-ehbv

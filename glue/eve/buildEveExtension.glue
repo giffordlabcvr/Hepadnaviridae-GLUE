@@ -8,6 +8,9 @@ schema-project hepadnaviridae
   
 project hepadnaviridae
 
+  # Clean up previous e=EVE extension build
+  run file glue/eve/ehbvDeletePreviousExtensionBuild.glue
+
   # Create modules required for EVE extension
   run file glue/eve/ehbvModules.glue
   
@@ -28,7 +31,10 @@ project hepadnaviridae
   run file glue/eve/ehbvAlignmentTree.glue
 
   # Record feature presence
-  #run file glue/eve/ehbvRecordFeaturePresence.glue
+  run file glue/eve/ehbvRecordFeaturePresence.glue
+
+  # Create phylogenies
+  run file glue/eve/ehbvCreateRootPhylogenies.glue
 
   # Validate
   validate
