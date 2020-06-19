@@ -17,17 +17,16 @@
   create reference REF_EHBV-Avi.13-paleognathea     fasta-refseqs-ehbv ehbv-avi.13-paleognathae-con
   create reference REF_EHBV-Avi.14-gaviiformes      fasta-refseqs-ehbv ehbv-avi.14-gaviiformes
   create reference REF_EHBV-Avi.15-gaviiformes      fasta-refseqs-ehbv ehbv-avi.15-gaviiformes
-  create reference REF_EHBV-Avi.16-accipter         fasta-refseqs-ehbv ehbv-avi.16-accipter
+  create reference REF_EHBV-Avi.16-turaco           fasta-refseqs-ehbv ehbv-avi.16-turaco
   create reference REF_EHBV-Avi.17-passeriformes    fasta-refseqs-ehbv ehbv-avi.17-passeriformes-con
-  
   create reference REF_EHBV-Avi.18-calypte          fasta-refseqs-ehbv ehbv-avi.18-calypte
   create reference REF_EHBV-Avi.19-buceros          fasta-refseqs-ehbv ehbv-avi.19-buceros
   create reference REF_EHBV-Avi.20-cariama          fasta-refseqs-ehbv ehbv-avi.20-cariama
-  create reference REF_EHBV-Avi.21-paleognathea     fasta-refseqs-ehbv ehbv-avi.21-paleognathea-con
+  create reference REF_EHBV-Avi.21-paleognathae     fasta-refseqs-ehbv ehbv-avi.21-paleognathae-con
   create reference REF_EHBV-Avi.25-sphenisciformes  fasta-refseqs-ehbv ehbv-avi.25-sphenisciformes-con
   create reference REF_EHBV-Avi.26-psittaciformes   fasta-refseqs-ehbv ehbv-avi.26-psittaciformes
   create reference REF_EHBV-Avi.27-suliformes       fasta-refseqs-ehbv ehbv-avi.27-suliformes-con
-  create reference REF_EHBV-Avi.31-passeriformes    fasta-refseqs-ehbv ehbv-avi.31-passeriformes
+  create reference REF_EHBV-Avi.31-passeriformes    fasta-refseqs-ehbv ehbv-avi.31-passeriformes-con
   create reference REF_EHBV-Avi.40-australiaves     fasta-refseqs-ehbv ehbv-avi.40-australiaves-con
 
   # Herpetohepadnavirus
