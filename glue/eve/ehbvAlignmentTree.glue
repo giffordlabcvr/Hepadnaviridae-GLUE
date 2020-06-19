@@ -2,6 +2,9 @@
 
 #~# EVEs derived from hepadnaviruses
 alignment AL_Hepadnaviridae
+
+  add member -w "source.name = 'fasta-digs-ehbv'"
+  add member -w "source.name = 'fasta-refseqs-ehbv'"
   
   demote member AL_GENUS_Ortho -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-digs-ehbv'"
   demote member AL_GENUS_Ortho -w "sequence.genus = 'Orthohepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
@@ -59,7 +62,7 @@ alignment AL_GENUS_Herpeto
 #~# Metahepadna EVE aligns
 alignment AL_GENUS_Meta
 
-  extract child AL_eHBV-Meta.1-Sphenodon -r REF_eHBV-Meta.1-Sphenodon
+  extract child AL_eHBV-Meta.1-Sphenodon -r REF_eHBV-Meta.1-Sauria
   demote member AL_eHBV-Meta.1-Sphenodon -w "sequence.name = 'eHBV-Meta.1-Sphenodon' and sequence.source.name = 'fasta-digs-ehbv'"
   demote member AL_eHBV-Meta.1-Sphenodon -w "sequence.name = 'eHBV-Meta.1-Sphenodon' and sequence.source.name = 'fasta-refseqs-ehbv'"
 
