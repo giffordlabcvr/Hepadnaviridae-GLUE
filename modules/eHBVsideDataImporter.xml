@@ -30,11 +30,6 @@
     </textFileColumn>
     
     <textFileColumn>
-        <header>clade</header>
-        <property>clade</property>
-    </textFileColumn>
-    
-    <textFileColumn>
         <header>host_sci_name</header>
         <property>locus_data.host_sci_name</property>
     </textFileColumn>
