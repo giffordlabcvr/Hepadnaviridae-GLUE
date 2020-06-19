@@ -1,5 +1,5 @@
 project hepadnaviridae
-  run file glue/eve/ehbvDeleteExtension.glue
+  run file glue/eve/ehbvDeletePreviousExtensionBuild.glue
   exit
 
 schema-project hepadnaviridae
@@ -7,9 +7,6 @@ schema-project hepadnaviridae
   exit
   
 project hepadnaviridae
-
-  # Clean up previous e=EVE extension build
-  run file glue/eve/ehbvDeletePreviousExtensionBuild.glue
 
   # Create modules required for EVE extension
   run file glue/eve/ehbvModules.glue
