@@ -2,7 +2,7 @@
 
 ### Hepadnaviridae     
 create alignment AL_Hepadnaviridae -r REF_Ortho_MASTER_HBV
-alignment AL_Hepadnaviridae add member --whereClause "family = 'Hepadnaviridae'"
+alignment AL_Hepadnaviridae add member --allSequences
   
 #~# Genus alignments
 alignment AL_Hepadnaviridae

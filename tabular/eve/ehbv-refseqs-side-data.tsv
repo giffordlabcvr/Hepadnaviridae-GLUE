@@ -13,7 +13,7 @@ ehbv-avi.1-neoaves-con	Endogenous avihepadnavirus 1	ehbv-avi.1-neoaves	1	FRY (in
 ehbv-avi.2-estrildidae	Endogenous avihepadnavirus 2	ehbv-avi.2-estrildidae	2	ENSTGUG00000000478	LRRC2	Hepadnaviridae	Avihepadnavirus	Estrildidae
 ehbv-avi.3-passeriformes	Endogenous avihepadnavirus 3	ehbv-avi.3-passeriformes	3	SCN3B (intronic)	SCN3B (intronic)	Hepadnaviridae	Avihepadnavirus	Passeriformes
 ehbv-avi.4-passeriformes	Endogenous avihepadnavirus 4	ehbv-avi.4-passeriformes	4	ENSTGUG00000004184 (intronic)	ENSTGUG00000004184 (intronic)	Hepadnaviridae	Avihepadnavirus	Passeriformes
-ehbv-avi.4-passeriformes	Endogenous avihepadnavirus 5	ehbv-avi.5-unranked	5	LMO3	MGST1	Hepadnaviridae	Avihepadnavirus	Passeriformes
+ehbv-avi.5-passeriformes-unranked	Endogenous avihepadnavirus 5	ehbv-avi.5-unranked	5	LMO3	MGST1	Hepadnaviridae	Avihepadnavirus	Passeriformes
 ehbv-avi.6-passeriformes	Endogenous avihepadnavirus 6	ehbv-avi.6-passeriformes	6	FOXD3	ATG4C	Hepadnaviridae	Avihepadnavirus	Passeriformes
 ehbv-avi.7-passeriformes	Endogenous avihepadnavirus 7	ehbv-avi.7-passeriformes	7	SNORA13	LIG3	Hepadnaviridae	Avihepadnavirus	Passeriformes
 ehbv-avi.8-australiaves	Endogenous avihepadnavirus 8	ehbv-avi.8-australiaves	8	ATP2B2 (intronic)	ATP2B2 (intronic)	Hepadnaviridae	Avihepadnavirus	Australiaves
@@ -41,3 +41,4 @@ ehbv-avi.29-psittacula	Endogenous avihepadnavirus 29	ehbv-avi.29-psittacula	29	E
 ehbv-avi.30-anser-con	Endogenous avihepadnavirus 30	ehbv-avi.30-anser-con	30	ENSACDG00005009727	CCDC58	Hepadnaviridae	Avihepadnavirus	Anser
 ehbv-avi.31-passeriformes-con	Endogenous avihepadnavirus 31	ehbv-avi.31-passeriformes-con	31	ENSTGUG00000000478	LRRC2	Hepadnaviridae	Avihepadnavirus	Passeriformes
 ehbv-avi.32-tinamiformes-con	Endogenous avihepadnavirus 32	ehbv-avi.32-tinamiformes-con	32	OLFM4	nk	Hepadnaviridae	Avihepadnavirus	Tinamiformes
+ehbv-avi.40-australiaves-con	Endogenous avihepadnavirus 40	ehbv-avi.40-australiaves	33	NK	NK	Hepadnaviridae	Avihepadnavirus	Australiaves
