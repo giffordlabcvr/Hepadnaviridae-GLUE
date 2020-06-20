@@ -1,0 +1,8 @@
+taxon	sequenceID	clade	isolate	host_sci_name	host_sci_name	sample_date	country
+alignment/AL_UNC_Meta_S_EVE/member/fasta-refseqs/AMDV	AMDV	-	-	Astatotilapia sp	-	-	-
+alignment/AL_UNC_Meta_S_EVE/member/fasta-refseqs-ehbv/ehbv-meta.1-sauria-con	ehbv-meta.1-sauria-con	-	-	-	-	-	-
+alignment/AL_UNC_Meta_S_EVE/member/fasta-refseqs-ehbv/ehbv-meta.2-varanus	ehbv-meta.2-varanus	-	-	-	-	-	-
+alignment/AL_UNC_Meta_S_EVE/member/fasta-refseqs/IMDV	IMDV	-	-	Chionodraco hamatus	-	-	-
+alignment/AL_UNC_Meta_S_EVE/member/ncbi-refseqs/MH716822	MH716822	-	-	Hyporhamphus australis	-	-	Australia
+alignment/AL_UNC_Meta_S_EVE/member/ncbi-refseqs/NC_030445	NC_030445	-	-	Lepomis macrochirus	-	-	USA
+alignment/AL_UNC_Meta_S_EVE/member/fasta-refseqs/TMDV	TMDV	-	-	Astyanax mexicanus	-	-	-
