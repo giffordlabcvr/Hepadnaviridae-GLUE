@@ -124,9 +124,9 @@
 
   # Export annotations
   module HepadnaFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_Herpeto_C_EVE -f trees/Hepadna-core.eve.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Herpeto_P_EVE -f trees/Hepadna-pol.eve.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Herpeto_S_EVE -f trees/Hepadna-surface.eve.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Herpeto_C_EVE -f trees/Herpeto-core.eve.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Herpeto_P_EVE -f trees/Herpeto-pol.eve.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Herpeto_S_EVE -f trees/Herpeto-surface.eve.figtree-annotations.tsv
 
     export figtree-annotation AL_UNC_Meta_C_EVE -f trees/Meta-core.eve.figtree-annotations.tsv
     export figtree-annotation AL_UNC_Meta_P_EVE -f trees/Meta-pol.eve.figtree-annotations.tsv
