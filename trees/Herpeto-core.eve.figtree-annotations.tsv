@@ -1,4 +1,4 @@
-taxon	sequenceID	clade	isolate	host_sci_name	host_sci_name	sample_date	country
+taxon	sequenceID	clade	isolate	host_sci_name	host_common_name	sample_date	country
 alignment/AL_UNC_Herpeto_C_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	-	-	-	-	-	-
 alignment/AL_UNC_Herpeto_C_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.4-crocodilia	ehbv-herpeto.4-crocodilia	-	-	-	-	-	-
 alignment/AL_UNC_Herpeto_C_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.5-testudines-con	ehbv-herpeto.5-testudines-con	-	-	-	-	-	-

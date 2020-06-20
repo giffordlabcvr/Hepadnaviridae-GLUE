@@ -1,4 +1,4 @@
-taxon	sequenceID	clade	isolate	host_sci_name	host_sci_name	sample_date	country
+taxon	sequenceID	clade	isolate	host_sci_name	host_common_name	sample_date	country
 alignment/AL_UNC_Meta_C_EVE/member/fasta-refseqs/AMDV	AMDV	-	-	Astatotilapia sp	-	-	-
 alignment/AL_UNC_Meta_C_EVE/member/fasta-refseqs-ehbv/ehbv-meta.1-sauria-con	ehbv-meta.1-sauria-con	-	-	-	-	-	-
 alignment/AL_UNC_Meta_C_EVE/member/fasta-refseqs-ehbv/ehbv-meta.3-paroedura	ehbv-meta.3-paroedura	-	-	-	-	-	-

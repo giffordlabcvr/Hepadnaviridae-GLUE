@@ -21,7 +21,7 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>host_sci_name</annotationName>
+		<annotationName>host_common_name</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.isolate_data.host_common_name')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 

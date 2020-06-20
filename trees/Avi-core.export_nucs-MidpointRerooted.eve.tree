@@ -2,33 +2,33 @@
 begin taxa;
 	dimensions ntax=27;
 	taxlabels
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.12-anatidae-con'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.18-calypte'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.24-apaloderma'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.26-psittaciformes'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.32-tinamiformes-con'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.35-pterocles'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla'
-	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/AJ251934'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/AJ441111'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_001344'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_001486'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_005888'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_005890'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_005950'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_016561'
-	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_035210'
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.1-neoaves-con"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.10-melopsittacus"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.11-tyto"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.12-anatidae-con'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.12-anatidae-con"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.14-gaviiformes"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.15-gaviiformes"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.18-calypte'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.18-calypte"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.19-buceros"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.20-cariama"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.24-apaloderma'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.24-apaloderma"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.25-chaetura"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.26-psittaciformes'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.26-psittaciformes"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.29-psittacula"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.31-passeriformes-con"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.32-tinamiformes-con'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.32-tinamiformes-con"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.35-pterocles'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.35-pterocles"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.36-callipepla"]
+	'alignment/AL_UNC_Avi_C_EVE/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus'[&clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",sequenceID="ehbv-avi.9-melopsittacus"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/AJ251934'[&clade="-",country="Germany:Northern Germany",host_common_name="-",host_sci_name="Ciconia ciconia",isolate="STHBV-1",sample_date="-",sequenceID="AJ251934"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/AJ441111'[&clade="-",country="Germany:Berlin",host_common_name="-",host_sci_name="Balearica regulorum",isolate="CCHBV 1",sample_date="-",sequenceID="AJ441111"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_001344'[&clade="-",country="-",host_common_name="-",host_sci_name="Anas platyrhynchos",isolate="DHBVQCA34",sample_date="-",sequenceID="NC_001344"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_001486'[&clade="-",country="-",host_common_name="-",host_sci_name="Ardea cinerea",isolate="-",sample_date="-",sequenceID="NC_001486"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_005888'[&clade="-",country="-",host_common_name="-",host_sci_name="Chen rossii",isolate="-",sample_date="-",sequenceID="NC_005888"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_005890'[&clade="-",country="USA",host_common_name="-",host_sci_name="Chloephaga poliocephala",isolate="Ashy-headed sheldgoose hepatitis B virus",sample_date="-",sequenceID="NC_005890"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_005950'[&clade="-",country="-",host_common_name="-",host_sci_name="Anser caerulescens",isolate="SGHBV1-13",sample_date="-",sequenceID="NC_005950"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_016561'[&clade="-",country="Poland",host_common_name="-",host_sci_name="Psittacula krameri",isolate="PL",sample_date="-",sequenceID="NC_016561"]
+	'alignment/AL_UNC_Avi_C_EVE/member/ncbi-refseqs/NC_035210'[&clade="-",country="Germany",host_common_name="-",host_sci_name="Eudromia elegans",isolate="160050",sample_date="-",sequenceID="NC_035210"]
 ;
 end;
 
@@ -57,7 +57,7 @@ begin figtree;
 	set layout.expansion=0;
 	set layout.layoutType="RECTILINEAR";
 	set layout.zoom=0;
-	set legend.attribute=null;
+	set legend.attribute="label";
 	set legend.fontSize=10.0;
 	set legend.isShown=false;
 	set legend.significantDigits=4;
@@ -71,20 +71,20 @@ begin figtree;
 	set nodeLabels.fontStyle=0;
 	set nodeLabels.isShown=false;
 	set nodeLabels.significantDigits=4;
-	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.colourAttribute="User selection";
 	set nodeShapeExternal.isShown=false;
 	set nodeShapeExternal.minSize=10.0;
 	set nodeShapeExternal.scaleType=Width;
 	set nodeShapeExternal.shapeType=Circle;
 	set nodeShapeExternal.size=4.0;
-	set nodeShapeExternal.sizeAttribute=null;
-	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
 	set nodeShapeInternal.isShown=false;
 	set nodeShapeInternal.minSize=10.0;
 	set nodeShapeInternal.scaleType=Width;
 	set nodeShapeInternal.shapeType=Circle;
 	set nodeShapeInternal.size=4.0;
-	set nodeShapeInternal.sizeAttribute=null;
+	set nodeShapeInternal.sizeAttribute="Fixed";
 	set polarLayout.alignTipLabels=false;
 	set polarLayout.angularRange=0;
 	set polarLayout.rootAngle=0;
@@ -113,7 +113,7 @@ begin figtree;
 	set scaleBar.lineWidth=1.0;
 	set scaleBar.scaleRange=0.0;
 	set tipLabels.colorAttribute="User selection";
-	set tipLabels.displayAttribute="Names";
+	set tipLabels.displayAttribute="sequenceID";
 	set tipLabels.fontName="sansserif";
 	set tipLabels.fontSize=12;
 	set tipLabels.fontStyle=0;
