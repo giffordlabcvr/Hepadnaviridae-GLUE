@@ -1,8 +1,7 @@
 id	full_name	locus_id	locus_numeric_id	nearest_upstream_orf	nearest_downstream_orf	family	genus	host_group_name
 ehbv-herpeto.1-serpentes-con	Endogenous herpetohepadnavirus 1	ehbv-herpeto.1-serpentes-con	1	TSHZ1	ZNF516	Hepadnaviridae	Herpetohepadnavirus	Serpentes
-ehbv-herpeto.2-serpentes-con	Endogenous herpetohepadnavirus 2	ehbv-herpeto.2-serpentes-con	2			Hepadnaviridae	Herpetohepadnavirus	Serpentes
-ehbv-herpeto.3-crocodilia-con	Endogenous herpetohepadnavirus 3	ehbv-herpeto.3-crocodilia-con	3			Hepadnaviridae	Herpetohepadnavirus	Crocodilia
-ehbv-herpeto.4-crocodilia-con	Endogenous herpetohepadnavirus 4	ehbv-herpeto.4-crocodilia-con	4			Hepadnaviridae	Herpetohepadnavirus	Crocodilia
+ehbv-herpeto.3-crocodilia	Endogenous herpetohepadnavirus 3	ehbv-herpeto.3-crocodilia-con	3			Hepadnaviridae	Herpetohepadnavirus	Crocodilia
+ehbv-herpeto.4-crocodilia	Endogenous herpetohepadnavirus 4	ehbv-herpeto.4-crocodilia-con	4			Hepadnaviridae	Herpetohepadnavirus	Crocodilia
 ehbv-herpeto.5-testudines-con	Endogenous herpetohepadnavirus 5	ehbv-herpeto.5-testudines-con	5			Hepadnaviridae	Herpetohepadnavirus	Testudines
 ehbv-herpeto.6-varanus-con	Endogenous herpetohepadnavirus 6	ehbv-herpeto.6-varanus-con	6	WSCD2 (intronic)	WSCD2 (intronic)	Hepadnaviridae	Herpetohepadnavirus	Varanus
 ehbv-meta.1-sauria-con	Endogenous metahepadnavirus 1	ehbv-meta.1-sauria	1			Hepadnaviridae	Metahepadnavirus	Sauropsids
@@ -34,6 +33,7 @@ ehbv-avi.21-paleognathae-con	Endogenous avihepadnavirus 21	ehbv-avi.21-Paleognat
 ehbv-avi.22-tyto	Endogenous avihepadnavirus 22	ehbv-avi.22-Tyto	22	MYBL2	PTPRT	Hepadnaviridae	Avihepadnavirus	Tyto
 ehbv-avi.23-strigops	Endogenous avihepadnavirus 23	ehbv-avi.23-Nothoprocta	23	OLFM4	nk	Hepadnaviridae	Avihepadnavirus	Strigops
 ehbv-avi.24-apaloderma	Endogenous avihepadnavirus 24	ehbv-avi.24-Apaloderma	24	CDH23 (intronic)	CDH23 (intronic)	Hepadnaviridae	Avihepadnavirus	Apaloderma
+ehbv-avi.25-chaetura	Endogenous avihepadnavirus 25	ehbv-avi.35-Chaetura	25	ARMC1	CYP7B1	Hepadnaviridae	Avihepadnavirus	Chaetura
 ehbv-avi.26-psittaciformes	Endogenous avihepadnavirus 26	ehbv-avi.26-psittaciformes	26	ENSACOG00000002175	ENSACOG00000002296	Hepadnaviridae	Avihepadnavirus	Psittaciformes
 ehbv-avi.27-suliformes-con	Endogenous avihepadnavirus 27	ehbv-avi.27-suliformes-con	27	SUPT7L	ENSZALG00000002917	Hepadnaviridae	Avihepadnavirus	Suliformes
 ehbv-avi.28-australiaves	Endogenous avihepadnavirus 28	ehbv-avi.28-australiaves	28			Hepadnaviridae	Avihepadnavirus	Australiaves
@@ -42,4 +42,3 @@ ehbv-avi.30-anser-con	Endogenous avihepadnavirus 30	ehbv-avi.30-anser-con	30	ENS
 ehbv-avi.31-passeriformes-con	Endogenous avihepadnavirus 31	ehbv-avi.31-passeriformes-con	31	ENSTGUG00000000478	LRRC2	Hepadnaviridae	Avihepadnavirus	Passeriformes
 ehbv-avi.32-tinamiformes-con	Endogenous avihepadnavirus 32	ehbv-avi.32-tinamiformes-con	32	OLFM4	nk	Hepadnaviridae	Avihepadnavirus	Tinamiformes
 ehbv-avi.33-psittaciformes	Endogenous avihepadnavirus 33	ehbv-avi.33-Psittaciformes	33	ENSACOG00000002175	ENSACOG00000002296	Hepadnaviridae	Avihepadnavirus	Psittaciformes
-ehbv-avi.25-chaetura	Endogenous avihepadnavirus 25	ehbv-avi.35-Chaetura	25	ARMC1	CYP7B1	Hepadnaviridae	Avihepadnavirus	Chaetura

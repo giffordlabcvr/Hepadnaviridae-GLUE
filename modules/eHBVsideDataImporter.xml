@@ -31,7 +31,7 @@
     
     <textFileColumn>
         <header>host_sci_name</header>
-        <property>locus_data.host_sci_name</property>
+        <property>locus_data.host_group_name</property>
     </textFileColumn>
 
 

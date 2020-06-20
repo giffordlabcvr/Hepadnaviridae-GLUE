@@ -143,6 +143,10 @@ alignment AL_GENUS_Avi
   demote member AL_eHBV-Avi.31-Passeriformes -w "sequence.name = 'ehbv-avi.31-passeriformes' and sequence.source.name = 'fasta-digs-ehbv'"
   demote member AL_eHBV-Avi.31-Passeriformes -w "sequence.name = 'ehbv-avi.31-passeriformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
 
+  extract child AL_eHBV-Avi.31-Passeriformes -r REF_EHBV-Avi.31-passeriformes
+  demote member AL_eHBV-Avi.31-Passeriformes -w "sequence.name = 'ehbv-avi.31-passeriformes' and sequence.source.name = 'fasta-digs-ehbv'"
+  demote member AL_eHBV-Avi.31-Passeriformes -w "sequence.name = 'ehbv-avi.31-passeriformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
 
 
 REF_EHBV-Avi.31-passeriformes
