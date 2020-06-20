@@ -189,3 +189,19 @@ alignment AL_GENUS_Meta
   #demote member AL_eHBV-Meta.2-Varanus -w "sequence.name = 'ehbv-meta.2-varanus' and sequence.source.name = 'fasta-digs-ehbv'"
   #demote member AL_eHBV-Meta.2-Varanus -w "sequence.name = 'ehbv-meta.2-varanus' and sequence.source.name = 'fasta-refseqs-ehbv'"
   exit
+
+
+alignment AL_GENUS_Avi
+  derive segments AL_UNC_eHBV-Avi -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_GENUS_Herpeto
+  derive segments AL_UNC_eHBV-Herpeto -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_GENUS_Meta
+  derive segments AL_UNC_eHBV-Meta -a --mergeStrategy OVERWRITE
+  exit
+
+
+

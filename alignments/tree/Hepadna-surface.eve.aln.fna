@@ -1,4 +1,4 @@
->NC_001344.DHBV
+>NC_001344|DHBV
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -16,7 +16,7 @@ GTATC-----------------------------------------------------------------
 GTCGGTCTCAGTCCTTTTCTCCTCCATCTCTTCACTACTGCCCTCGGATCAGAAATCGCTCGTCGCTTT-
 --AATGTTTGGACTTTTACTTATATGGATGACTTCCTCCTCTGCCACCCAAACGCTCGTCACCTTAACTC
 AATTAGCCACGCTGTCTGTTCTTTTCTACAAGAATTAGGAATACGCA
->NC_003977.HBV
+>NC_003977|HBV
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -34,7 +34,7 @@ GTTGG-----------------------------------------------------------------
 GTGGGCCTCAGCCCGTTTCTCCTGGCTCAGTTTACTAGTGCCATTTGTTCAGTGGTTCGTAGGGCTTTCC
 CCCACTGTTTGGCTTTCAGTTATATGGATGATGTGGTATTGGGGGCCAAGTCTGTACAGCATCTTGAGTC
 CCTTTTTACCGCTGTTACCAATTTTCTTTTGTCTTTGGGTATACATT
->NC_027922.wsHBV
+>NC_027922|wsHBV
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -52,7 +52,7 @@ GTATC-----------------------------------------------------------------
 GTTGGGCTCAGTCCTTGGCTCCTACATCTTTTCACATCTATCCTCGCAACTTGGATCCGTTCCTACTAT-
 --CCAATTCATTGCATTGCTTACATGGATGATTTTCTACTCTCACATTCCAGTGTGGCTACACTTTCTGC
 TGTCGTTCGTAACATCTTGGCACTTTTTGCAGAATGGGGGATTTTGA
->NC_030445.bgHBV
+>NC_030445|bgHBV
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
@@ -70,7 +70,7 @@ ATTGG-----------------------------------------------------------------
 ATTGGCCTCAGCCCATTTCTCTTGGCTCAGTTCACTGGAATCATTGTCCAGCATCTCCGCTCACTCTTTC
 AAGGTGTCTGTTGTTTTGCTTATATGGATGATGTGGTGGTGGGGCATCACTCTGACTTCCATTTGGCAAG
 TGTCGTTCATGCTATTCACCACTTACTACTTTCTCTGGGGATCCACA
->NC_030446.tfHBV
+>NC_030446|tfHBV
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------

@@ -3,6 +3,7 @@
 
   # Delete extension alignments
   multi-delete alignment -w "name like 'AL_EHBV%'"
+  multi-delete alignment -w "name like '%_EVE'"
   multi-delete alignment -w "name like 'AL_UNC_eHBV%'"
 
   # Delete extension reference sequences
