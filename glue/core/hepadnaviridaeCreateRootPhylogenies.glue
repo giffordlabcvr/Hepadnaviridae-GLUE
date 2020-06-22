@@ -1,4 +1,3 @@
-
   # Clean up from any previous run of this file
   delete alignment AL_UNC_Hepadna_C
   delete alignment AL_UNC_Hepadna_P
@@ -54,7 +53,7 @@
   module hepadnaTreeAlignmentImporterNucs import AL_UNC_Avi_P -f alignments/tree/Avi-pol.aln.fna
   module hepadnaTreeAlignmentImporterNucs import AL_UNC_Avi_S -f alignments/tree/Avi-surface.aln.fna
 
-  # Create the phylogeny
+  # Create the phylogenies
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_UNC_Hepadna_C -a -o trees/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS 

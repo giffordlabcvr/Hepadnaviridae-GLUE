@@ -18,15 +18,6 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "bitscore", eveObj.bitscore]);
 		glue.command(["set", "field", "identity", eveObj.identity]);
 		glue.command(["set", "field", "assigned_name", eveObj.assigned_name]);
-		glue.command(["set", "field", "host_species", eveObj.host_species]);
-		glue.command(["set", "field", "host_genus", eveObj.host_genus]);
-		glue.command(["set", "field", "host_family", eveObj.host_family]);
-		glue.command(["set", "field", "host_order", eveObj.host_order]);
-		glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
-		glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
-		glue.command(["set", "field", "host_major_clade", eveObj.major_clade]);
-		glue.command(["set", "field", "host_middle_clade", eveObj.middle_clade]);
-		glue.command(["set", "field", "host_minor_clade", eveObj.minor_clade]);
 		
 	});
 

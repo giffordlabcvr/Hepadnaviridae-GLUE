@@ -1,0 +1,15 @@
+  delete module raxmlPhylogenyGenerator
+  
+  # Create all the modules we need
+  create module -t raxmlPhylogenyGenerator
+
+  # Create the phylogenies
+  module raxmlPhylogenyGenerator
+
+    generate nucleotide phylogeny AL_eHBV-Avi.1-Neoaves -a -o trees/ehbv-avi.1-neoaves.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_eHBV-Avi.13-Paleognathea -a -o trees/ehbv-avi.13-paleognathea.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_eHBV-Avi.17-Passeriformes -a -o trees/ehbv-avi.17-passeriformes.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_eHBV-Avi.21-Paleognathae -a -o trees/ehbv-avi.21-paleognathae.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_eHBV-Avi.35-Pterocles -a -o trees/ehbv-avi.35-pterocles.tre NEWICK_BOOTSTRAPS 
+
+	exit
