@@ -7,7 +7,7 @@ create module -f modules/ehbvCompoundAligner.xml
 #~# EVEs derived from hepadnaviruses
 alignment AL_Hepadnaviridae
 
-  add member -w "source.name = 'fasta-digs-ehbv' and sequence.locus_data.bitscore > 100"
+  add member -w "source.name = 'fasta-digs-ehbv' and locus_data.bitscore > 200"
   add member -w "source.name = 'fasta-refseqs-ehbv'"
   
   demote member AL_GENUS_Avi -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
@@ -72,7 +72,7 @@ alignment AL_GENUS_Avi
   demote member AL_eHBV-Avi.12-Anatidae -w "sequence.name = 'ehbv-avi.12-anatidae' and sequence.source.name = 'fasta-refseqs-ehbv'"
 
   extract child AL_eHBV-Avi.13-Paleognathea -r REF_EHBV-Avi.13-Paleognathea
-  demote member AL_eHBV-Avi.13-Paleognathea -w "sequence.locus_data.assigned_name = 'ehbv-avi.13-paleognathae'"
+  demote member AL_eHBV-Avi.13-Paleognathea -w "sequence.locus_data.assigned_name = 'ehbv-avi.13-paleognathae-con'"
   demote member AL_eHBV-Avi.13-Paleognathea -w "sequence.name = 'ehbv-avi.13-paleognathae' and sequence.source.name = 'fasta-refseqs-ehbv'"
 
   extract child AL_eHBV-Avi.14-Gaviiformes -r REF_EHBV-Avi.14-Gaviiformes
@@ -146,10 +146,6 @@ alignment AL_GENUS_Avi
   extract child AL_eHBV-Avi.31-Passeriformes -r REF_EHBV-Avi.31-passeriformes
   demote member AL_eHBV-Avi.31-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.31-passeriformes-con'"
   demote member AL_eHBV-Avi.31-Passeriformes -w "sequence.name = 'ehbv-avi.31-passeriformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
-
-  extract child AL_eHBV-Avi.40-Australiaves -r REF_EHBV-Avi.40-australiaves
-  demote member AL_eHBV-Avi.40-Australiaves -w "sequence.locus_data.assigned_name = 'ehbv-avi.40-australiaves'"
-  demote member AL_eHBV-Avi.40-Australiaves -w "sequence.name = 'ehbv-avi.40-australiaves' and sequence.source.name = 'fasta-refseqs-ehbv'"
 
   exit
 
@@ -241,5 +237,3 @@ compute alignment AL_eHBV-Avi.28-Australiaves   ehbvCompoundAligner
 compute alignment AL_eHBV-Avi.29-Psittacula     ehbvCompoundAligner
 compute alignment AL_eHBV-Avi.30-Anser          ehbvCompoundAligner
 compute alignment AL_eHBV-Avi.31-Passeriformes  ehbvCompoundAligner
-compute alignment AL_eHBV-Avi.40-Passeriformes  ehbvCompoundAligner
-
