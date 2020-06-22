@@ -20,7 +20,11 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "host_class", eveObj.host_class]);
 		glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
 		glue.command(["set", "field", "host_order", eveObj.host_order]);
-		
+		glue.command(["set", "field", "host_family", eveObj.host_family]);
+		glue.command(["set", "field", "host_genus", eveObj.host_genus]);
+		glue.command(["set", "field", "host_major_clade", eveObj.major_clade]);
+		glue.command(["set", "field", "host_middle_clade", eveObj.middle_clade]);
+		glue.command(["set", "field", "host_minor_clade", eveObj.minor_clade]);
 	});
 
 	glue.inMode("sequence/fasta-digs-ehbv/"+eveObj.sequenceID, function() {

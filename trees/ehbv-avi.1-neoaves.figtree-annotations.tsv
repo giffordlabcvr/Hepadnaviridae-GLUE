@@ -1,72 +1,72 @@
-taxon	sequenceID	genus	scaffold	identity	bitscore	host_species	host_genus	host_major_clade	host_middle_clade	host_minor_clade	host_family
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Acanthisitta_chloris_4826	Acanthisitta_chloris_4826	Avihepadnavirus	scaffold27280	77.885	322	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Agapornis_roseicollis_4832	Agapornis_roseicollis_4832	Avihepadnavirus	NDXB01015160.1	53.933	254	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Amazona_aestiva_5164	Amazona_aestiva_5164	Avihepadnavirus	LMAW01002613.1	67.697	430	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Amazona_vittata_5179	Amazona_vittata_5179	Avihepadnavirus	KB272672.1	67.845	350	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Antigone_vipio_27284	Antigone_vipio_27284	Avihepadnavirus	BJEU01003050.1	82.051	491	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Antrostomus_carolinensis_5201	Antrostomus_carolinensis_5201	Avihepadnavirus	scaffold16207	71.756	313	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Apaloderma_vittatum_5203	Apaloderma_vittatum_5203	Avihepadnavirus	scaffold16435	60.377	348	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Aptenodytes_forsteri_5204	Aptenodytes_forsteri_5204	Avihepadnavirus	Scaffold155	94.805	457	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Aquila_chrysaetos_canadensis_5206	Aquila_chrysaetos_canadensis_5206	Avihepadnavirus	gi|766829346|ref|NW_011950900.1|	89.683	462	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Ara_macao_5210	Ara_macao_5210	Avihepadnavirus	KE061309.1	76.238	300	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Ara_macao_5216	Ara_macao_5216	Avihepadnavirus	AOUJ01462462.1	77.536	205	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Athene_cunicularia_5225	Athene_cunicularia_5225	Avihepadnavirus	QEEU01000002.1	67.376	565	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Balearica_regulorum_5228	Balearica_regulorum_5228	Avihepadnavirus	scaffold1498	78.616	256	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Bubo_blakistoni_5230	Bubo_blakistoni_5230	Avihepadnavirus	BJCB01005125.1	85.38	259	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Buceros_rhinoceros_5232	Buceros_rhinoceros_5232	Avihepadnavirus	scaffold36794	60.377	410	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Calidris_pugnax_5233	Calidris_pugnax_5233	Avihepadnavirus	gi|960494929|ref|NW_015094510.1|	73.559	686	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Calidris_pygmaea_5234	Calidris_pygmaea_5234	Avihepadnavirus	QJSC01016008.1	66.667	296	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Cariama_cristata_5238	Cariama_cristata_5238	Avihepadnavirus	scaffold329	72.208	529	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Cathartes_aura_5241	Cathartes_aura_5241	Avihepadnavirus	scaffold19789	80.788	636	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Charadrius_vociferus_5244	Charadrius_vociferus_5244	Avihepadnavirus	scaffold16	75.362	720	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Chlamydotis_macqueenii_5245	Chlamydotis_macqueenii_5245	Avihepadnavirus	gi|702204593|ref|NW_010470167.1|	80.105	291	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Chlamydotis_undulata_5246	Chlamydotis_undulata_5246	Avihepadnavirus	scaffold36512	80.105	291	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Cicinnurus_regius_5247	Cicinnurus_regius_5247	Avihepadnavirus	RAHN01000030.1	75.309	358	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Ciconia_boyciana_5248	Ciconia_boyciana_5248	Avihepadnavirus	BDFF01094061.1	90.948	441	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Colius_striatus_5250	Colius_striatus_5250	Avihepadnavirus	scaffold2903	44.444	267	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Columba_livia_5251	Columba_livia_5251	Avihepadnavirus	scaffold59	61.111	547	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Corapipo_altera_5252	Corapipo_altera_5252	Avihepadnavirus	NW_020884872.1	58.859	474	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Corvus_brachyrhynchos_5253	Corvus_brachyrhynchos_5253	Avihepadnavirus	scaffold103	47.86	367	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Corvus_cornix_cornix_5254	Corvus_cornix_cornix_5254	Avihepadnavirus	gi|725624890|ref|NW_010959474.1|	48.054	370	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Cuculus_canorus_5256	Cuculus_canorus_5256	Avihepadnavirus	scaffold15	70.874	274	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Diphyllodes_magnificus_5257	Diphyllodes_magnificus_5257	Avihepadnavirus	RAHO01000055.1	77.778	381	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Egretta_garzetta_5258	Egretta_garzetta_5258	Avihepadnavirus	scaffold40	75.978	476	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con	ehbv-avi.1-neoaves-con	Avihepadnavirus	-	-	-	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Empidonax_traillii_5259	Empidonax_traillii_5259	Avihepadnavirus	PWAB01000589.1	59.637	710	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Eopsaltria_australis_5260	Eopsaltria_australis_5260	Avihepadnavirus	QKXG01011186.1	54.485	522	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Eurypyga_helias_5268	Eurypyga_helias_5268	Avihepadnavirus	scaffold15072	69.231	777	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Falco_cherrug_5270	Falco_cherrug_5270	Avihepadnavirus	gi|537457958|ref|NW_004994945.1|	71.217	451	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Fulmarus_glacialis_5275	Fulmarus_glacialis_5275	Avihepadnavirus	scaffold36944	91.6	465	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Gallirallus_okinawae_5276	Gallirallus_okinawae_5276	Avihepadnavirus	BDFH01068897.1	74.074	234	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Gavia_stellata_5283	Gavia_stellata_5283	Avihepadnavirus	scaffold17967	85.196	575	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Grus_japonensis_5290	Grus_japonensis_5290	Avihepadnavirus	BDFG01003452.1	80.412	574	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Haliaeetus_albicilla_5292	Haliaeetus_albicilla_5292	Avihepadnavirus	scaffold23856	63.752	725	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Haliaeetus_leucocephalus_5294	Haliaeetus_leucocephalus_5294	Avihepadnavirus	Scaffold2403	76.487	523	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Himantopus_himantopus_5304	Himantopus_himantopus_5304	Avihepadnavirus	RSEF01000001.1	76.486	507	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Lepidothrix_coronata_5309	Lepidothrix_coronata_5309	Avihepadnavirus	KV388162.1	52.568	289	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Leptosomus_discolor_5311	Leptosomus_discolor_5311	Avihepadnavirus	scaffold6175	79.535	349	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Melopsittacus_undulatus_5322	Melopsittacus_undulatus_5322	Avihepadnavirus	JH556585	63.551	237	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Merops_nubicus_5341	Merops_nubicus_5341	Avihepadnavirus	scaffold9374	69.231	371	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Mesitornis_unicolor_5342	Mesitornis_unicolor_5342	Avihepadnavirus	scaffold28184	58.398	395	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nannopterum_brasilianus_5346	Nannopterum_brasilianus_5346	Avihepadnavirus	NFME01007800.1	89.344	225	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nannopterum_brasilianus_5356	Nannopterum_brasilianus_5356	Avihepadnavirus	NFME01223638.1	89.344	225	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nannopterum_harrisi_5391	Nannopterum_harrisi_5391	Avihepadnavirus	NEVG01000146.1	87.705	221	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nestor_notabilis_5396	Nestor_notabilis_5396	Avihepadnavirus	scaffold30203	41.038	221	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nipponia_nippon_5397	Nipponia_nippon_5397	Avihepadnavirus	Scaffold60	71.111	1043	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Opisthocomus_hoazin_5400	Opisthocomus_hoazin_5400	Avihepadnavirus	scaffold15	66.816	258	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Paradisaea_rubra_5402	Paradisaea_rubra_5402	Avihepadnavirus	RAHL01000034.1	56.068	409	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Patagioenas_fasciata_5410	Patagioenas_fasciata_5410	Avihepadnavirus	LSYS01004095.1	68.932	273	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Pelecanus_crispus_5411	Pelecanus_crispus_5411	Avihepadnavirus	scaffold18295	60.183	882	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Phalacrocorax_harrisi_5455	Phalacrocorax_harrisi_5455	Avihepadnavirus	NEVG01000146.1	87.705	221	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Phoenicopterus_ruber_5457	Phoenicopterus_ruber_5457	Avihepadnavirus	scaffold29997	88.172	506	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Picoides_pubescens_5464	Picoides_pubescens_5464	Avihepadnavirus	scaffold148	55.696	354	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Pipra_filicauda_5465	Pipra_filicauda_5465	Avihepadnavirus	NW_020895070.1	54.669	548	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Psittacula_krameri_5473	Psittacula_krameri_5473	Avihepadnavirus	NFZL01000130.1	68.644	421	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Psittacula_krameri_5476	Psittacula_krameri_5476	Avihepadnavirus	NFZL01000130.1	62.393	248	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Recurvirostra_avosetta_5494	Recurvirostra_avosetta_5494	Avihepadnavirus	SAYO01035872.1	72.512	809	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Spheniscus_humboldti_5508	Spheniscus_humboldti_5508	Avihepadnavirus	NDHA01001273.1	91.923	494	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Spheniscus_magellanicus_5509	Spheniscus_magellanicus_5509	Avihepadnavirus	NDGX01001273.1	91.154	488	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Strigops_habroptila_5519	Strigops_habroptila_5519	Avihepadnavirus	RXXF01000787.1	57.143	201	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Strix_occidentalis_caurina_5520	Strix_occidentalis_caurina_5520	Avihepadnavirus	NIFN01000390.1	51.965	321	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Tyto_alba_5534	Tyto_alba_5534	Avihepadnavirus	scaffold12462	73.029	333	-	-	-	-	-	-
-alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Uria_lomvia_5535	Uria_lomvia_5535	Avihepadnavirus	NOXD01000015.1	82.39	512	-	-	-	-	-	-
+taxon	sequenceID	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order	host_major_clade	host_middle_clade	host_minor_clade
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Acanthisitta_chloris_4826	Acanthisitta_chloris_4826	Avihepadnavirus	scaffold27280	77.885	322	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Agapornis_roseicollis_4832	Agapornis_roseicollis_4832	Avihepadnavirus	NDXB01015160.1	53.933	254	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Amazona_aestiva_5164	Amazona_aestiva_5164	Avihepadnavirus	LMAW01002613.1	67.697	430	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Amazona_vittata_5179	Amazona_vittata_5179	Avihepadnavirus	KB272672.1	67.845	350	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Antigone_vipio_27284	Antigone_vipio_27284	Avihepadnavirus	BJEU01003050.1	82.051	491	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Antrostomus_carolinensis_5201	Antrostomus_carolinensis_5201	Avihepadnavirus	scaffold16207	71.756	313	-	-	-	Caprimulgiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Apaloderma_vittatum_5203	Apaloderma_vittatum_5203	Avihepadnavirus	scaffold16435	60.377	348	-	-	-	Trogoniformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Aptenodytes_forsteri_5204	Aptenodytes_forsteri_5204	Avihepadnavirus	Scaffold155	94.805	457	-	-	-	Sphenisciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Aquila_chrysaetos_canadensis_5206	Aquila_chrysaetos_canadensis_5206	Avihepadnavirus	gi|766829346|ref|NW_011950900.1|	89.683	462	-	-	-	Accipitriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Ara_macao_5210	Ara_macao_5210	Avihepadnavirus	KE061309.1	76.238	300	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Ara_macao_5216	Ara_macao_5216	Avihepadnavirus	AOUJ01462462.1	77.536	205	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Athene_cunicularia_5225	Athene_cunicularia_5225	Avihepadnavirus	QEEU01000002.1	67.376	565	-	-	-	Strigiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Balearica_regulorum_5228	Balearica_regulorum_5228	Avihepadnavirus	scaffold1498	78.616	256	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Bubo_blakistoni_5230	Bubo_blakistoni_5230	Avihepadnavirus	BJCB01005125.1	85.38	259	-	-	-	Strigiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Buceros_rhinoceros_5232	Buceros_rhinoceros_5232	Avihepadnavirus	scaffold36794	60.377	410	-	-	-	Bucerotiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Calidris_pugnax_5233	Calidris_pugnax_5233	Avihepadnavirus	gi|960494929|ref|NW_015094510.1|	73.559	686	-	-	-	Charadriiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Calidris_pygmaea_5234	Calidris_pygmaea_5234	Avihepadnavirus	QJSC01016008.1	66.667	296	-	-	-	Charadriiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Cariama_cristata_5238	Cariama_cristata_5238	Avihepadnavirus	scaffold329	72.208	529	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Cathartes_aura_5241	Cathartes_aura_5241	Avihepadnavirus	scaffold19789	80.788	636	-	-	-	Ciconiiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Charadrius_vociferus_5244	Charadrius_vociferus_5244	Avihepadnavirus	scaffold16	75.362	720	-	-	-	Charadriiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Chlamydotis_macqueenii_5245	Chlamydotis_macqueenii_5245	Avihepadnavirus	gi|702204593|ref|NW_010470167.1|	80.105	291	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Chlamydotis_undulata_5246	Chlamydotis_undulata_5246	Avihepadnavirus	scaffold36512	80.105	291	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Cicinnurus_regius_5247	Cicinnurus_regius_5247	Avihepadnavirus	RAHN01000030.1	75.309	358	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Ciconia_boyciana_5248	Ciconia_boyciana_5248	Avihepadnavirus	BDFF01094061.1	90.948	441	-	-	-	Ciconiiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Colius_striatus_5250	Colius_striatus_5250	Avihepadnavirus	scaffold2903	44.444	267	-	-	-	Coliiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Columba_livia_5251	Columba_livia_5251	Avihepadnavirus	scaffold59	61.111	547	-	-	-	Columbiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Corapipo_altera_5252	Corapipo_altera_5252	Avihepadnavirus	NW_020884872.1	58.859	474	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Corvus_brachyrhynchos_5253	Corvus_brachyrhynchos_5253	Avihepadnavirus	scaffold103	47.86	367	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Corvus_cornix_cornix_5254	Corvus_cornix_cornix_5254	Avihepadnavirus	gi|725624890|ref|NW_010959474.1|	48.054	370	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Cuculus_canorus_5256	Cuculus_canorus_5256	Avihepadnavirus	scaffold15	70.874	274	-	-	-	Cuculiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Diphyllodes_magnificus_5257	Diphyllodes_magnificus_5257	Avihepadnavirus	RAHO01000055.1	77.778	381	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Egretta_garzetta_5258	Egretta_garzetta_5258	Avihepadnavirus	scaffold40	75.978	476	-	-	-	Pelecaniformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con	ehbv-avi.1-neoaves-con	Avihepadnavirus	-	-	-	-	-	-	-	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Empidonax_traillii_5259	Empidonax_traillii_5259	Avihepadnavirus	PWAB01000589.1	59.637	710	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Eopsaltria_australis_5260	Eopsaltria_australis_5260	Avihepadnavirus	QKXG01011186.1	54.485	522	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Eurypyga_helias_5268	Eurypyga_helias_5268	Avihepadnavirus	scaffold15072	69.231	777	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Falco_cherrug_5270	Falco_cherrug_5270	Avihepadnavirus	gi|537457958|ref|NW_004994945.1|	71.217	451	-	-	-	Falconiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Fulmarus_glacialis_5275	Fulmarus_glacialis_5275	Avihepadnavirus	scaffold36944	91.6	465	-	-	-	Procellariiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Gallirallus_okinawae_5276	Gallirallus_okinawae_5276	Avihepadnavirus	BDFH01068897.1	74.074	234	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Gavia_stellata_5283	Gavia_stellata_5283	Avihepadnavirus	scaffold17967	85.196	575	-	-	-	Gaviiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Grus_japonensis_5290	Grus_japonensis_5290	Avihepadnavirus	BDFG01003452.1	80.412	574	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Haliaeetus_albicilla_5292	Haliaeetus_albicilla_5292	Avihepadnavirus	scaffold23856	63.752	725	-	-	-	Accipitriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Haliaeetus_leucocephalus_5294	Haliaeetus_leucocephalus_5294	Avihepadnavirus	Scaffold2403	76.487	523	-	-	-	Accipitriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Himantopus_himantopus_5304	Himantopus_himantopus_5304	Avihepadnavirus	RSEF01000001.1	76.486	507	-	-	-	Charadriiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Lepidothrix_coronata_5309	Lepidothrix_coronata_5309	Avihepadnavirus	KV388162.1	52.568	289	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Leptosomus_discolor_5311	Leptosomus_discolor_5311	Avihepadnavirus	scaffold6175	79.535	349	-	-	-	Coraciiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Melopsittacus_undulatus_5322	Melopsittacus_undulatus_5322	Avihepadnavirus	JH556585	63.551	237	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Merops_nubicus_5341	Merops_nubicus_5341	Avihepadnavirus	scaffold9374	69.231	371	-	-	-	Coraciiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Mesitornis_unicolor_5342	Mesitornis_unicolor_5342	Avihepadnavirus	scaffold28184	58.398	395	-	-	-	Gruiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nannopterum_brasilianus_5346	Nannopterum_brasilianus_5346	Avihepadnavirus	NFME01007800.1	89.344	225	-	-	-	Pelecaniformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nannopterum_brasilianus_5356	Nannopterum_brasilianus_5356	Avihepadnavirus	NFME01223638.1	89.344	225	-	-	-	Pelecaniformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nannopterum_harrisi_5391	Nannopterum_harrisi_5391	Avihepadnavirus	NEVG01000146.1	87.705	221	-	-	-	Pelecaniformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nestor_notabilis_5396	Nestor_notabilis_5396	Avihepadnavirus	scaffold30203	41.038	221	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Nipponia_nippon_5397	Nipponia_nippon_5397	Avihepadnavirus	Scaffold60	71.111	1043	-	-	-	Pelecaniformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Opisthocomus_hoazin_5400	Opisthocomus_hoazin_5400	Avihepadnavirus	scaffold15	66.816	258	-	-	-	Opisthocomiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Paradisaea_rubra_5402	Paradisaea_rubra_5402	Avihepadnavirus	RAHL01000034.1	56.068	409	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Patagioenas_fasciata_5410	Patagioenas_fasciata_5410	Avihepadnavirus	LSYS01004095.1	68.932	273	-	-	-	Columbiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Pelecanus_crispus_5411	Pelecanus_crispus_5411	Avihepadnavirus	scaffold18295	60.183	882	-	-	-	Pelecaniformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Phalacrocorax_harrisi_5455	Phalacrocorax_harrisi_5455	Avihepadnavirus	NEVG01000146.1	87.705	221	-	-	-	Pelecaniformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Phoenicopterus_ruber_5457	Phoenicopterus_ruber_5457	Avihepadnavirus	scaffold29997	88.172	506	-	-	-	Phoenicopteriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Picoides_pubescens_5464	Picoides_pubescens_5464	Avihepadnavirus	scaffold148	55.696	354	-	-	-	Piciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Pipra_filicauda_5465	Pipra_filicauda_5465	Avihepadnavirus	NW_020895070.1	54.669	548	-	-	-	Passeriformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Psittacula_krameri_5473	Psittacula_krameri_5473	Avihepadnavirus	NFZL01000130.1	68.644	421	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Psittacula_krameri_5476	Psittacula_krameri_5476	Avihepadnavirus	NFZL01000130.1	62.393	248	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Recurvirostra_avosetta_5494	Recurvirostra_avosetta_5494	Avihepadnavirus	SAYO01035872.1	72.512	809	-	-	-	Charadriiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Spheniscus_humboldti_5508	Spheniscus_humboldti_5508	Avihepadnavirus	NDHA01001273.1	91.923	494	-	-	-	Sphenisciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Spheniscus_magellanicus_5509	Spheniscus_magellanicus_5509	Avihepadnavirus	NDGX01001273.1	91.154	488	-	-	-	Sphenisciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Strigops_habroptila_5519	Strigops_habroptila_5519	Avihepadnavirus	RXXF01000787.1	57.143	201	-	-	-	Psittaciformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Strix_occidentalis_caurina_5520	Strix_occidentalis_caurina_5520	Avihepadnavirus	NIFN01000390.1	51.965	321	-	-	-	Strigiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Tyto_alba_5534	Tyto_alba_5534	Avihepadnavirus	scaffold12462	73.029	333	-	-	-	Strigiformes	-	-	-
+alignment/AL_eHBV-Avi.1-Neoaves/member/fasta-digs-ehbv/Uria_lomvia_5535	Uria_lomvia_5535	Avihepadnavirus	NOXD01000015.1	82.39	512	-	-	-	Charadriiformes	-	-	-
