@@ -9,8 +9,7 @@ _.each(loadResult, function(eveObj) {
 
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering locus table data for DIGS sequence:", eveObj.sequenceID);
-		
+		glue.log("INFO", "Entering locus table data for DIGS sequence:", eveObj.sequenceID);		
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
 		glue.command(["set", "field", "start_position", eveObj.extract_start]);
 		glue.command(["set", "field", "end_position", eveObj.extract_end]);
@@ -18,6 +17,9 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "bitscore", eveObj.bitscore]);
 		glue.command(["set", "field", "identity", eveObj.identity]);
 		glue.command(["set", "field", "assigned_name", eveObj.assigned_name]);
+		glue.command(["set", "field", "host_class", eveObj.host_class]);
+		glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
+		glue.command(["set", "field", "host_order", eveObj.host_order]);
 		
 	});
 
