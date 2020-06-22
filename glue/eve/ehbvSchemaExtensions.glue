@@ -25,15 +25,25 @@
   create custom-table locus_data
 
   table locus_data
-    create field genus VARCHAR 50
     create field locus_numeric_id INTEGER
     create field scaffold VARCHAR 100
     create field start_position INTEGER
     create field end_position INTEGER
     create field orientation VARCHAR 10
     create field host_sci_name VARCHAR 50
+    create field bitscore VARCHAR 20
+    create field identity VARCHAR 20
+    create field assigned_name VARCHAR 60
+    create field virus_genus VARCHAR 60
+    create field host_species VARCHAR 60
+    create field host_superorder VARCHAR 60
+    create field host_major_clade VARCHAR 60
+    create field host_middle_clade VARCHAR 60
+    create field host_minor_clade VARCHAR 60
+    create field host_order VARCHAR 60
+    create field host_family VARCHAR 60
+    create field host_genus VARCHAR 60
   exit
 
   create link sequence locus_data
-
 
