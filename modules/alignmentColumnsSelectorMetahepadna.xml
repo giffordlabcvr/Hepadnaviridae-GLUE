@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+    <relRefName>REF_ZNF22_MASTER</relRefName>
+    <aminoAcidRegionSelector>
+        <featureName>orf</featureName>
+        <startCodon>3</startCodon>
+        <endCodon>44</endCodon>
+    </aminoAcidRegionSelector>
+    <nucleotideRegionSelector>
+        <featureName>orf</featureName>
+        <startNt>4000</startNt>
+        <endNt>5000</endNt>
+    </nucleotideRegionSelector>
+</alignmentColumnsSelector>

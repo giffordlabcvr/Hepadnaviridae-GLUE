@@ -1,4 +1,4 @@
-taxon	sequenceID	clade	isolate	host_sci_name	host_sci_name	sample_date	country
+taxon	sequenceID	clade	isolate	host_sci_name	host_common_name	sample_date	country
 alignment/AL_UNC_Ortho_C/member/ncbi-refseqs/MH307930	MH307930	-	Sydney2016	Felis catus	-	-	Australia
 alignment/AL_UNC_Ortho_C/member/ncbi-refseqs/NC_001484	NC_001484	-	-	Spermophilus beecheyi	-	-	-
 alignment/AL_UNC_Ortho_C/member/ncbi-refseqs/NC_003977	NC_003977	Primate	-	Homo sapiens	-	-	-

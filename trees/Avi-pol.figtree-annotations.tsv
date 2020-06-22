@@ -1,4 +1,4 @@
-taxon	sequenceID	clade	isolate	host_sci_name	host_sci_name	sample_date	country
+taxon	sequenceID	clade	isolate	host_sci_name	host_common_name	sample_date	country
 alignment/AL_UNC_Avi_P/member/ncbi-refseqs/AJ251934	AJ251934	-	STHBV-1	Ciconia ciconia	-	-	Germany:Northern Germany
 alignment/AL_UNC_Avi_P/member/ncbi-refseqs/AJ441111	AJ441111	-	CCHBV 1	Balearica regulorum	-	-	Germany:Berlin
 alignment/AL_UNC_Avi_P/member/ncbi-refseqs/NC_001344	NC_001344	-	DHBVQCA34	Anas platyrhynchos	-	-	-

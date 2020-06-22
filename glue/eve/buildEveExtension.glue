@@ -31,7 +31,8 @@ project hepadnaviridae
   run file glue/eve/ehbvRecordFeaturePresence.glue
 
   # Create phylogenies
-  run file glue/eve/ehbvCreateRootPhylogenies.glue
+  #run file glue/eve/ehbvCreateRootPhylogenies.glue
+  run file glue/eve/ehbvCreateTipPhylogenies.glue
 
   # Validate
   validate

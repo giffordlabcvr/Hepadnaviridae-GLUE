@@ -34,7 +34,6 @@
     create field bitscore VARCHAR 20
     create field identity VARCHAR 20
     create field assigned_name VARCHAR 60
-    create field virus_genus VARCHAR 60
     create field host_species VARCHAR 60
     create field host_superorder VARCHAR 60
     create field host_major_clade VARCHAR 60

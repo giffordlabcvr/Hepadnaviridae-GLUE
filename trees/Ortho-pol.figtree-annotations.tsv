@@ -1,4 +1,4 @@
-taxon	sequenceID	clade	isolate	host_sci_name	host_sci_name	sample_date	country
+taxon	sequenceID	clade	isolate	host_sci_name	host_common_name	sample_date	country
 alignment/AL_UNC_Ortho_P/member/ncbi-refseqs/MH307930	MH307930	-	Sydney2016	Felis catus	-	-	Australia
 alignment/AL_UNC_Ortho_P/member/ncbi-refseqs/MH484442	MH484442	-	CX88	Crocidura lasiura	-	-	China
 alignment/AL_UNC_Ortho_P/member/ncbi-refseqs/MK620908	MK620908	-	Tai	Philantomba maxwellii	-	-	Cote d'Ivoire
