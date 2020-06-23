@@ -9,7 +9,6 @@
   # Delete extension reference sequences
   multi-delete reference -w "name like 'REF_EHBV-%'"
 
-
   # Delete EVE sources
   delete source fasta-refseqs-ehbv
   delete source fasta-digs-ehbv
