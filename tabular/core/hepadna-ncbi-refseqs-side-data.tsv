@@ -16,19 +16,6 @@ MH716822	EsgHBV	Eastern sea garfish hepatitis B virus	Hepadnaviridae	Metahepadna
 AMDV	AMDV	Astatotilapia metahepadnavirus	Hepadnaviridae	Metahepadnavirus		Astatotilapia sp	Astatotilapia
 TMDV	TMDV	Tetra metahepadnavirus	Hepadnaviridae	Metahepadnavirus		Astyanax mexicanus	Mexican tetra
 IMDV	IMDV	Icefish metahepadnavirus	Hepadnaviridae	Metahepadnavirus		Chionodraco hamatus	Crocodile icefish
-KNDV-Lg	KNDV-Lg	Bluefin killifish Nakednavirus	Hepadnaviridae	Nakednavirus	RDNV-type	Lucania goodei	Bluefin killifish
-WMNDV	WMNDV	Western mosquitofish Nakednavirus	Hepadnaviridae	Nakednavirus	RDNV-type	Gambusia affinis	Western mosquitofish
-ANDV	ANDV	Astatotilapia Nakednavirus	Hepadnaviridae	Nakednavirus	RDNV-type	Astatotilapia sp	Astatotilapia
-KNDV-Lp-1	KNDV-Lp-1	Killifish Nakednavirus Lp 1	Hepadnaviridae	Nakednavirus	RDNV-type	Lucania parva	Rainwater killifish
-EENDV	EENDV	European eel Nakednavirus	Hepadnaviridae	Nakednavirus	RDNV-type	Anguilla anguilla	European eel 
-RNDV	RNDV	Tiger rockfish Nakednavirus	Hepadnaviridae	Nakednavirus	RDNV-type	Sebastes nigrocinctus	Tiger rockfish
-MH158727	ACNDV	African cichlid hepadnavirus	Hepadnaviridae	Nakednavirus	RDNV-type	Ophthalmotilapia ventralis	African cichild
-BWNDV-1	BWNDV-1	Baby whale Nakednavirus	Hepadnaviridae	Nakednavirus	SSDNV-type	Brienomyrus brachyistius	Baby whale
-BWNDV-2	BWNDV-2	Baby whale Nakednavirus	Hepadnaviridae	Nakednavirus	SSDNV-type	Brienomyrus brachyistius	Baby whale
-SSNDV	SSNDV	Sockeye salmon Nakednavirus	Hepadnaviridae	Nakednavirus	SSDNV-type	Oncorhynchus nerka	Sockeye salmon
-YDNDV	YDNDV	Yellow drum Nakednavirus	Hepadnaviridae	Nakednavirus	SSDNV-type	Nibea albiflora	Yellow drum
-SNDV	SNDV	Stickleback Nakednavirus	Hepadnaviridae	Nakednavirus	SSDNV-type	Gasterosteus aculeatus	Three-spined stickleback
-KNDV-Lp-2	KNDV-Lp-2	Killifish Nakednavirus Lp 2	Hepadnaviridae	Nakednavirus	SSDNV-type	Lucania parva	Rainwater killifish
 NC_003977	HBV	Hepatitis B virus	Hepadnaviridae	Orthohepadnavirus	Primate	Homo sapiens	Human
 NC_028129	WMHBV	Woolly monkey hepatitis B virus	Hepadnaviridae	Orthohepadnavirus	Primate	Lagothrix lagothricha 	Woolly monkey
 NC_001484	GSHV	Ground squirrel hepatitis virus	Hepadnaviridae	Orthohepadnavirus		Spermophilus beecheyi	California ground squirrel

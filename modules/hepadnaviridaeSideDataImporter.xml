@@ -2,7 +2,6 @@
 <textFilePopulator>
     <columnDelimiterRegex>\t</columnDelimiterRegex>
     
-
     <textFileColumn>
         <identifier>true</identifier>
         <header>sequenceID</header>
@@ -34,10 +33,6 @@
         <property>isolate_data.host_sci_name</property>
     </textFileColumn>
 
-
-
     <skipMissing>true</skipMissing>
-
-
 
 </textFilePopulator>

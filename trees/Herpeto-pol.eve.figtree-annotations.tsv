@@ -1,8 +1,0 @@
-taxon	sequenceID	clade	isolate	host_sci_name	host_common_name	sample_date	country
-alignment/AL_UNC_Herpeto_P_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.1-serpentes-con	ehbv-herpeto.1-serpentes-con	-	-	-	-	-	-
-alignment/AL_UNC_Herpeto_P_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	-	-	-	-	-	-
-alignment/AL_UNC_Herpeto_P_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.4-crocodilia	ehbv-herpeto.4-crocodilia	-	-	-	-	-	-
-alignment/AL_UNC_Herpeto_P_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.6-varanus-con	ehbv-herpeto.6-varanus-con	-	-	-	-	-	-
-alignment/AL_UNC_Herpeto_P_EVE/member/ncbi-refseqs/NC_030446	NC_030446	-	243398	Nanorana parkeri	-	-	China
-alignment/AL_UNC_Herpeto_P_EVE/member/fasta-refseqs/SkHBV	SkHBV	-	-	Saproscincus basiliscus	-	-	-
-alignment/AL_UNC_Herpeto_P_EVE/member/fasta-refseqs/SLHBV-1	SLHBV-1	-	-	Sceloporus adleri	-	-	-
