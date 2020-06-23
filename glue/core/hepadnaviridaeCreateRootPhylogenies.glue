@@ -36,14 +36,6 @@
  	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f Polymerase --recursive -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Avi-pol.aln.fna
  	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f large-S --recursive -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Avi-surface.aln.fna
 
- 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-core.aln.fna
- 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-pol.aln.fna
- 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-surface.aln.fna
-
- 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-core.aln.fna
- 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-pol.aln.fna
- 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-surface.aln.fna
-
 	exit
 
   # Import the alignments to GLUE
@@ -82,13 +74,6 @@
     generate nucleotide phylogeny AL_UNC_Avi_P -a -o trees/core/Avi-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_UNC_Avi_S -a -o trees/core/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
 
-    generate nucleotide phylogeny AL_UNC_Herpeto_C -a -o trees/core/Herpeto-core.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Herpeto_P -a -o trees/core/Herpeto-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Herpeto_S -a -o trees/core/Herpeto-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
-
-    generate nucleotide phylogeny AL_UNC_Meta_C -a -o trees/core/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Meta_P -a -o trees/core/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_UNC_Meta_S -a -o trees/core/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS 
     exit
 
   # Re-root phylogeny 
@@ -139,36 +124,6 @@
       --midpoint \
       --outputFile trees/core/Avi-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-	reroot-phylogeny \
-      --inputFile trees/core/Herpeto-core.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Herpeto-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Herpeto-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Herpeto-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Herpeto-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Herpeto-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Meta-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Meta-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Meta-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
     exit
 
   # Export annotations
@@ -183,16 +138,7 @@
 
     export figtree-annotation AL_UNC_Avi_C -f trees/core/Avi-genus-core.figtree-annotations.tsv
     export figtree-annotation AL_UNC_Avi_P -f trees/core/Avi-genus-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Avi_S -f trees/core/Avi--genussurface.figtree-annotations.tsv
-
-    export figtree-annotation AL_UNC_EVE_Herpeto_C -f trees/core/Hepadna-core-eve.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_EVE_Herpeto_P -f trees/core/Hepadna-pol-eve.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_EVE_Herpeto_S -f trees/core/Hepadna-surface-eve.figtree-annotations.tsv
-
-    export figtree-annotation AL_UNC_EVE_Meta_C -f trees/core/Hepadna-core-eve.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_EVE_Meta_P -f trees/core/Hepadna-pol-eve.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_EVE_Meta_S -f trees/core/Hepadna-surface-eve.figtree-annotations.tsv
+    export figtree-annotation AL_UNC_Avi_S -f trees/core/Avi-genus-surface.figtree-annotations.tsv
 
   exit
-
 

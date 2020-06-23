@@ -1,0 +1,10 @@
+taxon	sequenceID	clade	isolate	host_sci_name	host_common_name	sample_date	country
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/AJ251934	AJ251934	-	STHBV-1	Ciconia ciconia	-	-	Germany:Northern Germany
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/AJ441111	AJ441111	-	CCHBV 1	Balearica regulorum	-	-	Germany:Berlin
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/NC_001344	NC_001344	-	DHBVQCA34	Anas platyrhynchos	-	-	-
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/NC_001486	NC_001486	-	-	Ardea cinerea	-	-	-
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/NC_005888	NC_005888	-	-	Chen rossii	-	-	-
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/NC_005890	NC_005890	-	Ashy-headed sheldgoose hepatitis B virus	Chloephaga poliocephala	-	-	USA
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/NC_005950	NC_005950	-	SGHBV1-13	Anser caerulescens	-	-	-
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/NC_016561	NC_016561	-	PL	Psittacula krameri	-	-	Poland
+alignment/AL_UNC_Avi_P/member/ncbi-refseqs/NC_035210	NC_035210	-	160050	Eudromia elegans	-	-	Germany
