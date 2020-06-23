@@ -2,18 +2,18 @@
   delete alignment AL_UNC_EVE_Hepadna_C
   delete alignment AL_UNC_EVE_Hepadna_P
   delete alignment AL_UNC_EVE_Hepadna_S
-  delete alignment AL_UNC_EVE_Avihepadna_C
-  delete alignment AL_UNC_EVE_Avihepadna_P
-  delete alignment AL_UNC_EVE_Avihepadna_S
-  delete alignment AL_UNC_EVE_Orthohepadna_C
-  delete alignment AL_UNC_EVE_Orthohepadna_P
-  delete alignment AL_UNC_EVE_Orthohepadna_S
-  delete alignment AL_UNC_EVE_Herpetohepadna_C
-  delete alignment AL_UNC_EVE_Herpetohepadna_P
-  delete alignment AL_UNC_EVE_Herpetohepadna_S
-  delete alignment AL_UNC_EVE_Metahepadna_C
-  delete alignment AL_UNC_EVE_Metahepadna_P
-  delete alignment AL_UNC_EVE_Metahepadna_S
+  delete alignment AL_UNC_EVE_Avi_C
+  delete alignment AL_UNC_EVE_Avi_P
+  delete alignment AL_UNC_EVE_Avi_S
+  delete alignment AL_UNC_EVE_Ortho_C
+  delete alignment AL_UNC_EVE_Ortho_P
+  delete alignment AL_UNC_EVE_Ortho_S
+  delete alignment AL_UNC_EVE_Herpeto_C
+  delete alignment AL_UNC_EVE_Herpeto_P
+  delete alignment AL_UNC_EVE_Herpeto_S
+  delete alignment AL_UNC_EVE_Meta_C
+  delete alignment AL_UNC_EVE_Meta_P
+  delete alignment AL_UNC_EVE_Meta_S
 
   delete module fastaAlignmentExporter
   delete module hepadnaTreeAlignmentImporterNucs
@@ -30,25 +30,25 @@
 
   # Export the gene alignments 
   module fastaAlignmentExporter
- 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f PreCore-Core --recursive -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-core-eve.aln.fna
- 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f Polymerase --recursive -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-pol-eve.aln.fna
- 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f large-S --recursive -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Hepadna-surface-eve.aln.fna
+ 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f PreCore-Core --recursive -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Hepadna-core-eve.aln.fna
+ 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f Polymerase --recursive -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Hepadna-pol-eve.aln.fna
+ 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f large-S --recursive -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Hepadna-surface-eve.aln.fna
 
- 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f PreCore-Core --recursive -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Ortho-core-eve.aln.fna
- 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f Polymerase --recursive -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Ortho-pol-eve.aln.fna
- 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f large-S --recursive -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Ortho-surface-eve.aln.fna
+ 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f PreCore-Core --recursive -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Ortho-core-eve.aln.fna
+ 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f Polymerase --recursive -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Ortho-pol-eve.aln.fna
+ 	export AL_GENUS_Ortho -r  REF_Ortho_MASTER_HBV -f large-S --recursive -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Ortho-surface-eve.aln.fna
 
- 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f PreCore-Core --recursive -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Avi-core-eve.aln.fna
- 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f Polymerase --recursive -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Avi-pol-eve.aln.fna
- 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f large-S --recursive -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Avi-surface-eve.aln.fna
+ 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f PreCore-Core --recursive -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Avi-core-eve.aln.fna
+ 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f Polymerase --recursive -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Avi-pol-eve.aln.fna
+ 	export AL_GENUS_Avi -r  REF_Avi_MASTER_DHBV -f large-S --recursive -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Avi-surface-eve.aln.fna
 
- 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-core-eve.aln.fna
- 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-pol-eve.aln.fna
- 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Herpeto-surface-eve.aln.fna
+ 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Herpeto-core-eve.aln.fna
+ 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Herpeto-pol-eve.aln.fna
+ 	export AL_GENUS_Herpeto -r  REF_Herpeto_MASTER_tfHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Herpeto-surface-eve.aln.fna
 
- 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-core-eve.aln.fna
- 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-pol-eve.aln.fna
- 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 10" -e -o alignments/tree/Meta-surface-eve.aln.fna
+ 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f PreCore-Core -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Meta-core-eve.aln.fna
+ 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f Polymerase -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Meta-pol-eve.aln.fna
+ 	export AL_GENUS_Meta -r  REF_Meta_MASTER_bgHBV -f large-S -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 80" -e -o alignments/tree/Meta-surface-eve.aln.fna
 	exit
 
   # Import the alignments to GLUE
