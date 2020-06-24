@@ -54,7 +54,6 @@
     record feature-presence AL_TREE_Hepadnaviridae --featureName whole_genome --descendentFeatures
     exit
 
-
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
@@ -148,53 +147,31 @@
       --midpoint \
       --outputFile trees/core/Avi-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
-
-	reroot-phylogeny \
-      --inputFile trees/core/Herpeto-core.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Herpeto-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Herpeto-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Herpeto-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Herpeto-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Herpeto-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-
-	reroot-phylogeny \
-      --inputFile trees/core/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Meta-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Meta-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Meta-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
     exit
+
 
   # Export annotations
   module hepadnaFigTreeAnnotationExporter 
-    export figtree-annotation AL_TREE_Hepadnaviridae -f trees/core/Hepadna-root-core.figtree-annotations.tsv
-    export figtree-annotation AL_TREE_Hepadnaviridae -f trees/core/Hepadna-root-pol.figtree-annotations.tsv
-    export figtree-annotation AL_TREE_Hepadnaviridae -f trees/core/Hepadna-root-surface.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Hepadna-root-core.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Hepadna-root-pol.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Hepadna-root-surface.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Ortho -f trees/core/Ortho-genus-core.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Ortho -f trees/core/Ortho-genus-pol.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Ortho -f trees/core/Ortho-genus-surface.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Ortho-root-core.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Ortho-root-pol.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Ortho-root-surface.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Avi -f trees/core/Avi-genus-core.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Avi -f trees/core/Avi-genus-pol.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Avi -f trees/core/Avi-genus-surface.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Avi-root-core.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Avi-root-pol.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Avi-root-surface.figtree-annotations.tsv
 
   exit
 

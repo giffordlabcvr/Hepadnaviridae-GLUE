@@ -1,19 +1,5 @@
   # Clean up from any previous run of this file
-  delete alignment AL_UNC_Hepadna_C
-  delete alignment AL_UNC_Hepadna_P
-  delete alignment AL_UNC_Hepadna_S
-  delete alignment AL_UNC_Avihepadna_C
-  delete alignment AL_UNC_Avihepadna_P
-  delete alignment AL_UNC_Avihepadna_S
-  delete alignment AL_UNC_Orthohepadna_C
-  delete alignment AL_UNC_Orthohepadna_P
-  delete alignment AL_UNC_Orthohepadna_S
-  delete alignment AL_UNC_Metahepadna_C
-  delete alignment AL_UNC_Metahepadna_P
-  delete alignment AL_UNC_Metahepadna_S
-  delete alignment AL_UNC_Herpetohepadna_C
-  delete alignment AL_UNC_Herpetohepadna_P
-  delete alignment AL_UNC_Herpetohepadna_S
+  delete alignment AL_TREE_Hepadnaviridae_EVE
 
   delete module fastaAlignmentExporter
   delete module hepadnaTreeAlignmentImporterNucs
@@ -27,13 +13,10 @@
   delete module alignmentColumnsSelectorAviCore
   delete module alignmentColumnsSelectorAviPolymerase
   delete module alignmentColumnsSelectorAviSurface
-  delete module alignmentColumnsSelectorMetaCore
-  delete module alignmentColumnsSelectorMetaPolymerase
-  delete module alignmentColumnsSelectorMetaSuface
   delete module alignmentColumnsSelectorHerpetoCore
   delete module alignmentColumnsSelectorHerpetoPolymerase
   delete module alignmentColumnsSelectorHerpetoSurface
-  
+ 
   # Create all the modules we need
   create module -f modules/fastaAlignmentExporter.xml
   create module -f modules/hepadnaTreeAlignmentImporterNucs.xml
@@ -47,9 +30,6 @@
   create module -f modules/alignmentColumnsSelectorAviCore.xml
   create module -f modules/alignmentColumnsSelectorAviPolymerase.xml
   create module -f modules/alignmentColumnsSelectorAviSurface.xml
-  create module -f modules/alignmentColumnsSelectorMetaCore.xml
-  create module -f modules/alignmentColumnsSelectorMetaPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorMetaSurface.xml
   create module -f modules/alignmentColumnsSelectorHerpetoCore.xml
   create module -f modules/alignmentColumnsSelectorHerpetoPolymerase.xml
   create module -f modules/alignmentColumnsSelectorHerpetoSurface.xml
@@ -57,89 +37,62 @@
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
- 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f whole_genome --recursive -a  -e -o alignments/tree/Hepadnaviridae-all-eve.aln.fna
+ 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f whole_genome --recursive -a  -e -o alignments/tree/Hepadnaviridae-all.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
-  module hepadnaTreeAlignmentImporterNucs import AL_UNC_TREE_Hepadnaviridae_EVE -f alignments/tree/Hepadnaviridae-all-eve.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_TREE_Hepadnaviridae_EVE -f alignments/tree/Hepadnaviridae-all.aln.fna
   create alignment AL_TREE_Hepadnaviridae_EVE -r REF_Ortho_MASTER_HBV
 
   alignment AL_TREE_Hepadnaviridae_EVE
-	derive segments AL_UNC_TREE_Hepadnaviridae_EVE -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_Hepadnaviridae -a --mergeStrategy OVERWRITE
 	exit
-	
+
   module hepadnaviridaeFeaturePresenceRecorder
     record feature-presence AL_TREE_Hepadnaviridae_EVE --featureName whole_genome --descendentFeatures
     exit
-
 
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_TREE_Hepadnaviridae -s alignmentColumnsSelectorHepadnaCore \
+    generate nucleotide phylogeny AL_TREE_Hepadnaviridae_EVE -s alignmentColumnsSelectorHepadnaCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Hepadna-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Hepadnaviridae -s alignmentColumnsSelectorHepadnaPolymerase \
+    generate nucleotide phylogeny AL_TREE_Hepadnaviridae_EVE -s alignmentColumnsSelectorHepadnaPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Hepadna-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_TREE_Hepadnaviridae -s alignmentColumnsSelectorHepadnaSurface \
+    generate nucleotide phylogeny AL_TREE_Hepadnaviridae_EVE -s alignmentColumnsSelectorHepadnaSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Hepadna-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
 
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaCore \
+    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHepadnaCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Ortho-core.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Herpeto-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaPolymerase \
+    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHepadnaPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Ortho-pol.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Herpeto-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaSurface \
+    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHepadnaSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Ortho-surface.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Herpeto-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
 
     generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Avi-core.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Avi-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Avi-pol.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Avi-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS
-
-
-    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHerpetoCore \
-      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Herpeto-core.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHerpetoPol \
-      -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Herpeto-pol.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHerpetoSurface \
-      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Herpeto-surface.export_nucs.tre NEWICK_BOOTSTRAPS
-
-
-    generate nucleotide phylogeny AL_GENUS_Meta -s alignmentColumnsSelectorMetaCore \
-      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Meta -s alignmentColumnsSelectorMetaPol \
-      -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Meta -s alignmentColumnsSelectorMetaSurface \
-      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/eve/Avi-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -148,104 +101,75 @@
   module HepadnaPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Hepadna-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Hepadna-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Hepadna-core.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Hepadna-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Hepadna-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Hepadna-pol.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Hepadna-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Hepadna-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Hepadna-surface.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Ortho-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Herpeto-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Ortho-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Herpeto-core.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Ortho-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Herpeto-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Ortho-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Herpeto-pol.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Ortho-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Herpeto-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Ortho-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Herpeto-surface.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Avi-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Avi-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Avi-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Avi-core.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Avi-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Avi-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Avi-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Avi-pol.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve/Avi-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Avi-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/Meta-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/Meta-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/Meta-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Herpeto-core.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/Herpeto-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Herpeto-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/Herpeto-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve/Herpeto-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve/MHerpetoeta-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve/Avi-surface.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
+
   # Export annotations
   module hepadnaFigTreeAnnotationExporter 
-    export figtree-annotation AL_UNC_Hepadna_C -f trees/eve/Hepadna-root-core.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Hepadna_P -f trees/eve/Hepadna-root-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Hepadna_S -f trees/eve/Hepadna-root-surface.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-core.eve.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-pol.eve.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-surface.eve.figtree-annotations.tsv
 
-    export figtree-annotation AL_UNC_Ortho_C -f trees/eve/Ortho-genus-core.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Ortho_P -f trees/eve/Ortho-genus-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Ortho_S -f trees/eve/Ortho-genus-surface.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Herpeto -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Herpeto-root-core.eve.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Herpeto -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Herpeto-root-pol.eve.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Herpeto -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Herpeto-root-surface.eve.figtree-annotations.tsv
 
-    export figtree-annotation AL_UNC_Avi_C -f trees/eve/Avi-genus-core.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Avi_P -f trees/eve/Avi-genus-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Avi_S -f trees/eve/Avi-genus-surface.figtree-annotations.tsv
-
-    export figtree-annotation AL_UNC_Meta_C -f trees/eve/Meta-genus-core.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Meta_P -f trees/eve/Meta-genus-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Meta_S -f trees/eve/Meta-genus-surface.figtree-annotations.tsv
-
-    export figtree-annotation AL_UNC_Herpeto_C -f trees/eve/Herpeto-genus-core.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Herpeto_P -f trees/eve/Herpeto-genus-pol.figtree-annotations.tsv
-    export figtree-annotation AL_UNC_Herpeto_S -f trees/eve/Herpeto-genus-surface.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Avi-root-core.eve.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Avi-root-pol.eve.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Avi-root-surface.eve.figtree-annotations.tsv
 
   exit
 
