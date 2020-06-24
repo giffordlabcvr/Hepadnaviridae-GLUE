@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_Avi_MASTER_DHBV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>PreCore-Core</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>178</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>PreCore-Core</featureName>
+        <startNt>284</startNt>
+        <endNt>850</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

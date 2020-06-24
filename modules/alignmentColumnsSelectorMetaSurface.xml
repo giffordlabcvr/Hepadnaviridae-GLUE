@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_Meta_MASTER_bgHBV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>large-S</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>328</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>large-S</featureName>
+        <startNt>933</startNt>
+        <endNt>1914</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>

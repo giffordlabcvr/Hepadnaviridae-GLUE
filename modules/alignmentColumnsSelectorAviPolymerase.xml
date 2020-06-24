@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alignmentColumnsSelector>
+
+    <relRefName>REF_Avi_MASTER_DHBV</relRefName>
+    
+    <aminoAcidRegionSelector>
+        <featureName>Polymerase</featureName>
+        <startCodon>1</startCodon>
+        <endCodon>834</endCodon>
+    </aminoAcidRegionSelector>
+    
+    <nucleotideRegionSelector>
+        <featureName>Polymerase</featureName>
+        <startNt>524</startNt>
+        <endNt>3023</endNt>
+    </nucleotideRegionSelector>
+    
+</alignmentColumnsSelector>
