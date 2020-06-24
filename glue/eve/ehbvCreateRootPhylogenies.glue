@@ -1,5 +1,6 @@
   # Clean up from any previous run of this file
   delete alignment AL_TREE_Hepadnaviridae_EVE
+  delete alignment AL_UNC_TREE_Hepadnaviridae_EVE
 
   delete module fastaAlignmentExporter
   delete module hepadnaTreeAlignmentImporterNucs
@@ -41,11 +42,11 @@
 	exit
 
   # Re-import the recursively populated root alignment into the project
-  module hepadnaTreeAlignmentImporterNucs import AL_TREE_Hepadnaviridae_EVE -f alignments/tree/Hepadnaviridae-all.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_TREE_Hepadnaviridae_EVE -f alignments/tree/Hepadnaviridae-all.aln.fna
   create alignment AL_TREE_Hepadnaviridae_EVE -r REF_Ortho_MASTER_HBV
 
   alignment AL_TREE_Hepadnaviridae_EVE
-	derive segments AL_UNC_TREE_Hepadnaviridae -a --mergeStrategy OVERWRITE
+	derive segments AL_UNC_TREE_Hepadnaviridae_EVE -a --mergeStrategy OVERWRITE
 	exit
 
   module hepadnaviridaeFeaturePresenceRecorder
