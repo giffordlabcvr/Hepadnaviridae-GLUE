@@ -1,1 +1,128 @@
-((alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.23-strigops:0.38242141279000341214,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula:0.49301975010623017015,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla:0.52775447352999982353,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con:0.34165779620225300572,alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus:0.61145532456295392798)87:0.06858396529688187693)99:0.09934139354355592255)100:0.20948637388730778630)100:0.06350145345631112888,(((alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con:0.02124143616032437426,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.17-passeriformes-con:0.24903801765743249774,alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.35-pterocles:0.20122162916464275684)92:0.02973456979034519790)100:0.61388091343620310170,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura:0.65122200669759655600,alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama:0.45430655591110985503)100:0.14834948543470688476)50:0.04535881577876649251,((alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto:0.37287660382597759279,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto:0.20542569297263971184,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes:0.10070422061850164974,alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes:0.14290868605333498231)97:0.03851852203442664851)100:0.11971077142015769390)100:0.23356418640577872314,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros:0.71780557166772118727,(((alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_016561:0.24916244774327422906,((alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005888:0.12499921122887092118,(alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ441111:0.09127397307718898567,((alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001344:0.05957556331312115899,alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005950:0.06382065454027031903)100:0.03959342709437189967,alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005890:0.09490691519616453742)100:0.06323151071207332163)79:0.04086854438941537465)59:0.03691594863172643209,alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_035210:0.24013929936251057762)99:0.04681183705262136063)93:0.04596260402642533827,(alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ251934:0.08918844895265314043,alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001486:0.09560206342547479530)100:0.09066091400538030254)100:0.33032057876470621860,(alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus:0.11876850218420927086,alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus:0.10164920744775039763)100:0.33981696094006624831)97:0.06512739276913981357)90:0.09236529327087573960)100:0.10109029635119452795)100:0.11435619408426335279);
+#NEXUS
+begin taxa;
+	dimensions ntax=26;
+	taxlabels
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.17-passeriformes-con'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.23-strigops'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.35-pterocles'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus'
+	'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ251934'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ441111'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001344'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001486'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005888'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005890'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005950'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_016561'
+	'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_035210'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus':0.118769,(((('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto':0.372877,('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto':0.205426,('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes':0.100704,'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes':0.142909)[&label=97]:0.038519)[&label=100]:0.119711)[&label=100]:0.233564,(('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.23-strigops':0.382421,('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula':0.49302,('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla':0.527754,('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con':0.341658,'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus':0.611455)[&label=87]:0.068584)[&label=99]:0.099341)[&label=100]:0.209486)[&label=100]:0.177858,(('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con':0.021241,('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.17-passeriformes-con':0.249038,'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.35-pterocles':0.201222)[&label=92]:0.029735)[&label=100]:0.613881,('alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura':0.651222,'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama':0.454307)[&label=100]:0.148349)[&label=50]:0.045359)[&label=100]:0.10109)[&label=90]:0.092365,'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros':0.717806)[&label=97]:0.065127,(('alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_016561':0.249162,(('alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005888':0.124999,('alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ441111':0.091274,(('alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001344':0.059576,'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005950':0.063821)[&label=100]:0.039593,'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005890':0.094907)[&label=100]:0.063232)[&label=79]:0.040869)[&label=59]:0.036916,'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_035210':0.240139)[&label=99]:0.046812)[&label=93]:0.045963,('alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ251934':0.089188,'alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001486':0.095602)[&label=100]:0.090661)[&label=100]:0.330321)[&label=100]:0.339817,'alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus':0.101649);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

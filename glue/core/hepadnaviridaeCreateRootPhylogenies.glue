@@ -1,13 +1,5 @@
   # Clean up from any previous run of this file
-  delete alignment AL_UNC_Hepadna_C
-  delete alignment AL_UNC_Hepadna_P
-  delete alignment AL_UNC_Hepadna_S
-  delete alignment AL_UNC_Avihepadna_C
-  delete alignment AL_UNC_Avihepadna_P
-  delete alignment AL_UNC_Avihepadna_S
-  delete alignment AL_UNC_Orthohepadna_C
-  delete alignment AL_UNC_Orthohepadna_P
-  delete alignment AL_UNC_Orthohepadna_S
+  delete alignment AL_TREE_Hepadnaviridae
 
   delete module fastaAlignmentExporter
   delete module hepadnaTreeAlignmentImporterNucs
