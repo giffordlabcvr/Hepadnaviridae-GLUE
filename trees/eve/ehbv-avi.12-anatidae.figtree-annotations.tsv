@@ -1,0 +1,8 @@
+taxon	sequenceID	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order	host_major_clade	host_middle_clade	host_minor_clade
+alignment/AL_eHBV-Avi.12-Anatidae/member/fasta-digs-ehbv/Anas_platyrhynchos_4850	Anas_platyrhynchos_4850	Avihepadnavirus	KB813072.1	77.632	215	-	Anas	Anatidae	Anseriformes	Galloanserae	none	none
+alignment/AL_eHBV-Avi.12-Anatidae/member/fasta-digs-ehbv/Anas_platyrhynchos_4855	Anas_platyrhynchos_4855	Avihepadnavirus	C19237742	77.632	215	-	Anas	Anatidae	Anseriformes	Galloanserae	none	none
+alignment/AL_eHBV-Avi.12-Anatidae/member/fasta-digs-ehbv/Anas_zonorhyncha_5192	Anas_zonorhyncha_5192	Avihepadnavirus	NOIK01000496.1	72.146	293	-	Anas	Anatidae	Anseriformes	Galloanserae	none	none
+alignment/AL_eHBV-Avi.12-Anatidae/member/fasta-digs-ehbv/Anas_zonorhyncha_5193	Anas_zonorhyncha_5193	Avihepadnavirus	NOIK01000496.1	62.5	229	-	Anas	Anatidae	Anseriformes	Galloanserae	none	none
+alignment/AL_eHBV-Avi.12-Anatidae/member/fasta-digs-ehbv/Anser_brachyrhynchus_5195	Anser_brachyrhynchus_5195	Avihepadnavirus	NXHY01000420.1	83.146	439	-	Anser	Anatidae	Anseriformes	Galloanserae	none	none
+alignment/AL_eHBV-Avi.12-Anatidae/member/fasta-digs-ehbv/Anser_cygnoides_5197	Anser_cygnoides_5197	Avihepadnavirus	gi|901923397|ref|NW_013186024.1|	83.146	437	-	Anser	Anatidae	Anseriformes	Galloanserae	none	none
+alignment/AL_eHBV-Avi.12-Anatidae/member/fasta-refseqs-ehbv/ehbv-avi.12-anatidae-con	ehbv-avi.12-anatidae-con	Avihepadnavirus	-	-	-	-	-	-	-	-	-	-
