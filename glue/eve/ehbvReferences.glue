@@ -23,7 +23,7 @@
   create reference REF_EHBV-Avi.20-cariama          fasta-refseqs-ehbv ehbv-avi.20-cariama
   create reference REF_EHBV-Avi.21-paleognathae     fasta-refseqs-ehbv ehbv-avi.21-paleognathae-con
   create reference REF_EHBV-Avi.22-tyto             fasta-refseqs-ehbv ehbv-avi.22-tyto
-  create reference REF_EHBV-Avi.23-strigops         fasta-refseqs-ehbv ehbv-avi.23-strigops
+  create reference REF_EHBV-Avi.23-psittaciformes   fasta-refseqs-ehbv ehbv-avi.23-psittaciformes
   create reference REF_EHBV-Avi.24-apaloderma       fasta-refseqs-ehbv ehbv-avi.24-apaloderma
   create reference REF_EHBV-Avi.25-chaetura         fasta-refseqs-ehbv ehbv-avi.25-chaetura
   create reference REF_EHBV-Avi.26-psittaciformes   fasta-refseqs-ehbv ehbv-avi.26-psittaciformes

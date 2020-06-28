@@ -8,6 +8,9 @@ create module -f modules/ehbvCompoundAligner.xml
 alignment AL_Hepadnaviridae
 
   add member -w "source.name = 'fasta-digs-ehbv' and locus_data.bitscore > 200"
+  add member -w "source.name = 'fasta-digs-ehbv' and locus_data.assigned_name like '%paleognathae%'"
+  add member -w "source.name = 'fasta-digs-ehbv' and locus_data.assigned_name like '%27%'"
+
   add member -w "source.name = 'fasta-refseqs-ehbv'"
   
   demote member AL_GENUS_Avi -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
@@ -150,10 +153,6 @@ alignment AL_GENUS_Avi
   extract child AL_eHBV-Avi.32-Tinamiformes -r REF_EHBV-Avi.32-tinamiformes
   demote member AL_eHBV-Avi.32-Tinamiformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.32-tinamiformes-con'"
   demote member AL_eHBV-Avi.32-Tinamiformes -w "sequence.name = 'ehbv-avi.32-tinamiformes-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
-
-  extract child AL_eHBV-Avi.35-Pterocles -r REF_EHBV-Avi.35-Pterocles
-  demote member AL_eHBV-Avi.35-Pterocles -w "sequence.locus_data.assigned_name = 'ehbv-avi.35-pterocles'"
-  demote member AL_eHBV-Avi.35-Pterocles -w "sequence.name = 'ehbv-avi.35-pterocles' and sequence.source.name = 'fasta-refseqs-ehbv'"
 
   extract child AL_eHBV-Avi.36-Callipepla -r REF_EHBV-Avi.36-Callipepla
   demote member AL_eHBV-Avi.36-Callipepla -w "sequence.locus_data.assigned_name = 'ehbv-avi.36-callipepla'"
