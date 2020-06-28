@@ -1,3 +1,4 @@
+  # Clean up from previous build (just in case its necessary)
   delete module raxmlPhylogenyGenerator
   delete module HepadnaPhyloUtility
   delete module ehbvFigTreeAnnotationExporter
@@ -13,8 +14,7 @@
     generate nucleotide phylogeny AL_eHBV-Avi.1-Neoaves -a -o trees/eve-orthos/ehbv-avi.1-neoaves.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_eHBV-Avi.12-Anatidae -a -o trees/eve-orthos/ehbv-avi.12-anatidae.tre NEWICK_BOOTSTRAPS 
     generate nucleotide phylogeny AL_eHBV-Avi.17-Passeriformes -a -o trees/eve-orthos/ehbv-avi.17-passeriformes.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_eHBV-Avi.23-Strigops -a -o trees/eve-orthos/ehbv-avi.23-strigops.tre NEWICK_BOOTSTRAPS 
-    generate nucleotide phylogeny AL_eHBV-Avi.35-Pterocles -a -o trees/eve-orthos/ehbv-avi.35-pterocles.tre NEWICK_BOOTSTRAPS 
+    generate nucleotide phylogeny AL_eHBV-Avi.23-Psittaciformes -a -o trees/eve-orthos/ehbv-avi.23-psittaciformes.tre NEWICK_BOOTSTRAPS 
 	exit
  
  
@@ -37,14 +37,9 @@
       --outputFile trees/eve-orthos/ehbv-avi.17-passeriformes-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve-orthos/ehbv-avi.23-strigops.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-orthos/ehbv-avi.23-psittaciformes.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve-orthos/ehbv-avi.23-strigops-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/eve-orthos/ehbv-avi.35-pterocles.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/eve-orthos/ehbv-avi.35-pterocles.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-orthos/ehbv-avi.23-psittaciformes-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -54,7 +49,6 @@
     export figtree-annotation AL_eHBV-Avi.1-Neoaves -f trees/eve-orthos/ehbv-avi.1-neoaves.figtree-annotations.tsv
     export figtree-annotation AL_eHBV-Avi.12-Anatidae -f trees/eve-orthos/ehbv-avi.12-anatidae.figtree-annotations.tsv
     export figtree-annotation AL_eHBV-Avi.17-Passeriformes -f trees/eve-orthos/ehbv-avi.17-passeriformes.figtree-annotations.tsv
-    export figtree-annotation AL_eHBV-Avi.23-Strigops -f trees/eve-orthos/ehbv-avi.23-strigops.figtree-annotations.tsv
-    export figtree-annotation AL_eHBV-Avi.35-Pterocles -f trees/eve-orthos/ehbv-avi.35-pterocles.figtree-annotations.tsv
+    export figtree-annotation AL_eHBV-Avi.23-Psittaciformes -f trees/eve-orthos/ehbv-avi.23-psittaciformes.figtree-annotations.tsv
 
   exit
