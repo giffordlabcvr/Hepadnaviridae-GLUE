@@ -28,7 +28,7 @@
   create reference REF_EHBV-Avi.25-chaetura         fasta-refseqs-ehbv ehbv-avi.25-chaetura
   create reference REF_EHBV-Avi.26-psittaciformes   fasta-refseqs-ehbv ehbv-avi.26-psittaciformes
   create reference REF_EHBV-Avi.27-suliformes       fasta-refseqs-ehbv ehbv-avi.27-suliformes-con
-  create reference REF_EHBV-Avi.28-australiaves     fasta-refseqs-ehbv ehbv-avi.28-australiaves
+  #create reference REF_EHBV-Avi.28-australiaves     fasta-refseqs-ehbv ehbv-avi.28-australiaves
   create reference REF_EHBV-Avi.29-psittacula       fasta-refseqs-ehbv ehbv-avi.29-psittacula
   create reference REF_EHBV-Avi.30-anser            fasta-refseqs-ehbv ehbv-avi.30-anser-con 
   create reference REF_EHBV-Avi.31-passeriformes    fasta-refseqs-ehbv ehbv-avi.31-passeriformes-con

@@ -30,5 +30,3 @@ _.each(loadResult, function(eveObj) {
 
 });
 
-
-	
