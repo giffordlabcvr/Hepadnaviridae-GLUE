@@ -16,53 +16,13 @@
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>scaffold</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.scaffold')}</valueFreemarkerTemplate>
+		<annotationName>nearest_upstream_orf</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.refcon_data.nearest_upstream_orf')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
 	<figTreeAnnotation>
-		<annotationName>identity</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.identity')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>bitscore</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.bitscore')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>host_species</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_species')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-	
-	<figTreeAnnotation>
-		<annotationName>host_genus</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_genus')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>host_family</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_family')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-	
-	<figTreeAnnotation>
-		<annotationName>host_order</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_order')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>host_major_clade</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_major_clade')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>host_middle_clade</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_middle_clade')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>host_minor_clade</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_minor_clade')}</valueFreemarkerTemplate>
+		<annotationName>nearest_downstream_orf</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.refcon_data.nearest_downstream_orf')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 	
 </figTreeAnnotationExporter>
