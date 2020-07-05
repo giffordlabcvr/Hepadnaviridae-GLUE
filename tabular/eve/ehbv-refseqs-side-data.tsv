@@ -1,5 +1,6 @@
 id	full_name	locus_id	locus_numeric_id	nearest_upstream_orf	nearest_downstream_orf	family	genus	host_group_name
 ehbv-herpeto.1-serpentes-con	Endogenous herpetohepadnavirus 1	ehbv-herpeto.1-serpentes-con	1	TSHZ1	ZNF516	Hepadnaviridae	Herpetohepadnavirus	Serpentes
+ehbv-herpeto.2-serpentes-con	Endogenous herpetohepadnavirus 2	ehbv-herpeto.2-serpentes-con	2	NK	NK	Hepadnaviridae	Herpetohepadnavirus	Serpentes
 ehbv-herpeto.3-crocodilia	Endogenous herpetohepadnavirus 3	ehbv-herpeto.3-crocodilia-con	3	NK	NK	Hepadnaviridae	Herpetohepadnavirus	Crocodilia
 ehbv-herpeto.4-crocodilia	Endogenous herpetohepadnavirus 4	ehbv-herpeto.4-crocodilia-con	4	NK	NK	Hepadnaviridae	Herpetohepadnavirus	Crocodilia
 ehbv-herpeto.5-testudines-con	Endogenous herpetohepadnavirus 5	ehbv-herpeto.5-testudines-con	5	NK	NK	Hepadnaviridae	Herpetohepadnavirus	Testudines
@@ -26,9 +27,9 @@ ehbv-avi.14-gaviiformes	Endogenous avihepadnavirus 14	ehbv-avi.14-gaviiformes	14
 ehbv-avi.15-gaviiformes	Endogenous avihepadnavirus 15	ehbv-avi.15-gaviiformes	15	TMEM182 (intronic)	TMEM182 (intronic)	Hepadnaviridae	Avihepadnavirus	Gaviiformes
 ehbv-avi.16-turaco	Endogenous avihepadnavirus 16	ehbv-avi.16-turaco	16	TMEM8B	ENSACUG00000013925	Hepadnaviridae	Avihepadnavirus	Turaco
 ehbv-avi.17-passeriformes-con	Endogenous avihepadnavirus 17	ehbv-avi.17-Passeriformes	17	TIMM21/FBXO15	NETO1/CBLN2/lncRNA	Hepadnaviridae	Avihepadnavirus	Passeriformes
-ehbv-avi.18-calypte	Endogenous avihepadnavirus 18	ehbv-avi.18-Calypte	18	ENSSCUG00000017518 (intronic)/TSKU	ENSSCUG00000017518 (intronic)/EMSY	Hepadnaviridae	Avihepadnavirus	ehbv-avi.18-calypte
-ehbv-avi.19-buceros	Endogenous avihepadnavirus 19	ehbv-avi.19-Buceros	19	PCDH18	PCDH10	Hepadnaviridae	Avihepadnavirus	ehbv-avi.19-buceros
-ehbv-avi.20-cariama	Endogenous avihepadnavirus 20	ehbv-avi.20-Cariama	20	THBS1	KATNBL1	Hepadnaviridae	Avihepadnavirus	ehbv-avi.20-cariama
+ehbv-avi.18-calypte	Endogenous avihepadnavirus 18	ehbv-avi.18-Calypte	18	ENSSCUG00000017518 (intronic)/TSKU	ENSSCUG00000017518 (intronic)/EMSY	Hepadnaviridae	Avihepadnavirus	Calypte
+ehbv-avi.19-buceros	Endogenous avihepadnavirus 19	ehbv-avi.19-Buceros	19	PCDH18	PCDH10	Hepadnaviridae	Avihepadnavirus	Buceros
+ehbv-avi.20-cariama	Endogenous avihepadnavirus 20	ehbv-avi.20-Cariama	20	THBS1	KATNBL1	Hepadnaviridae	Avihepadnavirus	Cariama
 ehbv-avi.21-paleognathae-con	Endogenous avihepadnavirus 21	ehbv-avi.21-Paleognathea	21	ENSDNVG00000004794/LMCD1	GRM7	Hepadnaviridae	Avihepadnavirus	Paleognathae
 ehbv-avi.22-tyto	Endogenous avihepadnavirus 22	ehbv-avi.22-Tyto	22	MYBL2	PTPRT	Hepadnaviridae	Avihepadnavirus	Tyto
 ehbv-avi.23-psittaciformes	Endogenous avihepadnavirus 23	ehbv-avi.23-psittaciformes	23	OLFM4	nk	Hepadnaviridae	Avihepadnavirus	Psittaciformes
@@ -40,8 +41,8 @@ ehbv-avi.28-falco	Endogenous avihepadnavirus 28	ehbv-avi.28-falco	28	NK	NK	Hepad
 ehbv-avi.29-psittacula	Endogenous avihepadnavirus 29	ehbv-avi.29-psittacula	29	ENSMUNG00000011927/CHSY3	ENSMUNG00000011929/HINT1	Hepadnaviridae	Avihepadnavirus	Psittacula
 ehbv-avi.30-anser-con	Endogenous avihepadnavirus 30	ehbv-avi.30-anser-con	30	ENSACDG00005009727	CCDC58	Hepadnaviridae	Avihepadnavirus	Anser
 ehbv-avi.31-passeriformes-con	Endogenous avihepadnavirus 31	ehbv-avi.31-passeriformes-con	31	ENSTGUG00000000478	LRRC2	Hepadnaviridae	Avihepadnavirus	Passeriformes
-ehbv-avi.32-tinamiformes-con	Endogenous avihepadnavirus 32	ehbv-avi.32-tinamiformes-con	32	OLFM4	nk	Hepadnaviridae	Avihepadnavirus	Endogenous a+I39vihepadnavirus 28
-ehbv-avi.36-callipepla	Endogenous avihepadnavirus 36	ehbv-avi.36-callipepla	36	NK	NK	Hepadnaviridae	Avihepadnavirus	Callipepla
+ehbv-avi.32-tinamiformes-con	Endogenous avihepadnavirus 32	ehbv-avi.32-tinamiformes-con	32	OLFM4	nk	Hepadnaviridae	Avihepadnavirus	Leptosomus
+ehbv-avi.33-psittaciformes	Endogenous avihepadnavirus 33	ehbv-avi.33-Psittaciformes	33	ENSACOG00000002175	ENSACOG00000002296	Hepadnaviridae	Avihepadnavirus	Psittaciformes
+ehbv-avi.34-leptosomus	Endogenous avihepadnavirus 34	ehbv-avi.34-leptosomus	34			Hepadnaviridae	Avihepadnavirus	Leptosomidae
+ehbv-avi.36-callipepla	Endogenous avihepadnavirus 36	ehbv-avi.36-callipepla	36	NF	NF	Hepadnaviridae	Avihepadnavirus	Callipepla
 ehbv-avi.37-phylloscopus	Endogenous avihepadnavirus 37	ehbv-avi.37-phylloscopus	37	EPHA3	ZNF654/C3orf38/N6AMT1	Hepadnaviridae	Avihepadnavirus	Phylloscopus
-ehbv-avi.38.Passeriformes	Endogenous avihepadnavirus 40	ehbv-avi.40-australiaves	33	AAR2	ENSTGUG00000027480	Hepadnaviridae	Avihepadnavirus	Australiaves
-ehbv-herpeto.2-serpentes-con	Endogenous herpetohepadnavirus 2	ehbv-herpeto.2-serpentes-con	2	NK	NK	Hepadnaviridae	Herpetohepadnavirus	Serpentes
