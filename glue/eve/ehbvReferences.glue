@@ -32,18 +32,20 @@
   create reference REF_EHBV-Avi.30-anseridae        fasta-refseqs-ehbv ehbv-avi.30-anseridae-con 
   create reference REF_EHBV-Avi.31-passeriformes    fasta-refseqs-ehbv ehbv-avi.31-passeriformes-con
   create reference REF_EHBV-Avi.32-tinamiformes     fasta-refseqs-ehbv ehbv-avi.32-tinamiformes-con
-  create reference REF_EHBV-Avi.35-pterocles        fasta-refseqs-ehbv ehbv-avi.35-pterocles
   create reference REF_EHBV-Avi.36-callipepla       fasta-refseqs-ehbv ehbv-avi.36-callipepla
   create reference REF_EHBV-Avi.37-phylloscopus     fasta-refseqs-ehbv ehbv-avi.37-phylloscopus
   create reference REF_EHBV-Avi.40-australiaves     fasta-refseqs-ehbv ehbv-avi.40-australiaves-con
 
   # Herpetohepadnavirus
   create reference REF_EHBV-Herpeto.1-serpentes     fasta-refseqs-ehbv ehbv-herpeto.1-serpentes-con
+  create reference REF_EHBV-Herpeto.2-serpentes     fasta-refseqs-ehbv ehbv-herpeto.2-serpentes-con
   create reference REF_EHBV-Herpeto.3-crocodilia    fasta-refseqs-ehbv ehbv-herpeto.3-crocodilia
   create reference REF_EHBV-Herpeto.4-crocodilia    fasta-refseqs-ehbv ehbv-herpeto.4-crocodilia
   create reference REF_EHBV-Herpeto.5-testudines    fasta-refseqs-ehbv ehbv-herpeto.5-testudines-con 
   create reference REF_EHBV-Herpeto.6-varanus       fasta-refseqs-ehbv ehbv-herpeto.6-varanus-con
   create reference REF_EHBV-Herpeto.7-varanus       fasta-refseqs-ehbv ehbv-herpeto.7-varanus
+  create reference REF_EHBV-Herpeto.8-serpentes     fasta-refseqs-ehbv ehbv-herpeto.1-serpentes-con
+  create reference REF_EHBV-Herpeto.9-serpentes     fasta-refseqs-ehbv ehbv-herpeto.2-serpentes-con
 
   # Metahepadnavirus
   create reference REF_EHBV-Meta.1-Sauria           fasta-refseqs-ehbv ehbv-meta.1-sauria-con
