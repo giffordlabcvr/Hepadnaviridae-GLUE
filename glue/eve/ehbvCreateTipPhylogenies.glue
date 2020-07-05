@@ -1,12 +1,12 @@
   # Clean up from previous build (just in case its necessary)
   delete module raxmlPhylogenyGenerator
   delete module HepadnaPhyloUtility
-  delete module ehbvFigTreeAnnotationExporter
+  delete module ehbvFigTreeAnnotationExporterDigs
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/HepadnaPhyloUtility.xml
-  create module -f modules/ehbvFigTreeAnnotationExporter.xml
+  create module -f modules/ehbvFigTreeAnnotationExporterDigs.xml
 
   # Create the phylogenies
   module raxmlPhylogenyGenerator
@@ -44,7 +44,7 @@
     exit
 
   # Export annotations
-  module ehbvFigTreeAnnotationExporter
+  module ehbvFigTreeAnnotationExporterDigs
    
     export figtree-annotation AL_eHBV-Avi.1-Neoaves -f trees/eve-orthos/ehbv-avi.1-neoaves.figtree-annotations.tsv
     export figtree-annotation AL_eHBV-Avi.12-Anatidae -f trees/eve-orthos/ehbv-avi.12-anatidae.figtree-annotations.tsv

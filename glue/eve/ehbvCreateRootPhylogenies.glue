@@ -6,7 +6,7 @@
   delete module hepadnaTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
   delete module hepadnaPhyloUtility
-  delete module hepadnaFigTreeAnnotationExporter
+  delete module ehbvFigTreeAnnotationExporter
   delete module hepadnaviridaeFeaturePresenceRecorder
   delete module alignmentColumnsSelectorHepadnaCore
   delete module alignmentColumnsSelectorHepadnaPolymerase
@@ -17,7 +17,7 @@
   create module -f modules/hepadnaTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
   create module -f modules/hepadnaPhyloUtility.xml
-  create module -f modules/hepadnaFigTreeAnnotationExporter.xml
+  create module -f modules/ehbvFigTreeAnnotationExporter.xml
   create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
   create module -f modules/alignmentColumnsSelectorHepadnaCore.xml
   create module -f modules/alignmentColumnsSelectorHepadnaPolymerase.xml
@@ -39,7 +39,6 @@
   module hepadnaviridaeFeaturePresenceRecorder
     record feature-presence AL_TREE_Hepadnaviridae_EVE --featureName whole_genome --descendentFeatures
     exit
-
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
@@ -76,12 +75,14 @@
 
 
   # Export annotations
-  module hepadnaFigTreeAnnotationExporter
+  module ehbvFigTreeAnnotationExporter
   
     export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-core.eve.figtree-annotations.tsv
+
     export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-pol.eve.figtree-annotations.tsv
+
     export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-surface.eve.figtree-annotations.tsv
 

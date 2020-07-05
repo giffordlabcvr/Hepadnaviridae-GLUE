@@ -3,7 +3,7 @@
   delete module hepadnaTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
   delete module hepadnaPhyloUtility
-  delete module hepadnaFigTreeAnnotationExporter
+  delete module ehbvFigTreeAnnotationExporter
   delete module hepadnaviridaeFeaturePresenceRecorder
   delete module alignmentColumnsSelectorAviCore
   delete module alignmentColumnsSelectorAviPolymerase
@@ -17,7 +17,7 @@
   create module -f modules/hepadnaTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
   create module -f modules/hepadnaPhyloUtility.xml
-  create module -f modules/hepadnaFigTreeAnnotationExporter.xml
+  create module -f modules/ehbvFigTreeAnnotationExporter.xml
   create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
   create module -f modules/alignmentColumnsSelectorAviCore.xml
   create module -f modules/alignmentColumnsSelectorAviPolymerase.xml
@@ -96,7 +96,7 @@
 
 
   # Export annotations
-  module hepadnaFigTreeAnnotationExporter 
+  module ehbvFigTreeAnnotationExporter 
 
     export figtree-annotation AL_GENUS_Herpeto -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Herpeto-root-core.eve.figtree-annotations.tsv
