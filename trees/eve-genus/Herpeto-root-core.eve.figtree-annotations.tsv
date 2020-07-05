@@ -1,5 +1,6 @@
-taxon	sequenceID	clade	isolate	host_sci_name	host_common_name	sample_date	country
-alignment/AL_GENUS_Herpeto/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	-	-	-	-	-	-
-alignment/AL_GENUS_Herpeto/member/ncbi-refseqs/NC_030446	NC_030446	-	243398	Nanorana parkeri	-	-	China
-alignment/AL_GENUS_Herpeto/member/fasta-refseqs/SkHBV	SkHBV	-	-	Saproscincus basiliscus	-	-	-
-alignment/AL_GENUS_Herpeto/member/fasta-refseqs/SLHBV-1	SLHBV-1	-	-	Sceloporus adleri	-	-	-
+taxon	sequenceID	name	genus	clade	isolate	host_sci_name	host_common_name	sample_date	country
+alignment/AL_GENUS_Herpeto/member/fasta-refseqs-ehbv/ehbv-herpeto.1-serpentes-con	ehbv-herpeto.1-serpentes-con	ehbv-herpeto.1-serpentes-con	Herpetohepadnavirus	-	-	-	-	-	-
+alignment/AL_GENUS_Herpeto/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	Herpetohepadnavirus	-	-	-	-	-	-
+alignment/AL_GENUS_Herpeto/member/ncbi-refseqs/NC_030446	NC_030446	tfHBV	Herpetohepadnavirus	-	243398	Nanorana parkeri	-	-	China
+alignment/AL_GENUS_Herpeto/member/fasta-refseqs/SkHBV	SkHBV	SkHBV	Herpetohepadnavirus	-	-	Saproscincus basiliscus	-	-	-
+alignment/AL_GENUS_Herpeto/member/fasta-refseqs/SLHBV-1	SLHBV-1	SLHBV-1	Herpetohepadnavirus	-	-	Sceloporus adleri	-	-	-
