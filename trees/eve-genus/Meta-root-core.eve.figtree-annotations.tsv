@@ -1,0 +1,6 @@
+taxon	sequenceID	name	genus	clade	isolate	host_sci_name	host_common_name	sample_date	country
+alignment/AL_GENUS_Meta/member/fasta-refseqs/AMDV	AMDV	AMDV	Metahepadnavirus	-	-	Astatotilapia sp	-	-	-
+alignment/AL_GENUS_Meta/member/fasta-refseqs-ehbv/ehbv-meta.3-paroedura	ehbv-meta.3-paroedura	ehbv-meta.3-paroedura	Metahepadnavirus	-	-	-	-	-	-
+alignment/AL_GENUS_Meta/member/fasta-refseqs/IMDV	IMDV	IMDV	Metahepadnavirus	-	-	Chionodraco hamatus	-	-	-
+alignment/AL_GENUS_Meta/member/ncbi-refseqs/NC_030445	NC_030445	bgHBV	Metahepadnavirus	-	-	Lepomis macrochirus	-	-	USA
+alignment/AL_GENUS_Meta/member/fasta-refseqs/TMDV	TMDV	TMDV	Metahepadnavirus	-	-	Astyanax mexicanus	-	-	-

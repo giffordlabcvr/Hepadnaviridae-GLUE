@@ -26,6 +26,7 @@ project hepadnaviridae
 
   # Adde EVEs to constrained alignment tree 
   run file glue/eve/ehbvAlignmentTree.glue
+  #run file glue/eve/ehbvAlignmentTreeTips.glue
 
   # Record feature presence
   run file glue/eve/ehbvRecordFeaturePresence.glue
@@ -33,7 +34,7 @@ project hepadnaviridae
   # Create phylogenies
   run file glue/eve/ehbvCreateRootPhylogenies.glue
   run file glue/eve/ehbvCreateGenusPhylogenies.glue
-  run file glue/eve/ehbvCreateTipPhylogenies.glue
+  #run file glue/eve/ehbvCreateTipPhylogenies.glue
 
   # Validate
   validate

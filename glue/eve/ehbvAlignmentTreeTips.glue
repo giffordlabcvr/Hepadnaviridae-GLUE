@@ -1,0 +1,220 @@
+delete module ehbvCompoundAligner
+create module -f modules/ehbvCompoundAligner.xml
+
+#~# Add EVE sequences to constrained alignment tree
+
+#~# Avian EVE aligns
+alignment AL_GENUS_Avi
+
+  extract child AL_eHBV-Avi.1-Neoaves -r REF_EHBV-Avi.1-neoaves
+  demote member AL_eHBV-Avi.1-Neoaves -w "sequence.locus_data.assigned_name = 'ehbv-avi.1-neoaves'"
+  demote member AL_eHBV-Avi.1-Neoaves -w "sequence.name = 'ehbv-avi.1-neoaves-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.2-Estrildidae -r REF_EHBV-Avi.2-estrildidae
+  demote member AL_eHBV-Avi.2-Estrildidae -w "sequence.locus_data.assigned_name = 'ehbv-avi.2-estrildidae'"
+  demote member AL_eHBV-Avi.2-Estrildidae -w "sequence.name = 'ehbv-avi.2-estrildidae' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.3-Passeriformes -r REF_EHBV-Avi.3-passeriformes
+  demote member AL_eHBV-Avi.3-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.3-passeriformes'"
+  demote member AL_eHBV-Avi.3-Passeriformes -w "sequence.name = 'ehbv-avi.3-passeriformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.4-Passeriformes -r REF_EHBV-Avi.4-passeriformes
+  demote member AL_eHBV-Avi.4-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.4-passeriformes'"
+  demote member AL_eHBV-Avi.4-Passeriformes -w "sequence.name = 'ehbv-avi.4-passeriformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.5-Passeriformes -r REF_EHBV-Avi.5-passeriformes
+  demote member AL_eHBV-Avi.5-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.5-passeriformes'"
+  demote member AL_eHBV-Avi.5-Passeriformes -w "sequence.name = 'ehbv-avi.5-passeriformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.6-Passeriformes -r REF_EHBV-Avi.6-passeriformes
+  demote member AL_eHBV-Avi.6-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.6-passeriformes'"
+  demote member AL_eHBV-Avi.6-Passeriformes -w "sequence.name = 'ehbv-avi.6-passeriformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.7-Passeriformes -r REF_EHBV-Avi.7-passeriformes
+  demote member AL_eHBV-Avi.7-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.7-passeriformes'"
+  demote member AL_eHBV-Avi.7-Passeriformes -w "sequence.name = 'ehbv-avi.7-passeriformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.8-Australiaves -r REF_EHBV-Avi.8-australiaves
+  demote member AL_eHBV-Avi.8-Australiaves -w "sequence.locus_data.assigned_name = 'ehbv-avi.8-australiaves'"
+  demote member AL_eHBV-Avi.8-Australiaves -w "sequence.name = 'ehbv-avi.8-australiaves' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.9-Melopsittacus -r REF_EHBV-Avi.9-melopsittacus
+  demote member AL_eHBV-Avi.9-Melopsittacus -w "sequence.locus_data.assigned_name = 'ehbv-avi.9-melopsittacus'"
+  demote member AL_eHBV-Avi.9-Melopsittacus -w "sequence.name = 'ehbv-avi.9-melopsittacus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.10-Melopsittacus -r REF_EHBV-Avi.10-melopsittacus
+  demote member AL_eHBV-Avi.10-Melopsittacus -w "sequence.locus_data.assigned_name = 'ehbv-avi.10-melopsittacus'"
+  demote member AL_eHBV-Avi.10-Melopsittacus -w "sequence.name = 'ehbv-avi.10-melopsittacus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.11-Tyto -r REF_EHBV-Avi.11-Tyto
+  demote member AL_eHBV-Avi.11-Tyto -w "sequence.locus_data.assigned_name = 'ehbv-avi.11-tyto'"
+  demote member AL_eHBV-Avi.11-Tyto -w "sequence.name = 'ehbv-avi.11-tyto' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.12-Anatidae -r REF_EHBV-Avi.12-Anatidae
+  demote member AL_eHBV-Avi.12-Anatidae -w "sequence.locus_data.assigned_name = 'ehbv-avi.12-anatidae'"
+  demote member AL_eHBV-Avi.12-Anatidae -w "sequence.name = 'ehbv-avi.12-anatidae-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.13-Paleognathea -r REF_EHBV-Avi.13-Paleognathea
+  demote member AL_eHBV-Avi.13-Paleognathea -w "sequence.locus_data.assigned_name = 'ehbv-avi.13-paleognathae-con'"
+  demote member AL_eHBV-Avi.13-Paleognathea -w "sequence.name = 'ehbv-avi.13-paleognathae-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.14-Gaviiformes -r REF_EHBV-Avi.14-Gaviiformes
+  demote member AL_eHBV-Avi.14-Gaviiformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.14-gaviiformes'"
+  demote member AL_eHBV-Avi.14-Gaviiformes -w "sequence.name = 'ehbv-avi.13-gaviiformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.15-Gaviiformes -r REF_EHBV-Avi.15-Gaviiformes
+  demote member AL_eHBV-Avi.15-Gaviiformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.15-gaviiformes'"
+  demote member AL_eHBV-Avi.15-Gaviiformes -w "sequence.name = 'ehbv-avi.13-gaviiformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.16-Turaco -r REF_EHBV-Avi.16-Turaco
+  demote member AL_eHBV-Avi.16-Turaco -w "sequence.locus_data.assigned_name = 'ehbv-avi.16-turaco'"
+  demote member AL_eHBV-Avi.16-Turaco -w "sequence.name = 'ehbv-avi.13-gaviiformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.17-Passeriformes -r REF_EHBV-Avi.17-Passeriformes
+  demote member AL_eHBV-Avi.17-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.17-passeriformes'"
+  demote member AL_eHBV-Avi.17-Passeriformes -w "sequence.name = 'ehbv-avi.17-passeriformes-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.18-Calypte -r REF_EHBV-Avi.18-Calypte
+  demote member AL_eHBV-Avi.18-Calypte -w "sequence.locus_data.assigned_name = 'ehbv-avi.18-calypte'"
+  demote member AL_eHBV-Avi.18-Calypte -w "sequence.name = 'ehbv-avi.18-calypte' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.19-Buceros -r REF_EHBV-Avi.19-Buceros
+  demote member AL_eHBV-Avi.19-Buceros -w "sequence.locus_data.assigned_name = 'ehbv-avi.19-buceros'"
+  demote member AL_eHBV-Avi.19-Buceros -w "sequence.name = 'ehbv-avi.19-buceros' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.20-Cariama -r REF_EHBV-Avi.20-Cariama
+  demote member AL_eHBV-Avi.20-Cariama -w "sequence.locus_data.assigned_name = 'ehbv-avi.20-cariama'"
+  demote member AL_eHBV-Avi.20-Cariama -w "sequence.name = 'ehbv-avi.18-cariama' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.21-Paleognathae -r REF_EHBV-Avi.21-Paleognathae
+  demote member AL_eHBV-Avi.21-Paleognathae -w "sequence.locus_data.assigned_name = 'ehbv-avi.21-paleognathae-con'"
+  demote member AL_eHBV-Avi.21-Paleognathae -w "sequence.name = 'ehbv-avi.21-paleognathae-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.22-Tyto -r REF_EHBV-Avi.22-Tyto
+  demote member AL_eHBV-Avi.22-Tyto -w "sequence.locus_data.assigned_name = 'ehbv-avi.22-tyto'"
+  demote member AL_eHBV-Avi.22-Tyto -w "sequence.name = 'ehbv-avi.22-tyto' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.23-Strigops -r REF_EHBV-Avi.23-Psittaciformes
+  demote member AL_eHBV-Avi.23-Strigops -w "sequence.locus_data.assigned_name = 'ehbv-avi.23-strigops'"
+  demote member AL_eHBV-Avi.23-Strigops -w "sequence.name = 'ehbv-avi.23-strigops' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.24-Apaloderma -r REF_EHBV-Avi.24-Apaloderma
+  demote member AL_eHBV-Avi.24-Apaloderma -w "sequence.locus_data.assigned_name = 'ehbv-avi.24-apaloderma'"
+  demote member AL_eHBV-Avi.24-Apaloderma -w "sequence.name = 'ehbv-avi.24-apaloderma' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.25-Chaetura -r REF_EHBV-Avi.25-Chaetura
+  demote member AL_eHBV-Avi.25-Chaetura -w "sequence.locus_data.assigned_name = 'ehbv-avi.25-chaetura'"
+  demote member AL_eHBV-Avi.25-Chaetura -w "sequence.name = 'ehbv-avi.25-chaetura' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.26-Psittaciformes -r REF_EHBV-Avi.26-Psittaciformes
+  demote member AL_eHBV-Avi.26-Psittaciformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.26-psittaciformes'"
+  demote member AL_eHBV-Avi.26-Psittaciformes -w "sequence.name = 'ehbv-avi.26-psittaciformes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.27-Suliformes -r REF_EHBV-Avi.27-Suliformes
+  demote member AL_eHBV-Avi.27-Suliformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.27-suliformes-con'"
+  demote member AL_eHBV-Avi.27-Suliformes -w "sequence.name = 'ehbv-avi.27-suliformes-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.29-Psittacula -r REF_EHBV-Avi.29-Psittacula
+  demote member AL_eHBV-Avi.29-Psittacula -w "sequence.locus_data.assigned_name = 'ehbv-avi.29-psittacula'"
+  demote member AL_eHBV-Avi.29-Psittacula -w "sequence.name = 'ehbv-avi.29-psittacula' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.30-Anseridae -r REF_EHBV-Avi.30-Anseridae
+  demote member AL_eHBV-Avi.30-Anseridae -w "sequence.locus_data.assigned_name = 'ehbv-avi.30-anseridae'"
+  demote member AL_eHBV-Avi.30-Anseridae -w "sequence.name = 'ehbv-avi.30-anseridae' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.31-Passeriformes -r REF_EHBV-Avi.31-passeriformes
+  demote member AL_eHBV-Avi.31-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.31-passeriformes-con'"
+  demote member AL_eHBV-Avi.31-Passeriformes -w "sequence.name = 'ehbv-avi.31-passeriformes-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.32-Tinamiformes -r REF_EHBV-Avi.32-tinamiformes
+  demote member AL_eHBV-Avi.32-Tinamiformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.32-tinamiformes-con'"
+  demote member AL_eHBV-Avi.32-Tinamiformes -w "sequence.name = 'ehbv-avi.32-tinamiformes-con' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.36-Callipepla -r REF_EHBV-Avi.36-Callipepla
+  demote member AL_eHBV-Avi.36-Callipepla -w "sequence.locus_data.assigned_name = 'ehbv-avi.36-callipepla'"
+  demote member AL_eHBV-Avi.36-Callipepla -w "sequence.name = 'ehbv-avi.36-callipepla' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Avi.37-Phylloscopus -r REF_EHBV-Avi.37-Phylloscopus
+  demote member AL_eHBV-Avi.37-Phylloscopus -w "sequence.locus_data.assigned_name = 'ehbv-avi.37-phylloscopus'"
+  demote member AL_eHBV-Avi.37-Phylloscopus -w "sequence.name = 'ehbv-avi.37-phylloscopus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+
+  exit
+
+#~# Herpeto EVE aligns
+alignment AL_GENUS_Herpeto
+
+  extract child AL_eHBV-Herpeto.1-Serpentes -r REF_EHBV-Herpeto.1-Serpentes
+  demote member AL_eHBV-Herpeto.1-Serpentes -w "sequence.locus_data.assigned_name = 'ehbv-herpeto.1-serpentes-con'"
+  demote member AL_eHBV-Herpeto.1-Serpentes -w "sequence.name = 'ehbv-herpeto.1-serpentes-con' and sequence.source.name = 'fasta-digs-ehbv'"
+
+  #extract child AL_eHBV-Herpeto.2-Serpentes -r REF_eHBV-Herpeto.2-Serpentes
+  #demote member AL_eHBV-Herpeto.2-Serpentes -w "sequence.locus_data.assigned_name = 'ehbv-herpeto.2-serpentes'"
+  #demote member AL_eHBV-Herpeto.2-Serpentes -w "sequence.name = 'ehbv-herpeto.2-serpentes' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  extract child AL_eHBV-Herpeto.3-Crocodilia -r REF_eHBV-Herpeto.3-Crocodilia
+  demote member AL_eHBV-Herpeto.3-Crocodilia -w "sequence.locus_data.assigned_name = 'ehbv-herpeto.3-crocodilia'"
+  demote member AL_eHBV-Herpeto.3-Crocodilia -w "sequence.name = 'ehbv-herpeto.3-crocodilia' and sequence.source.name = 'fasta-digs-ehbv'"
+
+  extract child AL_eHBV-Herpeto.4-Crocodilia -r REF_eHBV-Herpeto.4-Crocodilia
+  demote member AL_eHBV-Herpeto.4-Crocodilia -w "sequence.locus_data.assigned_name = 'ehbv-herpeto.4-crocodilia'"
+  demote member AL_eHBV-Herpeto.4-Crocodilia -w "sequence.name = 'ehbv-herpeto.4-crocodilia' and sequence.source.name = 'fasta-digs-ehbv'"
+
+  extract child AL_eHBV-Herpeto.5-Testudines -r REF_eHBV-Herpeto.5-Testudines
+  demote member AL_eHBV-Herpeto.5-Testudines -w "sequence.locus_data.assigned_name = 'ehbv-herpeto.5-testudines-con'"
+  demote member AL_eHBV-Herpeto.5-Testudines -w "sequence.name = 'ehbv-herpeto.5-testudines-con' and sequence.source.name = 'fasta-digs-ehbv'"
+
+  extract child AL_eHBV-Herpeto.6-Varanus -r REF_eHBV-Herpeto.6-Varanus
+  demote member AL_eHBV-Herpeto.6-Varanus -w "sequence.locus_data.assigned_name = 'ehbv-herpeto.6-varanus-con'"
+  demote member AL_eHBV-Herpeto.6-Varanus -w "sequence.name = 'ehbv-herpeto.6-varanus-con' and sequence.source.name = 'fasta-digs-ehbv'"
+
+  exit
+
+
+#~# Metahepadna EVE aligns
+alignment AL_GENUS_Meta
+
+  extract child AL_eHBV-Meta.1-Sauria -r REF_eHBV-Meta.1-Sauria
+  demote member AL_eHBV-Meta.1-Sauria -w "sequence.locus_data.assigned_name = 'ehbv-meta.1-sphenodon'"
+  demote member AL_eHBV-Meta.1-Sauria -w "sequence.name = 'ehbv-meta.1-sphenodon' and sequence.source.name = 'fasta-refseqs-ehbv'"
+
+  #extract child AL_eHBV-Meta.2-Varanus -r REF_eHBV-Meta.2-Varanus
+  #demote member AL_eHBV-Meta.2-Varanus -w "sequence.name = 'ehbv-meta.2-varanus' and sequence.source.name = 'fasta-digs-ehbv'"
+  #demote member AL_eHBV-Meta.2-Varanus -w "sequence.name = 'ehbv-meta.2-varanus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+  exit
+
+
+#~# Compute tip-level constrained alignments
+
+compute alignment AL_eHBV-Avi.1-Neoaves         ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.2-Estrildidae     ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.3-Passeriformes   ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.4-Passeriformes   ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.5-Passeriformes   ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.6-Passeriformes   ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.7-Passeriformes   ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.8-Australiaves    ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.9-Melopsittacus   ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.10-Melopsittacus  ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.11-Tyto           ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.12-Anatidae       ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.13-Paleognathea   ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.14-Gaviiformes    ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.15-Gaviiformes    ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.16-Turaco         ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.17-Passeriformes  ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.18-Calypte        ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.19-Buceros        ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.20-Cariama        ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.21-Paleognathae   ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.22-Tyto           ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.23-Strigops       ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.24-Apaloderma     ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.25-chaetura       ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.26-Psittaciformes ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.27-Suliformes     ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.29-Psittacula     ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.30-Anseridae      ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.31-Passeriformes  ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.36-Callipepla     ehbvCompoundAligner
+

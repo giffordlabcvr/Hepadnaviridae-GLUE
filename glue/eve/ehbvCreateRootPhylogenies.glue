@@ -6,7 +6,7 @@
   delete module hepadnaTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
   delete module hepadnaPhyloUtility
-  delete module ehbvFigTreeAnnotationExporter
+  delete module hepadnaFigTreeAnnotationExporter
   delete module hepadnaviridaeFeaturePresenceRecorder
   delete module alignmentColumnsSelectorHepadnaCore
   delete module alignmentColumnsSelectorHepadnaPolymerase
@@ -17,7 +17,7 @@
   create module -f modules/hepadnaTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
   create module -f modules/hepadnaPhyloUtility.xml
-  create module -f modules/ehbvFigTreeAnnotationExporter.xml
+  create module -f modules/hepadnaFigTreeAnnotationExporter.xml
   create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
   create module -f modules/alignmentColumnsSelectorHepadnaCore.xml
   create module -f modules/alignmentColumnsSelectorHepadnaPolymerase.xml
@@ -39,21 +39,22 @@
   module hepadnaviridaeFeaturePresenceRecorder
     record feature-presence AL_TREE_Hepadnaviridae_EVE --featureName whole_genome --descendentFeatures
     exit
+
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_TREE_Hepadnaviridae_EVE -s alignmentColumnsSelectorHepadnaCore \
-      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Hepadna-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
+      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -o trees/eve-root/Hepadna-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_TREE_Hepadnaviridae_EVE -s alignmentColumnsSelectorHepadnaPolymerase \
-      -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Hepadna-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
+      -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -o trees/eve-root/Hepadna-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_TREE_Hepadnaviridae_EVE -s alignmentColumnsSelectorHepadnaSurface \
-      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/eve/Hepadna-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
+      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -o trees/eve-root/Hepadna-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -62,29 +63,36 @@
   module HepadnaPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Hepadna-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-root/Hepadna-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Hepadna-core.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-root/Hepadna-core.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
 	reroot-phylogeny \
-      --inputFile trees/eve/Hepadna-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/eve-root/Hepadna-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/eve/Hepadna-pol.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/eve-root/Hepadna-pol.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/eve-root/Hepadna-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/eve-root/Hepadna-surface.eve.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
 
   # Export annotations
-  module ehbvFigTreeAnnotationExporter
+  module hepadnaFigTreeAnnotationExporter
   
     export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-core.eve.figtree-annotations.tsv
-
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve-root/Hepadna-root-core.eve.figtree-annotations.tsv
+ 
     export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-pol.eve.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve-root/Hepadna-root-pol.eve.figtree-annotations.tsv
 
     export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve/Hepadna-root-surface.eve.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve-root/Hepadna-root-surface.eve.figtree-annotations.tsv
 
   exit
+
+
 
