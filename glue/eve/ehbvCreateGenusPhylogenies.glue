@@ -38,15 +38,15 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHepadnaCore \
+    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHerpetoCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Herpeto-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHepadnaPolymerase \
+    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHerpetoPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Herpeto-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHepadnaSurface \
+    generate nucleotide phylogeny AL_GENUS_Herpeto -s alignmentColumnsSelectorHerpetoSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Herpeto-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 

@@ -5,8 +5,8 @@ ehbv-herpeto.3-crocodilia	Herpetohepadnavirus	Endogenous herpetohepadnavirus 3	e
 ehbv-herpeto.4-crocodilia	Herpetohepadnavirus	Endogenous herpetohepadnavirus 4	ehbv-herpeto.4-crocodilia-con	4	NK	NK	Hepadnaviridae	Crocodilia
 ehbv-herpeto.5-testudines-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 5	ehbv-herpeto.5-testudines-con	5	NK	NK	Hepadnaviridae	Testudines
 ehbv-herpeto.6-varanus-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 6	ehbv-herpeto.6-varanus-con	6	WSCD2 (intronic)	WSCD2 (intronic)	Hepadnaviridae	Varanus
-ehbv-herpeto.8-serpentes-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 7	ehbv-herpeto.8-serpentes-con	7	NK	NK	Hepadnaviridae	Serpentes
 ehbv-herpeto.8-serpentes-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 8	ehbv-herpeto.8-serpentes-con	8	NK	NK	Hepadnaviridae	Serpentes
+ehbv-herpeto.9-serpentes-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 9	ehbv-herpeto.9-serpentes-con	9	NK	NK	Hepadnaviridae	Serpentes
 ehbv-meta.1-sauria-con	Metahepadnavirus	Endogenous metahepadnavirus 1	ehbv-meta.1-sauria	1	KLF8	ENSACUG00000005807	Hepadnaviridae	Sauropsids
 ehbv-meta.2-varanus	Metahepadnavirus	Endogenous metahepadnavirus 2	ehbv-meta.2-varanus	2	NK	NK	Hepadnaviridae	Varanus
 ehbv-meta.3-paroedura	Metahepadnavirus	Endogenous metahepadnavirus 3	ehbv-meta.3-paroedura	3	NK	NK	Hepadnaviridae	Paroedura
