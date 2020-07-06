@@ -5,6 +5,9 @@
     create field clade VARCHAR 50
     create field rotation INTEGER
     create field reverse_complement BOOLEAN
+
+    create field core_shift VARCHAR 30
+    create field variable_region_type VARCHAR 30
   exit
 
   table alignment
@@ -15,7 +18,6 @@
   table member_floc_note
     create field ref_nt_coverage_pct DOUBLE
   exit
-
 
   # Create schema extension
   create custom-table isolate_data

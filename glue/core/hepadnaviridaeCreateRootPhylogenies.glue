@@ -10,9 +10,6 @@
   delete module alignmentColumnsSelectorHepadnaCore
   delete module alignmentColumnsSelectorHepadnaPolymerase
   delete module alignmentColumnsSelectorHepadnaSuface
-  delete module alignmentColumnsSelectorAviCore
-  delete module alignmentColumnsSelectorAviPolymerase
-  delete module alignmentColumnsSelectorAviSurface
   
   # Create all the modules we need
   create module -f modules/fastaAlignmentExporter.xml
@@ -24,9 +21,6 @@
   create module -f modules/alignmentColumnsSelectorHepadnaCore.xml
   create module -f modules/alignmentColumnsSelectorHepadnaPolymerase.xml
   create module -f modules/alignmentColumnsSelectorHepadnaSurface.xml
-  create module -f modules/alignmentColumnsSelectorAviCore.xml
-  create module -f modules/alignmentColumnsSelectorAviPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorAviSurface.xml
 
 
   # Export the recursively populated root gene alignments 
@@ -52,41 +46,15 @@
 
     generate nucleotide phylogeny AL_TREE_Hepadnaviridae -s alignmentColumnsSelectorHepadnaCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_TREE_Hepadnaviridae -s alignmentColumnsSelectorHepadnaPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_TREE_Hepadnaviridae -s alignmentColumnsSelectorHepadnaSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS
-
-
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaCore \
-      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Ortho-core.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaPolymerase \
-      -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Ortho-pol.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaSurface \
-      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Ortho-surface.export_nucs.tre NEWICK_BOOTSTRAPS
-
-
-    generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviCore \
-      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Avi-core.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviPolymerase \
-      -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Avi-pol.export_nucs.tre NEWICK_BOOTSTRAPS
-
-    generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviSurface \
-      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
-      -o trees/core/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS
+      -o trees/main-root/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -95,49 +63,9 @@
   module HepadnaPhyloUtility 
 
 	reroot-phylogeny \
-      --inputFile trees/core/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --inputFile trees/main-root/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
-      --outputFile trees/core/Hepadna-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Hepadna-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Hepadna-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Ortho-core.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Ortho-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Ortho-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Ortho-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Ortho-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Ortho-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Avi-core.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Avi-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Avi-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Avi-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
-
-	reroot-phylogeny \
-      --inputFile trees/core/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
-      --midpoint \
-      --outputFile trees/core/Avi-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+      --outputFile trees/main-root/Hepadna-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
     exit
 
@@ -145,25 +73,10 @@
   # Export annotations
   module hepadnaFigTreeAnnotationExporter 
     export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Hepadna-root-core.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Hepadna-root-core.figtree-annotations.tsv
     export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Hepadna-root-pol.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Hepadna-root-pol.figtree-annotations.tsv
     export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Hepadna-root-surface.figtree-annotations.tsv
-
-    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Ortho-root-core.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Ortho-root-pol.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Ortho-root-surface.figtree-annotations.tsv
-
-    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Avi-root-core.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Avi-root-pol.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/core/Avi-root-surface.figtree-annotations.tsv
-
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Hepadna-root-surface.figtree-annotations.tsv
   exit
 

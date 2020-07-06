@@ -14,6 +14,16 @@
 		<annotationName>genus</annotationName>
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.genus')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>core_shift</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.core_shift')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
+
+	<figTreeAnnotation>
+		<annotationName>variable_region_type</annotationName>
+		<valueFreemarkerTemplate>${renderNestedProperty('sequence.variable_region_type')}</valueFreemarkerTemplate>
+	</figTreeAnnotation>
 	
 	<figTreeAnnotation>
 		<annotationName>clade</annotationName>
