@@ -45,7 +45,7 @@
   module raxmlPhylogenyGenerator
 
     generate nucleotide phylogeny AL_TREE_Hepadnaviridae_EVE -s alignmentColumnsSelectorHepadnaCore \
-      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 20" \
+      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-root/Hepadna-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
     generate nucleotide phylogeny AL_TREE_Hepadnaviridae_EVE -s alignmentColumnsSelectorHepadnaPolymerase \
@@ -83,7 +83,7 @@
   # Export annotations
   module ehbvFigTreeAnnotationExporter
   
-    export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-root/Hepadna-root-core.eve.figtree-annotations.tsv
+    export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve-root/Hepadna-root-core.eve.figtree-annotations.tsv
  
     export figtree-annotation AL_TREE_Hepadnaviridae_EVE -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 20" -f trees/eve-root/Hepadna-root-pol.eve.figtree-annotations.tsv
 

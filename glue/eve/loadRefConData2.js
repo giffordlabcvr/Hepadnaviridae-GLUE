@@ -25,8 +25,8 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "name", eveObj.id]);
 		glue.command(["set", "field", "full_name", eveObj.full_name]);
 		glue.command(["set", "field", "genus", eveObj.genus]);
-		glue.command(["set", "field", "genus", eveObj.variable_region_type]);
-		glue.command(["set", "field", "genus", eveObj.core_shift]);
+		glue.command(["set", "field", "variable_region_type", eveObj.variable_region_type]);
+		glue.command(["set", "field", "core_shift", eveObj.core_shift]);
 
 
 	});
