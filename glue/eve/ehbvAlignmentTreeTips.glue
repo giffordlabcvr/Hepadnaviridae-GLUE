@@ -17,9 +17,9 @@ alignment AL_GENUS_Avi
   demote member AL_eHBV-Avi.1-Neoaves -w "sequence.locus_data.assigned_name = 'ehbv-avi.1-neoaves'"
   demote member AL_eHBV-Avi.1-Neoaves -w "sequence.name = 'ehbv-avi.1-neoaves-con' and sequence.source.name = 'fasta-digs-ehbv'"
 
-  extract child AL_eHBV-Avi.2-Estrildidae -r REF_EHBV-Avi.2-estrildidae
-  demote member AL_eHBV-Avi.2-Estrildidae -w "sequence.locus_data.assigned_name = 'ehbv-avi.2-estrildidae'"
-  demote member AL_eHBV-Avi.2-Estrildidae -w "sequence.name = 'ehbv-avi.2-estrildidae' and sequence.source.name = 'fasta-digs-ehbv'"
+  extract child AL_eHBV-Avi.2-Passeriformes -r REF_EHBV-Avi.2-passeriformes
+  demote member AL_eHBV-Avi.2-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.2-estrildidae'"
+  demote member AL_eHBV-Avi.2-Passeriformes -w "sequence.name = 'ehbv-avi.2-estrildidae' and sequence.source.name = 'fasta-digs-ehbv'"
 
   extract child AL_eHBV-Avi.3-Passeriformes -r REF_EHBV-Avi.3-passeriformes
   demote member AL_eHBV-Avi.3-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.3-passeriformes'"
@@ -184,17 +184,28 @@ alignment AL_GENUS_Meta
   extract child AL_eHBV-Meta.1-Sauria -r REF_eHBV-Meta.1-Sauria
   demote member AL_eHBV-Meta.1-Sauria -w "sequence.locus_data.assigned_name = 'ehbv-meta.1-sphenodon'"
   demote member AL_eHBV-Meta.1-Sauria -w "sequence.name = 'ehbv-meta.1-sphenodon' and sequence.source.name = 'fasta-digs-ehbv'"
-
-  #extract child AL_eHBV-Meta.2-Varanus -r REF_eHBV-Meta.2-Varanus
-  #demote member AL_eHBV-Meta.2-Varanus -w "sequence.name = 'ehbv-meta.2-varanus' and sequence.source.name = 'fasta-digs-ehbv'"
-  #demote member AL_eHBV-Meta.2-Varanus -w "sequence.name = 'ehbv-meta.2-varanus' and sequence.source.name = 'fasta-digs-ehbv'"
   exit
 
+
+#~# Derive Metahepadnavirus tip-level constrained alignments
+
+alignment AL_eHBV-Meta.1-Sauria
+  derive segments AL_UNC_eHBV-Meta.1-Sauria -a --mergeStrategy OVERWRITE
+  exit
+  
+#~# Derive Avihepadnavirus tip-level constrained alignments
+
+alignment AL_eHBV-Meta.1-Sauria
+  derive segments AL_UNC_eHBV-Meta.1-Sauria -a --mergeStrategy OVERWRITE
+  exit
+
+ 
+ 
 
 #~# Compute tip-level constrained alignments
 
 compute alignment AL_eHBV-Avi.1-Neoaves         ehbvCompoundAligner
-compute alignment AL_eHBV-Avi.2-Estrildidae     ehbvCompoundAligner
+compute alignment AL_eHBV-Avi.2-Passeriformes     ehbvCompoundAligner
 compute alignment AL_eHBV-Avi.3-Passeriformes   ehbvCompoundAligner
 compute alignment AL_eHBV-Avi.4-Passeriformes   ehbvCompoundAligner
 compute alignment AL_eHBV-Avi.5-Passeriformes   ehbvCompoundAligner
