@@ -5,14 +5,24 @@
     
     <aminoAcidRegionSelector>
         <featureName>Polymerase</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>816</endCodon>
+        <startCodon>355</startCodon>
+        <endCodon>440</endCodon>
+    </aminoAcidRegionSelector>    
+    <aminoAcidRegionSelector>
+        <featureName>Polymerase</featureName>
+        <startCodon>500</startCodon>
+        <endCodon>781</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>Polymerase</featureName>
-        <startNt>494</startNt>
-        <endNt>2939</endNt>
+        <startNt>1556</startNt>
+        <endNt>1811</endNt>
+    </nucleotideRegionSelector>
+    <nucleotideRegionSelector>
+        <featureName>Polymerase</featureName>
+        <startNt>1991</startNt>
+        <endNt>2834</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

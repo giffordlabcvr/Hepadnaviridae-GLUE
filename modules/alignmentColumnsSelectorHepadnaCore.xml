@@ -5,14 +5,14 @@
     
     <aminoAcidRegionSelector>
         <featureName>PreCore-Core</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>178</endCodon>
+        <startCodon>119</startCodon>
+        <endCodon>177</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>PreCore-Core</featureName>
-        <startNt>1</startNt>
-        <endNt>532</endNt>
+        <startNt>355</startNt>
+        <endNt>529</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

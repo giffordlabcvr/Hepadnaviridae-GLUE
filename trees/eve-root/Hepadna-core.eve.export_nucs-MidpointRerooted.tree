@@ -1,1 +1,137 @@
-(((alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia:1.95057261543705928730,alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/SkHBV:1.56630186734546983374)53:0.44857721596687633037,alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.17-passeriformes-con:0.64813428232313008426)67:0.771717253726088146795,((alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.34-leptosomus:0.33725065445179081003,alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.32-tinamiformes-con:0.50052849124254883417)99:0.17959589886095442268,((alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.26-psittaciformes:0.32968793396542867002,(alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con:0.30387553042467757569,alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla:0.18669882662116230043)37:0.08970669863100963481)97:0.19123998838198880135,((alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_030446:0.68151311660097269041,(alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/SLHBV-1:1.46250673048933443887,((alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024445:0.42664197689963601068,((((alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/MH307930:0.21678963895083899760,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_020881:0.21470565208958944381)68:0.06853250630100136964,(alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024443:0.17619858250983824743,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024444:0.13711390472187698353)21:0.01417073462867664800)82:0.16418379398887650300,(alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001484:0.05062761954342334669,(alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/U29144:0.05571205608012919086,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_004107:0.08531381043376293216)68:0.01544660203039384047)98:0.25539377135053009660)71:0.11295870870912065598,(alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_028129:0.09496102118902757794,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_003977:0.13834876900166989677)99:0.20780287385487125618)42:0.16400591973925973677)73:0.30541375220268962565,((alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/TMDV:0.40008349863149944570,alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/AMDV:0.29166311299249336741)98:0.25142796510403897514,(alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/IMDV:0.44338946056002753737,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_030445:0.28195072343919957980)98:0.27633502118105501832)90:0.33801838866072175804)100:1.50169243244885208810)55:0.08560129979764674601)40:0.28598808076085363572,((alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes:0.04167623018809227947,alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes:0.14741542533518653402)100:0.21651630068804247897,(alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_035210:0.12506233891731396990,(alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005888:0.06400667523378672508,(((alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005890:0.05029378609810931239,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/AJ441111:0.03747986252984388672)9:0.00385483244218640022,(alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/AJ251934:0.10605347552844207604,((alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005950:0.06434432489114753906,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001344:0.05602827797488232897)53:0.04243094768505538406,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001486:0.09467565033207819836)37:0.03244807086046330724)26:0.02882027185624063195)37:0.02627687809685345932,alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_016561:0.09738605508783682030)37:0.02093404193676084296)55:0.03585703058702381651)99:0.18563321416104819339)86:0.11015440488489483539)23:0.10315038587203585740)19:0.10878191255477517863)67:0.027910103294055944875);
+#NEXUS
+begin taxa;
+	dimensions ntax=35;
+	taxlabels
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes'[&genus="Avihepadnavirus",name="ehbv-avi.14-gaviiformes",nearest_downstream_orf="DVL1",nearest_upstream_orf="TAS1R3",sequenceID="ehbv-avi.14-gaviiformes",clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="avi-2-rails"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes'[&genus="Avihepadnavirus",name="ehbv-avi.15-gaviiformes",nearest_downstream_orf="TMEM182 (intronic)",nearest_upstream_orf="TMEM182 (intronic)",sequenceID="ehbv-avi.15-gaviiformes",clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="avi-2-rails"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.17-passeriformes-con'[&genus="Avihepadnavirus",name="ehbv-avi.17-passeriformes-con",nearest_downstream_orf="NETO1/CBLN2/lncRNA",nearest_upstream_orf="TIMM21/FBXO15",sequenceID="ehbv-avi.17-passeriformes-con",clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="ND"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.26-psittaciformes'[&clade="-",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="-",isolate="-",name="ehbv-avi.26-psittaciformes",sample_date="-",sequenceID="ehbv-avi.26-psittaciformes",nearest_downstream_orf="ENSACOG00000002296",nearest_upstream_orf="ENSACOG00000002175",core_shift="N/A",variable_region_type="NK"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con'[&genus="Avihepadnavirus",name="ehbv-avi.31-passeriformes-con",nearest_downstream_orf="LRRC2",nearest_upstream_orf="ENSTGUG00000000478",sequenceID="ehbv-avi.31-passeriformes-con",clade="-",country="-",host_common_name="-",host_sci_name="-",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="avi-4"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.32-tinamiformes-con'[&clade="-",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="-",isolate="-",name="ehbv-avi.32-tinamiformes-con",sample_date="-",sequenceID="ehbv-avi.32-tinamiformes-con",nearest_downstream_orf="nk",nearest_upstream_orf="OLFM4",core_shift="N/A",variable_region_type="ND"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.34-leptosomus'[&clade="-",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="-",isolate="-",name="ehbv-avi.34-leptosomus",sample_date="-",sequenceID="ehbv-avi.34-leptosomus",nearest_downstream_orf="CYB5A",nearest_upstream_orf="TIMM21/FBXO15",core_shift="N/A",variable_region_type="ND"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla'[&clade="-",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="-",isolate="-",name="ehbv-avi.36-callipepla",sample_date="-",sequenceID="ehbv-avi.36-callipepla",nearest_downstream_orf="NF",nearest_upstream_orf="NF",core_shift="N/A",variable_region_type="avi-5"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia'[&clade="-",country="-",genus="Herpetohepadnavirus",host_common_name="-",host_sci_name="-",isolate="-",name="ehbv-herpeto.3-crocodilia",sample_date="-",sequenceID="ehbv-herpeto.3-crocodilia",nearest_downstream_orf="NK",nearest_upstream_orf="NK",core_shift="N/A",variable_region_type="herpeto-type-4-croc"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/AMDV'[&genus="Metahepadnavirus",name="AMDV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="AMDV",clade="-",country="-",host_common_name="-",host_sci_name="Astatotilapia sp",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="meta-type-3"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/IMDV'[&genus="Metahepadnavirus",name="IMDV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="IMDV",clade="-",country="-",host_common_name="-",host_sci_name="Chionodraco hamatus",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="meta-type-4"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/SLHBV-1'[&genus="Herpetohepadnavirus",name="SLHBV-1",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="SLHBV-1",clade="-",country="-",host_common_name="-",host_sci_name="Sceloporus adleri",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="herpeto-type-2"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/SkHBV'[&genus="Herpetohepadnavirus",name="SkHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="SkHBV",clade="-",country="-",host_common_name="-",host_sci_name="Saproscincus basiliscus",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="herpeto-type-3"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/TMDV'[&genus="Metahepadnavirus",name="TMDV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="TMDV",clade="-",country="-",host_common_name="-",host_sci_name="Astyanax mexicanus",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="meta-type-4"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/AJ251934'[&genus="Avihepadnavirus",name="STHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="AJ251934",clade="-",country="Germany:Northern Germany",host_common_name="-",host_sci_name="Ciconia ciconia",isolate="STHBV-1",sample_date="-",core_shift="type-1",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/AJ441111'[&genus="Avihepadnavirus",name="CCHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="AJ441111",clade="-",country="Germany:Berlin",host_common_name="-",host_sci_name="Balearica regulorum",isolate="CCHBV 1",sample_date="-",core_shift="type-1",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/MH307930'[&genus="Orthohepadnavirus",name="DCHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="MH307930",clade="-",country="Australia",host_common_name="-",host_sci_name="Felis catus",isolate="Sydney2016",sample_date="-",core_shift="N/A",variable_region_type="ortho-type 4"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001344'[&genus="Avihepadnavirus",name="DHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_001344",clade="-",country="-",host_common_name="-",host_sci_name="Anas platyrhynchos",isolate="DHBVQCA34",sample_date="-",core_shift="type-2",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001484'[&genus="Orthohepadnavirus",name="GSHV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_001484",clade="-",country="-",host_common_name="-",host_sci_name="Spermophilus beecheyi",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-2"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001486'[&genus="Avihepadnavirus",name="HHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_001486",clade="-",country="-",host_common_name="-",host_sci_name="Ardea cinerea",isolate="-",sample_date="-",core_shift="type-1",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_003977'[&genus="Orthohepadnavirus",name="HBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_003977",clade="Primate",country="-",host_common_name="-",host_sci_name="Homo sapiens",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-1"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_004107'[&genus="Orthohepadnavirus",name="WhBv",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_004107",clade="-",country="-",host_common_name="-",host_sci_name="Marmota monax",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-2"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005888'[&genus="Avihepadnavirus",name="RGHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_005888",clade="-",country="-",host_common_name="-",host_sci_name="Chen rossii",isolate="-",sample_date="-",core_shift="type-1",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005890'[&genus="Avihepadnavirus",name="SHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_005890",clade="-",country="USA",host_common_name="-",host_sci_name="Chloephaga poliocephala",isolate="Ashy-headed sheldgoose hepatitis B virus",sample_date="-",core_shift="type-2",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005950'[&genus="Avihepadnavirus",name="SGHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_005950",clade="-",country="-",host_common_name="-",host_sci_name="Anser caerulescens",isolate="SGHBV1-13",sample_date="-",core_shift="type-2",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_016561'[&genus="Avihepadnavirus",name="PaHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_016561",clade="-",country="Poland",host_common_name="-",host_sci_name="Psittacula krameri",isolate="PL",sample_date="-",core_shift="type-1",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_020881'[&genus="Orthohepadnavirus",name="LfbHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_020881",clade="-",country="Myanmar",host_common_name="-",host_sci_name="Miniopterus fuliginosus",isolate="776",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-6"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024443'[&genus="Orthohepadnavirus",name="RlbHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_024443",clade="-",country="Gabon",host_common_name="-",host_sci_name="Hipposideros cf. ruber",isolate="RBHBV/GB09-256/Hip_rub/GAB/2009",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-6"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024444'[&genus="Orthohepadnavirus",name="HsbHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_024444",clade="-",country="Gabon",host_common_name="-",host_sci_name="Rhinolophus alcyone",isolate="HBHBV/GB09-403/Rhi_alc/GAB/2009",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-6"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024445'[&genus="Orthohepadnavirus",name="TBHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_024445",clade="-",country="Panama",host_common_name="-",host_sci_name="Uroderma bilobatum",isolate="TBHBV/Pan372/Uro_bil/PAN/2010",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-2a"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_028129'[&genus="Orthohepadnavirus",name="WMHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_028129",clade="Primate",country="-",host_common_name="-",host_sci_name="Lagothrix lagothricha ",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-1"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_030445'[&genus="Metahepadnavirus",name="bgHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_030445",clade="-",country="USA",host_common_name="-",host_sci_name="Lepomis macrochirus",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="meta-type-1"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_030446'[&genus="Herpetohepadnavirus",name="tfHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_030446",clade="-",country="China",host_common_name="-",host_sci_name="Nanorana parkeri",isolate="243398",sample_date="-",core_shift="N/A",variable_region_type="herpeto-type-1"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_035210'[&genus="Avihepadnavirus",name="THBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_035210",clade="-",country="Germany",host_common_name="-",host_sci_name="Eudromia elegans",isolate="160050",sample_date="-",core_shift="type-1",variable_region_type="avi-1-modern"]
+	'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/U29144'[&genus="Orthohepadnavirus",name="ASHV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="U29144",clade="-",country="-",host_common_name="-",host_sci_name="Spermophilus parryii",isolate="-",sample_date="-",core_shift="N/A",variable_region_type="ortho-type-2"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024445':1.0E-6,(('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_003977':0.126703,'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_028129':0.152619)[&label=91]:0.239227,((('alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/TMDV':0.560147,'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/AMDV':0.445251)[&label=95]:0.157902,('alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/IMDV':0.419119,'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_030445':0.430175)[&label=66]:0.302392)[&label=82]:0.756939,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/MH307930':0.170754,(('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024444':0.148322,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_020881':0.294141,'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_024443':0.075406)[&label=54]:0.058665)[&label=40]:0.110407,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_004107':0.050448,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001484':0.064406,'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/U29144':0.099968)[&label=77]:0.018717)[&label=89]:0.320053)[&label=7]:0.070865)[&label=20]:0.096381)[&label=30]:0.042209)[&label=62]:0.889225)[&label=100]:0.926598,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_030446':0.609461,('alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/SkHBV':1.421057,(('alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs/SLHBV-1':1.084125,'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia':0.63234)[&label=38]:0.143497,(((('alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con':0.269262,'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.26-psittaciformes':0.356019)[&label=54]:0.052946,'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla':0.073573)[&label=92]:0.273898,(('alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.34-leptosomus':0.394725,'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.32-tinamiformes-con':0.792589)[&label=79]:0.320214,'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.17-passeriformes-con':0.640671)[&label=36]:0.094467)[&label=12]:0.066959,(('alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes':0.207131,'alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes':0.073231)[&label=78]:0.079469,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_035210':0.15219,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005888':0.06968,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_016561':0.056409,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005890':0.038913,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/AJ441111':1.0E-6,('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/AJ251934':0.153697,(('alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001486':0.138906,'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_005950':0.05876)[&label=56]:0.048269,'alignment/AL_TREE_Hepadnaviridae_EVE/member/ncbi-refseqs/NC_001344':0.062668)[&label=39]:0.02421)[&label=42]:0.05289)[&label=23]:0.029859)[&label=29]:0.056866)[&label=26]:0.041106)[&label=24]:0.015629)[&label=83]:0.241552)[&label=48]:0.093575)[&label=29]:0.525918)[&label=8]:0.148146)[&label=40]:0.178649)[&label=100]:1.220596);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="genus";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

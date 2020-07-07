@@ -2,17 +2,17 @@
 <alignmentColumnsSelector>
 
     <relRefName>REF_Herpeto_MASTER_tfHBV</relRefName>
-    
+ 
     <aminoAcidRegionSelector>
         <featureName>Polymerase</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>834</endCodon>
+        <startCodon>500</startCodon>
+        <endCodon>781</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>Polymerase</featureName>
-        <startNt>524</startNt>
-        <endNt>3023</endNt>
+        <startNt>1991</startNt>
+        <endNt>2834</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>

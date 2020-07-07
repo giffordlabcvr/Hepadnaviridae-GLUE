@@ -5,14 +5,14 @@
     
     <aminoAcidRegionSelector>
         <featureName>large-S</featureName>
-        <startCodon>1</startCodon>
-        <endCodon>366</endCodon>
+        <startCodon>320</startCodon>
+        <endCodon>486</endCodon>
     </aminoAcidRegionSelector>
     
     <nucleotideRegionSelector>
         <featureName>large-S</featureName>
-        <startNt>1197</startNt>
-        <endNt>2292</endNt>
+        <startNt>1850</startNt>
+        <endNt>2348</endNt>
     </nucleotideRegionSelector>
     
 </alignmentColumnsSelector>
