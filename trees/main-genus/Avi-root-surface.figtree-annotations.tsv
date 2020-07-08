@@ -1,0 +1,10 @@
+taxon	sequenceID	name	genus	core_shift	variable_region_type	clade	isolate	host_sci_name	host_common_name	sample_date	country
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ251934	AJ251934	STHBV	Avihepadnavirus	type-1	avi-1-modern	-	STHBV-1	Ciconia ciconia	-	-	Germany:Northern Germany
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ441111	AJ441111	CCHBV	Avihepadnavirus	type-1	avi-1-modern	-	CCHBV 1	Balearica regulorum	-	-	Germany:Berlin
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001344	NC_001344	DHBV	Avihepadnavirus	type-2	avi-1-modern	-	DHBVQCA34	Anas platyrhynchos	-	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001486	NC_001486	HHBV	Avihepadnavirus	type-1	avi-1-modern	-	-	Ardea cinerea	-	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005888	NC_005888	RGHBV	Avihepadnavirus	type-1	avi-1-modern	-	-	Chen rossii	-	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005890	NC_005890	SHBV	Avihepadnavirus	type-2	avi-1-modern	-	Ashy-headed sheldgoose hepatitis B virus	Chloephaga poliocephala	-	-	USA
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005950	NC_005950	SGHBV	Avihepadnavirus	type-2	avi-1-modern	-	SGHBV1-13	Anser caerulescens	-	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_016561	NC_016561	PaHBV	Avihepadnavirus	type-1	avi-1-modern	-	PL	Psittacula krameri	-	-	Poland
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_035210	NC_035210	THBV	Avihepadnavirus	type-1	avi-1-modern	-	160050	Eudromia elegans	-	-	Germany

@@ -22,7 +22,6 @@ alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.31-passe
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.32-tinamiformes-con	ehbv-avi.32-tinamiformes-con	ehbv-avi.32-tinamiformes-con	N/A	ND	Avihepadnavirus	OLFM4	nk
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	N/A	avi-4	Avihepadnavirus	EPHA3	ZNF654/C3orf38/N6AMT1
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.38-passeriformes	ehbv-avi.38-passeriformes	ehbv-avi.38-passeriformes	N/A	NK	Avihepadnavirus	AAR2	ENSTGUG00000027480
-alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.39-ara	ehbv-avi.39-ara	ehbv-avi.39-ara	N/A	NK	Avihepadnavirus	FXN	FXN
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.40-oxyura	ehbv-avi.40-oxyura	ehbv-avi.40-oxyura	N/A	NK	Avihepadnavirus	NK	NK
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.44-antrostomus	ehbv-avi.44-antrostomus	ehbv-avi.44-antrostomus	N/A	NK	Avihepadnavirus	KCNV1	ENSTGUG00000027711
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.47-passer	ehbv-avi.47-passer	ehbv-avi.47-passer	N/A	NK	Avihepadnavirus	NK	NK
@@ -30,7 +29,8 @@ alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.48-podic
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	N/A	avi-1-modern	Avihepadnavirus	Get from paper	Get from paper
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.2-serpentes-con	ehbv-herpeto.2-serpentes-con	ehbv-herpeto.2-serpentes-con	N/A	herpeto-type-3-serpentes	Herpetohepadnavirus	NK	NK
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	N/A	herpeto-type-4-croc	Herpetohepadnavirus	NK	NK
-alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.6-varanus-con	ehbv-herpeto.6-varanus-con	ehbv-herpeto.6-varanus-con	N/A	herpeto-type-6-lizard	Herpetohepadnavirus	WSCD2 (intronic)	WSCD2 (intronic)
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.6-varanus	ehbv-herpeto.6-varanus	ehbv-herpeto.6-varanus	N/A	herpeto-type-6-lizard	Herpetohepadnavirus	WSCD2 (intronic)	WSCD2 (intronic)
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.7-emydocephalus	ehbv-herpeto.7-emydocephalus	ehbv-herpeto.7-emydocephalus	N/A	ND	Herpetohepadnavirus	NK	NK
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.9-serpentes-con	ehbv-herpeto.9-serpentes-con	ehbv-herpeto.9-serpentes-con	N/A	herpeto-type-3-serpentes	Herpetohepadnavirus	NK	NK
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-meta.1-sauria-con	ehbv-meta.1-sauria-con	ehbv-meta.1-sauria-con	N/A	meta-type-5	Metahepadnavirus	KLF8	ENSACUG00000005807
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-meta.2-varanus	ehbv-meta.2-varanus	ehbv-meta.2-varanus	N/A	meta-type-6	Metahepadnavirus	NK	NK
