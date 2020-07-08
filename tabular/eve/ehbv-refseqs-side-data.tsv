@@ -4,7 +4,8 @@ ehbv-herpeto.2-serpentes-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 
 ehbv-herpeto.3-crocodilia	Herpetohepadnavirus	Endogenous herpetohepadnavirus 3	ehbv-herpeto.3-crocodilia-con	3	NK	NK	Hepadnaviridae	Crocodilia	N/A	herpeto-type-4-croc
 ehbv-herpeto.4-crocodilia	Herpetohepadnavirus	Endogenous herpetohepadnavirus 4	ehbv-herpeto.4-crocodilia-con	4	NK	NK	Hepadnaviridae	Crocodilia	N/A	herpeto-type-4-croc
 ehbv-herpeto.5-testudines-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 5	ehbv-herpeto.5-testudines-con	5	NK	NK	Hepadnaviridae	Testudines	N/A	ND
-ehbv-herpeto.6-varanus-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 6	ehbv-herpeto.6-varanus-con	6	WSCD2 (intronic)	WSCD2 (intronic)	Hepadnaviridae	Varanus	N/A	herpeto-type-6-lizard
+ehbv-herpeto.6-varanus	Herpetohepadnavirus	Endogenous herpetohepadnavirus 6	ehbv-herpeto.6-varanus	6	WSCD2 (intronic)	WSCD2 (intronic)	Hepadnaviridae	Varanus	N/A	herpeto-type-6-lizard
+ehbv-herpeto.7-emydocephalus	Herpetohepadnavirus	Endogenous herpetohepadnavirus 7	ehbv-herpeto.7-emydocephalus	7	NK	NK	Hepadnaviridae	emydocephalus	N/A	ND
 ehbv-herpeto.8-serpentes-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 8	ehbv-herpeto.8-serpentes-con	8	NK	NK	Hepadnaviridae	Serpentes	N/A	ND
 ehbv-herpeto.9-serpentes-con	Herpetohepadnavirus	Endogenous herpetohepadnavirus 9	ehbv-herpeto.9-serpentes-con	9	NK	NK	Hepadnaviridae	Serpentes	N/A	herpeto-type-3-serpentes
 ehbv-meta.1-sauria-con	Metahepadnavirus	Endogenous metahepadnavirus 1	ehbv-meta.1-sauria	1	KLF8	ENSACUG00000005807	Hepadnaviridae	Sauropsids	N/A	meta-type-5
@@ -59,5 +60,7 @@ ehbv-avi.45-ara	Avihepadnavirus	Endogenous avihepadnavirus 45	ehbv-avi.45-ara	45
 ehbv-avi.46-psittaciformes	Avihepadnavirus	Endogenous avihepadnavirus 46	ehbv-avi.46-psittaciformes	46	RYR3	FMN1	Hepadnaviridae	psittaciformes	N/A	NK
 ehbv-avi.47-passer	Avihepadnavirus	Endogenous avihepadnavirus 47	ehbv-avi.47-passer	47	NK	NK	Hepadnaviridae	passer	N/A	NK
 ehbv-avi.48-podiceps	Avihepadnavirus	Endogenous avihepadnavirus 48	ehbv-avi.48-podiceps	48	NK	NK	Hepadnaviridae	podiceps	N/A	NK
-ehbv-avi.50-anas_zonorhyncha	Avihepadnavirus	Endogenous avihepadnavirus 49	ehbv-avi.50-anas_zonorhyncha	50	NK	NK	Hepadnaviridae	anas	N/A	NK
-ehbv-avi.52-melopsittacus	Avihepadnavirus	Endogenous avihepadnavirus 50	ehbv-avi.52-melopsittacus	52	ENSACOG00000002782	ENSACOG00000002891	Hepadnaviridae	melopsittacus	N/A	NK
+ehbv-avi.49-leptosomus	Avihepadnavirus	Endogenous avihepadnavirus 49	ehbv-avi.49-leptosomus	49	NK	NK	Hepadnaviridae	leptosomus	N/A	NK
+ehbv-avi.50-anas_zonorhyncha	Avihepadnavirus	Endogenous avihepadnavirus 50	ehbv-avi.50-anas_zonorhyncha	50	NK	NK	Hepadnaviridae	anas	N/A	NK
+ehbv-avi.51-psittaciformes-con	Avihepadnavirus	Endogenous avihepadnavirus 51	ehbv-avi.51-psittaciformes-con	51	NK	NK	Hepadnaviridae	psittaciformes	N/A	NK
+ehbv-avi.52-melopsittacus	Avihepadnavirus	Endogenous avihepadnavirus 52	ehbv-avi.52-melopsittacus	52	ENSACOG00000002782	ENSACOG00000002891	Hepadnaviridae	melopsittacus	N/A	NK

@@ -11,10 +11,13 @@ alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama	ehbv-avi.20
 alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto	ehbv-avi.22-tyto	ehbv-avi.22-tyto	N/A	avi-6	Avihepadnavirus	MYBL2	PTPRT
 alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.23-psittaciformes	ehbv-avi.23-psittaciformes	ehbv-avi.23-psittaciformes	N/A	avi-6	Avihepadnavirus	OLFM4	nk
 alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	N/A	avi-3	Avihepadnavirus	ARMC1	CYP7B1
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.28-alauda	ehbv-avi.28-alauda	ehbv-avi.28-alauda	N/A	NK	Avihepadnavirus	NK	NK
 alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	N/A	avi-5	Avihepadnavirus	ENSMUNG00000011927/CHSY3	ENSMUNG00000011929/HINT1
 alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con	ehbv-avi.31-passeriformes-con	ehbv-avi.31-passeriformes-con	N/A	avi-4	Avihepadnavirus	ENSTGUG00000000478	LRRC2
 alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla	ehbv-avi.36-callipepla	ehbv-avi.36-callipepla	N/A	avi-5	Avihepadnavirus	NF	NF
 alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	N/A	avi-4	Avihepadnavirus	EPHA3	ZNF654/C3orf38/N6AMT1
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.40-oxyura	ehbv-avi.40-oxyura	ehbv-avi.40-oxyura	N/A	NK	Avihepadnavirus	NK	NK
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.47-passer	ehbv-avi.47-passer	ehbv-avi.47-passer	N/A	NK	Avihepadnavirus	NK	NK
 alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	N/A	avi-1-modern	Avihepadnavirus	Get from paper	Get from paper
 alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001344	NC_001344	DHBV	type-2	avi-1-modern	Avihepadnavirus	-	-
 alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001486	NC_001486	HHBV	type-1	avi-1-modern	Avihepadnavirus	-	-

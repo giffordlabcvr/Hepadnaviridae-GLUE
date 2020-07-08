@@ -16,10 +16,17 @@ alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.20-caria
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto	ehbv-avi.22-tyto	ehbv-avi.22-tyto	N/A	avi-6	Avihepadnavirus	MYBL2	PTPRT
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.23-psittaciformes	ehbv-avi.23-psittaciformes	ehbv-avi.23-psittaciformes	N/A	avi-6	Avihepadnavirus	OLFM4	nk
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	N/A	avi-3	Avihepadnavirus	ARMC1	CYP7B1
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.28-alauda	ehbv-avi.28-alauda	ehbv-avi.28-alauda	N/A	NK	Avihepadnavirus	NK	NK
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	N/A	avi-5	Avihepadnavirus	ENSMUNG00000011927/CHSY3	ENSMUNG00000011929/HINT1
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con	ehbv-avi.31-passeriformes-con	ehbv-avi.31-passeriformes-con	N/A	avi-4	Avihepadnavirus	ENSTGUG00000000478	LRRC2
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.32-tinamiformes-con	ehbv-avi.32-tinamiformes-con	ehbv-avi.32-tinamiformes-con	N/A	ND	Avihepadnavirus	OLFM4	nk
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	N/A	avi-4	Avihepadnavirus	EPHA3	ZNF654/C3orf38/N6AMT1
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.38-passeriformes	ehbv-avi.38-passeriformes	ehbv-avi.38-passeriformes	N/A	NK	Avihepadnavirus	AAR2	ENSTGUG00000027480
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.39-ara	ehbv-avi.39-ara	ehbv-avi.39-ara	N/A	NK	Avihepadnavirus	FXN	FXN
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.40-oxyura	ehbv-avi.40-oxyura	ehbv-avi.40-oxyura	N/A	NK	Avihepadnavirus	NK	NK
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.44-antrostomus	ehbv-avi.44-antrostomus	ehbv-avi.44-antrostomus	N/A	NK	Avihepadnavirus	KCNV1	ENSTGUG00000027711
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.47-passer	ehbv-avi.47-passer	ehbv-avi.47-passer	N/A	NK	Avihepadnavirus	NK	NK
+alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.48-podiceps	ehbv-avi.48-podiceps	ehbv-avi.48-podiceps	N/A	NK	Avihepadnavirus	NK	NK
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	N/A	avi-1-modern	Avihepadnavirus	Get from paper	Get from paper
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.2-serpentes-con	ehbv-herpeto.2-serpentes-con	ehbv-herpeto.2-serpentes-con	N/A	herpeto-type-3-serpentes	Herpetohepadnavirus	NK	NK
 alignment/AL_TREE_Hepadnaviridae_EVE/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	N/A	herpeto-type-4-croc	Herpetohepadnavirus	NK	NK
