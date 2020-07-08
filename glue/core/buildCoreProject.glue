@@ -44,7 +44,7 @@ project hepadnaviridae
   run file glue/core/hepadnaviridaeVariations.glue
 
   # Create phylogenies
-  run file glue/core/hepadnaviridaeCreateRootPhylogenies.glue
+  #run file glue/core/hepadnaviridaeCreateRootPhylogenies.glue
   #run file glue/core/hepadnaviridaeCreateGenusPhylogenies.glue
 
   # Validate

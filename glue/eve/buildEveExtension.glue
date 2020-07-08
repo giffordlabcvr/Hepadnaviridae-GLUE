@@ -35,8 +35,8 @@ project hepadnaviridae
   run file glue/eve/ehbvCreateGenusPhylogenies.glue
 
   # Create tip phylogenies
-  run file glue/eve/ehbvAlignmentTreeTips.glue
-  run file glue/eve/ehbvCreateTipPhylogenies.glue
+  #run file glue/eve/ehbvAlignmentTreeTips.glue
+  #run file glue/eve/ehbvCreateTipPhylogenies.glue
 
   # Validate
   validate

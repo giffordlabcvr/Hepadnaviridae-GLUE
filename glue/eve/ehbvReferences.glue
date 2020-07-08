@@ -2,7 +2,7 @@
 
   # Avihepadnavirus
   create reference REF_EHBV-Avi.1-neoaves           fasta-refseqs-ehbv ehbv-avi.1-neoaves-con    # eZHBVc
-  create reference REF_EHBV-Avi.2-passeriformes     fasta-refseqs-ehbv ehbv-avi.2-passeriformes  # eZHBVm
+  create reference REF_EHBV-Avi.2-estrildidae       fasta-refseqs-ehbv ehbv-avi.2-estrildidae    # eZHBVm
   create reference REF_EHBV-Avi.3-passeriformes     fasta-refseqs-ehbv ehbv-avi.3-passeriformes  # eZHBV01
   create reference REF_EHBV-Avi.4-passeriformes     fasta-refseqs-ehbv ehbv-avi.4-passeriformes  # eZHBV02
   create reference REF_EHBV-Avi.5-passeriformes     fasta-refseqs-ehbv ehbv-avi.5-passeriformes-unranked  # eZHBV03
@@ -34,7 +34,6 @@
   create reference REF_EHBV-Avi.32-tinamiformes     fasta-refseqs-ehbv ehbv-avi.32-tinamiformes-con
   create reference REF_EHBV-Avi.36-callipepla       fasta-refseqs-ehbv ehbv-avi.36-callipepla
   create reference REF_EHBV-Avi.37-phylloscopus     fasta-refseqs-ehbv ehbv-avi.37-phylloscopus
-  create reference REF_EHBV-Avi.40-australiaves     fasta-refseqs-ehbv ehbv-avi.40-australiaves-con
 
   # Herpetohepadnavirus
   create reference REF_EHBV-Herpeto.1-serpentes     fasta-refseqs-ehbv ehbv-herpeto.1-serpentes-con
@@ -43,7 +42,6 @@
   create reference REF_EHBV-Herpeto.4-crocodilia    fasta-refseqs-ehbv ehbv-herpeto.4-crocodilia
   create reference REF_EHBV-Herpeto.5-testudines    fasta-refseqs-ehbv ehbv-herpeto.5-testudines-con 
   create reference REF_EHBV-Herpeto.6-varanus       fasta-refseqs-ehbv ehbv-herpeto.6-varanus-con
-  create reference REF_EHBV-Herpeto.7-varanus       fasta-refseqs-ehbv ehbv-herpeto.7-varanus
   create reference REF_EHBV-Herpeto.8-serpentes     fasta-refseqs-ehbv ehbv-herpeto.1-serpentes-con
   create reference REF_EHBV-Herpeto.9-serpentes     fasta-refseqs-ehbv ehbv-herpeto.2-serpentes-con
 
@@ -55,4 +53,3 @@
   create reference REF_EHBV-Meta.5-Pelusios         fasta-refseqs-ehbv ehbv-meta.5-pelusios
   create reference REF_EHBV-Meta.6-Sphenodon        fasta-refseqs-ehbv ehbv-meta.6-sphenodon
 
-  #create reference REF_EHBV-Avi.28-australiaves     fasta-refseqs-ehbv ehbv-avi.28-australiaves

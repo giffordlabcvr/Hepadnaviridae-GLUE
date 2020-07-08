@@ -1,26 +1,26 @@
-taxon	sequenceID	name	genus	clade	isolate	host_sci_name	host_common_name	sample_date	country
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ251934	AJ251934	STHBV	Avihepadnavirus	-	STHBV-1	Ciconia ciconia	-	-	Germany:Northern Germany
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ441111	AJ441111	CCHBV	Avihepadnavirus	-	CCHBV 1	Balearica regulorum	-	-	Germany:Berlin
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con	ehbv-avi.1-neoaves-con	ehbv-avi.1-neoaves-con	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus	ehbv-avi.10-melopsittacus	ehbv-avi.10-melopsittacus	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto	ehbv-avi.11-tyto	ehbv-avi.11-tyto	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes	ehbv-avi.14-gaviiformes	ehbv-avi.14-gaviiformes	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes	ehbv-avi.15-gaviiformes	ehbv-avi.15-gaviiformes	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.17-passeriformes-con	ehbv-avi.17-passeriformes-con	ehbv-avi.17-passeriformes-con	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros	ehbv-avi.19-buceros	ehbv-avi.19-buceros	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama	ehbv-avi.20-cariama	ehbv-avi.20-cariama	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto	ehbv-avi.22-tyto	ehbv-avi.22-tyto	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.23-psittaciformes	ehbv-avi.23-psittaciformes	ehbv-avi.23-psittaciformes	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con	ehbv-avi.31-passeriformes-con	ehbv-avi.31-passeriformes-con	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla	ehbv-avi.36-callipepla	ehbv-avi.36-callipepla	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	Avihepadnavirus	-	-	-	-	-	-
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001344	NC_001344	DHBV	Avihepadnavirus	-	DHBVQCA34	Anas platyrhynchos	-	-	-
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001486	NC_001486	HHBV	Avihepadnavirus	-	-	Ardea cinerea	-	-	-
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005888	NC_005888	RGHBV	Avihepadnavirus	-	-	Chen rossii	-	-	-
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005890	NC_005890	SHBV	Avihepadnavirus	-	Ashy-headed sheldgoose hepatitis B virus	Chloephaga poliocephala	-	-	USA
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005950	NC_005950	SGHBV	Avihepadnavirus	-	SGHBV1-13	Anser caerulescens	-	-	-
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_016561	NC_016561	PaHBV	Avihepadnavirus	-	PL	Psittacula krameri	-	-	Poland
-alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_035210	NC_035210	THBV	Avihepadnavirus	-	160050	Eudromia elegans	-	-	Germany
+taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ251934	AJ251934	STHBV	type-1	avi-1-modern	Avihepadnavirus	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/AJ441111	AJ441111	CCHBV	type-1	avi-1-modern	Avihepadnavirus	-	-
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con	ehbv-avi.1-neoaves-con	ehbv-avi.1-neoaves-con	N/A	avi-1-modern	Avihepadnavirus	FRY (intronic)	FRY (intronic)
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus	ehbv-avi.10-melopsittacus	ehbv-avi.10-melopsittacus	N/A	avi-1-modern	Avihepadnavirus	Get from paper	Get from paper
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto	ehbv-avi.11-tyto	ehbv-avi.11-tyto	N/A	avi-2-rails	Avihepadnavirus	NAV3	E2F7
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes	ehbv-avi.14-gaviiformes	ehbv-avi.14-gaviiformes	N/A	avi-2-rails	Avihepadnavirus	TAS1R3	DVL1
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes	ehbv-avi.15-gaviiformes	ehbv-avi.15-gaviiformes	N/A	avi-2-rails	Avihepadnavirus	TMEM182 (intronic)	TMEM182 (intronic)
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.17-passeriformes-con	ehbv-avi.17-passeriformes-con	ehbv-avi.17-passeriformes-con	N/A	ND	Avihepadnavirus	TIMM21/FBXO15	NETO1/CBLN2/lncRNA
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros	ehbv-avi.19-buceros	ehbv-avi.19-buceros	N/A	avi-1-rhinobird	Avihepadnavirus	PCDH18	PCDH10
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama	ehbv-avi.20-cariama	ehbv-avi.20-cariama	N/A	avi-3	Avihepadnavirus	THBS1	KATNBL1
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto	ehbv-avi.22-tyto	ehbv-avi.22-tyto	N/A	avi-6	Avihepadnavirus	MYBL2	PTPRT
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.23-psittaciformes	ehbv-avi.23-psittaciformes	ehbv-avi.23-psittaciformes	N/A	avi-6	Avihepadnavirus	OLFM4	nk
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	N/A	avi-3	Avihepadnavirus	ARMC1	CYP7B1
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	N/A	avi-5	Avihepadnavirus	ENSMUNG00000011927/CHSY3	ENSMUNG00000011929/HINT1
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes-con	ehbv-avi.31-passeriformes-con	ehbv-avi.31-passeriformes-con	N/A	avi-4	Avihepadnavirus	ENSTGUG00000000478	LRRC2
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.36-callipepla	ehbv-avi.36-callipepla	ehbv-avi.36-callipepla	N/A	avi-5	Avihepadnavirus	NF	NF
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	N/A	avi-4	Avihepadnavirus	EPHA3	ZNF654/C3orf38/N6AMT1
+alignment/AL_GENUS_Avi/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	N/A	avi-1-modern	Avihepadnavirus	Get from paper	Get from paper
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001344	NC_001344	DHBV	type-2	avi-1-modern	Avihepadnavirus	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_001486	NC_001486	HHBV	type-1	avi-1-modern	Avihepadnavirus	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005888	NC_005888	RGHBV	type-1	avi-1-modern	Avihepadnavirus	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005890	NC_005890	SHBV	type-2	avi-1-modern	Avihepadnavirus	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_005950	NC_005950	SGHBV	type-2	avi-1-modern	Avihepadnavirus	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_016561	NC_016561	PaHBV	type-1	avi-1-modern	Avihepadnavirus	-	-
+alignment/AL_GENUS_Avi/member/ncbi-refseqs/NC_035210	NC_035210	THBV	type-1	avi-1-modern	Avihepadnavirus	-	-
