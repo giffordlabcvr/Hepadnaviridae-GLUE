@@ -1,11 +1,8 @@
 
   # Clean up from any previous run of this file
-  delete module fastaAlignmentExporter
-  delete module hepadnaTreeAlignmentImporterNucs
   delete module raxmlPhylogenyGenerator
   delete module hepadnaPhyloUtility
   delete module ehbvFigTreeAnnotationExporter
-  delete module hepadnaviridaeFeaturePresenceRecorder
   delete module alignmentColumnsSelectorAviCore
   delete module alignmentColumnsSelectorAviPolymerase
   delete module alignmentColumnsSelectorAviSurface
@@ -17,12 +14,9 @@
   delete module alignmentColumnsSelectorMetaSurface
  
   # Create all the modules we need
-  create module -f modules/fastaAlignmentExporter.xml
-  create module -f modules/hepadnaTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
   create module -f modules/hepadnaPhyloUtility.xml
   create module -f modules/ehbvFigTreeAnnotationExporter.xml
-  create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
  
   # Create alignment column selectors
   create module -f modules/alignmentColumnsSelectorAviCore.xml
