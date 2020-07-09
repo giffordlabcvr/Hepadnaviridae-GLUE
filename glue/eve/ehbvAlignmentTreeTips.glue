@@ -17,7 +17,7 @@ alignment AL_GENUS_Avi
   demote member AL_eHBV-Avi.1-Neoaves -w "sequence.locus_data.assigned_name = 'ehbv-avi.1-neoaves'"
   demote member AL_eHBV-Avi.1-Neoaves -w "sequence.name = 'ehbv-avi.1-neoaves-con' and sequence.source.name = 'fasta-digs-ehbv'"
 
-  extract child AL_eHBV-Avi.2-Passeriformes -r REF_EHBV-Avi.2-passeriformes
+  extract child AL_eHBV-Avi.2-Passeriformes -r REF_EHBV-Avi.2-estrildidae
   demote member AL_eHBV-Avi.2-Passeriformes -w "sequence.locus_data.assigned_name = 'ehbv-avi.2-estrildidae'"
   demote member AL_eHBV-Avi.2-Passeriformes -w "sequence.name = 'ehbv-avi.2-estrildidae' and sequence.source.name = 'fasta-digs-ehbv'"
 
