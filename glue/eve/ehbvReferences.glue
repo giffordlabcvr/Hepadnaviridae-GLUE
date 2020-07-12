@@ -42,7 +42,7 @@
   create reference REF_EHBV-Herpeto.4-crocodilia    fasta-refseqs-ehbv ehbv-herpeto.4-crocodilia
   create reference REF_EHBV-Herpeto.5-testudines    fasta-refseqs-ehbv ehbv-herpeto.5-testudines-con 
   create reference REF_EHBV-Herpeto.6-varanus       fasta-refseqs-ehbv ehbv-herpeto.6-varanus
-  create reference REF_EHBV-Herpeto.7-emydocephalus fasta-refseqs-ehbv ehbv-herpeto.7-emydocephalus
+  #create reference REF_EHBV-Herpeto.7-serpentes     fasta-refseqs-ehbv ehbv-herpeto.7-serpentes-con
   create reference REF_EHBV-Herpeto.9-serpentes     fasta-refseqs-ehbv ehbv-herpeto.2-serpentes-con
 
   # Metahepadnavirus
