@@ -1,4 +1,6 @@
 
+module unconstrainedAlignmentImporter
+
   #~# Tip aligns Metahepadna genus
   import AL_UNC_eHBV-Meta.1-Sauria         -f alignments/eve/tip/ehbv-meta.1-sauria-con.aln.fna
  
@@ -13,3 +15,5 @@
   import AL_UNC_eHBV-Herpeto.2-Serpentes   -f alignments/eve/tip/ehbv-herpeto.2-serpentes.aln.fna
   #import AL_UNC_eHBV-Herpeto.5-Testudines  -f alignments/eve/tip/ehbv-herpeto.5-testudines.aln.fna
   #import AL_UNC_eHBV-Herpeto.9-Serpentes   -f alignments/eve/tip/ehbv-herpeto.9-serpentes.aln.fna
+  
+  exit
