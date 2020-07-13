@@ -35,7 +35,7 @@ project hepadnaviridae
   run file glue/eve/ehbvCreateGenusPhylogenies.glue
 
   # Import tip-level EVE alignments
-  run file glue/eve/ehbvAlignmentsTips.glue
+  #run file glue/eve/ehbvAlignmentsTips.glue
 
   # Create tip phylogenies
   #run file glue/eve/ehbvAlignmentTreeTips.glue
