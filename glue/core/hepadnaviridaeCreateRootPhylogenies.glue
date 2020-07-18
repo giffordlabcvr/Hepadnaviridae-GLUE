@@ -72,11 +72,15 @@
 
   # Export annotations
   module hepadnaFigTreeAnnotationExporter 
+  
     export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Hepadna-root-core.figtree-annotations.tsv
+      
     export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Hepadna-root-pol.figtree-annotations.tsv
+      
     export figtree-annotation AL_TREE_Hepadnaviridae -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-root/Hepadna-root-surface.figtree-annotations.tsv
+      
   exit
 
