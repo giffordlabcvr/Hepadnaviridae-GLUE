@@ -9,7 +9,7 @@
   delete module hepadnaviridaeFeaturePresenceRecorder
   delete module alignmentColumnsSelectorHepadnaCore
   delete module alignmentColumnsSelectorHepadnaPolymerase
-  delete module alignmentColumnsSelectorHepadnaSuface
+  delete module alignmentColumnsSelectorHepadnaSurface
   
   # Create all the modules we need
   create module -f modules/fastaAlignmentExporter.xml
