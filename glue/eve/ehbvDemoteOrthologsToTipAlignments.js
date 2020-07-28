@@ -1,30 +1,22 @@
-// ABOUT: script to populate EHBV tips within constrained alignment
-// EHBV sequences are added to alignments based on the taxonomic data associated with 
+// ABOUT: script to populate EPV tips within constrained alignment
+// EPV sequences are added to alignments based on the taxonomic data associated with 
 // the reference sequences.
-// EHBV sequences are linked to reference sequences via the locus ID
+// EPV sequences are linked to reference sequences via the locus ID
 
 // Preset variables
-var refconDataPath = "tabular/eve/ehbv-refseqs-side-data.tsv";
-var rootAlignment = 'AL_Hepadnaviridae';
+var refconDataPath = "tabular/eve/epv-refseqs-side-data.tsv";
+var rootAlignment = 'AL_MASTER_Dependo';
 
 // Load the refcon data and store relationships between locus and viral taxonomy
-var ehbvRefseqResultMap = {};
-get_refcon_data(ehbvRefseqResultMap, refconDataPath);
-glue.log("INFO", "RESULT WAS ", ehbvRefseqResultMap);
-
-
-// Add DIGS sequences to root alignment
-// add member -w "source.name = 'fasta-digs-ehbv'"
-glue.inMode("/alignment/"+rootAlignment, function() {
-	glue.command(["add", "member", "-w", "source.name = 'fasta-digs-ehbv'"]);
-
-});
+var epvRefseqResultMap = {};
+get_refcon_data(epvRefseqResultMap, refconDataPath);
+//glue.log("INFO", "RESULT WAS ", epvRefseqResultMap);
 
 
 // Load DIGS hit data from tabular file 
 var loadResult;
-glue.inMode("module/hepadnaviridaeTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ehbv-side-data.tsv"]));
+glue.inMode("module/aavTabularUtility", function() {
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/epv-side-data.tsv"]));
 	// glue.log("INFO", "load result was:", loadResult);
 });
 
@@ -35,72 +27,61 @@ _.each(loadResult, function(eveObj) {
 	// Get the locus ID
 	var locus_name = eveObj.locus_name;
 	var locus_numeric_id = eveObj.locus_numeric_id;
-	var sequenceID = eveObj.sequenceID;
+	var sequenceID = eveObj.id;
 	
 	glue.log("INFO", "Sequence ID", eveObj.sequenceID);
-	glue.log("INFO", "Locus ID", eveObj.locus_numeric_id);
-	glue.log("INFO", "Locus name:", eveObj.locus_name);
+	//glue.log("INFO", "Locus ID", eveObj.locus_numeric_id);
+	//glue.log("INFO", "Locus name:", eveObj.locus_name);
 
-	if (locus_name == 'NK') { // Skip elements that haven't been assigned to a locus
-	
-	}
-	
-	else {
+	if (locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
 	
 		// Does an alignment exist for this locus ID
-	    var alignmentName = locus_name.replace("ortho.", "AL_EHBV-");
-		glue.log("INFO", "Adding sequence:", eveObj.id);
-		glue.log("INFO", "to alignment", alignmentName);
+	    var alignmentName = locus_name.replace("dependo.", "AL_EPV-");
 
-		var alignmentExists = does_alignment_exist(alignmentName);
+		// Get the taxonomy 
+		var locusObj    = epvRefseqResultMap[locus_numeric_id];
+		//glue.log("INFO", "LOADED EPV INFO ", locusObj);
+
+		//glue.log("INFO", "Adding sequence:", eveObj.id);
+		//glue.log("INFO", "to alignment", alignmentName);
+		//glue.log("INFO", "Assign_clade:", locusObj.assign_clade);
+		//glue.log("INFO", "Assign_subclade", locusObj.assign_subclade);
+	
+		var assign_clade    = locusObj.assign_clade;
+		var assign_subclade = locusObj.assign_subclade;
 		
-		if (alignmentExists) {
+		var parentAlignmentName;
+		if (assign_clade == 'NK') {	// Skip references that havent been assigned to a clade			
+
+		}
+		else {
+				
+			parentAlignmentName = "AL_" + assign_subclade;
+
+			glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
+
+			var alignmentExists = does_alignment_exist(alignmentName);
+		
+			if (alignmentExists == undefined) { // If not create the alignment
+				
+				// Create the alignment
+				var refseqName = "REF_EPV_" + locus_name;
+				
+				glue.log("INFO", "CREATING ALIGNMENT WITH ONSTRAINING REFERENCE: ", refseqName);
+				glue.inMode("/alignment/"+parentAlignmentName, function() {
+					glue.command(["extract", "child", alignmentName, "-r", refseqName]);
+				});
+			
+			}	
 
 			// Add the sequence to the alignment
-			glue.inMode("/alignment/"+alignmentName, function() {
-				glue.command(["add", "member", "-w", "sequenceID = '"+sequenceID+"'"]);
+			glue.inMode("/alignment/"+parentAlignmentName, function() {
+			
+				glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+sequenceID+"'"]);
 			});
 			
 		}
-		else  {
 		
-			// If not create the alignment
-				
-			// Get the taxonomy 
-			var locusObj    = ehbvRefseqResultMap[locus_numeric_id];
-	        glue.log("INFO", "LOADED EHBV INFO ", locusObj);
-		
-			var clade_ns    = locusObj.virus_clade_ns;
-			var subclade_ns = locusObj.virus_subclade_ns;
-			var clade_vp    = locusObj.virus_clade_vp;
-			var subclade_vp = locusObj.virus_subclade_vp;
-			
-			var parentAlignmentName;
-			if (subclade_ns == 'NULL') {
-					
-				parentAlignmentName = "AL_EHBV_" + subclade_vp;		
-			}
-			else {
-			
-				parentAlignmentName = "AL_EHBV_" + subclade_ns;
-				
-			}
-	        glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
-						
-			// Create the alignment
-			var refseqName = "REF_EHBV_" + locus_name;
-	        glue.log("INFO", "CONSTRAINING REFERENCE: ", refseqName);
-
-            // create alignment -r 
-			//createAlignmentResult = glue.tableToObjects(glue.command(["create", "alignment", alignmentName, "-r", refseqName]));
-			//glue.log("INFO", "create alignment result was:", createAlignmentResult); 
-
-			// Add the sequence to the alignment
-			//glue.inMode("/alignment/"+alignmentName, function() {
-			//	glue.command(["add", "member", "-w", "sequenceID = '"+sequenceID+"'"]);
-			//});
-			
-		}		
 	}
 
 });
@@ -123,24 +104,28 @@ function get_refcon_data(resultMap, refconDataPath) {
 	  var source_name = eveObj.source_name
 	  var sequenceID = eveObj.sequenceID
 	  var locus_numeric_id = eveObj.locus_numeric_id;
-	  glue.log("INFO", "Setting locus data for EVE reference:", eveObj.sequenceID);
+	  // glue.log("INFO", "Setting locus data for EVE reference:", eveObj.sequenceID);
 	  resultMap[locus_numeric_id] = eveObj;
 	
   });
   
 }
 
-// get a list of sequence IDs from a given source in an alignment
+// check whether an alignment exists
 function does_alignment_exist(alignmentName) {
 
-	var alignmentExists;
-	  glue.log("INFO", "Checking for alignment ", alignmentName);
+	var alignmentExists = undefined;
+	// glue.log("INFO", "Checking for alignment ", alignmentName);
 
     alignmentResult = glue.tableToObjects(glue.command(["list", "alignment", "-w", "name = '"+alignmentName+"'"]));
-	glue.log("INFO", "list result was:", alignmentResult);
+	//glue.log("INFO", "list result was:", alignmentResult);
+
+	var rowObj =  alignmentResult[0];
+	if (rowObj) {
+		alignmentExists = rowObj['name'];
+		//glue.log("INFO", "got exists value:", alignmentExists);
+	}
 	
-	alignmentExists = alignmentResult['name'];
-		
 	return alignmentExists;
 }
 
