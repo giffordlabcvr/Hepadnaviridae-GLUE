@@ -13,7 +13,7 @@
   create reference REF_EHBV-Avi.10-melopsittacus    fasta-refseqs-ehbv ehbv-avi.10-melopsittacus  
   create reference REF_EHBV-Avi.11-tyto             fasta-refseqs-ehbv ehbv-avi.11-tyto
   create reference REF_EHBV-Avi.12-anseriformes     fasta-refseqs-ehbv ehbv-avi.12-anseriformes-con
-  create reference REF_EHBV-Avi.13-paleognathea     fasta-refseqs-ehbv ehbv-avi.13-paleognathae-con
+  create reference REF_EHBV-Avi.13-paleognathae     fasta-refseqs-ehbv ehbv-avi.13-paleognathae-con
   create reference REF_EHBV-Avi.14-gaviiformes      fasta-refseqs-ehbv ehbv-avi.14-gaviiformes
   create reference REF_EHBV-Avi.15-gaviiformes      fasta-refseqs-ehbv ehbv-avi.15-gaviiformes
   create reference REF_EHBV-Avi.16-turaco           fasta-refseqs-ehbv ehbv-avi.16-turaco

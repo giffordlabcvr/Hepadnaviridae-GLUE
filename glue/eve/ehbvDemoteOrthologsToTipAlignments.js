@@ -31,9 +31,8 @@ _.each(loadResult, function(eveObj) {
 	glue.log("INFO", "Sequence ID", eveObj.sequenceID);
 	glue.log("INFO", "Locus ID", eveObj.locus_numeric_id);
 
-	var locus_name = eveObj.locus_name;
-
-	glue.log("INFO", "Locus name:", eveObj.locus_name);
+	var locus_name = locusObj.locus_name;
+	glue.log("INFO", "Locus name:", locusObj.locus_name);
 
 	if (locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
 	
@@ -43,9 +42,7 @@ _.each(loadResult, function(eveObj) {
 		var virus_genus = locusObj.virus_genus;
 
 		// Does an alignment exist for this locus ID
-	    var string = locus_name.split("\\.");
-        var alignmentName = "AL_EHBV-" + string[1];
-
+        var alignmentName = "AL_EHBV-" + locus_name;
 
 		//glue.log("INFO", "LOADED EHBV INFO ", locusObj);
 		glue.log("INFO", "Adding sequence:", eveObj.sequenceID);
@@ -67,9 +64,9 @@ _.each(loadResult, function(eveObj) {
 			if (alignmentExists == undefined) { // If not create the alignment
 				
 				// Create the alignment
-				var refseqName = "REF_EHBV_" + locus_name;
+				var refseqName = "REF_EHBV-" + locus_name;
 				
-				glue.log("INFO", "CREATING ALIGNMENT WITH ONSTRAINING REFERENCE: ", refseqName);
+				glue.log("INFO", "CREATING ALIGNMENT WITH CONSTRAINING REFERENCE: ", refseqName);
 				glue.inMode("/alignment/"+parentAlignmentName, function() {
 					glue.command(["extract", "child", alignmentName, "-r", refseqName]);
 				});
