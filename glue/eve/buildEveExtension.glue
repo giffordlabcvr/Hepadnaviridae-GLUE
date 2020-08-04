@@ -21,11 +21,12 @@ project hepadnaviridae
   # Create EHBV reference sequences
   run file glue/eve/ehbvReferences.glue
 
-  # Import genus-level EVE alignments
-  run file glue/eve/ehbvAlignmentsGenus.glue
 
   # Add EVEs to constrained alignment tree 
   run file glue/eve/ehbvAlignmentTree.glue
+
+  # Import genus-level EVE alignments
+  run file glue/eve/ehbvAlignmentsGenus.glue
 
   # Record feature presence
   run file glue/eve/ehbvRecordFeaturePresence.glue
@@ -34,12 +35,19 @@ project hepadnaviridae
   #run file glue/eve/ehbvCreateRootPhylogenies.glue
   #run file glue/eve/ehbvCreateGenusPhylogenies.glue
 
-  # Import tip-level EVE alignments
-  #run file glue/eve/ehbvAlignmentsTips.glue
 
-  # Create tip phylogenies
-  #run file glue/eve/ehbvAlignmentTreeTips.glue
-  #run file glue/eve/ehbvCreateTipPhylogenies.glue
+  # Set up constrained alignment tree for orthologs
+  run file glue/eve/ehbvAlignmentTreeDigs.glue
+
+  # Create the ortholog (tip) alignments in the constrained alignment tree
+  run script glue/eve/ehbvDemoteOrthologsToTipAlignments.js
+
+  # Import tip-level EVE alignments
+  run file glue/eve/ehbvImportAlignmentsTips.glue
+
+  # Create tip-level phylogenies
+  run file glue/eve/ehbvCreateTipPhylogenies.js
+
 
   # Validate
   validate

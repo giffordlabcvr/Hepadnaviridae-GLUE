@@ -1,5 +1,5 @@
 // ABOUT: script to create tip phylogenies
-var outputPath = "trees/eve-tip/";
+var outputPath = "trees/eve-orthologs/";
 
 // Get list of alignments
 alignmentResult = glue.tableToObjects(glue.command(["list", "alignment", "-w", "name like '%AL_EHBV%'"]));
@@ -27,7 +27,7 @@ _.each(alignmentResult, function(alnObj) {
 		glue.command(["compute", "alignment", alignmentName, "aavMafftAligner"]);
   
 		// Record feature coverage in each alignment
-		glue.inMode("/module/aavFeaturePresenceRecorder", function() {		
+		glue.inMode("/module/hepadnaviridaeFeaturePresenceRecorder", function() {		
 			glue.command(["record", "feature-presence", alignmentName, "--recursive", "--featureName", "whole_genome", "--descendentFeatures" ]);
 		});   
 
