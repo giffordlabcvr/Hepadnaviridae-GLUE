@@ -8,3 +8,19 @@ module unconstrainedAlignmentImporter
   import AL_UNC_eHBV-Avi                   -f alignments/eve/internal/avihepadna-eves.aln.fna
   
   exit
+
+
+#~# Derive Genus-level constrained alignments from unconstrained aligned constructed outside GLUE
+
+alignment AL_Avihepadnavirus
+  derive segments AL_UNC_eHBV-Avi -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_Herpetohepadnavirus
+  derive segments AL_UNC_eHBV-Herpeto -a --mergeStrategy OVERWRITE
+  exit
+
+alignment AL_Metahepadnavirus
+  derive segments AL_UNC_eHBV-Meta -a --mergeStrategy OVERWRITE
+  exit
+

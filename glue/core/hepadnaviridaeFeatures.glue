@@ -115,6 +115,24 @@
   feature RH set metatag INCLUDE_IN_SUMMARY true
   feature RH set metatag CODES_AMINO_ACIDS true
 
+  create feature preS1 -p whole_genome "preS1"
+  feature preS1 set field displayName "preS1"
+  feature preS1 set metatag OWN_CODON_NUMBERING true
+  feature preS1 set metatag INCLUDE_IN_SUMMARY true
+  feature preS1 set metatag CODES_AMINO_ACIDS true
+
+  create feature preS2 -p whole_genome "preS2"
+  feature preS2 set field displayName "preS2"
+  feature preS2 set metatag OWN_CODON_NUMBERING true
+  feature preS2 set metatag INCLUDE_IN_SUMMARY true
+  feature preS2 set metatag CODES_AMINO_ACIDS true
+
+  create feature S -p whole_genome "S"
+  feature S set field displayName "S"
+  feature S set metatag OWN_CODON_NUMBERING true
+  feature S set metatag INCLUDE_IN_SUMMARY true
+  feature S set metatag CODES_AMINO_ACIDS true
+
   create feature large-S -p whole_genome "large-S"
   feature large-S set field displayName "large-S"
   feature large-S set metatag OWN_CODON_NUMBERING true
@@ -138,6 +156,18 @@
   feature X set metatag OWN_CODON_NUMBERING true
   feature X set metatag INCLUDE_IN_SUMMARY true
   feature X set metatag CODES_AMINO_ACIDS true
+
+  create feature TLM1 -p large-S "Translocation motif 1"
+  feature TLM1 set field displayName "ORF X"
+  feature TLM1 set metatag OWN_CODON_NUMBERING true
+  feature TLM1 set metatag INCLUDE_IN_SUMMARY true
+  feature TLM1 set metatag CODES_AMINO_ACIDS true
+
+  create feature TLM2 -p large-S "Translocation motif 2"
+  feature TLM2 set field displayName "ORF X"
+  feature TLM2 set metatag OWN_CODON_NUMBERING true
+  feature TLM2 set metatag INCLUDE_IN_SUMMARY true
+  feature TLM2 set metatag CODES_AMINO_ACIDS true
 
 
   # Non-orthohepadnavirus features

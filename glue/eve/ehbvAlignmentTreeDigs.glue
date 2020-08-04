@@ -2,7 +2,7 @@
   
   #~# Internal nodes (Hepadnaviridae genera) 
 
-  alignment AL_MASTER_Dependo
+  alignment AL_Hepadnaviridae
   
     add member -w "source.name = 'fasta-digs-ehbv'"
 
