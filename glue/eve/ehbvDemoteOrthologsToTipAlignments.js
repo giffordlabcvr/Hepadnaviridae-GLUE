@@ -28,13 +28,15 @@ _.each(loadResult, function(eveObj) {
 	var sequenceID = eveObj.sequenceID;
 	var locusObj = ehbvRefseqResultMap[locus_numeric_id];
 	
-	glue.log("INFO", "Sequence ID", eveObj.sequenceID);
-	glue.log("INFO", "Locus ID", eveObj.locus_numeric_id);
+	glue.log("INFO", "Sequence ID", sequenceID);
+	glue.log("INFO", "Locus ID", locus_numeric_id);
 
-	var locus_name = locusObj.locus_name;
-	glue.log("INFO", "Locus name:", locusObj.locus_name);
 
-	if (locus_name != 'NK') { // Skip elements that haven't been assigned to a locus
+	if (locus_numeric_id != 'NK') { // Skip elements that haven't been assigned to a locus
+
+		var locus_name = locusObj.locus_name;
+		glue.log("INFO", "Locus name:", locus_name);
+
 	
 
 		// Get the taxonomy 
@@ -70,12 +72,11 @@ _.each(loadResult, function(eveObj) {
 				glue.inMode("/alignment/"+parentAlignmentName, function() {
 					glue.command(["extract", "child", alignmentName, "-r", refseqName]);
 				});
-			
+						
 			}	
 
 			// Add the sequence to the alignment
-			glue.inMode("/alignment/"+parentAlignmentName, function() {
-			
+			glue.inMode("/alignment/"+parentAlignmentName, function() {			
 				glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+sequenceID+"'"]);
 			});
 			

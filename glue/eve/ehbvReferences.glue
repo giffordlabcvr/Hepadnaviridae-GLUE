@@ -33,10 +33,13 @@
   create reference REF_EHBV-Avi.30-anseridae        fasta-refseqs-ehbv ehbv-avi.30-anseridae-con 
   create reference REF_EHBV-Avi.31-passeriformes    fasta-refseqs-ehbv ehbv-avi.31-passeriformes-con
   create reference REF_EHBV-Avi.32-tinamiformes     fasta-refseqs-ehbv ehbv-avi.32-tinamiformes-con
+  create reference REF_EHBV-avi.34-leptosomus       fasta-refseqs-ehbv ehbv-avi.34-leptosomus
   create reference REF_EHBV-Avi.35-calypte          fasta-refseqs-ehbv ehbv-avi.35-calypte
 
   create reference REF_EHBV-Avi.36-callipepla       fasta-refseqs-ehbv ehbv-avi.36-callipepla
   create reference REF_EHBV-Avi.37-phylloscopus     fasta-refseqs-ehbv ehbv-avi.37-phylloscopus
+
+
 
   # Herpetohepadnavirus
   create reference REF_EHBV-Herpeto.1-serpentes     fasta-refseqs-ehbv ehbv-herpeto.1-serpentes-con
