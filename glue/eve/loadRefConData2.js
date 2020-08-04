@@ -7,9 +7,9 @@ glue.inMode("module/hepadnaviridaeTabularUtility", function() {
 
 _.each(loadResult, function(eveObj) {
 
-	glue.inMode("custom-table-row/refcon_data/"+eveObj.id, function() {
+	glue.inMode("custom-table-row/refcon_data/"+eveObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering locus data for EVE reference:", eveObj.id);
+		glue.log("INFO", "Entering locus data for EVE reference:", eveObj.sequenceID);
 
 		glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
 		glue.command(["set", "field", "nearest_upstream_orf", eveObj.nearest_upstream_orf]);
@@ -18,13 +18,13 @@ _.each(loadResult, function(eveObj) {
 
 	});
 
-	glue.inMode("sequence/fasta-refseqs-ehbv/"+eveObj.id, function() {
+	glue.inMode("sequence/fasta-refseqs-ehbv/"+eveObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering sequence table data for EVE reference:", eveObj.id);
+		glue.log("INFO", "Entering sequence table data for EVE reference:", eveObj.sequenceID);
 
-		glue.command(["set", "field", "name", eveObj.id]);
+		glue.command(["set", "field", "name", eveObj.sequenceID]);
 		glue.command(["set", "field", "full_name", eveObj.full_name]);
-		glue.command(["set", "field", "genus", eveObj.genus]);
+		glue.command(["set", "field", "genus", eveObj.virus_genus]);
 		glue.command(["set", "field", "variable_region_type", eveObj.variable_region_type]);
 		glue.command(["set", "field", "core_shift", eveObj.core_shift]);
 

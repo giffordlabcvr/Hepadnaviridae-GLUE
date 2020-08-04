@@ -23,28 +23,28 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaCore \
+    generate nucleotide phylogeny AL_Orthohepadnavirus -s alignmentColumnsSelectorHepadnaCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Ortho-core.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaPolymerase \
+    generate nucleotide phylogeny AL_Orthohepadnavirus -s alignmentColumnsSelectorHepadnaPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Ortho-pol.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_Ortho -s alignmentColumnsSelectorHepadnaSurface \
+    generate nucleotide phylogeny AL_Orthohepadnavirus -s alignmentColumnsSelectorHepadnaSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Ortho-surface.export_nucs.tre NEWICK_BOOTSTRAPS
 
 
-    generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviCore \
+    generate nucleotide phylogeny AL_Avihepadnavirus -s alignmentColumnsSelectorAviCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Avi-core.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviPolymerase \
+    generate nucleotide phylogeny AL_Avihepadnavirus -s alignmentColumnsSelectorAviPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Avi-pol.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_GENUS_Avi -s alignmentColumnsSelectorAviSurface \
+    generate nucleotide phylogeny AL_Avihepadnavirus -s alignmentColumnsSelectorAviSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS
 
@@ -90,18 +90,18 @@
   # Export annotations
   module hepadnaFigTreeAnnotationExporter 
 
-    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+    export figtree-annotation AL_Orthohepadnavirus -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Ortho-root-core.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+    export figtree-annotation AL_Orthohepadnavirus -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Ortho-root-pol.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Ortho -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+    export figtree-annotation AL_Orthohepadnavirus -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Ortho-root-surface.figtree-annotations.tsv
 
-    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+    export figtree-annotation AL_Avihepadnavirus -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-root-core.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+    export figtree-annotation AL_Avihepadnavirus -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-root-pol.figtree-annotations.tsv
-    export figtree-annotation AL_GENUS_Avi -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+    export figtree-annotation AL_Avihepadnavirus -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-root-surface.figtree-annotations.tsv
 
   exit

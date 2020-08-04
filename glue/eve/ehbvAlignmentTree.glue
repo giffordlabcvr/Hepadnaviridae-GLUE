@@ -5,26 +5,27 @@ create module -f modules/ehbvCompoundAligner.xml
 ### Add EVE sequences to constrained alignment tree
 
 #~# EVEs derived from hepadnaviruses
+
 alignment AL_Hepadnaviridae
 
   add member -w "source.name = 'fasta-refseqs-ehbv'"  
-  demote member AL_GENUS_Avi     -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  demote member AL_GENUS_Herpeto -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  demote member AL_GENUS_Meta    -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+  demote member AL_Avihepadnavirus    -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+  demote member AL_Herpetohepadnavirus -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+  demote member AL_Metahepadnavirus    -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
   exit
 
 
 #~# Derive Genus-level constrained alignments from unconstrained aligned constructed outside GLUE
 
-alignment AL_GENUS_Avi
+alignment AL_Avihepadnavirus
   derive segments AL_UNC_eHBV-Avi -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_GENUS_Herpeto
+alignment AL_Herpetohepadnavirus
   derive segments AL_UNC_eHBV-Herpeto -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_GENUS_Meta
+alignment AL_Metahepadnavirus
   derive segments AL_UNC_eHBV-Meta -a --mergeStrategy OVERWRITE
   exit
 

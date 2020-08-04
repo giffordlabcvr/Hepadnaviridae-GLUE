@@ -2,8 +2,8 @@
   create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
 
   module hepadnaviridaeFeaturePresenceRecorder 
-    record feature-presence AL_GENUS_Avi     --recursive -f whole_genome --descendentFeatures
-    record feature-presence AL_GENUS_Herpeto --recursive -f whole_genome --descendentFeatures
-    record feature-presence AL_GENUS_Meta    --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_Avihepadnavirus     --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_Herpetohepadnavirus --recursive -f whole_genome --descendentFeatures
+    record feature-presence AL_Metahepadnavirus    --recursive -f whole_genome --descendentFeatures
     exit
 
