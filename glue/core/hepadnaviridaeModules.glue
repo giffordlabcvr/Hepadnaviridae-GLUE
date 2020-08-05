@@ -3,11 +3,8 @@
   create module -f modules/hepadnaviridaeSideDataImporter.xml hepadnaviridaeSideDataImporter
   create module -f modules/hepadnaviridaeTabularUtility.xml hepadnaviridaeTabularUtility
   create module -f modules/hepadnavirusCompoundAligner.xml
-  create module -f modules/ehbvFastaExporter.xml
   create module -f modules/hepadnaviridaeMafftAligner.xml
   create module -f modules/hepadnaviridaeStrictFastaAlignmentImporter.xml
-  
   create module -f modules/hepadnaPhyloUtility.xml
-  create module -f modules/ehbvFigTreeAnnotationExporter.xml
   
   create module -t raxmlPhylogenyGenerator
