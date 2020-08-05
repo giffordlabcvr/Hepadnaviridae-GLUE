@@ -7,9 +7,6 @@ schema-project hepadnaviridae
   exit
   
 project hepadnaviridae
-
-  # Create modules required for EVE extension
-  run file glue/eve/ehbvModules.glue
   
   # Import endogenous hepadnaviral element (EHBV) sequences
   import source sources/fasta-refseqs-ehbv/

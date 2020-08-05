@@ -24,7 +24,7 @@ _.each(alignmentResult, function(alnObj) {
 
 	if (numTaxa >= 4) {
 
-		glue.command(["compute", "alignment", alignmentName, "aavMafftAligner"]);
+		glue.command(["compute", "alignment", alignmentName, "hepadnaviridaeMafftAligner"]);
   
 		// Record feature coverage in each alignment
 		glue.inMode("/module/hepadnaviridaeFeaturePresenceRecorder", function() {		
