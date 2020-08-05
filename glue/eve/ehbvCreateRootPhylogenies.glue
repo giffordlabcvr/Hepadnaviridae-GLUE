@@ -60,7 +60,7 @@
 
 
   # Re-root phylogeny 
-  module HepadnaPhyloUtility 
+  module hepadnaPhyloUtility 
 
 	reroot-phylogeny \
       --inputFile trees/eve-root/Hepadna-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS \
