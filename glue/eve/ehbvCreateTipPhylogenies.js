@@ -7,10 +7,13 @@ alignmentResult = glue.tableToObjects(glue.command(["list", "alignment", "-w", "
 // Iterate on DIGS data, adding sequences to alignments as appropriate
 _.each(alignmentResult, function(alnObj) {
 
-	// Get the locus ID
+	// Set paths
 	var alignmentName = alnObj.name;
     var alignmentStem = alignmentName.replace("AL_", "");
-    
+    var treeOutputPath = outputPath + alignmentStem + ".tre";
+    var midpointPath = outputPath + alignmentStem + ".midpointRooted.tre";
+	var annotationPath = outputPath + alignmentStem + ".figtree-annotations.tsv";
+        
     glue.log("INFO", "Checking for alignment ", alignmentName);
 
     // How many taxa?
@@ -36,9 +39,6 @@ _.each(alignmentResult, function(alnObj) {
 		// Create the phylogeny
 		glue.inMode("/module/raxmlPhylogenyGenerator", function() {
 	 
-			
-	 
-			var treeOutputPath = outputPath + alignmentStem + ".tre";
 			glue.log("INFO", "Tree will be written to path: ", treeOutputPath);
 			glue.command(["generate", "nucleotide",  "phylogeny", alignmentName, "-a", "-o",treeOutputPath, "NEWICK_BOOTSTRAPS" ]);
 
@@ -48,7 +48,7 @@ _.each(alignmentResult, function(alnObj) {
 		// Reroot the phylogenies
 		glue.inMode("/module/hepadnaPhyloUtility", function() {
 
-			var midpointPath = outputPath + alignmentStem + ".midpointRooted.tre";
+			
 			glue.log("INFO", "Tree will be written to path: ", midpointPath);
 			glue.command(["reroot-phylogeny", "--inputFile",  treeOutputPath, "NEWICK_BOOTSTRAPS",  "--midpoint", "--outputFile", midpointPath, "NEWICK_BOOTSTRAPS" ]);
 
@@ -58,8 +58,7 @@ _.each(alignmentResult, function(alnObj) {
 		// Export the annotations
 		glue.inMode("/module/ehbvFigTreeAnnotationExporter", function() {
 
-			var annotationPath = outputPath + alignmentStem + ".figtree-annotations.tsv";
-			glue.log("INFO", "Tree will be written to path: ", midpointPath);
+			glue.log("INFO", "Tree will be written to path: ", annotationPath);
 			glue.command(["export", "figtree-annotation",  alignmentName, "-f", annotationPath ]);
 
 		});   
