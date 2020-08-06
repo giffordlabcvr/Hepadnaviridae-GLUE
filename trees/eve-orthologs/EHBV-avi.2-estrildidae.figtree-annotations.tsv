@@ -1,0 +1,8 @@
+taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Erythrura_gouldiae_2525	Erythrura_gouldiae_2525	Erythrura_gouldiae_2525	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Geospiza_fortis_2549	Geospiza_fortis_2549	Geospiza_fortis_2549	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Junco_hyemalis_4413	Junco_hyemalis_4413	Junco_hyemalis_4413	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Lonchura_striata_domestica_2580	Lonchura_striata_domestica_2580	Lonchura_striata_domestica_2580	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Passer_domesticus_4581	Passer_domesticus_4581	Passer_domesticus_4581	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Serinus_canaria_2914	Serinus_canaria_2914	Serinus_canaria_2914	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Zonotrichia_albicollis_3014	Zonotrichia_albicollis_3014	Zonotrichia_albicollis_3014	-	-	Avihepadnavirus	-	-

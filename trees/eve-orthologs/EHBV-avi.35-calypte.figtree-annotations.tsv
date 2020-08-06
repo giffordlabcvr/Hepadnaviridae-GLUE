@@ -1,0 +1,15 @@
+taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Corvus_hawaiiensis_5255	Corvus_hawaiiensis_5255	Corvus_hawaiiensis_5255	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Falco_peregrinus_5271	Falco_peregrinus_5271	Falco_peregrinus_5271	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Limosa_lapponica_baueri_5312	Limosa_lapponica_baueri_5312	Limosa_lapponica_baueri_5312	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Manacus_vitellinus_5321	Manacus_vitellinus_5321	Manacus_vitellinus_5321	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Nannopterum_brasilianus_5355	Nannopterum_brasilianus_5355	Nannopterum_brasilianus_5355	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Paradisaea_raggiana_5401	Paradisaea_raggiana_5401	Paradisaea_raggiana_5401	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Phaethon_lepturus_5412	Phaethon_lepturus_5412	Phaethon_lepturus_5412	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Phalacrocorax_carbo_5419	Phalacrocorax_carbo_5419	Phalacrocorax_carbo_5419	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Podiceps_cristatus_5467	Podiceps_cristatus_5467	Podiceps_cristatus_5467	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Pterocles_gutturalis_5486	Pterocles_gutturalis_5486	Pterocles_gutturalis_5486	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Pygoscelis_adeliae_5489	Pygoscelis_adeliae_5489	Pygoscelis_adeliae_5489	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Pygoscelis_antarcticus_5490	Pygoscelis_antarcticus_5490	Pygoscelis_antarcticus_5490	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Pygoscelis_papua_5493	Pygoscelis_papua_5493	Pygoscelis_papua_5493	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.35-calypte/member/fasta-digs-ehbv/Spheniscus_mendiculus_5511	Spheniscus_mendiculus_5511	Spheniscus_mendiculus_5511	-	-	Avihepadnavirus	-	-

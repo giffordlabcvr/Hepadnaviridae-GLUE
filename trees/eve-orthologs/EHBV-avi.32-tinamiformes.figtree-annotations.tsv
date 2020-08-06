@@ -1,0 +1,5 @@
+taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EHBV-avi.32-tinamiformes/member/fasta-digs-ehbv/Chaetura_pelagica_5243	Chaetura_pelagica_5243	Chaetura_pelagica_5243	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.32-tinamiformes/member/fasta-digs-ehbv/Leptosomus_discolor_5310	Leptosomus_discolor_5310	Leptosomus_discolor_5310	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.32-tinamiformes/member/fasta-digs-ehbv/Nothoprocta_perdicaria_5399	Nothoprocta_perdicaria_5399	Nothoprocta_perdicaria_5399	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.32-tinamiformes/member/fasta-digs-ehbv/Tinamus_guttatus_5531	Tinamus_guttatus_5531	Tinamus_guttatus_5531	-	-	Avihepadnavirus	-	-

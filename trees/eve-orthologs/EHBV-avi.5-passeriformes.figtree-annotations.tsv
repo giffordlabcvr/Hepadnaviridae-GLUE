@@ -1,0 +1,11 @@
+taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_2548	Geospiza_fortis_2548	Geospiza_fortis_2548	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_4404	Hemignathus_virens_4404	Hemignathus_virens_4404	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Junco_hyemalis_2570	Junco_hyemalis_2570	Junco_hyemalis_2570	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Lonchura_striata_domestica_4933	Lonchura_striata_domestica_4933	Lonchura_striata_domestica_4933	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Passer_domesticus_2750	Passer_domesticus_2750	Passer_domesticus_2750	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_4733	Serinus_canaria_4733	Serinus_canaria_4733	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_4736	Setophaga_coronata_4736	Setophaga_coronata_4736	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Sporophila_hypoxantha_2934	Sporophila_hypoxantha_2934	Sporophila_hypoxantha_2934	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Taeniopygia_guttata_4759	Taeniopygia_guttata_4759	Taeniopygia_guttata_4759	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.5-passeriformes/member/fasta-digs-ehbv/Zonotrichia_albicollis_3015	Zonotrichia_albicollis_3015	Zonotrichia_albicollis_3015	-	-	Avihepadnavirus	-	-

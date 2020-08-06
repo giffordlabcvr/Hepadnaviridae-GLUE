@@ -1,0 +1,8 @@
+taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EHBV-avi.22-tyto/member/fasta-digs-ehbv/Amazona_aestiva_4274	Amazona_aestiva_4274	Amazona_aestiva_4274	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.22-tyto/member/fasta-digs-ehbv/Ara_macao_5218	Ara_macao_5218	Ara_macao_5218	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.22-tyto/member/fasta-digs-ehbv/Empidonax_traillii_794	Empidonax_traillii_794	Empidonax_traillii_794	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.22-tyto/member/fasta-digs-ehbv/Nestor_notabilis_4572	Nestor_notabilis_4572	Nestor_notabilis_4572	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.22-tyto/member/fasta-digs-ehbv/Serinus_canaria_2019	Serinus_canaria_2019	Serinus_canaria_2019	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.22-tyto/member/fasta-digs-ehbv/Tympanuchus_cupido_3711	Tympanuchus_cupido_3711	Tympanuchus_cupido_3711	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.22-tyto/member/fasta-digs-ehbv/Tyto_alba_5533	Tyto_alba_5533	Tyto_alba_5533	-	-	Avihepadnavirus	-	-

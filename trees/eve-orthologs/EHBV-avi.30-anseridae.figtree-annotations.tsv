@@ -1,0 +1,6 @@
+taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EHBV-avi.30-anseridae/member/fasta-digs-ehbv/Anas_platyrhynchos_5189	Anas_platyrhynchos_5189	Anas_platyrhynchos_5189	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.30-anseridae/member/fasta-digs-ehbv/Anas_platyrhynchos_5190	Anas_platyrhynchos_5190	Anas_platyrhynchos_5190	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.30-anseridae/member/fasta-digs-ehbv/Anas_zonorhyncha_5191	Anas_zonorhyncha_5191	Anas_zonorhyncha_5191	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.30-anseridae/member/fasta-digs-ehbv/Anser_brachyrhynchus_5194	Anser_brachyrhynchus_5194	Anser_brachyrhynchus_5194	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.30-anseridae/member/fasta-digs-ehbv/Anser_cygnoides_5198	Anser_cygnoides_5198	Anser_cygnoides_5198	-	-	Avihepadnavirus	-	-

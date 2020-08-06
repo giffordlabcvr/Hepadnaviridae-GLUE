@@ -1,0 +1,6 @@
+taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
+alignment/AL_EHBV-avi.20-cariama/member/fasta-digs-ehbv/Buceros_rhinoceros_3815	Buceros_rhinoceros_3815	Buceros_rhinoceros_3815	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.20-cariama/member/fasta-digs-ehbv/Cariama_cristata_5240	Cariama_cristata_5240	Cariama_cristata_5240	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.20-cariama/member/fasta-digs-ehbv/Corapipo_altera_4897	Corapipo_altera_4897	Corapipo_altera_4897	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.20-cariama/member/fasta-digs-ehbv/Lepidothrix_coronata_4417	Lepidothrix_coronata_4417	Lepidothrix_coronata_4417	-	-	Avihepadnavirus	-	-
+alignment/AL_EHBV-avi.20-cariama/member/fasta-digs-ehbv/Pipra_filicauda_5087	Pipra_filicauda_5087	Pipra_filicauda_5087	-	-	Avihepadnavirus	-	-
