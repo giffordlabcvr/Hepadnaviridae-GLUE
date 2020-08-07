@@ -158,16 +158,64 @@
   feature X set metatag CODES_AMINO_ACIDS true
 
   create feature TLM1 -p large-S "Translocation motif 1"
-  feature TLM1 set field displayName "ORF X"
+  feature TLM1 set field displayName "Translocation motif 1"
   feature TLM1 set metatag OWN_CODON_NUMBERING true
   feature TLM1 set metatag INCLUDE_IN_SUMMARY true
   feature TLM1 set metatag CODES_AMINO_ACIDS true
 
   create feature TLM2 -p large-S "Translocation motif 2"
-  feature TLM2 set field displayName "ORF X"
+  feature TLM2 set field displayName "Translocation motif 2"
   feature TLM2 set metatag OWN_CODON_NUMBERING true
   feature TLM2 set metatag INCLUDE_IN_SUMMARY true
   feature TLM2 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha-helix1 -p large-S "Alpha helix 1"
+  feature alpha-helix1 set field displayName "Alpha helix 1"
+  feature alpha-helix1 set metatag OWN_CODON_NUMBERING true
+  feature alpha-helix1 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha-helix1 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha-helix2 -p large-S "Alpha helix 2"
+  feature alpha-helix2 set field displayName "Alpha helix 2"
+  feature alpha-helix2 set metatag OWN_CODON_NUMBERING true
+  feature alpha-helix2 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha-helix2 set metatag CODES_AMINO_ACIDS true
+
+  create feature alpha-helix3 -p large-S "Alpha helix 3"
+  feature alpha-helix3 set field displayName "Alpha helix 2"
+  feature alpha-helix3 set metatag OWN_CODON_NUMBERING true
+  feature alpha-helix3 set metatag INCLUDE_IN_SUMMARY true
+  feature alpha-helix3 set metatag CODES_AMINO_ACIDS true
+
+  create feature host-determining-region -p large-S "Surface protein host-determining region"
+  feature host-determining-region  set field displayName "Surface protein host-determining region"
+  feature host-determining-region  set metatag OWN_CODON_NUMBERING true
+  feature host-determining-region  set metatag INCLUDE_IN_SUMMARY true
+  feature host-determining-region  set metatag CODES_AMINO_ACIDS true
+
+  create feature virion-formation-region -p large-S "Surface protein virion-formation"
+  feature virion-formation-region set field displayName "Surface protein virion-formation"
+  feature virion-formation-region set metatag OWN_CODON_NUMBERING true
+  feature virion-formation-region set metatag INCLUDE_IN_SUMMARY true
+  feature virion-formation-region set metatag CODES_AMINO_ACIDS true
+
+  create feature dCPD-receptor-binding-site -p large-S "Surface protein dCPD-receptor-binding-site"
+  feature dCPD-receptor-binding-site set field displayName "Surface protein dCPD-receptor-binding-site region"
+  feature dCPD-receptor-binding-site set metatag OWN_CODON_NUMBERING true
+  feature dCPD-receptor-binding-site set metatag INCLUDE_IN_SUMMARY true
+  feature dCPD-receptor-binding-site set metatag CODES_AMINO_ACIDS true
+
+  create feature dCPD-receptor-binding-site-stabilising -p large-S "Surface protein dCPD-receptor-binding-site-stabilising region"
+  feature dCPD-receptor-binding-site-stabilising set field displayName "Surface protein dCPD-receptor-binding-site-stabilising region"
+  feature dCPD-receptor-binding-site-stabilising set metatag OWN_CODON_NUMBERING true
+  feature dCPD-receptor-binding-site-stabilising set metatag INCLUDE_IN_SUMMARY true
+  feature dCPD-receptor-binding-site-stabilising set metatag CODES_AMINO_ACIDS true
+
+  create feature dCPD-receptor-binding-site-essential -p large-S "Surface protein dCPD-receptor-binding-site-essential essential region"
+  feature dCPD-receptor-binding-site-essential set field displayName "Surface protein dCPD-receptor-binding-site-essential region"
+  feature dCPD-receptor-binding-site-essential set metatag OWN_CODON_NUMBERING true
+  feature dCPD-receptor-binding-site-essential set metatag INCLUDE_IN_SUMMARY true
+  feature dCPD-receptor-binding-site-essential set metatag CODES_AMINO_ACIDS true
 
 
   # Non-orthohepadnavirus features

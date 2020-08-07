@@ -81,6 +81,56 @@ reference REF_Avi_MASTER_DHBV
     add segment 1794 2294
     exit
 
+  add feature-location TLM1
+  feature-location TLM1
+    add segment 1362 1397
+    exit
+
+  add feature-location TLM2
+  feature-location TLM2
+    add segment 1428 1463
+    exit
+
+  add feature-location alpha-helix1
+  feature-location alpha-helix1
+    add segment 1368 1415
+    exit
+
+  add feature-location alpha-helix2
+  feature-location alpha-helix2
+    add segment 1455 1478
+    exit
+
+  add feature-location alpha-helix3
+  feature-location alpha-helix3
+    add segment 1569 1616
+    exit
+
+  add feature-location host-determining-region
+  feature-location host-determining-region
+    add segment 1368 1472
+    exit
+
+  add feature-location virion-formation-region
+  feature-location virion-formation-region
+    add segment 1650 1715
+    exit
+
+  add feature-location dCPD-receptor-binding-site
+  feature-location dCPD-receptor-binding-site
+    add segment 1392 1649
+    exit
+
+  add feature-location dCPD-receptor-binding-site-stabilising
+  feature-location dCPD-receptor-binding-site-stabilising
+    add segment 1392 1562
+    exit
+
+  add feature-location dCPD-receptor-binding-site-essential
+  feature-location dCPD-receptor-binding-site-essential
+    add segment 1563 1649 
+    exit
+
   exit 
 
 
