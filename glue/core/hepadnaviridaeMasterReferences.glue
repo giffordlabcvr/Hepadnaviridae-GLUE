@@ -1,0 +1,276 @@
+  # Declare reference sequences
+
+  # Ortho
+  create reference REF_Ortho_MASTER_HBV       ncbi-refseqs NC_003977
+  create reference REF_Ortho_WMHBV            ncbi-refseqs NC_028129
+  create reference REF_Ortho_GSHV             ncbi-refseqs NC_001484
+  create reference REF_Ortho_LfbHBV           ncbi-refseqs NC_020881
+  create reference REF_Ortho_RlbHBV           ncbi-refseqs NC_024443
+  create reference REF_Ortho_TBHBV            ncbi-refseqs NC_024445
+  create reference REF_Ortho_WhBv             ncbi-refseqs NC_004107
+  create reference REF_Ortho_HsbHBV           ncbi-refseqs NC_024444
+  create reference REF_Ortho_DcHBV            ncbi-refseqs MH307930
+  create reference REF_Ortho_ClHBV            ncbi-refseqs MH484442
+  create reference REF_Ortho_ASHV             ncbi-refseqs U29144
+  
+  # Avi
+  create reference REF_Avi_MASTER_DHBV        ncbi-refseqs NC_001344
+  create reference REF_Avi_HHBV               ncbi-refseqs NC_001486
+  create reference REF_Avi_PaHBV              ncbi-refseqs NC_016561
+  create reference REF_Avi_RGHBV              ncbi-refseqs NC_005888
+  create reference REF_Avi_SGHBV              ncbi-refseqs NC_005950
+  create reference REF_Avi_SHBV               ncbi-refseqs NC_005890
+  create reference REF_Avi_THBV               ncbi-refseqs NC_035210
+  create reference REF_Avi_CCHBV              ncbi-refseqs AJ441111
+  create reference REF_Avi_STHBV	          ncbi-refseqs AJ251934
+	
+  # Herpeto
+  create reference REF_Herpeto_MASTER_tfHBV   ncbi-refseqs NC_030446
+  create reference REF_Herpeto_SLHBV-1        fasta-refseqs SLHBV-1
+  create reference REF_Herpeto_SkHBV          fasta-refseqs SkHBV
+
+  # Meta
+  create reference REF_Meta_MASTER_bgHBV      ncbi-refseqs NC_030445
+  create reference REF_Meta_EsgHBV            ncbi-refseqs MH716822
+  create reference REF_Meta_AMDV              fasta-refseqs AMDV
+  create reference REF_Meta_TMDV              fasta-refseqs TMDV
+  create reference REF_Meta_IMDV              fasta-refseqs IMDV
+
+  # Para
+  create reference REF_Para_MASTER_wsHBV      ncbi-refseqs NC_027922
+  create reference REF_Para_AsHBV             ncbi-refseqs MH716821
+  create reference REF_Para_CSKV              fasta-refseqs CSKV
+
+
+  # Apply rotations
+  run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
+
+
+  # Add feature locations to genus master reference sequences
+  reference REF_Ortho_MASTER_HBV
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3182
+	  exit
+  
+	add feature-location PreCore-Core
+	feature-location PreCore-Core
+	  add segment 1 534
+	  exit
+
+	add feature-location Nucleocapsid
+	feature-location Nucleocapsid
+	  add segment 88 534
+	  exit
+
+	add feature-location Polymerase
+	feature-location Polymerase
+	  add segment 494 2941
+	  exit
+
+	add feature-location large-S
+	feature-location large-S
+	  add segment 1035 2201
+	  exit
+
+	add feature-location medium-S
+	feature-location medium-S
+	  add segment 1359 2201
+	  exit
+
+	add feature-location small-S
+	feature-location small-S
+	  add segment 1524 2201
+	  exit
+
+	add feature-location X
+	feature-location X
+	  add segment 2743 3180
+	  exit
+   
+	exit 
+
+
+  reference REF_Avi_MASTER_DHBV
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3027
+	  exit
+  
+	add feature-location PreCore-Core
+	feature-location PreCore-Core
+	  add segment 1 852
+	  exit
+	
+	add feature-location Nucleocapsid
+	feature-location Nucleocapsid
+	  add segment 130 852
+	  exit
+	
+	add feature-location Polymerase
+	feature-location Polymerase
+	  add segment 524 3025
+	  exit
+
+	add feature-location large-S
+	feature-location large-S
+	  add segment 1197 2294
+	  exit
+ 
+	add feature-location medium-S
+	feature-location medium-S
+	  add segment 1305 2294
+	  exit
+
+	add feature-location small-S
+	feature-location small-S
+	  add segment 1794 2294
+	  exit
+
+	add feature-location TLM1
+	feature-location TLM1
+	  add segment 1362 1397
+	  exit
+
+	add feature-location TLM2
+	feature-location TLM2
+	  add segment 1428 1463
+	  exit
+
+	add feature-location alpha-helix1
+	feature-location alpha-helix1
+	  add segment 1368 1415
+	  exit
+
+	add feature-location alpha-helix2
+	feature-location alpha-helix2
+	  add segment 1455 1478
+	  exit
+
+	add feature-location alpha-helix3
+	feature-location alpha-helix3
+	  add segment 1569 1616
+	  exit
+
+	add feature-location host-determining-region
+	feature-location host-determining-region
+	  add segment 1368 1472
+	  exit
+
+	add feature-location virion-formation-region
+	feature-location virion-formation-region
+	  add segment 1650 1715
+	  exit
+
+	add feature-location dCPD-receptor-binding-site
+	feature-location dCPD-receptor-binding-site
+	  add segment 1392 1649
+	  exit
+
+	add feature-location dCPD-receptor-binding-site-stabilising
+	feature-location dCPD-receptor-binding-site-stabilising
+	  add segment 1392 1562
+	  exit
+
+	add feature-location dCPD-receptor-binding-site-essential
+	feature-location dCPD-receptor-binding-site-essential
+	  add segment 1563 1649 
+	  exit
+
+	exit 
+
+
+  reference REF_Herpeto_MASTER_tfHBV
+
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3138
+	  exit
+   
+	add feature-location PreCore-Core
+	feature-location PreCore-Core
+	  add segment 57 857
+	  exit
+  
+	add feature-location Polymerase
+	feature-location Polymerase
+	  add segment 676 3111
+	  exit
+
+	add feature-location large-S
+	feature-location large-S
+	  add segment 893 2365
+	  exit
+	  
+	add feature-location small-S
+	feature-location small-S
+	  add segment 1280 2365
+	  exit
+
+	exit 
+
+
+  reference REF_Meta_MASTER_bgHBV
+  
+
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3260
+	  exit
+	
+	add feature-location PreCore-Core
+	feature-location PreCore-Core
+	  add segment 1 459
+	  exit
+  
+	add feature-location Polymerase
+	feature-location Polymerase
+	  add segment 374 2689
+	  exit
+  
+	add feature-location large-S
+	feature-location large-S
+	  add segment 933 1916
+	  exit
+  
+	add feature-location Z
+	  feature-location Z    
+	  add segment 2818 3144
+	  exit
+
+	add feature-location Y
+	feature-location Y
+	  add segment 3148 3258 --spliceIndex 2 --transcriptionIndex 1
+	  add segment 2 202 --spliceIndex 1 --transcriptionIndex 2
+	  exit
+
+	exit 
+
+
+  reference REF_Para_MASTER_wsHBV
+  
+	add feature-location whole_genome
+	feature-location whole_genome
+	  add segment 1 3542
+	  exit
+	
+	add feature-location PreCore-Core
+	feature-location PreCore-Core
+	  add segment 1 588
+	  exit
+  
+	add feature-location Polymerase
+	feature-location Polymerase
+	  add segment 497 2860
+	  exit
+
+	add feature-location large-S
+	  feature-location large-S    
+	  add segment 684 1724
+	  exit
+
+	exit 
+

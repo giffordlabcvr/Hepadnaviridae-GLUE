@@ -25,13 +25,7 @@ project hepadnaviridae
   run file glue/core/hepadnaviridaeFeatures.glue
 
   # Create virus reference sequences
-  run file glue/core/hepadnaviridaeReferences.glue
-
-  # Apply rotations
-  run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
-
-  # Add feature locations to genus master reference sequences
-  run file glue/core/hepadnaviridaeFeatureLocations.glue
+  run file glue/core/hepadnaviridaeMasterReferences.glue
 
   # Import alignments
   run file glue/core/hepadnaviridaeAlignments.glue

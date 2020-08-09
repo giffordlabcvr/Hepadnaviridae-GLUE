@@ -1,1 +1,113 @@
-(alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Anomalopteryx_didiformis_3337:0.26514261263793502746,(((alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Dromaius_novaehollandiae_3409:0.00538759699298696926,alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Casuarius_casuarius_3391:0.00513119721644572559)85:0.02196319702287298156,((alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_haastii_4316:0.00508319443808198049,(alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_rowi_4317:0.00000100000050002909,alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_australis_mantelli_4315:0.00000100000050002909)70:0.00000100000050002909)100:0.05993808728296841359,(alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Pterocnemia_pennata_5487:0.00990872275816146938,alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Rhea_americana_5496:0.00848575836049475681)97:0.03662073219353924325)79:0.01280818326021083454)37:0.00000100000050002909,((alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Anomalopteryx_didiformis_3338:0.07602799662353820764,alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Tinamus_guttatus_2388:0.11530145690548647408)76:0.02930539140526000966,alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Struthio_camelus_3288:0.10247350835874670383)61:0.01839071435098598231):0.10214504997620256141);
+#NEXUS
+begin taxa;
+	dimensions ntax=11;
+	taxlabels
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Anomalopteryx_didiformis_3337'[&bitscore=80,genus="Avihepadnavirus",host_family="Emeidae",host_genus="Anomalopteryx",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Dinornithiformes",host_species="-",identity=60.317,name="Anomalopteryx_didiformis_3337",scaffold="SZQC01000210.1",sequenceID="Anomalopteryx_didiformis_3337"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Anomalopteryx_didiformis_3338'[&bitscore=135,genus="Avihepadnavirus",host_family="Emeidae",host_genus="Anomalopteryx",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Dinornithiformes",host_species="-",identity=79.762,name="Anomalopteryx_didiformis_3338",scaffold="SZQC01000082.1",sequenceID="Anomalopteryx_didiformis_3338"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_australis_mantelli_4315'[&bitscore=121,genus="Avihepadnavirus",host_family="Apterygidae",host_genus="Apteryx",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Apterygiformes",host_species="-",identity=92.308,name="Apteryx_australis_mantelli_4315",scaffold="gi|924844081|ref|NW_013997149.1|",sequenceID="Apteryx_australis_mantelli_4315"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_haastii_4316'[&bitscore=119,genus="Avihepadnavirus",host_family="Apterygidae",host_genus="Apteryx",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Apterygiformes",host_species="-",identity=90.769,name="Apteryx_haastii_4316",scaffold="PTFD01000677.1",sequenceID="Apteryx_haastii_4316"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_rowi_4317'[&bitscore=121,genus="Avihepadnavirus",host_family="Apterygidae",host_genus="Apteryx",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Apterygiformes",host_species="-",identity=92.308,name="Apteryx_rowi_4317",scaffold="PTFB01001036.1",sequenceID="Apteryx_rowi_4317"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Casuarius_casuarius_3391'[&bitscore=112,genus="Avihepadnavirus",host_family="Casuariidae",host_genus="Casuarius",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Casuariiformes",host_species="-",identity=87.879,name="Casuarius_casuarius_3391",scaffold="PTFA01000105.1",sequenceID="Casuarius_casuarius_3391"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Dromaius_novaehollandiae_3409'[&bitscore=114,genus="Avihepadnavirus",host_family="Dromaiidae",host_genus="Dromaius",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Casuariiformes",host_species="-",identity=89.394,name="Dromaius_novaehollandiae_3409",scaffold="NW_020453882.1",sequenceID="Dromaius_novaehollandiae_3409"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Pterocnemia_pennata_5487'[&bitscore=138,genus="Avihepadnavirus",host_family="Rheidae",host_genus="Pterocnemia",host_major_clade="Rhea",host_middle_clade="none",host_minor_clade="none",host_order="Rheiformes",host_species="-",identity=88.158,name="Pterocnemia_pennata_5487",scaffold="PTJI01000185.1",sequenceID="Pterocnemia_pennata_5487"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Rhea_americana_5496'[&bitscore=136,genus="Avihepadnavirus",host_family="Rheidae",host_genus="Rhea",host_major_clade="Rhea",host_middle_clade="none",host_minor_clade="none",host_order="Rheiformes",host_species="-",identity=86.842,name="Rhea_americana_5496",scaffold="PTEV01000046.1",sequenceID="Rhea_americana_5496"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Struthio_camelus_3288'[&bitscore=78,genus="Avihepadnavirus",host_family="Struthionidae",host_genus="Struthio",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Struthioniformes",host_species="-",identity=80.851,name="Struthio_camelus_3288",scaffold="scaffold51",sequenceID="Struthio_camelus_3288"]
+	'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Tinamus_guttatus_2388'[&bitscore=93,genus="Avihepadnavirus",host_family="Tinamidae",host_genus="Tinamus",host_major_clade="Tinamous",host_middle_clade="none",host_minor_clade="none",host_order="Tinamiformes",host_species="-",identity=63.158,name="Tinamus_guttatus_2388",scaffold="scaffold4190",sequenceID="Tinamus_guttatus_2388"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Anomalopteryx_didiformis_3337':0.265143,((('alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Dromaius_novaehollandiae_3409':0.005388,'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Casuarius_casuarius_3391':0.005131)[&label=85]:0.021963,(('alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_haastii_4316':0.005083,('alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_rowi_4317':1.0E-6,'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Apteryx_australis_mantelli_4315':1.0E-6)[&label=70]:1.0E-6)[&label=100]:0.059938,('alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Pterocnemia_pennata_5487':0.009909,'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Rhea_americana_5496':0.008486)[&label=97]:0.036621)[&label=79]:0.012808)[&label=37]:1.0E-6,(('alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Anomalopteryx_didiformis_3338':0.076028,'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Tinamus_guttatus_2388':0.115301)[&label=76]:0.029305,'alignment/AL_EHBV-avi.13-paleognathae/member/fasta-digs-ehbv/Struthio_camelus_3288':0.102474)[&label=61]:0.018391):0.102145);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_order";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
