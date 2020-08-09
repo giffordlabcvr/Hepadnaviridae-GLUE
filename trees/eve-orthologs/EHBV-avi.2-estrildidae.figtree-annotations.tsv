@@ -1,8 +1,8 @@
-taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
-alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Erythrura_gouldiae_2525	Erythrura_gouldiae_2525	Erythrura_gouldiae_2525	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Geospiza_fortis_2549	Geospiza_fortis_2549	Geospiza_fortis_2549	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Junco_hyemalis_4413	Junco_hyemalis_4413	Junco_hyemalis_4413	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Lonchura_striata_domestica_2580	Lonchura_striata_domestica_2580	Lonchura_striata_domestica_2580	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Passer_domesticus_4581	Passer_domesticus_4581	Passer_domesticus_4581	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Serinus_canaria_2914	Serinus_canaria_2914	Serinus_canaria_2914	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Zonotrichia_albicollis_3014	Zonotrichia_albicollis_3014	Zonotrichia_albicollis_3014	-	-	Avihepadnavirus	-	-
+taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order	host_major_clade	host_middle_clade	host_minor_clade
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Erythrura_gouldiae_2525	Erythrura_gouldiae_2525	Erythrura_gouldiae_2525	Avihepadnavirus	QUSF01000045.1	87.179	142	-	Erythrura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Geospiza_fortis_2549	Geospiza_fortis_2549	Geospiza_fortis_2549	Avihepadnavirus	JH740100	85.714	131	-	Geospiza	Thraupidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Junco_hyemalis_4413	Junco_hyemalis_4413	Junco_hyemalis_4413	Avihepadnavirus	QZWM01000957.1	91.429	137	-	Junco	Passerellidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Lonchura_striata_domestica_2580	Lonchura_striata_domestica_2580	Lonchura_striata_domestica_2580	Avihepadnavirus	NW_018655127.1	88.462	144	-	Lonchura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Passer_domesticus_4581	Passer_domesticus_4581	Passer_domesticus_4581	Avihepadnavirus	CM004550.1	82.927	146	-	Passer	Passeridae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Serinus_canaria_2914	Serinus_canaria_2914	Serinus_canaria_2914	Avihepadnavirus	gi|668343291|ref|NW_007931190.1|	90	134	-	Serinus	Fringillidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.2-estrildidae/member/fasta-digs-ehbv/Zonotrichia_albicollis_3014	Zonotrichia_albicollis_3014	Zonotrichia_albicollis_3014	Avihepadnavirus	gi|538540917|ref|NW_005081943.1|	91.429	137	-	Zonotrichia	Passerellidae	Passeriformes	Neoaves	Inopaves	Australiaves

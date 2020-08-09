@@ -1,12 +1,12 @@
-taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Agapornis_roseicollis_2065	Agapornis_roseicollis_2065	Agapornis_roseicollis_2065	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Agapornis_roseicollis_2066	Agapornis_roseicollis_2066	Agapornis_roseicollis_2066	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Agapornis_roseicollis_4257	Agapornis_roseicollis_4257	Agapornis_roseicollis_4257	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Agapornis_roseicollis_4831	Agapornis_roseicollis_4831	Agapornis_roseicollis_4831	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Ara_macao_4867	Ara_macao_4867	Ara_macao_4867	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Callipepla_squamata_5235	Callipepla_squamata_5235	Callipepla_squamata_5235	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Columba_livia_2190	Columba_livia_2190	Columba_livia_2190	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Melopsittacus_undulatus_4950	Melopsittacus_undulatus_4950	Melopsittacus_undulatus_4950	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Phylloscopus_plumbeitarsus_4120	Phylloscopus_plumbeitarsus_4120	Phylloscopus_plumbeitarsus_4120	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Psittacula_krameri_4140	Psittacula_krameri_4140	Psittacula_krameri_4140	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Psittacula_krameri_5091	Psittacula_krameri_5091	Psittacula_krameri_5091	-	-	Avihepadnavirus	-	-
+taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order	host_major_clade	host_middle_clade	host_minor_clade
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Agapornis_roseicollis_2065	Agapornis_roseicollis_2065	Agapornis_roseicollis_2065	Avihepadnavirus	NDXB01018971.1	46.457	116	-	Agapornis	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Agapornis_roseicollis_2066	Agapornis_roseicollis_2066	Agapornis_roseicollis_2066	Avihepadnavirus	NDXB01012147.1	67.925	76	-	Agapornis	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Agapornis_roseicollis_4257	Agapornis_roseicollis_4257	Agapornis_roseicollis_4257	Avihepadnavirus	NDXB01000055.1	67.925	84	-	Agapornis	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Agapornis_roseicollis_4831	Agapornis_roseicollis_4831	Agapornis_roseicollis_4831	Avihepadnavirus	NDXB01020718.1	71.698	88	-	Agapornis	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Ara_macao_4867	Ara_macao_4867	Ara_macao_4867	Avihepadnavirus	KE029857.1	71.186	94	-	Ara	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Callipepla_squamata_5235	Callipepla_squamata_5235	Callipepla_squamata_5235	Avihepadnavirus	MCFN01014221.1	100	568	-	Callipepla	Odontophoridae	Galliformes	Galloanserae	none	none
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Columba_livia_2190	Columba_livia_2190	Columba_livia_2190	Avihepadnavirus	scaffold27	44.828	73	-	Columba	Columbidae	Columbiformes	Neoaves	none	Columbaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Melopsittacus_undulatus_4950	Melopsittacus_undulatus_4950	Melopsittacus_undulatus_4950	Avihepadnavirus	JH556606	66.4	191	-	Melopsittacus	Psittaculidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Phylloscopus_plumbeitarsus_4120	Phylloscopus_plumbeitarsus_4120	Phylloscopus_plumbeitarsus_4120	Avihepadnavirus	LXOY01295131.1	90.385	99	-	Phylloscopus	Phylloscopidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Psittacula_krameri_4140	Psittacula_krameri_4140	Psittacula_krameri_4140	Avihepadnavirus	NFZL01000963.1	40.278	92	-	Psittacula	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.36-callipepla/member/fasta-digs-ehbv/Psittacula_krameri_5091	Psittacula_krameri_5091	Psittacula_krameri_5091	Avihepadnavirus	NFZL01001959.1	67.797	89	-	Psittacula	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves

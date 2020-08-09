@@ -1,4 +1,4 @@
 
   create module -f modules/ehbvFastaExporter.xml
-  create module -f modules/ehbvFigTreeAnnotationExporter.xml ehbvFigTreeAnnotationExporter
-  
+  create module -f modules/ehbvFigTreeAnnotationExporterReferences.xml
+  create module -f modules/ehbvFigTreeAnnotationExporterDigs.xml

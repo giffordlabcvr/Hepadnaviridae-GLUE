@@ -2,7 +2,7 @@
   # Clean up from any previous run of this file
   delete module raxmlPhylogenyGenerator
   delete module hepadnaPhyloUtility
-  delete module ehbvFigTreeAnnotationExporter
+  delete module ehbvFigTreeAnnotationExporterReferences
   delete module alignmentColumnsSelectorAviCore
   delete module alignmentColumnsSelectorAviPolymerase
   delete module alignmentColumnsSelectorAviSurface
@@ -16,7 +16,7 @@
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/hepadnaPhyloUtility.xml
-  create module -f modules/ehbvFigTreeAnnotationExporter.xml
+  create module -f modules/ehbvFigTreeAnnotationExporterReferences.xml
  
   # Create alignment column selectors
   create module -f modules/alignmentColumnsSelectorAviCore.xml
@@ -123,7 +123,7 @@
 
 
   # Export annotations
-  module ehbvFigTreeAnnotationExporter 
+  module ehbvFigTreeAnnotationExporterReferences 
 
     export figtree-annotation AL_Herpetohepadnavirus -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/eve-genus/Herpeto-root-core.eve.figtree-annotations.tsv

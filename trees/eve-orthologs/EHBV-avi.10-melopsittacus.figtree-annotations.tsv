@@ -1,8 +1,8 @@
-taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
-alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Casuarius_casuarius_774	Casuarius_casuarius_774	Casuarius_casuarius_774	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4436	Melopsittacus_undulatus_4436	Melopsittacus_undulatus_4436	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4441	Melopsittacus_undulatus_4441	Melopsittacus_undulatus_4441	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4452	Melopsittacus_undulatus_4452	Melopsittacus_undulatus_4452	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4942	Melopsittacus_undulatus_4942	Melopsittacus_undulatus_4942	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5323	Melopsittacus_undulatus_5323	Melopsittacus_undulatus_5323	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5339	Melopsittacus_undulatus_5339	Melopsittacus_undulatus_5339	-	-	Avihepadnavirus	-	-
+taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order	host_major_clade	host_middle_clade	host_minor_clade
+alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Casuarius_casuarius_774	Casuarius_casuarius_774	Casuarius_casuarius_774	Avihepadnavirus	PTFA01000204.1	78.125	59	-	Casuarius	Casuariidae	Casuariiformes	Novaeratitae	none	none
+alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4436	Melopsittacus_undulatus_4436	Melopsittacus_undulatus_4436	Avihepadnavirus	JH556491	83.333	77	-	Melopsittacus	Psittaculidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4441	Melopsittacus_undulatus_4441	Melopsittacus_undulatus_4441	Avihepadnavirus	JH556601	82.927	76	-	Melopsittacus	Psittaculidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4452	Melopsittacus_undulatus_4452	Melopsittacus_undulatus_4452	Avihepadnavirus	JH556617	92	101	-	Melopsittacus	Psittaculidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4942	Melopsittacus_undulatus_4942	Melopsittacus_undulatus_4942	Avihepadnavirus	JH556585	64.935	105	-	Melopsittacus	Psittaculidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5323	Melopsittacus_undulatus_5323	Melopsittacus_undulatus_5323	Avihepadnavirus	JH556469	83.333	128	-	Melopsittacus	Psittaculidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5339	Melopsittacus_undulatus_5339	Melopsittacus_undulatus_5339	Avihepadnavirus	JH556633	100	428	-	Melopsittacus	Psittaculidae	Psittaciformes	Neoaves	Inopaves	Australiaves

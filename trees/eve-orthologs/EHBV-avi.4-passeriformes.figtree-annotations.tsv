@@ -1,9 +1,9 @@
-taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
-alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Erythrura_gouldiae_4378	Erythrura_gouldiae_4378	Erythrura_gouldiae_4378	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_5287	Geospiza_fortis_5287	Geospiza_fortis_5287	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_5301	Hemignathus_virens_5301	Hemignathus_virens_5301	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Lonchura_striata_domestica_4422	Lonchura_striata_domestica_4422	Lonchura_striata_domestica_4422	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_5501	Serinus_canaria_5501	Serinus_canaria_5501	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_4739	Setophaga_coronata_4739	Setophaga_coronata_4739	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Sporophila_hypoxantha_2933	Sporophila_hypoxantha_2933	Sporophila_hypoxantha_2933	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Taeniopygia_guttata_4763	Taeniopygia_guttata_4763	Taeniopygia_guttata_4763	-	-	Avihepadnavirus	-	-
+taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order	host_major_clade	host_middle_clade	host_minor_clade
+alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Erythrura_gouldiae_4378	Erythrura_gouldiae_4378	Erythrura_gouldiae_4378	Avihepadnavirus	QUSF01000021.1	67.708	114	-	Erythrura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_5287	Geospiza_fortis_5287	Geospiza_fortis_5287	Avihepadnavirus	JH739974	60.63	137	-	Geospiza	Thraupidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_5301	Hemignathus_virens_5301	Hemignathus_virens_5301	Avihepadnavirus	LTAT01000002.1	71.56	144	-	Hemignathus	Fringillidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Lonchura_striata_domestica_4422	Lonchura_striata_domestica_4422	Lonchura_striata_domestica_4422	Avihepadnavirus	NW_018656392.1	66.304	107	-	Lonchura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_5501	Serinus_canaria_5501	Serinus_canaria_5501	Avihepadnavirus	gi|668343329|ref|NW_007931152.1|	66.964	134	-	Serinus	Fringillidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_4739	Setophaga_coronata_4739	Setophaga_coronata_4739	Avihepadnavirus	MDLI01000068.1	50	100	-	Setophaga	Parulidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Sporophila_hypoxantha_2933	Sporophila_hypoxantha_2933	Sporophila_hypoxantha_2933	Avihepadnavirus	NDFG01000433.1	58.879	107	-	Sporophila	Thraupidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Taeniopygia_guttata_4763	Taeniopygia_guttata_4763	Taeniopygia_guttata_4763	Avihepadnavirus	chr1A	70.707	127	-	Taeniopygia	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves

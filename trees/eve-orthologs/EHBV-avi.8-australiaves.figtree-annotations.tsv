@@ -1,29 +1,29 @@
-taxon	sequenceID	name	core_shift	variable_region_type	genus	nearest_upstream_orf	nearest_downstream_orf
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Amazona_vittata_2103	Amazona_vittata_2103	Amazona_vittata_2103	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Amazona_vittata_5186	Amazona_vittata_5186	Amazona_vittata_5186	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Erythrura_gouldiae_5261	Erythrura_gouldiae_5261	Erythrura_gouldiae_5261	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Erythrura_gouldiae_5262	Erythrura_gouldiae_5262	Erythrura_gouldiae_5262	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Erythrura_gouldiae_5264	Erythrura_gouldiae_5264	Erythrura_gouldiae_5264	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Erythrura_gouldiae_5265	Erythrura_gouldiae_5265	Erythrura_gouldiae_5265	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Geospiza_fortis_4920	Geospiza_fortis_4920	Geospiza_fortis_4920	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Geospiza_fortis_5286	Geospiza_fortis_5286	Geospiza_fortis_5286	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Hemignathus_virens_5299	Hemignathus_virens_5299	Hemignathus_virens_5299	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Hemignathus_virens_5302	Hemignathus_virens_5302	Hemignathus_virens_5302	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Junco_hyemalis_4414	Junco_hyemalis_4414	Junco_hyemalis_4414	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Junco_hyemalis_5306	Junco_hyemalis_5306	Junco_hyemalis_5306	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Lonchura_striata_domestica_5315	Lonchura_striata_domestica_5315	Lonchura_striata_domestica_5315	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Lonchura_striata_domestica_5318	Lonchura_striata_domestica_5318	Lonchura_striata_domestica_5318	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Lonchura_striata_domestica_5319	Lonchura_striata_domestica_5319	Lonchura_striata_domestica_5319	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Nestor_notabilis_5393	Nestor_notabilis_5393	Nestor_notabilis_5393	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Passer_domesticus_5408	Passer_domesticus_5408	Passer_domesticus_5408	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Passer_domesticus_5409	Passer_domesticus_5409	Passer_domesticus_5409	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Psittacula_krameri_2320	Psittacula_krameri_2320	Psittacula_krameri_2320	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Serinus_canaria_5498	Serinus_canaria_5498	Serinus_canaria_5498	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Setophaga_coronata_4740	Setophaga_coronata_4740	Setophaga_coronata_4740	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Setophaga_coronata_5506	Setophaga_coronata_5506	Setophaga_coronata_5506	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Sporophila_hypoxantha_5515	Sporophila_hypoxantha_5515	Sporophila_hypoxantha_5515	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Sporophila_hypoxantha_5516	Sporophila_hypoxantha_5516	Sporophila_hypoxantha_5516	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Taeniopygia_guttata_5523	Taeniopygia_guttata_5523	Taeniopygia_guttata_5523	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Taeniopygia_guttata_5530	Taeniopygia_guttata_5530	Taeniopygia_guttata_5530	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Zonotrichia_albicollis_2060	Zonotrichia_albicollis_2060	Zonotrichia_albicollis_2060	-	-	Avihepadnavirus	-	-
-alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Zonotrichia_albicollis_5562	Zonotrichia_albicollis_5562	Zonotrichia_albicollis_5562	-	-	Avihepadnavirus	-	-
+taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order	host_major_clade	host_middle_clade	host_minor_clade
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Amazona_vittata_2103	Amazona_vittata_2103	Amazona_vittata_2103	Avihepadnavirus	KB280676.1	42.424	66	-	Amazona	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Amazona_vittata_5186	Amazona_vittata_5186	Amazona_vittata_5186	Avihepadnavirus	KB281127.1	66.667	81	-	Amazona	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Erythrura_gouldiae_5261	Erythrura_gouldiae_5261	Erythrura_gouldiae_5261	Avihepadnavirus	QUSF01000120.1	82.667	126	-	Erythrura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Erythrura_gouldiae_5262	Erythrura_gouldiae_5262	Erythrura_gouldiae_5262	Avihepadnavirus	QUSF01009756.1	73.171	124	-	Erythrura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Erythrura_gouldiae_5264	Erythrura_gouldiae_5264	Erythrura_gouldiae_5264	Avihepadnavirus	QUSF01000081.1	74.725	138	-	Erythrura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Erythrura_gouldiae_5265	Erythrura_gouldiae_5265	Erythrura_gouldiae_5265	Avihepadnavirus	QUSF01000119.1	81.333	124	-	Erythrura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Geospiza_fortis_4920	Geospiza_fortis_4920	Geospiza_fortis_4920	Avihepadnavirus	JH740062	69.355	81	-	Geospiza	Thraupidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Geospiza_fortis_5286	Geospiza_fortis_5286	Geospiza_fortis_5286	Avihepadnavirus	JH740170	72.115	155	-	Geospiza	Thraupidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Hemignathus_virens_5299	Hemignathus_virens_5299	Hemignathus_virens_5299	Avihepadnavirus	LTAT01000015.1	68.421	103	-	Hemignathus	Fringillidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Hemignathus_virens_5302	Hemignathus_virens_5302	Hemignathus_virens_5302	Avihepadnavirus	LTAT01000030.1	77.444	196	-	Hemignathus	Fringillidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Junco_hyemalis_4414	Junco_hyemalis_4414	Junco_hyemalis_4414	Avihepadnavirus	QZWM01003291.1	88.636	79	-	Junco	Passerellidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Junco_hyemalis_5306	Junco_hyemalis_5306	Junco_hyemalis_5306	Avihepadnavirus	QZWM01004448.1	57.522	110	-	Junco	Passerellidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Lonchura_striata_domestica_5315	Lonchura_striata_domestica_5315	Lonchura_striata_domestica_5315	Avihepadnavirus	NW_018657112.1	86.667	131	-	Lonchura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Lonchura_striata_domestica_5318	Lonchura_striata_domestica_5318	Lonchura_striata_domestica_5318	Avihepadnavirus	NW_018655770.1	76.991	180	-	Lonchura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Lonchura_striata_domestica_5319	Lonchura_striata_domestica_5319	Lonchura_striata_domestica_5319	Avihepadnavirus	NW_018656404.1	71.951	119	-	Lonchura	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Nestor_notabilis_5393	Nestor_notabilis_5393	Nestor_notabilis_5393	Avihepadnavirus	scaffold11426	51.042	100	-	Nestor	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Passer_domesticus_5408	Passer_domesticus_5408	Passer_domesticus_5408	Avihepadnavirus	CM004554.1	90.511	252	-	Passer	Passeridae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Passer_domesticus_5409	Passer_domesticus_5409	Passer_domesticus_5409	Avihepadnavirus	CM004539.1	66.234	110	-	Passer	Passeridae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Psittacula_krameri_2320	Psittacula_krameri_2320	Psittacula_krameri_2320	Avihepadnavirus	NFZL01000014.1	55.769	69	-	Psittacula	Psittacidae	Psittaciformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Serinus_canaria_5498	Serinus_canaria_5498	Serinus_canaria_5498	Avihepadnavirus	gi|668343315|ref|NW_007931166.1|	86.047	223	-	Serinus	Fringillidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Setophaga_coronata_4740	Setophaga_coronata_4740	Setophaga_coronata_4740	Avihepadnavirus	MDLI01000204.1	81.034	91	-	Setophaga	Parulidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Setophaga_coronata_5506	Setophaga_coronata_5506	Setophaga_coronata_5506	Avihepadnavirus	MDLI01000283.1	60.417	117	-	Setophaga	Parulidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Sporophila_hypoxantha_5515	Sporophila_hypoxantha_5515	Sporophila_hypoxantha_5515	Avihepadnavirus	NDFG01000518.1	82.759	94	-	Sporophila	Thraupidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Sporophila_hypoxantha_5516	Sporophila_hypoxantha_5516	Sporophila_hypoxantha_5516	Avihepadnavirus	NDFG01000012.1	71.579	142	-	Sporophila	Thraupidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Taeniopygia_guttata_5523	Taeniopygia_guttata_5523	Taeniopygia_guttata_5523	Avihepadnavirus	chr26	70.37	114	-	Taeniopygia	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Taeniopygia_guttata_5530	Taeniopygia_guttata_5530	Taeniopygia_guttata_5530	Avihepadnavirus	chr12	79.07	166	-	Taeniopygia	Estrildidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Zonotrichia_albicollis_2060	Zonotrichia_albicollis_2060	Zonotrichia_albicollis_2060	Avihepadnavirus	gi|538541228|ref|NW_005081857.1|	81.25	77	-	Zonotrichia	Passerellidae	Passeriformes	Neoaves	Inopaves	Australiaves
+alignment/AL_EHBV-avi.8-australiaves/member/fasta-digs-ehbv/Zonotrichia_albicollis_5562	Zonotrichia_albicollis_5562	Zonotrichia_albicollis_5562	Avihepadnavirus	gi|538541651|ref|NW_005081749.1|	56.757	103	-	Zonotrichia	Passerellidae	Passeriformes	Neoaves	Inopaves	Australiaves

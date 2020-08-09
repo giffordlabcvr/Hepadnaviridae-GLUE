@@ -56,7 +56,7 @@ _.each(alignmentResult, function(alnObj) {
 
 		
 		// Export the annotations
-		glue.inMode("/module/ehbvFigTreeAnnotationExporter", function() {
+		glue.inMode("/module/ehbvFigTreeAnnotationExporterDigs", function() {
 
 			glue.log("INFO", "Tree will be written to path: ", annotationPath);
 			glue.command(["export", "figtree-annotation",  alignmentName, "-f", annotationPath ]);
