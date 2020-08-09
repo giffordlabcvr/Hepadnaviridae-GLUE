@@ -1,5 +1,6 @@
 // ABOUT: script to create tip phylogenies
 var outputPath = "trees/eve-orthologs/";
+var alignOutputPath = "alignments/export/";
 
 // Get list of alignments
 alignmentResult = glue.tableToObjects(glue.command(["list", "alignment", "-w", "name like '%AL_EHBV%'"]));
@@ -13,7 +14,8 @@ _.each(alignmentResult, function(alnObj) {
     var treeOutputPath = outputPath + alignmentStem + ".tre";
     var midpointPath = outputPath + alignmentStem + ".midpointRooted.tre";
 	var annotationPath = outputPath + alignmentStem + ".figtree-annotations.tsv";
-        
+ 	var alignmentPath = alignOutputPath + alignmentStem + ".aln.fna";
+       
     glue.log("INFO", "Checking for alignment ", alignmentName);
 
     // How many taxa?
@@ -62,6 +64,17 @@ _.each(alignmentResult, function(alnObj) {
 			glue.command(["export", "figtree-annotation",  alignmentName, "-f", annotationPath ]);
 
 		});   
+
+		
+		// 
+		glue.inMode("/module/fastaAlignmentExporter", function() {
+
+			glue.log("INFO", "Alignment will be written to path: ", alignmentPath);
+			glue.command(["export", alignmentName, "-e", "-a","-o", alignmentPath ]);
+module  export AL_EHBV-avi.1-neoaves  -e -p
+		});   
+
+
 		
 	}
 

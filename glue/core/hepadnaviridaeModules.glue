@@ -1,3 +1,5 @@
+
+  create module -f modules/fastaAlignmentExporter.xml
   create module -f modules/hepadnaviridaeGenbankXmlPopulator.xml genbankXmlPopulator
   create module -f modules/unconstrainedAlignmentImporter.xml 
   create module -f modules/hepadnaviridaeSideDataImporter.xml hepadnaviridaeSideDataImporter

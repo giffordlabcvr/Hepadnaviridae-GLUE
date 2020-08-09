@@ -59,11 +59,6 @@
 	  add segment 1 534
 	  exit
 
-	add feature-location Nucleocapsid
-	feature-location Nucleocapsid
-	  add segment 88 534
-	  exit
-
 	add feature-location Polymerase
 	feature-location Polymerase
 	  add segment 494 2941
@@ -102,11 +97,6 @@
 	add feature-location PreCore-Core
 	feature-location PreCore-Core
 	  add segment 1 852
-	  exit
-	
-	add feature-location Nucleocapsid
-	feature-location Nucleocapsid
-	  add segment 130 852
 	  exit
 	
 	add feature-location Polymerase

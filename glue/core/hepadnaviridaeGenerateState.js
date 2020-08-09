@@ -106,7 +106,7 @@ function process_feature(featureSummary, refseqID, featureID) {
 	
 	glue.logInfo("  Processing feature: "+featureID+" in reference "+refseqID);
 
-	if (featureID == "Core" || featureID == "Polymerase" ) {
+	if (featureID == "PreCore-Core" || featureID == "Polymerase" || featureID == "Polymerase" ) {
 		var featureCodons = get_coding_feature_amino_acids(refseqID, featureID);
 		create_feature_fasta(refseqID, featureID, featureCodons, featureSummary);
 	}	

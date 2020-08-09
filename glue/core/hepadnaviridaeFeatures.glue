@@ -34,12 +34,6 @@
   feature PreCore-Core set metatag INCLUDE_IN_SUMMARY true
   feature PreCore-Core set metatag CODES_AMINO_ACIDS true
 
-  create feature Nucleocapsid -p whole_genome "Nucleocapsid"
-  feature Nucleocapsid set field displayName "Nucleocapsid"
-  feature Nucleocapsid set metatag OWN_CODON_NUMBERING true
-  feature Nucleocapsid set metatag INCLUDE_IN_SUMMARY true
-  feature Nucleocapsid set metatag CODES_AMINO_ACIDS true
-
   create feature SP -p PreCore-Core "Signal peptide"
   feature SP set field displayName "Signal peptide"
   feature SP set metatag INCLUDE_IN_SUMMARY true

@@ -1,1 +1,109 @@
-((alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5339:0.00000100000050002909,(alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4436:0.05828520081593410035,alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4942:0.09385316783836539223)74:0.11669606962215182955)34:0.015371134716291744935,(alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4452:0.12524855057979852879,(alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4441:0.10390447427531983304,(alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Casuarius_casuarius_774:0.17284362609454917425,alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5323:0.14957637596415213066)14:0.00830957740015301864)15:0.00342214211749343380)34:0.041345026564613340025);
+#NEXUS
+begin taxa;
+	dimensions ntax=7;
+	taxlabels
+	'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Casuarius_casuarius_774'[&bitscore=59,genus="Avihepadnavirus",host_family="Casuariidae",host_genus="Casuarius",host_major_clade="Novaeratitae",host_middle_clade="none",host_minor_clade="none",host_order="Casuariiformes",host_species="-",identity=78.125,name="Casuarius_casuarius_774",scaffold="PTFA01000204.1",sequenceID="Casuarius_casuarius_774"]
+	'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4436'[&bitscore=77,genus="Avihepadnavirus",host_family="Psittaculidae",host_genus="Melopsittacus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="-",identity=83.333,name="Melopsittacus_undulatus_4436",scaffold="JH556491",sequenceID="Melopsittacus_undulatus_4436"]
+	'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4441'[&bitscore=76,genus="Avihepadnavirus",host_family="Psittaculidae",host_genus="Melopsittacus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="-",identity=82.927,name="Melopsittacus_undulatus_4441",scaffold="JH556601",sequenceID="Melopsittacus_undulatus_4441"]
+	'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4452'[&bitscore=101,genus="Avihepadnavirus",host_family="Psittaculidae",host_genus="Melopsittacus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="-",identity=92.0,name="Melopsittacus_undulatus_4452",scaffold="JH556617",sequenceID="Melopsittacus_undulatus_4452"]
+	'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4942'[&bitscore=105,genus="Avihepadnavirus",host_family="Psittaculidae",host_genus="Melopsittacus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="-",identity=64.935,name="Melopsittacus_undulatus_4942",scaffold="JH556585",sequenceID="Melopsittacus_undulatus_4942"]
+	'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5323'[&bitscore=128,genus="Avihepadnavirus",host_family="Psittaculidae",host_genus="Melopsittacus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="-",identity=83.333,name="Melopsittacus_undulatus_5323",scaffold="JH556469",sequenceID="Melopsittacus_undulatus_5323"]
+	'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5339'[&bitscore=428,genus="Avihepadnavirus",host_family="Psittaculidae",host_genus="Melopsittacus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="-",identity=100.0,name="Melopsittacus_undulatus_5339",scaffold="JH556633",sequenceID="Melopsittacus_undulatus_5339"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5339':1.0E-6,('alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4436':0.058285,'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4942':0.093853)[&label=74]:0.116696)[&label=34]:0.015371,('alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4452':0.125249,('alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_4441':0.103904,('alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Casuarius_casuarius_774':0.172844,'alignment/AL_EHBV-avi.10-melopsittacus/member/fasta-digs-ehbv/Melopsittacus_undulatus_5323':0.149576)[&label=14]:0.00831)[&label=15]:0.003422)[&label=34]:0.041345);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_order";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
