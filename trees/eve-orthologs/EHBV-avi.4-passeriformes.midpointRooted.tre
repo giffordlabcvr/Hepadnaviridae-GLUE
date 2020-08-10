@@ -1,1 +1,111 @@
-((alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_4739:0.02698796887748689671,((alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Sporophila_hypoxantha_2933:0.00000100000050002909,alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_5287:0.00000100000050002909)19:0.00000100000050002909,(alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_5301:0.10544841282206882105,alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_5501:0.07273623840322593348)99:0.16563543204978511958)94:0.01501771776561324281)100:0.448709843957244563715,((alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Erythrura_gouldiae_4378:0.06326789585161526897,alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Taeniopygia_guttata_4763:0.08634967209524592457)100:0.08717746885719308836,alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Lonchura_striata_domestica_4422:0.00000100000050002909)100:0.561284265642272734225);
+#NEXUS
+begin taxa;
+	dimensions ntax=9;
+	taxlabels
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Apaloderma_vittatum_5202'[&bitscore=543,genus="Avihepadnavirus",host_family="Trogonidae",host_genus="Apaloderma",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Coraciimorphae",host_order="Trogoniformes",host_species="Apaloderma_vittatum",identity=82.74,name="Apaloderma_vittatum_5202",scaffold="scaffold18931",sequenceID="Apaloderma_vittatum_5202"]
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Erythrura_gouldiae_4378'[&bitscore=114,genus="Avihepadnavirus",host_family="Estrildidae",host_genus="Erythrura",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Erythrura_gouldiae",identity=67.708,name="Erythrura_gouldiae_4378",scaffold="QUSF01000021.1",sequenceID="Erythrura_gouldiae_4378"]
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_5287'[&bitscore=137,genus="Avihepadnavirus",host_family="Thraupidae",host_genus="Geospiza",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Geospiza_fortis",identity=60.63,name="Geospiza_fortis_5287",scaffold="JH739974",sequenceID="Geospiza_fortis_5287"]
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_5301'[&bitscore=144,genus="Avihepadnavirus",host_family="Fringillidae",host_genus="Hemignathus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Hemignathus_virens",identity=71.56,name="Hemignathus_virens_5301",scaffold="LTAT01000002.1",sequenceID="Hemignathus_virens_5301"]
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Lonchura_striata_domestica_4422'[&bitscore=107,genus="Avihepadnavirus",host_family="Estrildidae",host_genus="Lonchura",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Lonchura_striata_domestica",identity=66.304,name="Lonchura_striata_domestica_4422",scaffold="NW_018656392.1",sequenceID="Lonchura_striata_domestica_4422"]
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_5501'[&bitscore=134,genus="Avihepadnavirus",host_family="Fringillidae",host_genus="Serinus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Serinus_canaria",identity=66.964,name="Serinus_canaria_5501",scaffold="gi|668343329|ref|NW_007931152.1|",sequenceID="Serinus_canaria_5501"]
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_4739'[&bitscore=100,genus="Avihepadnavirus",host_family="Parulidae",host_genus="Setophaga",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Setophaga_coronata",identity=50.0,name="Setophaga_coronata_4739",scaffold="MDLI01000068.1",sequenceID="Setophaga_coronata_4739"]
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Sporophila_hypoxantha_2933'[&bitscore=107,genus="Avihepadnavirus",host_family="Thraupidae",host_genus="Sporophila",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Sporophila_hypoxantha",identity=58.879,name="Sporophila_hypoxantha_2933",scaffold="NDFG01000433.1",sequenceID="Sporophila_hypoxantha_2933"]
+	'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Taeniopygia_guttata_4763'[&bitscore=127,genus="Avihepadnavirus",host_family="Estrildidae",host_genus="Taeniopygia",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Taeniopygia_guttata",identity=70.707,name="Taeniopygia_guttata_4763",scaffold="chr1A",sequenceID="Taeniopygia_guttata_4763"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Lonchura_striata_domestica_4422':1.0E-6,('alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Taeniopygia_guttata_4763':0.08764,'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Erythrura_gouldiae_4378':0.06158)[&label=100]:0.085396)[&label=100]:0.598087,('alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Apaloderma_vittatum_5202':0.600848,((('alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Sporophila_hypoxantha_2933':1.0E-6,'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_4739':0.040669)[&label=9]:1.0E-6,'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_5287':1.0E-6)[&label=15]:0.052278,('alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_5501':0.073537,'alignment/AL_EHBV-avi.4-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_5301':0.086861)[&label=95]:0.120404)[&label=29]:0.083266)[&label=100]:0.170275);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_family";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

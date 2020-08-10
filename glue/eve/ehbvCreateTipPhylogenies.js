@@ -66,15 +66,13 @@ _.each(alignmentResult, function(alnObj) {
 		});   
 
 		
-		// 
+		// Export the alignments
 		glue.inMode("/module/fastaAlignmentExporter", function() {
 
 			glue.log("INFO", "Alignment will be written to path: ", alignmentPath);
 			glue.command(["export", alignmentName, "-e", "-a","-o", alignmentPath ]);
-module  export AL_EHBV-avi.1-neoaves  -e -p
+			
 		});   
-
-
 		
 	}
 

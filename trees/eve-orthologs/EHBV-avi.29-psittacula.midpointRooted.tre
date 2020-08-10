@@ -1,1 +1,120 @@
-((((alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Taeniopygia_guttata_5528:0.07876094102284866838,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Erythrura_gouldiae_5267:0.10018143524052591786)100:0.14312419722648767051,((alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_4245:0.08678727235556366049,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_5563:0.06675230490451840304)88:0.00000100000050002909,(alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Junco_hyemalis_3134:0.07762635067337288197,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_5566:0.00952217104711157447)95:0.00862017602030817551)100:0.29166067499233533367)90:0.04398553963959818403,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Passer_domesticus_5405:0.26788277403572297031)98:0.07906074656068320120,((((alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Lonchura_striata_domestica_5313:0.00000100000050002909,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Lonchura_striata_domestica_5320:0.00000100000050002909)100:0.41815156383729207290,((alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5485:0.00000100000050002909,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5483:0.00000100000050002909)94:0.00000100000050002909,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5484:0.01154030553245677729)11:0.06873157435649035474)2:0.00000100000050002909,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_3752:0.17368332933490107650)100:0.07336035135153805287,(alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Melopsittacus_undulatus_5326:0.09138826522325410595,(alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_4268:0.15107785510708568455,(alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_4139:0.04802507495086748290,(alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_3295:0.05469464106209752374,alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Amazona_vittata_5177:0.02714630408289127675)100:0.02360076865120140643)100:0.06311956153429493233)96:0.03704918576705973354)100:0.18708611452714021817)98:0.00998131835885022453);
+#NEXUS
+begin taxa;
+	dimensions ntax=18;
+	taxlabels
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_3295'[&bitscore=126,genus="Avihepadnavirus",host_family="Psittacidae",host_genus="Agapornis",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Agapornis_roseicollis",identity=59.259,name="Agapornis_roseicollis_3295",scaffold="NDXB01011279.1",sequenceID="Agapornis_roseicollis_3295"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_3752'[&bitscore=88,genus="Avihepadnavirus",host_family="Psittacidae",host_genus="Agapornis",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Agapornis_roseicollis",identity=75.0,name="Agapornis_roseicollis_3752",scaffold="NDXB01001785.1",sequenceID="Agapornis_roseicollis_3752"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_4268'[&bitscore=146,genus="Avihepadnavirus",host_family="Psittacidae",host_genus="Agapornis",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Agapornis_roseicollis",identity=56.25,name="Agapornis_roseicollis_4268",scaffold="NDXB01004212.1",sequenceID="Agapornis_roseicollis_4268"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Amazona_vittata_5177'[&bitscore=81,genus="Avihepadnavirus",host_family="Psittacidae",host_genus="Amazona",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Amazona_vittata",identity=66.102,name="Amazona_vittata_5177",scaffold="AOCU01035501.1",sequenceID="Amazona_vittata_5177"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Erythrura_gouldiae_5267'[&bitscore=449,genus="Avihepadnavirus",host_family="Estrildidae",host_genus="Erythrura",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Erythrura_gouldiae",identity=49.073,name="Erythrura_gouldiae_5267",scaffold="QUSF01000039.1",sequenceID="Erythrura_gouldiae_5267"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Junco_hyemalis_3134'[&bitscore=79,genus="Avihepadnavirus",host_family="Passerellidae",host_genus="Junco",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Junco_hyemalis",identity=53.933,name="Junco_hyemalis_3134",scaffold="QZWM01003579.1",sequenceID="Junco_hyemalis_3134"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Lonchura_striata_domestica_5313'[&bitscore=97,genus="Avihepadnavirus",host_family="Estrildidae",host_genus="Lonchura",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Lonchura_striata_domestica",identity=59.211,name="Lonchura_striata_domestica_5313",scaffold="NW_018657257.1",sequenceID="Lonchura_striata_domestica_5313"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Lonchura_striata_domestica_5320'[&bitscore=97,genus="Avihepadnavirus",host_family="Estrildidae",host_genus="Lonchura",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Lonchura_striata_domestica",identity=59.211,name="Lonchura_striata_domestica_5320",scaffold="NW_018654989.1",sequenceID="Lonchura_striata_domestica_5320"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Melopsittacus_undulatus_5326'[&bitscore=120,genus="Avihepadnavirus",host_family="Psittaculidae",host_genus="Melopsittacus",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Melopsittacus_undulatus",identity=62.105,name="Melopsittacus_undulatus_5326",scaffold="JH556420",sequenceID="Melopsittacus_undulatus_5326"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Passer_domesticus_5405'[&bitscore=546,genus="Avihepadnavirus",host_family="Passeridae",host_genus="Passer",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Passer_domesticus",identity=48.159,name="Passer_domesticus_5405",scaffold="CM004529.1",sequenceID="Passer_domesticus_5405"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_4139'[&bitscore=82,genus="Avihepadnavirus",host_family="Psittacidae",host_genus="Psittacula",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Psittacula_krameri",identity=69.811,name="Psittacula_krameri_4139",scaffold="NFZL01000311.1",sequenceID="Psittacula_krameri_4139"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5483'[&bitscore=190,genus="Avihepadnavirus",host_family="Psittacidae",host_genus="Psittacula",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Psittacula_krameri",identity=100.0,name="Psittacula_krameri_5483",scaffold="NFZL01000259.1",sequenceID="Psittacula_krameri_5483"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5484'[&bitscore=175,genus="Avihepadnavirus",host_family="Psittacidae",host_genus="Psittacula",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Psittacula_krameri",identity=98.81,name="Psittacula_krameri_5484",scaffold="NFZL01070680.1",sequenceID="Psittacula_krameri_5484"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5485'[&bitscore=1032,genus="Avihepadnavirus",host_family="Psittacidae",host_genus="Psittacula",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Psittaciformes",host_species="Psittacula_krameri",identity=98.134,name="Psittacula_krameri_5485",scaffold="NFZL01000259.1",sequenceID="Psittacula_krameri_5485"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Taeniopygia_guttata_5528'[&bitscore=490,genus="Avihepadnavirus",host_family="Estrildidae",host_genus="Taeniopygia",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Taeniopygia_guttata",identity=50.412,name="Taeniopygia_guttata_5528",scaffold="chrZ",sequenceID="Taeniopygia_guttata_5528"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_4245'[&bitscore=55,genus="Avihepadnavirus",host_family="Passerellidae",host_genus="Zonotrichia",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Zonotrichia_albicollis",identity=54.545,name="Zonotrichia_albicollis_4245",scaffold="gi|538531274|ref|NW_005085254.1|",sequenceID="Zonotrichia_albicollis_4245"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_5563'[&bitscore=108,genus="Avihepadnavirus",host_family="Passerellidae",host_genus="Zonotrichia",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Zonotrichia_albicollis",identity=58.252,name="Zonotrichia_albicollis_5563",scaffold="gi|538540293|ref|NW_005082144.1|",sequenceID="Zonotrichia_albicollis_5563"]
+	'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_5566'[&bitscore=90,genus="Avihepadnavirus",host_family="Passerellidae",host_genus="Zonotrichia",host_major_clade="Neoaves",host_middle_clade="Inopaves",host_minor_clade="Australiaves",host_order="Passeriformes",host_species="Zonotrichia_albicollis",identity=56.18,name="Zonotrichia_albicollis_5566",scaffold="gi|538541992|ref|NW_005081669.1|",sequenceID="Zonotrichia_albicollis_5566"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Taeniopygia_guttata_5528':0.078761,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Erythrura_gouldiae_5267':0.100181)[&label=100]:0.143124,(('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_4245':0.086787,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_5563':0.066752)[&label=88]:1.0E-6,('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Junco_hyemalis_3134':0.077626,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Zonotrichia_albicollis_5566':0.009522)[&label=95]:0.00862)[&label=100]:0.291661)[&label=90]:0.043986,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Passer_domesticus_5405':0.267883)[&label=98]:0.079061,(((('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Lonchura_striata_domestica_5313':1.0E-6,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Lonchura_striata_domestica_5320':1.0E-6)[&label=100]:0.418152,(('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5485':1.0E-6,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5483':1.0E-6)[&label=94]:1.0E-6,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_5484':0.01154)[&label=11]:0.068732)[&label=2]:1.0E-6,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_3752':0.173683)[&label=100]:0.07336,('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Melopsittacus_undulatus_5326':0.091388,('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_4268':0.151078,('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Psittacula_krameri_4139':0.048025,('alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Agapornis_roseicollis_3295':0.054695,'alignment/AL_EHBV-avi.29-psittacula/member/fasta-digs-ehbv/Amazona_vittata_5177':0.027146)[&label=100]:0.023601)[&label=100]:0.06312)[&label=96]:0.037049)[&label=100]:0.187086)[&label=98]:0.009981);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_family";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
