@@ -1,6 +1,14 @@
+delete module ncbiImporter
+delete module ncbiImporterRte
+
 create module -f modules/hepadnaviridaeNcbiImporterReferences.xml ncbiImporter
+create module -f modules/hepadnaviridaeNcbiImporterDeepReferences.xml ncbiImporterRte
 
 # Download NCBI sequences 
 module ncbiImporter import
+module ncbiImporterRte import
 
+# Export sources
 export source ncbi-refseqs
+export source ncbi-refseqs-rte
+
