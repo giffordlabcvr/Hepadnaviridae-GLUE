@@ -20,7 +20,7 @@ project hepadnaviridae
   
   # Create EHBV reference sequences
   run file glue/eve/ehbvReferences.glue
-
+  run file glue/eve/ehbvReferencesLocus.glue
 
   # Add EVEs to constrained alignment tree 
   run file glue/eve/ehbvAlignmentTree.glue
@@ -32,9 +32,8 @@ project hepadnaviridae
   run file glue/eve/ehbvRecordFeaturePresence.glue
 
   # Create root and genus phylogenies
-  #run file glue/eve/ehbvCreateRootPhylogenies.glue
-  #run file glue/eve/ehbvCreateGenusPhylogenies.glue
-
+  run file glue/eve/ehbvCreateRootPhylogenies.glue
+  run file glue/eve/ehbvCreateGenusPhylogenies.glue
 
   # Set up constrained alignment tree for orthologs
   run file glue/eve/ehbvAlignmentTreeDigs.glue
