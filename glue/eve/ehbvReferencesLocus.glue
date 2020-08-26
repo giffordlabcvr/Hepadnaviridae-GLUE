@@ -12,14 +12,14 @@
   create reference REF_EHBV_LOCUS-Avi.19-buceros          fasta-refseqs-ehbv-locus ehbv-avi.19-buceros
   create reference REF_EHBV_LOCUS-Avi.20-cariama          fasta-refseqs-ehbv-locus ehbv-avi.20-cariama
   create reference REF_EHBV_LOCUS-Avi.25-chaetura         fasta-refseqs-ehbv-locus ehbv-avi.25-chaetura
-  create reference REF_EHBV_LOCUS-Avi.31-passeriformes    fasta-refseqs-ehbv-locus ehbv-avi.31-passeriformes-con
+  create reference REF_EHBV_LOCUS-Avi.31-passeriformes    fasta-refseqs-ehbv-locus ehbv-avi.31-passeriformes
   create reference REF_EHBV_LOCUS-Avi.32-tinamiformes     fasta-refseqs-ehbv-locus ehbv-avi.32-tinamiformes-con
   create reference REF_EHBV_LOCUS-Avi.36-callipepla       fasta-refseqs-ehbv-locus ehbv-avi.36-callipepla
   create reference REF_EHBV_LOCUS-Avi.37-phylloscopus     fasta-refseqs-ehbv-locus ehbv-avi.37-phylloscopus
-  create reference REF_EHBV_LOCUS-Avi.29-psittacula       fasta-refseqs-ehbv-locus ehbv-avi.29-psittacula
   create reference REF_EHBV_LOCUS-Avi.28-alauda           fasta-refseqs-ehbv-locus ehbv-avi.28-alauda
+  create reference REF_EHBV_LOCUS-Avi.29-psittacula       fasta-refseqs-ehbv-locus ehbv-avi.29-psittacula
 
-
+  # Avihepadnavirus (fragment)
   create reference REF_EHBV_LOCUS-Avi.13-paleognathae     fasta-refseqs-ehbv-locus ehbv-avi.13-paleognathae-con
   create reference REF_EHBV_LOCUS-Avi.16-turaco           fasta-refseqs-ehbv-locus ehbv-avi.16-turaco
   create reference REF_EHBV_LOCUS-Avi.21-paleognathae     fasta-refseqs-ehbv-locus ehbv-avi.21-paleognathae-con
