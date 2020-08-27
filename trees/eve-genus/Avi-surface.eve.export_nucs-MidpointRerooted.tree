@@ -1,1 +1,127 @@
-(((alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes:0.63573541243778775023,alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus:0.86749738400217690781)100:0.20595909601991985172,alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula:0.43136914959567312922)100:0.334770588325411819905,(alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.23-psittaciformes:0.60945344007998414337,((alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con:0.70870167353844271130,(alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama:0.71958169024339779796,alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura:0.85722754111952448319)98:0.15431271129985241197)67:0.07635965723717254294,((alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.12-anseriformes-con:0.61308071650415429943,(alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto:0.43987765803977724177,((alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes:0.11798083596236173809,alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes:0.16331956748480258579)87:0.01764825975533611258,alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto:0.20532010721239057904)94:0.06026271764849417539)94:0.10824391472340480491)100:0.37619655519306965941,(alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros:0.89480174157923775269,(((alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus:0.09955606273409593754,alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus:0.10946595381338178332)100:0.24035329844493372176,alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.28-alauda:0.66607403898304984313)67:0.07483687480251417778,(alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_016561:0.28703532300810874478,((alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005890:0.12541457760667601429,(alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005950:0.06761925826909892523,alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001344:0.07239067896269911484)100:0.08971446865377073754)99:0.05435252578460379042,(alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005888:0.10912321390493358308,((alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_035210:0.31800071884028707769,(alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ251934:0.09078316019428370187,alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001486:0.11963207513912596514)100:0.17852163096960985134)27:0.07152435208066977579,alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ441111:0.08017413770870621126)21:0.05573691719338001727)18:0.04653994713165783559)92:0.10987908111596833560)100:0.27770938815781959219)100:0.12112409104435518936)34:0.05436408963749613660)41:0.07620311826387717036)99:0.25121330176973327708)100:0.025932063112264171905);
+#NEXUS
+begin taxa;
+	dimensions ntax=25;
+	taxlabels
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.1-neoaves-con",nearest_downstream_orf="FRY (intronic)",nearest_upstream_orf="FRY (intronic)",sequenceID="ehbv-avi.1-neoaves-con",variable_region_type="avi-3"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.10-melopsittacus",nearest_downstream_orf="Get from paper",nearest_upstream_orf="Get from paper",sequenceID="ehbv-avi.10-melopsittacus",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.11-tyto",nearest_downstream_orf="E2F7",nearest_upstream_orf="NAV3",sequenceID="ehbv-avi.11-tyto",variable_region_type="avi-2-rails"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.12-anseriformes-con'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.12-anseriformes-con",nearest_downstream_orf="CCDC58 (intronic)",nearest_upstream_orf="CCDC58 (intronic)",sequenceID="ehbv-avi.12-anseriformes-con",variable_region_type="avi-2-rails"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.14-gaviiformes",nearest_downstream_orf="DVL1",nearest_upstream_orf="TAS1R3",sequenceID="ehbv-avi.14-gaviiformes",variable_region_type="avi-2-rails"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.15-gaviiformes",nearest_downstream_orf="TMEM182 (intronic)",nearest_upstream_orf="TMEM182 (intronic)",sequenceID="ehbv-avi.15-gaviiformes",variable_region_type="avi-2-rails"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.19-buceros",nearest_downstream_orf="PCDH10",nearest_upstream_orf="PCDH18",sequenceID="ehbv-avi.19-buceros",variable_region_type="avi-1-ancient"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.20-cariama",nearest_downstream_orf="KATNBL1",nearest_upstream_orf="THBS1",sequenceID="ehbv-avi.20-cariama",variable_region_type="avi-3"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.22-tyto",nearest_downstream_orf="PTPRT",nearest_upstream_orf="MYBL2",sequenceID="ehbv-avi.22-tyto",variable_region_type="avi-2-rails"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.23-psittaciformes'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.23-psittaciformes",nearest_downstream_orf="NF",nearest_upstream_orf="OLFM4",sequenceID="ehbv-avi.23-psittaciformes",variable_region_type="avi-4"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.25-chaetura",nearest_downstream_orf="CYP7B1",nearest_upstream_orf="ARMC1",sequenceID="ehbv-avi.25-chaetura",variable_region_type="avi-3"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.28-alauda'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.28-alauda",nearest_downstream_orf="NSUN3/ARL13B",nearest_upstream_orf="EPHA6",sequenceID="ehbv-avi.28-alauda",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.29-psittacula",nearest_downstream_orf="ENSMUNG00000011929/HINT1",nearest_upstream_orf="ENSMUNG00000011927/CHSY3",sequenceID="ehbv-avi.29-psittacula",variable_region_type="avi-4"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.31-passeriformes",nearest_downstream_orf="LRRC2",nearest_upstream_orf="ENSTGUG00000000478",sequenceID="ehbv-avi.31-passeriformes",variable_region_type="avi-4"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.37-phylloscopus",nearest_downstream_orf="ZNF654/C3orf38/N6AMT1",nearest_upstream_orf="EPHA3",sequenceID="ehbv-avi.37-phylloscopus",variable_region_type="avi-4"]
+	'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus'[&core_shift="N/A",genus="Avihepadnavirus",name="ehbv-avi.9-melopsittacus",nearest_downstream_orf="Get from paper",nearest_upstream_orf="Get from paper",sequenceID="ehbv-avi.9-melopsittacus",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ251934'[&core_shift="type-1",genus="Avihepadnavirus",name="STHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="AJ251934",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ441111'[&core_shift="type-1",genus="Avihepadnavirus",name="CCHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="AJ441111",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001344'[&core_shift="type-2",genus="Avihepadnavirus",name="DHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_001344",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001486'[&core_shift="type-1",genus="Avihepadnavirus",name="HHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_001486",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005888'[&core_shift="type-1",genus="Avihepadnavirus",name="RGHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_005888",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005890'[&core_shift="type-2",genus="Avihepadnavirus",name="SHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_005890",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005950'[&core_shift="type-2",genus="Avihepadnavirus",name="SGHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_005950",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_016561'[&core_shift="type-1",genus="Avihepadnavirus",name="PaHBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_016561",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_035210'[&core_shift="type-1",genus="Avihepadnavirus",name="THBV",nearest_downstream_orf="-",nearest_upstream_orf="-",sequenceID="NC_035210",variable_region_type="avi-1-modern"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes':0.635735,'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus':0.867497)[&label=100]:0.205959,'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula':0.431369)[&label=100]:0.334771,('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.23-psittaciformes':0.609453,(('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves-con':0.708702,('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama':0.719582,'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura':0.857228)[&label=98]:0.154313)[&label=67]:0.07636,(('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.12-anseriformes-con':0.613081,('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto':0.439878,(('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes':0.117981,'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes':0.16332)[&label=87]:0.017648,'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto':0.20532)[&label=94]:0.060263)[&label=94]:0.108244)[&label=100]:0.376197,('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros':0.894802,((('alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus':0.099556,'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus':0.109466)[&label=100]:0.240353,'alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.28-alauda':0.666074)[&label=67]:0.074837,('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_016561':0.287035,(('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005890':0.125415,('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005950':0.067619,'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001344':0.072391)[&label=100]:0.089714)[&label=99]:0.054353,('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005888':0.109123,(('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_035210':0.318001,('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ251934':0.090783,'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001486':0.119632)[&label=100]:0.178522)[&label=27]:0.071524,'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ441111':0.080174)[&label=21]:0.055737)[&label=18]:0.04654)[&label=92]:0.109879)[&label=100]:0.277709)[&label=100]:0.121124)[&label=34]:0.054364)[&label=41]:0.076203)[&label=99]:0.251213)[&label=100]:0.025932);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="variable_region_type";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

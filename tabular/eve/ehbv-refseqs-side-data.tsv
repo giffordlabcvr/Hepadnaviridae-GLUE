@@ -7,8 +7,8 @@ ehbv-avi.5-passeriformes-unranked	avi.5-passeriformes	Avihepadnavirus	Endogenous
 ehbv-avi.6-passeriformes	avi.6-passeriformes	Avihepadnavirus	Endogenous avihepadnavirus 6	ehbv-avi.6-passeriformes	6	fragment	nd	nd	FOXD3	ATG4C	Hepadnaviridae		Passeriformes	N/A	ND
 ehbv-avi.7-passeriformes	avi.7-passeriformes	Avihepadnavirus	Endogenous avihepadnavirus 7	ehbv-avi.7-passeriformes	7	fragment	nd	nd	SNORA13	LIG3	Hepadnaviridae		Passeriformes	N/A	ND
 ehbv-avi.8-australiaves	avi.8-australiaves	Avihepadnavirus	Endogenous avihepadnavirus 8	ehbv-avi.8-australiaves	8	fragment	nd	nd	ATP2B2 (intronic)	ATP2B2 (intronic)	Hepadnaviridae		Australiaves	N/A	ND
-ehbv-avi.9-melopsittacus	avi.9-melopsittacus	Avihepadnavirus	Endogenous avihepadnavirus 9	ehbv-avi.9-melopsittacus	9	complete	Core	1	Get from paper	Get from paper	Hepadnaviridae		Melopsittacus	N/A	avi-5a
-ehbv-avi.10-melopsittacus	avi.10-melopsittacus	Avihepadnavirus	Endogenous avihepadnavirus 10	ehbv-avi.10-melopsittacus	10	complete	Core	1	Get from paper	Get from paper	Hepadnaviridae		Melopsittacus	N/A	avi-5a
+ehbv-avi.9-melopsittacus	avi.9-melopsittacus	Avihepadnavirus	Endogenous avihepadnavirus 9	ehbv-avi.9-melopsittacus	9	complete	Core	1	Get from paper	Get from paper	Hepadnaviridae		Melopsittacus	N/A	avi-1-modern
+ehbv-avi.10-melopsittacus	avi.10-melopsittacus	Avihepadnavirus	Endogenous avihepadnavirus 10	ehbv-avi.10-melopsittacus	10	complete	Core	1	Get from paper	Get from paper	Hepadnaviridae		Melopsittacus	N/A	avi-1-modern
 ehbv-avi.11-tyto	avi.11-tyto	Avihepadnavirus	Endogenous avihepadnavirus 11	ehbv-avi.11-tyto	11	complete	Core	1	NAV3	E2F7	Hepadnaviridae		Tyto	N/A	avi-2-rails
 ehbv-avi.12-anseriformes-con	avi.12-anseriformes	Avihepadnavirus	Endogenous avihepadnavirus 12	ehbv-avi.12-anseriformes-con	12	complete	Core	1	CCDC58 (intronic)	CCDC58 (intronic)	Hepadnaviridae		Anseriformes	N/A	avi-2-rails
 ehbv-avi.13-paleognathae-con	avi.13-paleognathae	Avihepadnavirus	Endogenous avihepadnavirus 13	ehbv-avi.13-paleognathea	13	fragment	nd	nd	ENSDNVG00000017897	BCKDHB	Hepadnaviridae		Paleognathae	N/A	ND
@@ -16,7 +16,7 @@ ehbv-avi.14-gaviiformes	avi.14-gaviiformes	Avihepadnavirus	Endogenous avihepadna
 ehbv-avi.15-gaviiformes	avi.15-gaviiformes	Avihepadnavirus	Endogenous avihepadnavirus 15	ehbv-avi.15-gaviiformes	15	complete	Core	1	TMEM182 (intronic)	TMEM182 (intronic)	Hepadnaviridae		Gaviiformes	N/A	avi-2-rails
 ehbv-avi.16-turaco	avi.16-turaco	Avihepadnavirus	Endogenous avihepadnavirus 16	ehbv-avi.16-turaco	16	fragment	nd	nd	TMEM8B	ENSACUG00000013925	Hepadnaviridae		Turaco	N/A	ND
 ehbv-avi.18-calypte	avi.18-calypte	Avihepadnavirus	Endogenous avihepadnavirus 18	ehbv-avi.18-calypte	18	complete	Core	1	ENSSCUG00000017518 (intronic)/TSKU	ENSSCUG00000017518 (intronic)/EMSY	Hepadnaviridae		Calypte	N/A	ND
-ehbv-avi.19-buceros	avi.19-buceros	Avihepadnavirus	Endogenous avihepadnavirus 19	ehbv-avi.19-Buceros	19	complete	Core	1	PCDH18	PCDH10	Hepadnaviridae		Buceros	N/A	avi-5b
+ehbv-avi.19-buceros	avi.19-buceros	Avihepadnavirus	Endogenous avihepadnavirus 19	ehbv-avi.19-Buceros	19	complete	Core	1	PCDH18	PCDH10	Hepadnaviridae		Buceros	N/A	avi-1-ancient
 ehbv-avi.20-cariama	avi.20-cariama	Avihepadnavirus	Endogenous avihepadnavirus 20	ehbv-avi.20-Cariama	20	complete	Core	1	THBS1	KATNBL1	Hepadnaviridae		Cariama	N/A	avi-3
 ehbv-avi.21-paleognathae-con	avi.21-paleognathae	Avihepadnavirus	Endogenous avihepadnavirus 21	ehbv-avi.21-Paleognathea	21	fragment	nd	nd	ENSDNVG00000004794/LMCD1	GRM7	Hepadnaviridae		Paleognathae	N/A	ND
 ehbv-avi.22-tyto	avi.22-tyto	Avihepadnavirus	Endogenous avihepadnavirus 22	ehbv-avi.22-tyto	22	fragment	nd	nd	MYBL2	PTPRT	Hepadnaviridae		Tyto	N/A	avi-2-rails
