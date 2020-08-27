@@ -33,7 +33,7 @@ project hepadnaviridae
   run file glue/eve/ehbvRecordFeaturePresence.glue
 
   # Create root and genus phylogenies
-  run file glue/eve/ehbvCreateRootPhylogenies.glue
+  #run file glue/eve/ehbvCreateRootPhylogenies.glue
   run file glue/eve/ehbvCreateGenusPhylogenies.glue
 
   # Set up constrained alignment tree for orthologs
@@ -46,7 +46,7 @@ project hepadnaviridae
   run file glue/eve/ehbvImportAlignmentsTips.glue
 
   # Create tip-level phylogenies
-  run script glue/eve/ehbvCreateTipPhylogenies.js
+  #run script glue/eve/ehbvCreateTipPhylogenies.js
 
 
   # Validate
