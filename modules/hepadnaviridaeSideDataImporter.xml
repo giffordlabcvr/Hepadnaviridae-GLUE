@@ -28,12 +28,7 @@
         <property>clade</property>
     </textFileColumn>
 
- 
-    <textFileColumn>
-        <header>virus_genus</header>
-        <property>genus</property>
-    </textFileColumn>
- 
+
     <textFileColumn>
         <header>core_shift</header>
         <property>core_shift</property>

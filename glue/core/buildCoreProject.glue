@@ -25,7 +25,7 @@ project hepadnaviridae
   # Record feature coverage in alignments
   run file glue/core/hepadnaviridaeRecordFeaturePresence.glue
 
-  # Add variations
+  # Define variations
   run file glue/core/hepadnaviridaeVariations.glue
 
   # Create phylogenies
