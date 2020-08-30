@@ -1,30 +1,21 @@
 project hepadnaviridae
 
-  # load project settings
+  # Load project settings
   run file glue/core/hepadnaviridaeProjectSettings.glue
 
-  # create modules
+  # Create modules
   run file glue/core/hepadnaviridaeModules.glue
 
-  # Import exogenous sources and data 
-  import source sources/ncbi-refseqs/
-  import source sources/fasta-refseqs/
+  # Import sequence data
+  run file glue/core/hepadnaviridaeImportSources.glue
 
-  # Create links to isolate table for all viruses
-  run script glue/core/hepadnaviridaeLoadIsolateData.js
-
-  # Populate tables from GenBank files
-  module genbankXmlPopulator populate
-
-  # Import metadata for exogenous reference sequences from tabular
-  module hepadnaviridaeSideDataImporter 
-    populate -f tabular/core/hepadna-ncbi-refseqs-side-data.tsv
-    exit
-  
+  # Import sequence-associated "side-data" for core project reference sequences
+  run file glue/core/hepadnaviridaeImportData.glue
+    
   # Define genome features
   run file glue/core/hepadnaviridaeFeatures.glue
 
-  # Create virus reference sequences
+  # Create reference sequences
   run file glue/core/hepadnaviridaeMasterReferences.glue
 
   # Import alignments
