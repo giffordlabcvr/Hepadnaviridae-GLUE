@@ -4,19 +4,18 @@ alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ441111	AJ441111	CCHBV	type-1	
 alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.14-gaviiformes	ehbv-avi.14-gaviiformes	ehbv-avi.14-gaviiformes	N/A	avi-2-rails	Avihepadnavirus	TAS1R3	DVL1
 alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.15-gaviiformes	ehbv-avi.15-gaviiformes	ehbv-avi.15-gaviiformes	N/A	avi-2-rails	Avihepadnavirus	TMEM182 (intronic)	TMEM182 (intronic)
 alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	N/A	avi-3	Avihepadnavirus	ARMC1	CYP7B1
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.26-psittaciformes	ehbv-avi.26-psittaciformes	ehbv-avi.26-psittaciformes	N/A	ND	Avihepadnavirus	ENSACOG00000002175	ENSACOG00000002296
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.28-alauda	ehbv-avi.28-alauda	ehbv-avi.28-alauda	N/A	avi-1-modern	Avihepadnavirus	EPHA6	NSUN3/ARL13B
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes	ehbv-avi.31-passeriformes	ehbv-avi.31-passeriformes	N/A	avi-4	Avihepadnavirus	ENSTGUG00000000478	LRRC2
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.26-psittaciformes	ehbv-avi.26-psittaciformes	ehbv-avi.26-psittaciformes	N/A	ND	Avihepadnavirus	NELL1 (intronic)	NELL1 (intronic)
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.28-alauda	ehbv-avi.28-alauda	ehbv-avi.28-alauda	N/A	avi-1-modern	Avihepadnavirus	EPHA6	NSUN3
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes	ehbv-avi.31-passeriformes	ehbv-avi.31-passeriformes	N/A	avi-4	Avihepadnavirus	NETO1	FBXO15
 alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.32-tinamiformes-con	ehbv-avi.32-tinamiformes-con	ehbv-avi.32-tinamiformes-con	N/A	ND	Avihepadnavirus	OLFM4	NF
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.34-leptosomus	ehbv-avi.34-leptosomus	ehbv-avi.34-leptosomus	N/A	ND	Avihepadnavirus	LRRC2	NF
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.35-calypte	ehbv-avi.35-calypte	ehbv-avi.35-calypte	N/A	ND	Avihepadnavirus	TIMM21/FBXO15	CYB5A
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.4-43-con	ehbv-avi.4-43-con	ehbv-avi.4-43-con	N/A	ND	Avihepadnavirus	ENSTGUG00000004184 (intronic)	ENSTGUG00000004184 (intronic)
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.34-leptosomus	ehbv-avi.34-leptosomus	ehbv-avi.34-leptosomus	N/A	ND	Avihepadnavirus	LRRC7	LRRC7
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.35-calypte	ehbv-avi.35-calypte	ehbv-avi.35-calypte	N/A	ND	Avihepadnavirus	FBXO15	CYB5A
 alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.42-passeriformes-con	ehbv-avi.42-passeriformes-con	ehbv-avi.42-passeriformes-con	N/A	ND	Avihepadnavirus	ABRACL/REPS1	TXLNB
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.48-podiceps	ehbv-avi.48-podiceps	ehbv-avi.48-podiceps	N/A	ND	Avihepadnavirus	NK	NK
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.49-psittaciformes	ehbv-avi.49-psittaciformes	ehbv-avi.49-psittaciformes	N/A	ND	Avihepadnavirus	NK	NK
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.52-melopsittacus	ehbv-avi.52-melopsittacus	ehbv-avi.52-melopsittacus	N/A	ND	Avihepadnavirus	ENSACOG00000002782	ENSACOG00000002891
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.53-picoides	ehbv-avi.53-picoides	ehbv-avi.53-picoides	N/A	ND	Avihepadnavirus	NK	NK
-alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.54-apodiformes	ehbv-avi.54-apodiformes	ehbv-avi.54-apodiformes	N/A	ND	Avihepadnavirus	NK	NK
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.48-podiceps	ehbv-avi.48-podiceps	ehbv-avi.48-podiceps	N/A	ND	Avihepadnavirus	MATN1	PTPRU
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.49-psittaciformes	ehbv-avi.49-psittaciformes	ehbv-avi.49-psittaciformes	N/A	ND	Avihepadnavirus	GRID2 (intronic)	GRID2 (intronic)
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.52-melopsittacus	ehbv-avi.52-melopsittacus	ehbv-avi.52-melopsittacus	N/A	ND	Avihepadnavirus	LUZP2	ANO3
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.53-picoides	ehbv-avi.53-picoides	ehbv-avi.53-picoides	N/A	ND	Avihepadnavirus	TRIB2	LPIN1
+alignment/AL_Avihepadnavirus/member/fasta-refseqs-ehbv/ehbv-avi.54-apodiformes	ehbv-avi.54-apodiformes	-	-	-	-	-	-
 alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001344	NC_001344	DHBV	type-2	avi-1-modern	Avihepadnavirus	-	-
 alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001486	NC_001486	HHBV	type-1	avi-1-modern	Avihepadnavirus	-	-
 alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005888	NC_005888	RGHBV	type-1	avi-1-modern	Avihepadnavirus	-	-

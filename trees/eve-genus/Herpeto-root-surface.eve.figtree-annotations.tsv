@@ -3,7 +3,7 @@ alignment/AL_Herpetohepadnavirus/member/fasta-refseqs-ehbv/ehbv-herpeto.2-serpen
 alignment/AL_Herpetohepadnavirus/member/fasta-refseqs-ehbv/ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	ehbv-herpeto.3-crocodilia	N/A	herpeto-type-4-croc	Herpetohepadnavirus	NK	NK
 alignment/AL_Herpetohepadnavirus/member/fasta-refseqs-ehbv/ehbv-herpeto.4-crocodilia	ehbv-herpeto.4-crocodilia	ehbv-herpeto.4-crocodilia	N/A	herpeto-type-4-croc	Herpetohepadnavirus	NK	NK
 alignment/AL_Herpetohepadnavirus/member/fasta-refseqs-ehbv/ehbv-herpeto.6-varanus	ehbv-herpeto.6-varanus	ehbv-herpeto.6-varanus	N/A	herpeto-type-2	Herpetohepadnavirus	WSCD2 (intronic)	WSCD2 (intronic)
-alignment/AL_Herpetohepadnavirus/member/fasta-refseqs-ehbv/ehbv-herpeto.7-serpentes-con	ehbv-herpeto.7-serpentes-con	ehbv-herpeto.7-serpentes-con	N/A	herpeto-type-3-serpentes	Herpetohepadnavirus	OBI1, POU4F1	RBM26,NDFIP2
+alignment/AL_Herpetohepadnavirus/member/fasta-refseqs-ehbv/ehbv-herpeto.7-serpentes-con	ehbv-herpeto.7-serpentes-con	ehbv-herpeto.7-serpentes-con	N/A	herpeto-type-3-serpentes	Herpetohepadnavirus	RBM26	NDFIP2 
 alignment/AL_Herpetohepadnavirus/member/ncbi-refseqs/NC_030446	NC_030446	tfHBV	N/A	herpeto-type-1	Herpetohepadnavirus	-	-
 alignment/AL_Herpetohepadnavirus/member/fasta-refseqs/SkHBV	SkHBV	SkHBV	N/A	herpeto-type-3	Herpetohepadnavirus	-	-
 alignment/AL_Herpetohepadnavirus/member/fasta-refseqs/SLHBV-1	SLHBV-1	SLHBV-1	N/A	herpeto-type-2	Herpetohepadnavirus	-	-
