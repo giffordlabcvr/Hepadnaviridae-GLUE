@@ -1,0 +1,8 @@
+taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order
+alignment/AL_EHBV-avi.7-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_3437	Geospiza_fortis_3437	Geospiza_fortis_3437	Avihepadnavirus	JH739977	87.931	108	Geospiza fortis	Geospiza	Thraupidae	Passeriformes
+alignment/AL_EHBV-avi.7-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_5297	Hemignathus_virens_5297	Hemignathus_virens_5297	Avihepadnavirus	LTAT01000021.1	87.931	111	Hemignathus virens	Hemignathus	Fringillidae	Passeriformes
+alignment/AL_EHBV-avi.7-passeriformes/member/fasta-digs-ehbv/Molothrus_ater_28140	Molothrus_ater_28140	Molothrus_ater_28140	Avihepadnavirus	CM022858.1	79.245	89	Molothrus ater	Molothrus	Icteridae	Passeriformes
+alignment/AL_EHBV-avi.7-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_3673	Serinus_canaria_3673	Serinus_canaria_3673	Avihepadnavirus	gi|668343331|ref|NW_007931150.1|	82.143	100	Serinus canaria	Serinus	Fringillidae	Passeriformes
+alignment/AL_EHBV-avi.7-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_3680	Setophaga_coronata_3680	Setophaga_coronata_3680	Avihepadnavirus	MDLI01000263.1	87.931	109	Setophaga coronata	Setophaga	Parulidae	Passeriformes
+alignment/AL_EHBV-avi.7-passeriformes/member/fasta-digs-ehbv/Taeniopygia_guttata_3707	Taeniopygia_guttata_3707	Taeniopygia_guttata_3707	Avihepadnavirus	chr19	87.879	119	Taeniopygia guttata	Taeniopygia	Estrildidae	Passeriformes
+alignment/AL_EHBV-avi.7-passeriformes/member/fasta-digs-ehbv/Taeniopygia_guttata_3708	Taeniopygia_guttata_3708	Taeniopygia_guttata_3708	Avihepadnavirus	chrUn_EQ836117	86.364	116	Taeniopygia guttata	Taeniopygia	Estrildidae	Passeriformes
