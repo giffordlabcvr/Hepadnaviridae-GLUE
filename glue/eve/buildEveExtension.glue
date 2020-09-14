@@ -46,7 +46,7 @@ project hepadnaviridae
   run file glue/eve/ehbvImportAlignmentsTips.glue
 
   # Create tip-level phylogenies
-  #run script glue/eve/ehbvCreateTipPhylogenies.js
+  run script glue/eve/ehbvCreateTipPhylogenies.js
 
 
   # Validate

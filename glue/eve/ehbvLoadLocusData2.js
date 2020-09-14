@@ -2,7 +2,7 @@
 var loadResult;
 glue.inMode("module/hepadnaviridaeTabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ehbv-side-data.tsv"]));
-	// glue.log("INFO", "load result was:", loadResult);
+    glue.log("INFO", "load result was:", loadResult);
 });
 
 _.each(loadResult, function(eveObj) {
@@ -24,9 +24,9 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "host_order", eveObj.host_order]);
 		glue.command(["set", "field", "host_family", eveObj.host_family]);
 		glue.command(["set", "field", "host_genus", eveObj.host_genus]);
-		glue.command(["set", "field", "host_major_clade", eveObj.major_clade]);
-		glue.command(["set", "field", "host_middle_clade", eveObj.middle_clade]);
-		glue.command(["set", "field", "host_minor_clade", eveObj.minor_clade]);
+		// glue.command(["set", "field", "host_major_clade", eveObj.major_clade]);
+		// glue.command(["set", "field", "host_middle_clade", eveObj.middle_clade]);
+		// glue.command(["set", "field", "host_minor_clade", eveObj.minor_clade]);
 	});
 
 	glue.inMode("sequence/fasta-digs-ehbv/"+eveObj.sequenceID, function() {
@@ -35,7 +35,7 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "name", eveObj.sequenceID]);
 		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
 		glue.command(["set", "field", "genus", eveObj.virus_genus]);
-		glue.command(["set", "field", "clade", eveObj.virus_clade]);
+		// glue.command(["set", "field", "clade", eveObj.virus_clade]);
 
 	});
 

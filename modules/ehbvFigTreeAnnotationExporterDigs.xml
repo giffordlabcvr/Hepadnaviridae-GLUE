@@ -50,20 +50,6 @@
 		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_order')}</valueFreemarkerTemplate>
 	</figTreeAnnotation>
 
-	<figTreeAnnotation>
-		<annotationName>host_major_clade</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_major_clade')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>host_middle_clade</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_middle_clade')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
-
-	<figTreeAnnotation>
-		<annotationName>host_minor_clade</annotationName>
-		<valueFreemarkerTemplate>${renderNestedProperty('sequence.locus_data.host_minor_clade')}</valueFreemarkerTemplate>
-	</figTreeAnnotation>
 	
 </figTreeAnnotationExporter>
 

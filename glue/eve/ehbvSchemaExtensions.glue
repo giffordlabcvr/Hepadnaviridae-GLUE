@@ -37,9 +37,9 @@
     create field assigned_name VARCHAR 60
     create field host_species VARCHAR 60
     create field host_superorder VARCHAR 60
-    create field host_major_clade VARCHAR 60
-    create field host_middle_clade VARCHAR 60
-    create field host_minor_clade VARCHAR 60
+    #create field host_major_clade VARCHAR 60
+    #create field host_middle_clade VARCHAR 60
+    #create field host_minor_clade VARCHAR 60
     create field host_class VARCHAR 60
     create field host_order VARCHAR 60
     create field host_family VARCHAR 60
