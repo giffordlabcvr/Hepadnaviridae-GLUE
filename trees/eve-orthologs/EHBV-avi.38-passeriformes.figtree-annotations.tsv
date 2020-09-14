@@ -1,0 +1,9 @@
+taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order
+alignment/AL_EHBV-avi.38-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_27582	Geospiza_fortis_27582	Geospiza_fortis_27582	Avihepadnavirus	JH740071	75.817	223	Geospiza fortis	Geospiza	Thraupidae	Passeriformes
+alignment/AL_EHBV-avi.38-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_27598	Hemignathus_virens_27598	Hemignathus_virens_27598	Avihepadnavirus	LTAT01000022.1	100	241	Hemignathus virens	Hemignathus	Fringillidae	Passeriformes
+alignment/AL_EHBV-avi.38-passeriformes/member/fasta-digs-ehbv/Junco_hyemalis_27603	Junco_hyemalis_27603	Junco_hyemalis_27603	Avihepadnavirus	QZWM01001043.1	80.337	253	Junco hyemalis	Junco	Passerellidae	Passeriformes
+alignment/AL_EHBV-avi.38-passeriformes/member/fasta-digs-ehbv/Molothrus_ater_28558	Molothrus_ater_28558	Molothrus_ater_28558	Avihepadnavirus	CM022859.1	74.51	117	Molothrus ater	Molothrus	Icteridae	Passeriformes
+alignment/AL_EHBV-avi.38-passeriformes/member/fasta-digs-ehbv/Passer_domesticus_27638	Passer_domesticus_27638	Passer_domesticus_27638	Avihepadnavirus	CM004546.1	59.669	189	Passer domesticus	Passer	Passeridae	Passeriformes
+alignment/AL_EHBV-avi.38-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_2019	Serinus_canaria_2019	Serinus_canaria_2019	Avihepadnavirus	gi|668343290|ref|NW_007931191.1|	55.906	119	Serinus canaria	Serinus	Fringillidae	Passeriformes
+alignment/AL_EHBV-avi.38-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_28074	Setophaga_coronata_28074	Setophaga_coronata_28074	Avihepadnavirus	MDLI01000805.1	63.918	111	Setophaga coronata	Setophaga	Parulidae	Passeriformes
+alignment/AL_EHBV-avi.38-passeriformes/member/fasta-digs-ehbv/Sporophila_hypoxantha_28081	Sporophila_hypoxantha_28081	Sporophila_hypoxantha_28081	Avihepadnavirus	NDFG01000222.1	84.507	122	Sporophila hypoxantha	Sporophila	Thraupidae	Passeriformes

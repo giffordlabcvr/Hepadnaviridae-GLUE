@@ -1,0 +1,10 @@
+taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Agapornis_roseicollis_3295	Agapornis_roseicollis_3295	Agapornis_roseicollis_3295	Avihepadnavirus	NDXB01011279.1	77.778	170	Agapornis roseicollis	Agapornis	Psittacidae	Psittaciformes
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Amazona_aestiva_5168	Amazona_aestiva_5168	Amazona_aestiva_5168	Avihepadnavirus	LMAW01002861.1	93.636	219	Amazona aestiva	Amazona	Psittacidae	Psittaciformes
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Ara_macao_27521	Ara_macao_27521	Ara_macao_27521	Avihepadnavirus	KE074585.1	85.714	139	Ara macao	Ara	Psittacidae	Psittaciformes
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Ara_macao_5214	Ara_macao_5214	Ara_macao_5214	Avihepadnavirus	KE038446.1	100	238	Ara macao	Ara	Psittacidae	Psittaciformes
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Guaruba_guarouba_28670	Guaruba_guarouba_28670	Guaruba_guarouba_28670	Avihepadnavirus	JAABOC010000638.1	99.115	235	Guaruba guarouba	Guaruba	Psittacidae	Psittaciformes
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Melopsittacus_undulatus_5325	Melopsittacus_undulatus_5325	Melopsittacus_undulatus_5325	Avihepadnavirus	JH556469	84.259	190	Melopsittacus undulatus	Melopsittacus	Psittaculidae	Psittaciformes
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Melopsittacus_undulatus_5326	Melopsittacus_undulatus_5326	Melopsittacus_undulatus_5326	Avihepadnavirus	JH556420	71.25	114	Melopsittacus undulatus	Melopsittacus	Psittaculidae	Psittaciformes
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Melopsittacus_undulatus_5327	Melopsittacus_undulatus_5327	Melopsittacus_undulatus_5327	Avihepadnavirus	JH556564	67.949	111	Melopsittacus undulatus	Melopsittacus	Psittaculidae	Psittaciformes
+alignment/AL_EHBV-avi.45-psittaciformes/member/fasta-digs-ehbv/Psittacula_krameri_4139	Psittacula_krameri_4139	Psittacula_krameri_4139	Avihepadnavirus	NFZL01000311.1	87.5	101	Psittacula krameri	Psittacula	Psittacidae	Psittaciformes
