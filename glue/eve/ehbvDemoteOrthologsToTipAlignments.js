@@ -17,36 +17,31 @@ get_refcon_data(ehbvRefseqResultMap, refconDataPath);
 var loadResult;
 glue.inMode("module/hepadnaviridaeTabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ehbv-side-data.tsv"]));
-	// glue.log("INFO", "load result was:", loadResult);
+	 glue.log("INFO", "load result was:", loadResult);
 });
 
 // Iterate on DIGS data, adding sequences to alignments as appropriate
 _.each(loadResult, function(eveObj) {
 
 	// Get the locus ID
+	var locus_name = eveObj.sequenceID;
+	var locus_name = eveObj.locus_name;
 	var locus_numeric_id = eveObj.locus_numeric_id;
-	var sequenceID = eveObj.sequenceID;
-	var locusObj = ehbvRefseqResultMap[locus_numeric_id];
+	var locusObj = ehbvRefseqResultMap[locus_name];
 	
-	glue.log("INFO", "Sequence ID", sequenceID);
-	glue.log("INFO", "Locus ID", locus_numeric_id);
-
 
 	if (locus_numeric_id != 'NK') { // Skip elements that haven't been assigned to a locus
 
-		var locus_name = locusObj.locus_name;
-		glue.log("INFO", "Locus name:", locus_name);
-
+		glue.log("INFO", "Sequence ID", locus_name);
+		glue.log("INFO", "Locus ID", locus_name);
+		glue.log("INFO", "Locus numeric ID", locus_numeric_id);
 	
-
 		// Get the taxonomy 
-	
 		var virus_genus = locusObj.virus_genus;
 
 		// Does an alignment exist for this locus ID
         var alignmentName = "AL_EHBV-" + locus_name;
 
-		//glue.log("INFO", "LOADED EHBV INFO ", locusObj);
 		glue.log("INFO", "Adding sequence:", eveObj.sequenceID);
 		glue.log("INFO", "to alignment", alignmentName);
 		glue.log("INFO", "genus:", locusObj.virus_genus);
@@ -77,7 +72,7 @@ _.each(loadResult, function(eveObj) {
 
 			// Add the sequence to the alignment
 			glue.inMode("/alignment/"+parentAlignmentName, function() {			
-				glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+sequenceID+"'"]);
+				glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+locus_name+"'"]);
 			});
 			
 		}
@@ -104,8 +99,9 @@ function get_refcon_data(resultMap, refconDataPath) {
 	  var source_name = eveObj.source_name
 	  var sequenceID = eveObj.sequenceID
 	  var locus_numeric_id = eveObj.locus_numeric_id;
-	  glue.log("INFO", "Setting locus data for EVE reference:", eveObj.sequenceID);
-	  resultMap[locus_numeric_id] = eveObj;
+	  var locus_name = eveObj.locus_name;
+	  glue.log("INFO", "Setting locus data for EVE locus:", eveObj.locus_name);
+	  resultMap[locus_name] = eveObj;
 	
   });
   

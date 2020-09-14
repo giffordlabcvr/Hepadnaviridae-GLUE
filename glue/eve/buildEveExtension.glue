@@ -43,10 +43,10 @@ project hepadnaviridae
   run script glue/eve/ehbvDemoteOrthologsToTipAlignments.js
 
   # Import tip-level EVE alignments
-  run file glue/eve/ehbvImportAlignmentsTips.glue
+  #run file glue/eve/ehbvImportAlignmentsTips.glue
 
   # Create tip-level phylogenies
-  run script glue/eve/ehbvCreateTipPhylogenies.js
+  #run script glue/eve/ehbvCreateTipPhylogenies.js
 
 
   # Validate
