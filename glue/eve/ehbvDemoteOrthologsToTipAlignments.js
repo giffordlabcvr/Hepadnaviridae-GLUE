@@ -17,14 +17,14 @@ get_refcon_data(ehbvRefseqResultMap, refconDataPath);
 var loadResult;
 glue.inMode("module/hepadnaviridaeTabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ehbv-side-data.tsv"]));
-	 glue.log("INFO", "load result was:", loadResult);
+	 //glue.log("INFO", "load result was:", loadResult);
 });
 
 // Iterate on DIGS data, adding sequences to alignments as appropriate
 _.each(loadResult, function(eveObj) {
 
 	// Get the locus ID
-	var locus_name = eveObj.sequenceID;
+	var sequenceID = eveObj.sequenceID;
 	var locus_name = eveObj.locus_name;
 	var locus_numeric_id = eveObj.locus_numeric_id;
 	var locusObj = ehbvRefseqResultMap[locus_name];
@@ -72,7 +72,8 @@ _.each(loadResult, function(eveObj) {
 
 			// Add the sequence to the alignment
 			glue.inMode("/alignment/"+parentAlignmentName, function() {			
-				glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+locus_name+"'"]);
+				glue.log("INFO", "ADDING sequence: ", sequenceID);
+				glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+sequenceID+"'"]);
 			});
 			
 		}

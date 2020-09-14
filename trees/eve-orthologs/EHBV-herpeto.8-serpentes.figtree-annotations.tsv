@@ -1,6 +1,0 @@
-taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order
-alignment/AL_EHBV-herpeto.8-serpentes/member/fasta-digs-ehbv/Crotalus_mitchellii_pyrrhus_27267	Crotalus_mitchellii_pyrrhus_27267	Crotalus_mitchellii_pyrrhus_27267	Herpetohepadnavirus	JPMF01386518.1	67.411	231	Crotalus mitchellii pyrrhus	Crotalus	Viperidae	Squamata
-alignment/AL_EHBV-herpeto.8-serpentes/member/fasta-digs-ehbv/Hydrophis_cyanocinctus_27273	Hydrophis_cyanocinctus_27273	Hydrophis_cyanocinctus_27273	Herpetohepadnavirus	RSAE01260589.1	42.105	204	Hydrophis cyanocinctus	Hydrophis	Hydrophiidae	Squamata
-alignment/AL_EHBV-herpeto.8-serpentes/member/fasta-digs-ehbv/Hydrophis_melanocephalus_27274	Hydrophis_melanocephalus_27274	Hydrophis_melanocephalus_27274	Herpetohepadnavirus	BHFS01020093.1	42.434	206	Hydrophis melanocephalus	Hydrophis	Hydrophiidae	Squamata
-alignment/AL_EHBV-herpeto.8-serpentes/member/fasta-digs-ehbv/Thamnophis_elegans_27301	Thamnophis_elegans_27301	Thamnophis_elegans_27301	Herpetohepadnavirus	NC_045544.1	100	1154	Thamnophis elegans	Thamnophis	Colubridae	Squamata
-alignment/AL_EHBV-herpeto.8-serpentes/member/fasta-digs-ehbv/Thamnophis_sirtalis_27302	Thamnophis_sirtalis_27302	Thamnophis_sirtalis_27302	Herpetohepadnavirus	gi|923457645|ref|NW_013660433.1|	99.01	1143	Thamnophis sirtalis	Thamnophis	Colubridae	Squamata
