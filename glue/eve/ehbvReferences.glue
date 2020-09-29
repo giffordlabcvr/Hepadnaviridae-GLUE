@@ -12,10 +12,10 @@
   create reference REF_EHBV-Avi.9-melopsittacus     fasta-refseqs-ehbv ehbv-avi.9-melopsittacus
   create reference REF_EHBV-Avi.10-melopsittacus    fasta-refseqs-ehbv ehbv-avi.10-melopsittacus  
   create reference REF_EHBV-Avi.11-tyto             fasta-refseqs-ehbv ehbv-avi.11-tyto
-  create reference REF_EHBV-Avi.12-anseriformes     fasta-refseqs-ehbv ehbv-avi.12-anseriformes-con
+  create reference REF_EHBV-Avi.12-anatidae         fasta-refseqs-ehbv ehbv-avi.12-anatidae-con
   create reference REF_EHBV-Avi.13-paleognathae     fasta-refseqs-ehbv ehbv-avi.13-paleognathae-con
-  create reference REF_EHBV-Avi.14-gaviiformes      fasta-refseqs-ehbv ehbv-avi.14-gaviiformes
-  create reference REF_EHBV-Avi.15-gaviiformes      fasta-refseqs-ehbv ehbv-avi.15-gaviiformes
+  create reference REF_EHBV-Avi.14-gavia            fasta-refseqs-ehbv ehbv-avi.14-gavia
+  create reference REF_EHBV-Avi.15-gavia            fasta-refseqs-ehbv ehbv-avi.15-gavia
   create reference REF_EHBV-Avi.16-turaco           fasta-refseqs-ehbv ehbv-avi.16-turaco
   create reference REF_EHBV-Avi.18-calypte          fasta-refseqs-ehbv ehbv-avi.18-calypte
   create reference REF_EHBV-Avi.19-buceros          fasta-refseqs-ehbv ehbv-avi.19-buceros
@@ -26,10 +26,10 @@
   create reference REF_EHBV-Avi.24-apaloderma       fasta-refseqs-ehbv ehbv-avi.24-apaloderma
   create reference REF_EHBV-Avi.25-chaetura         fasta-refseqs-ehbv ehbv-avi.25-chaetura
   create reference REF_EHBV-Avi.26-psittaciformes   fasta-refseqs-ehbv ehbv-avi.26-psittaciformes
-  create reference REF_EHBV-Avi.27-suliformes       fasta-refseqs-ehbv ehbv-avi.27-suliformes-con
+  create reference REF_EHBV-Avi.27-sulidae          fasta-refseqs-ehbv ehbv-avi.27-sulidae-con
   create reference REF_EHBV-Avi.28-alauda           fasta-refseqs-ehbv ehbv-avi.28-alauda
   create reference REF_EHBV-Avi.29-psittacula       fasta-refseqs-ehbv ehbv-avi.29-psittacula
-  create reference REF_EHBV-Avi.30-anseriformes     fasta-refseqs-ehbv ehbv-avi.30-anseriformes-con 
+  create reference REF_EHBV-Avi.30-anatidae         fasta-refseqs-ehbv ehbv-avi.30-anatidae-con 
   create reference REF_EHBV-Avi.31-passeriformes    fasta-refseqs-ehbv ehbv-avi.31-passeriformes
   create reference REF_EHBV-Avi.32-tinamiformes     fasta-refseqs-ehbv ehbv-avi.32-tinamiformes-con
   create reference REF_EHBV-Avi.34-leptosomus       fasta-refseqs-ehbv ehbv-avi.34-leptosomus
