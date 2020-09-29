@@ -3,9 +3,9 @@
 module unconstrainedAlignmentImporter
 
   #~# Internal node aligns
-  import AL_UNC_eHBV-Herpeto               -f alignments/eve/internal/herpetohepadna-eves.aln.fna
-  import AL_UNC_eHBV-Meta                  -f alignments/eve/internal/metahepadna-eves.aln.fna
-  import AL_UNC_eHBV-Avi                   -f alignments/eve/internal/avihepadna-eves.aln.fna
+  import AL_UNC_eHBV-Herpeto               -f alignments/internal/herpetohepadna-eves.aln.fna
+  import AL_UNC_eHBV-Meta                  -f alignments/internal/metahepadna-eves.aln.fna
+  import AL_UNC_eHBV-Avi                   -f alignments/internal/avihepadna-eves.aln.fna
   
   exit
 

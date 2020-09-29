@@ -5,10 +5,10 @@ module unconstrainedAlignmentImporter
   import AL_UNC_HEPADNAVIRIDAE  -f alignments/core/root/hepadnaviridae.aln.fna
 
   #~# Hepadnavirus genera
-  import AL_UNC_AVI      -f alignments/core/internal/avihepadna.aln.fna
-  import AL_UNC_HERPETO  -f alignments/core/internal/herpetohepadna.aln.fna
-  import AL_UNC_PARA     -f alignments/core/internal/parahepadna.aln.fna
-  import AL_UNC_META     -f alignments/core/internal/metahepadna.aln.fna
-  import AL_UNC_ORTHO    -f alignments/core/internal/orthohepadna.aln.fna
+  import AL_UNC_AVI      -f alignments/internal/avihepadna.aln.fna
+  import AL_UNC_HERPETO  -f alignments/internal/herpetohepadna.aln.fna
+  import AL_UNC_PARA     -f alignments/internal/parahepadna.aln.fna
+  import AL_UNC_META     -f alignments/internal/metahepadna.aln.fna
+  import AL_UNC_ORTHO    -f alignments/internal/orthohepadna.aln.fna
   
   exit

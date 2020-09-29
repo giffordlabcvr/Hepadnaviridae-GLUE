@@ -25,11 +25,11 @@
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter
- 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f whole_genome --recursive -a  -e -o alignments/tree/Hepadnaviridae-all.aln.fna
+ 	export AL_Hepadnaviridae -r  REF_Ortho_MASTER_HBV -f whole_genome --recursive -a  -e -o alignments/export/Hepadnaviridae-all.aln.fna
 	exit
 
   # Re-import the recursively populated root alignment into the project
-  module hepadnaTreeAlignmentImporterNucs import AL_UNC_TREE_Hepadnaviridae -f alignments/tree/Hepadnaviridae-all.aln.fna
+  module hepadnaTreeAlignmentImporterNucs import AL_UNC_TREE_Hepadnaviridae -f alignments/export/Hepadnaviridae-all.aln.fna
   create alignment AL_TREE_Hepadnaviridae -r REF_Ortho_MASTER_HBV
 
   alignment AL_TREE_Hepadnaviridae
