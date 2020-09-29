@@ -2,7 +2,7 @@
 module unconstrainedAlignmentImporter
 
   #~# Hepadnaviridae
-  import AL_UNC_HEPADNAVIRIDAE  -f alignments/core/root/hepadnaviridae.aln.fna
+  import AL_UNC_HEPADNAVIRIDAE  -f alignments/root/hepadnaviridae.aln.fna
 
   #~# Hepadnavirus genera
   import AL_UNC_AVI      -f alignments/internal/avihepadna.aln.fna
