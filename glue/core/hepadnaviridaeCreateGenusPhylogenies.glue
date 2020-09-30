@@ -98,11 +98,11 @@
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Ortho-root-surface.figtree-annotations.tsv
 
     export figtree-annotation AL_Avihepadnavirus -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-root-core.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-core.figtree-annotations.tsv
     export figtree-annotation AL_Avihepadnavirus -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-root-pol.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-pol.figtree-annotations.tsv
     export figtree-annotation AL_Avihepadnavirus -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
-      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-root-surface.figtree-annotations.tsv
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-surface.figtree-annotations.tsv
 
   exit
 
