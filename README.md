@@ -42,9 +42,6 @@ GLUE> run file hepadnaviridae.glue
 
 Robert J. Gifford (robert.gifford@glasgow.ac.uk)
 
-Josh Singer (josh.singer@glasgow.ac.uk)
-
-William de Souza (wmarciel2@gmail.com)
 
 ## License
 
