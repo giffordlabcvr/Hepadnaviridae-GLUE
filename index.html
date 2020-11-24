@@ -27,8 +27,9 @@
     <section class="page-header">
       <h1 class="project-name">Hepadnaviridae-GLUE</h1>
       <h2 class="project-tagline">A sequence data resource for hepadnaviruses.</h2>
+      <a href="./website/project.html" class="btn">Viruses</a>
+      <a href="./website/paleovirology.html" class="btn">Paleoviruses</a>
       <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tarball/master" class="btn">Download .tar.gz</a>
       <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
@@ -47,59 +48,6 @@
 		   <li>Endogenous viral elements (EVEs) derived from hepadnaviruses</li>
 		 </ol>
 	   </p>
-
-	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence data</strong>
-	   </h3>
-	   
-	   <p>
-		 The sequence data in this project have been organised into the following <b>sources</b>:<br>
-	   </p>
-	   
-	   	   
-	   <p>	      
-		 <b>ncbi-refseqs</b>: Genome-length reference sequences of
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/hepadna-ncbi-refseqs-side-data.tsv">representative hepadnavirus species</a>.
-		 These
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a> using a GLUE module
-		 (see <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/modules/hepadnaviridaeNcbiImporterReferences.xml">here</a>)
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
-	   </p>
-	   
-	   <p>
-		 <b>fasta-curated</b>: A non-redundant set of 
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/eve/ehbv-side-data.tsv">hepadnavirus-derived EVE loci</a>.
-		 These
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/sources/fasta-digs-ehbv">FASTA sequences</a>
-		 have been curated via systematic screening of whole genome sequence (WGS) assemblies using the 
-		 <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/">DIGS tool</a>.
-		 Sequences in this source have unique IDs based on arbitrary numbering. 
-	   </p>
-	      	   
-	   <p>
-		 <b>fasta-refseqs</b>: EVE reference sequences - i.e. best-guess estimates of the ancestral hepadnavirus sequences that gave rise to EVEs.
-		 Where possible these are consensus/ancestral sequences derived from alignments
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/alignments/tree/tips">included in this project</a>.
-		 Sequence IDs used in this source correspond to the names of the unique EVE loci they represent
-		 (see <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">here</a> for details).
-	   </p>
- 
-	   <h3>
-	   <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Sequence-associated data</strong>
-	   </h3>
-	   
-	   <p>
-         Sequences included in this project are linked to auxiliary data in tabular format, this includes:
-		 
-		 <ol>
-		   <li><a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/core/hepadna-ncbi-refseqs-side-data.tsv">Basic taxonomic data</a> for genome-length virus reference sequence in <b>ncbi-refseqs</b>.</li> 
-		   <li><a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/eve/ehbv-side-data.tsv">Locus data</a> for the EVE sequences in <b>fasta-curated</b>.</li> 
-		   <li><a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/eve/ehbv-refseqs-side-data.tsv">Evolutionary history</a> of the EVE loci represented in <b>fasta-refseqs</b>.</li>
-		 </ol>
-		 
-	   </p>
-		 
 
 
 	   <h3>
