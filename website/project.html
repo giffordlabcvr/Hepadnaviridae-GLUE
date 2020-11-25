@@ -26,7 +26,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">Hepadnaviridae-GLUE</h1>
-      <h2 class="project-tagline">A sequence data resource for hepadnaviruses.</h2>
+      <h2 class="project-tagline">A GLUE project for hepadnaviruses.</h2>
       <a href="../index.html" class="btn">Home</a>
       <a href="./paleovirology.html" class="btn">Paleoviruses</a>
       <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/zipball/master" class="btn">Download .zip</a>
@@ -35,22 +35,89 @@
 
     <section class="main-content">
 
-
 	   <h3>
-		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>CRESS virus sequence data</strong>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Project overview</strong>
 	   </h3>
 
+	   <p>
+         We have used the
+         <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a>
+         software environment to create a sequence data resource
+         (‘Hepadnaviridae-GLUE’) capable of supporting reproducible comparative investigations of
+         circular Rep-encoding single-stranded DNA (CRESS DNA) virus genomes.
+	   </p>
 
 	   <p>
-		 Genome-length master reference sequences of 
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/core/hepadna-ncbi-refseqs-side-data.tsv">tabular format</a>.
-		 These
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		 are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a>
-		 and are uniquely identified within this project by their <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>. 
+
+         The Hepadnaviridae-GLUE project not only contains data items required for
+         comparative genomic analysis of these viruses (i.e. virus genome sequences,
+         multiple sequence alignments, genome feature annotations, and other
+         sequence-associated data), it also uses a relational database to represent
+         the semantic relationships between these data items.
 	   </p>
 
 
+
+
+	   <h3>
+		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments</strong>
+	   </h3>
+
+		<p>
+          Multiple sequence alignment constructed in this study are linked together using
+          GLUE's 
+          ‘<a href="./alignment tree concept small.png">alignment tree</a>’
+          data structure. Alignments in the project include:
+         
+          
+		<ol>
+		  <li> A single ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/alignments/root/hepadna-root.fna"><strong>root</strong></a>’
+          alignment constructed to represent proposed
+          homologies between representative members of major CRESS virus lineages</li>
+          <li> ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/alignments/tip"><strong>genus-level</strong></a>’
+          alignments constructed to represent proposed homologies between the genomes of
+          representative members of specific CRESS virus genera.</li>
+          <li> ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/alignments/tip"><strong>Tip</strong></a>’
+          alignments in which all taxa are derived from a single virus species.</li>
+ 		</ol>
+         
+ 		</p>
+
+
+	   <h3>
+		 <a id="Phylogenetic trees" class="anchor" href="#PhylogeneticTrees" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Phylogenetic trees</strong>
+	   </h3>
+
+		<p>
+
+          We used GLUE to implement an automated process for deriving midpoint rooted,
+          annotated trees from the alignments included in our project.
+ 		</p>
+
+
+		<p>
+          Trees were constructed at distinct taxonomic levels:
+        
+		  <ol>
+			<li> Recursively populated <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/trees/main-root"><strong>root</strong></a> phylogeny (Rep)</li>
+			<li> <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/trees/genus-level-with-eves/"><strong>Genus-level</strong></a> phylogenies</li>
+			<li> <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/trees/eve-orthologs/"><strong>ECV lineage-level</strong></a> phylogenies</li>
+		  </ol>
+
+ 		</p>
+
+
+	   <h3>
+		 <a id="data_quick_links" class="anchor" href="#data_quick_links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Data quick links</strong>
+	   </h3>
+
+
+		<ol>
+		  <li>Rep <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/export/circo-rep.faa">polypeptide sequences</a></li> 
+		  <li>Rep <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/export/circo-rep.fna">nucleotide sequences</a></li> 
+		  <li>Cap <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/export/circo-cap.faa">polypeptide sequences</a></li> 
+		  <li>Cap <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/export/circo-cap.fna">nucleotide sequences</a></li> 
+		</ol>
 
 
 	 <footer class="site-footer">

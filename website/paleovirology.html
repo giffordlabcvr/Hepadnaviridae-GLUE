@@ -150,40 +150,55 @@
 
 
 
-
-
-
-
 	   <h3>
-		 <a id="Multiple sequence alignments and phylogenetic trees" class="anchor" href="#AlignmentsAndTrees" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments and phylogenetic trees</strong>
+		 <a id="Multiple sequence alignments" class="anchor" href="#MultipleSequenceAlignments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Multiple sequence alignments</strong>
 	   </h3>
 
 		<p>
+
           Multiple sequence alignment constructed in this study are linked together using
           GLUE's 
           ‘<a href="./alignment tree concept small.png">alignment tree</a>’
           data structure. Alignments in the project include:
-          <br> 
-          <br> (i) A single ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/alignments/root/hepadnaviridae.aln.fna"><strong>root</strong></a>’
-          alignment constructed to represent proposed
-          homologies between representative members of major hepadnavirus lineages
-          (including extinct lineages represented only by eHBVs).
-          <br> (ii) ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/alignments/internal/"><strong>genus-level</strong></a>’
-          alignments constructed to represent proposed homologies between the genomes of
-          representative members of specific hepadnavirus genera and eHBV reference sequences.
-          <br> (iii) ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/alignments/tip/"><strong>Tip</strong></a>’
-          alignments in which all taxa are derived from a single virus species or represent 
-          distinct members of a single eHBV lineage.
-          
+
+		  <ol>
+			<li> A single ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/alignments/root/hepadnaviridae.aln.fna"><strong>root</strong></a>’
+			alignment constructed to represent proposed
+			homologies between representative members of major hepadnavirus lineages
+			(including extinct lineages represented only by eHBVs).</li>
+			<li> ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/alignments/tip"><strong>Genus-level</strong></a>’
+			alignments constructed to represent proposed homologies between the genomes of
+			representative members of specific hepadnavirus genera and eHBV reference sequences.
+			<li> ‘<a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/alignments/tip"><strong>Tip</strong></a>’
+			alignments in which all taxa are derived from a single eHBV lineage.</li>
+		  </ol>
+
+
+ 		</p>
+
+
+	   <h3>
+		 <a id="Phylogenetic trees" class="anchor" href="#PhylogeneticTrees" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Phylogenetic trees</strong>
+	   </h3>
+
+		<p>
+
+          We used GLUE to implement an automated process for deriving midpoint rooted,
+          annotated trees from the alignments included in our project.
  		</p>
 
 
 		<p>
-          We have used GLUE to set-up an automated process for deriving 
-          midpoint rooted, annotated trees for each of the alignments included in 
-          our alignment tree. 
-          
+          Trees were constructed at distinct taxonomic levels:
+        
+		  <ol>
+			<li> Recursively populated <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/trees/main-root"><strong>root</strong></a> phylogeny (Rep)</li>
+			<li> <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/trees/genus-level-with-eves/"><strong>Genus-level</strong></a> phylogenies</li>
+			<li> <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/trees/eve-orthologs/"><strong>eHBV lineage-level</strong></a> phylogenies</li>
+		  </ol>
+
  		</p>
+
 
 
 
