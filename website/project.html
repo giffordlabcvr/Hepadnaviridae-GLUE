@@ -57,25 +57,47 @@
 	   </p>
 
 
+	   <h3>
+		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Project-specific schema extensions</strong>
+	   </h3>
+
+
+		 <p>
+		   Hepadnaviridae-GLUE extends GLUE's 
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
+		   through the incorporation of a number of additional fields in the 
+		   sequence table (see <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/glue/core/hepadnaviridaeSchemaExtensions.glue"><b>here</b></a>).
+		 </p>
+
+
+		 <p>
+		   Note that Hepadnaviridae-GLUE also extends the GLUE
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
+		   with an additional table: 'isolate'.
+		   This table is linked to the main 'sequence' table via sequence ID, and
+		   contains isolate-specific information. e.g. species sampled, date and location of sample.
+		 </p>
+
+
 
 	   <h3>
 		 <a id="virusReferenceSequence" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Hepadnavirus reference sequences</strong>
 	   </h3>
 
-	   <p>
-		 We used GLUE to derive annotated reference sequences for all known hepadnavirus species.
-		 Reference sequences are linked to auxiliary data in		 
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/core/hepadna-ncbi-refseqs-side-data.tsv">tabular format</a>.
-	   </p>
+		<p>
+		  We used GLUE to derive annotated reference sequences for all known hepadnavirus species.
+		  Reference sequences are linked to auxiliary data in		 
+		  <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/core/hepadna-ncbi-refseqs-side-data.tsv">tabular format</a>.
+		</p>
 
 
 
-	   <p>
-		 <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		 are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a>
-		 and are uniquely identified within this project by their
-		 <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>.</li> 
-	   </p>
+		<p>
+		  <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
+		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a>
+		  and are uniquely identified within this project by their
+		  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>.</li> 
+		</p>
 
 
 	   <h3>
