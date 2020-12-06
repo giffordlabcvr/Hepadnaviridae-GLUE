@@ -5,10 +5,6 @@
   <sourceName>ncbi-refseqs</sourceName>
   <specificPrimaryAccessions>
 
-	<!-- Nackednavirus -->
-    <!-- African cichlid hepatitis B virus -->
-    <primaryAccession>MH158727</primaryAccession>
-
 	<!-- Parahepadnavirus -->
     <!-- White sucker hepatitis B virus -->
     <primaryAccession>NC_027922</primaryAccession>
