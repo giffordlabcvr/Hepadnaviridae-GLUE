@@ -66,16 +66,12 @@
 		   Hepadnaviridae-GLUE extends GLUE's 
 		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
 		   through the incorporation of a number of additional fields in the 
-		   sequence table (see <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/glue/core/hepadnaviridaeSchemaExtensions.glue"><b>here</b></a>).
-		 </p>
-
-
-		 <p>
-		   Note that Hepadnaviridae-GLUE also extends the GLUE
-		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
-		   with an additional table: 'isolate'.
-		   This table is linked to the main 'sequence' table via sequence ID, and
-		   contains isolate-specific information. e.g. species sampled, date and location of sample.
+		   sequence table, and a project-specific custom table: 'isolate'
+		   (these schema extensions are defined <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/glue/core/hepadnaviridaeSchemaExtensions.glue"><b>here</b></a>).
+		   This isolate table is linked to the main 'sequence' table via
+		   the sequence ID field.
+		   It contains information pertaining to viral isolates,
+		   e.g. species sampled, date and location of sample.
 		 </p>
 
 
