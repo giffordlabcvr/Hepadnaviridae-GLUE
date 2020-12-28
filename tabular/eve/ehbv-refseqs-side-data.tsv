@@ -23,8 +23,8 @@ ehbv-avi.22-tyto	avi.22-tyto	Avihepadnavirus	Endogenous avihepadnavirus 22	ehbv-
 ehbv-avi.23-psittaciformes	avi.23-psittaciformes	Avihepadnavirus	Endogenous avihepadnavirus 23	ehbv-avi.23-strigops	23	amp fragment	nd	nd	UBE2G1	 SPNS3	Hepadnaviridae		Psittaciformes	N/A	avi-4
 ehbv-avi.24-apaloderma	avi.24-apaloderma	Avihepadnavirus	Endogenous avihepadnavirus 24	ehbv-avi.24-apaloderma	24	fragment	nd	nd	CDH23 (intronic)	CDH23 (intronic)	Hepadnaviridae		Apaloderma	N/A	avi-3
 ehbv-avi.25-chaetura	avi.25-chaetura	Avihepadnavirus	Endogenous avihepadnavirus 25	ehbv-avi.25-chaetura	25	complete	Pol	523	ARMC1	CYP7B1	Hepadnaviridae		Chaetura	N/A	avi-3
-ehbv-avi.26-psittaciformes	avi.26-psittaciformes	Avihepadnavirus	Endogenous avihepadnavirus 26	ehbv-avi.26-psittaciformes	26	amp fragment	nd	nd	NELL1 (intronic)	NELL1 (intronic)	Hepadnaviridae		Psittaciformes	N/A	ND
-ehbv-avi.27-sulidae-con	avi.27-sulidae	Avihepadnavirus	Endogenous avihepadnavirus 27	ehbv-avi.27-sulidae-con	27	amp fragment	nd	nd	SUPT7L	LRFN2	Hepadnaviridae		sulidae	N/A	ND
+ehbv-avi.26-psittaciformes	avi.26-psittaciformes	Avihepadnavirus	Endogenous avihepadnavirus 26	ehbv-avi.26-psittaciformes	26	amp fragment	nd	nd	NELL1 (intronic)	NELL1 (intronic)	Hepadnaviridae	Order	Psittaciformes	N/A	ND
+ehbv-avi.27-phalacrocoracidae-con	avi.27-phalacrocaracidae	Avihepadnavirus	Endogenous avihepadnavirus 27	ehbv-avi.27-phalacrocoracidae-con	27	amp fragment	nd	nd	SUPT7L	LRFN2	Hepadnaviridae	Family	Phalacrocoracidae	N/A	ND
 ehbv-avi.28-alauda	avi.28-alauda	Avihepadnavirus	Endogenous avihepadnavirus 28	ehbv-avi.28-alauda	28	complete	Pol	745	EPHA6	NSUN3	Hepadnaviridae		Aauda	N/A	avi-1-modern
 ehbv-avi.29-psittacula	avi.29-psittacula	Avihepadnavirus	Endogenous avihepadnavirus 29	ehbv-avi.29-psittacula	29	complete	nd	nd	ENSMUNG00000011927/CHSY3	ENSMUNG00000011929/HINT1	Hepadnaviridae		Psittacula	N/A	avi-4
 ehbv-avi.30-anatidae-con	avi.30-anatidae	Avihepadnavirus	Endogenous avihepadnavirus 30	ehbv-avi.30-anatidae-con	30	fragment	nd	nd	ENSACDG00005009727	CCDC58	Hepadnaviridae		anatidae	N/A	ND

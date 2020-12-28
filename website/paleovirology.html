@@ -3,15 +3,6 @@
 
   <head>
   
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127420264-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-127420264-1');
-	</script>
-
 
     <meta charset="UTF-8">
     <title>Hepadnaviridae-GLUE by giffordlabcvr</title>
@@ -29,7 +20,7 @@
       <h2 class="project-tagline">A sequence data resource for hepadnaviruses.</h2>
       <a href="../index.html" class="btn">Home</a>
       <a href="./project.html" class="btn">Viruses</a>
-      <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master" class="btn">View on GitHub</a>
     </section>
 
@@ -54,8 +45,9 @@
 
 <blockquote>
 		<p>
-		  Some of the species in which we identified EVEs derived from hepadnaviruses,
-		  left to right: emperor penguin, barn owl, cormorants, Anna's hummingbird.
+		  Some of the species in which we identified EVEs derived from hepadnaviruses 
+		  - commonly referred to as <b>endogenous hepatitis B (eHBV) elements</b> - 
+		  left to right: emperor penguin (<i>Aptenodytes forsteri</i>), barn owl (<i>Tyto alba</i>), cormorants (family Phalacrocoracidae), Anna's hummingbird (<i>Calypte anna</i>).
 		</p>
          
 </blockquote>
@@ -68,7 +60,8 @@
 	   <hr>
 
 	   <p>
-          The EVE sequences in Hepadnaviridae-GLUE can provide a useful resource for those
+          The endogenous hepatitis B (eHBV) sequences in Hepadnaviridae-GLUE can
+          provide a useful resource for those
           interested in identifying and characterising hepadnaviruses in metagenomic
           datasets.
 	   </p>
@@ -87,10 +80,46 @@
           about their broader ecology and evolution, including (uniquely) their long-term
           evolution. 
 	   </p>
+       
+
         
-		<br>
+        
+	   <br>
+	   <h3>
+		 <a id="dataProvenance" class="anchor" href="#dataProvenance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Where do the eHBV data come from?</strong>
+	   </h3>
+       <hr>
+ 
+
+	   <p>
+		 EVE sequences were recovered from whole genome sequence (WGS) assemblies 
+		 via <b>database-integrated genome screening (DIGS)</b> using the 
+		  <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/"><b>DIGS tool</b></a>.
+	   </p>
+	   
+
+	   <p>
+		 All data pertaining to this screen are included in this repository, or in the 
+		 associated "DIGS-for-EVEs" project.
+	   </p>
 
 
+ 
+	   <p>
+		 The complete list of <b>vertebrate</b> genomes screened can be found
+         <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/digs/vertebrate-genomes-screened.csv"><b>here</b></a>.
+	   </p>
+
+ 
+	   <p>
+		 The complete list of <b>invertebrate</b> genomes screened can be found
+         <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/digs/invertebrate-genomes-screened.csv"><b>here</b></a>.
+	   </p>
+      
+       
+       
+        
+	   <br>
 	   <h3>
 		 <a id="schemaExtensions" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Paleovirus-specific schema extensions</strong>
 	   </h3>

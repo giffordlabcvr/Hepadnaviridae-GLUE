@@ -26,7 +26,7 @@
   create reference REF_EHBV-Avi.24-apaloderma       fasta-refseqs-ehbv ehbv-avi.24-apaloderma
   create reference REF_EHBV-Avi.25-chaetura         fasta-refseqs-ehbv ehbv-avi.25-chaetura
   create reference REF_EHBV-Avi.26-psittaciformes   fasta-refseqs-ehbv ehbv-avi.26-psittaciformes
-  create reference REF_EHBV-Avi.27-sulidae          fasta-refseqs-ehbv ehbv-avi.27-sulidae-con
+  create reference REF_EHBV-Avi.27-phalacrocoracidae fasta-refseqs-ehbv ehbv-avi.27-phalacrocoracidae-con
   create reference REF_EHBV-Avi.28-alauda           fasta-refseqs-ehbv ehbv-avi.28-alauda
   create reference REF_EHBV-Avi.29-psittacula       fasta-refseqs-ehbv ehbv-avi.29-psittacula
   create reference REF_EHBV-Avi.30-anatidae         fasta-refseqs-ehbv ehbv-avi.30-anatidae-con 
