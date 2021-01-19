@@ -18,6 +18,12 @@ project hepadnaviridae
   # Create reference sequences
   run file glue/core/hepadnaviridaeMasterReferences.glue
 
+  # Apply rotations
+  run script glue/core/hepadnaviridaeRefseqsApplyRotations.js
+
+  # Add feature locations
+  run file glue/core/hepadnaviridaeExplicitFeatureLocations.glue
+
   # Import alignments
   run file glue/core/hepadnaviridaeAlignments.glue
   run file glue/core/hepadnaviridaeAlignmentTree.glue
