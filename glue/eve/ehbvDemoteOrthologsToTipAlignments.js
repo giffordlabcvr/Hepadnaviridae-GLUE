@@ -32,7 +32,7 @@ _.each(loadResult, function(eveObj) {
 
 	if (locus_numeric_id != 'NK') { // Skip elements that haven't been assigned to a locus
 
-		glue.log("INFO", "Sequence ID", locus_name);
+		glue.log("INFO", "Sequence ID", sequenceID);
 		glue.log("INFO", "Locus ID", locus_name);
 		glue.log("INFO", "Locus numeric ID", locus_numeric_id);
 	
