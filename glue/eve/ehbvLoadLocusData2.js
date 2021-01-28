@@ -50,11 +50,13 @@ _.each(loadResult, function(eveObj) {
 		
 	    // Get the genus information from the reference sequence
 	    var locusObj = ehbvRefseqResultMap[locus_name];
-		if (locus_name == 'NK') {	// Skip references that havent been assigned to a genus			
+		if (locusObj) {	// Put NK for  that havent been assigned to a locus
+		  glue.command(["set", "field", "genus", "NK"]);
 
 		}
 		else {
-		  glue.command(["set", "field", "genus", locusObj.virus_genus]);
+		
+		  glue.command(["set", "field", "genus", eveObj.virus_genus]);
 		  //glue.command(["set", "field", "virus_clade", locusObj.virus_clade)]);
 		}
 	});
