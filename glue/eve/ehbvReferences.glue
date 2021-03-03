@@ -51,6 +51,7 @@
   create reference REF_EHBV-Avi.49-psittaciformes   fasta-refseqs-ehbv ehbv-avi.49-psittaciformes
   create reference REF_EHBV-Avi.52-melopsittacus    fasta-refseqs-ehbv ehbv-avi.52-melopsittacus
   create reference REF_EHBV-Avi.53-picoides         fasta-refseqs-ehbv ehbv-avi.53-picoides
+  create reference REF_EHBV-Avi.54-corapipo         fasta-refseqs-ehbv ehbv-avi.54-corapipo
 
 
   # Herpetohepadnavirus
