@@ -27,6 +27,7 @@ _.each(loadResult, function(eveObj) {
 	var sequenceID = eveObj.sequenceID;
 	var locus_name = eveObj.locus_name;
 	var locus_numeric_id = eveObj.locus_numeric_id;
+	var virus_genus = eveObj.virus_genus;
 	var locusObj = ehbvRefseqResultMap[locus_name];
 	
 
@@ -36,15 +37,13 @@ _.each(loadResult, function(eveObj) {
 		glue.log("INFO", "Locus ID", locus_name);
 		glue.log("INFO", "Locus numeric ID", locus_numeric_id);
 	
-		// Get the taxonomy 
-		var virus_genus = locusObj.virus_genus;
 
 		// Does an alignment exist for this locus ID
         var alignmentName = "AL_EHBV-" + locus_name;
 
 		glue.log("INFO", "Adding sequence:", eveObj.sequenceID);
 		glue.log("INFO", "to alignment", alignmentName);
-		glue.log("INFO", "genus:", locusObj.virus_genus);
+		glue.log("INFO", "genus:", virus_genus);
 		
 		var parentAlignmentName;
 		if (virus_genus == 'NK') {	// Skip references that havent been assigned to a genus			

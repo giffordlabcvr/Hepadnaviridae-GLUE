@@ -46,6 +46,7 @@ ehbv-avi.48-podiceps	avi.48-podiceps	Avihepadnavirus	Endogenous avihepadnavirus 
 ehbv-avi.49-psittaciformes	avi.49-psittaciformes	Avihepadnavirus	Endogenous avihepadnavirus 49	ehbv-avi.49-psittaciformes	49	fragment	nd	nd	GRID2 (intronic)	GRID2 (intronic)	Hepadnaviridae	Order	Psittaciformes	N/A	ND
 ehbv-avi.52-melopsittacus	avi.52-melopsittacus	Avihepadnavirus	Endogenous avihepadnavirus 52	ehbv-avi.52-melopsittacus	52	fragment	nd	nd	LUZP2	ANO3	Hepadnaviridae	Species	Melopsittacus	N/A	ND
 ehbv-avi.53-picoides	avi.53-picoides	Avihepadnavirus	Endogenous avihepadnavirus 53	ehbv-avi.53-picoides	53	fragment	nd	nd	TRIB2	LPIN1	Hepadnaviridae	Species	Picoides	N/A	ND
+ehbv-avi.54-corapipo	avi.54-corapipo	Avihepadnavirus	Endogenous avihepadnavirus 54	ehbv-avi.54-corapipo	54	fragment	nd	nd	nd	nd	Hepadnaviridae	Species	Corapipo_altera	N/A	ND
 ehbv-herpeto.1-serpentes	herpeto.1-serpentes	Herpetohepadnavirus	Endogenous herpetohepadnavirus 1	ehbv-herpeto.1-serpentes	1	complete	nd	nd	TSHZ1 	ZNF516	Hepadnaviridae	Suborder	Serpentes	N/A	ND
 ehbv-herpeto.2-serpentes	herpeto.2-serpentes	Herpetohepadnavirus	Endogenous herpetohepadnavirus 2	ehbv-herpeto.2-serpentes	2	complete	nd	nd	NPFFR2	FTH1	Hepadnaviridae	Suborder	Serpentes	N/A	herpeto-type-3-serpentes
 ehbv-herpeto.3-crocodilia	herpeto.3-crocodilia	Herpetohepadnavirus	Endogenous herpetohepadnavirus 3	ehbv-herpeto.3-crocodilia	3	fragment	nd	nd	NUP210	IQSEC1	Hepadnaviridae	Order	Crocodilia	N/A	herpeto-type-4-croc

@@ -29,7 +29,7 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "bitscore", eveObj.bitscore]);
 		glue.command(["set", "field", "identity", eveObj.identity]);
 		glue.command(["set", "field", "sequence_length", eveObj.sequence_length]);
-		glue.command(["set", "field", "assigned_name", eveObj.assigned_name]);
+		glue.command(["set", "field", "assigned_name", eveObj.locus_name]);
 		glue.command(["set", "field", "host_class", eveObj.host_class]);
 		glue.command(["set", "field", "host_species", eveObj.host_species]);
 		glue.command(["set", "field", "host_superorder", eveObj.host_superorder]);
