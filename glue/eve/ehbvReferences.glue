@@ -8,7 +8,6 @@
 
   create reference REF_EHBV-Avi.5-passeriformes-unranked     fasta-refseqs-ehbv ehbv-avi.5-passeriformes  # eZHBV03
 
-
   create reference REF_EHBV-Avi.6-passeriformes     fasta-refseqs-ehbv ehbv-avi.6-passeriformes  # eZHBV04
   create reference REF_EHBV-Avi.7-passeriformes     fasta-refseqs-ehbv ehbv-avi.7-passeriformes  # eZHBV05
   create reference REF_EHBV-Avi.8-australiaves      fasta-refseqs-ehbv ehbv-avi.8-australiaves   # eZHBV0e
