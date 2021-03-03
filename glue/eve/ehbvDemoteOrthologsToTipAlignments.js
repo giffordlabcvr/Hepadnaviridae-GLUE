@@ -72,7 +72,7 @@ _.each(loadResult, function(eveObj) {
 			// Add the sequence to the alignment
 			glue.inMode("/alignment/"+parentAlignmentName, function() {			
 				glue.log("INFO", "ADDING sequence: ", sequenceID);
-				glue.command(["demote", "member", alignmentName, "-w", "sequence.sequenceID = '"+sequenceID+"'"]);
+				glue.command(["demote", "member", alignmentName, "-w", "sequence.locus_data.locus_numeric_id = '"+locus_numeric_id+"'"]);
 			});
 			
 		}

@@ -21,7 +21,9 @@ _.each(loadResult, function(eveObj) {
     var locus_name;
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering locus table data for DIGS sequence:", eveObj.sequenceID);		
+		glue.log("INFO", "Entering locus table data for DIGS sequence:", eveObj.sequenceID);
+		
+		glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
 		glue.command(["set", "field", "start_position", eveObj.extract_start]);
 		glue.command(["set", "field", "end_position", eveObj.extract_end]);
@@ -47,18 +49,8 @@ _.each(loadResult, function(eveObj) {
 		glue.log("INFO", "Entering sequence table data for DIGS sequence:", eveObj.sequenceID);
 		glue.command(["set", "field", "name", eveObj.sequenceID]);
 		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
-		
-	    // Get the genus information from the reference sequence
-	    var locusObj = ehbvRefseqResultMap[locus_name];
-		if (locusObj) {	// Put NK for  that havent been assigned to a locus
-		  glue.command(["set", "field", "genus", "NK"]);
+		glue.command(["set", "field", "genus", eveObj.virus_genus]);
 
-		}
-		else {
-		
-		  glue.command(["set", "field", "genus", eveObj.virus_genus]);
-		  //glue.command(["set", "field", "virus_clade", locusObj.virus_clade)]);
-		}
 	});
 
 });
