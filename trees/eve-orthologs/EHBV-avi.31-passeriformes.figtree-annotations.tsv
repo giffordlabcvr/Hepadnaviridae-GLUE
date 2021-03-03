@@ -1,8 +1,0 @@
-taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order
-alignment/AL_EHBV-avi.31-passeriformes/member/fasta-digs-ehbv/Geospiza_fortis_27581	Geospiza_fortis_27581	Geospiza_fortis_27581	Avihepadnavirus	JH739901	73.548	239	Geospiza fortis	Geospiza	Thraupidae	Passeriformes
-alignment/AL_EHBV-avi.31-passeriformes/member/fasta-digs-ehbv/Hemignathus_virens_27599	Hemignathus_virens_27599	Hemignathus_virens_27599	Avihepadnavirus	LTAT01000004.1	64.619	566	Hemignathus virens	Hemignathus	Fringillidae	Passeriformes
-alignment/AL_EHBV-avi.31-passeriformes/member/fasta-digs-ehbv/Molothrus_ater_28686	Molothrus_ater_28686	Molothrus_ater_28686	Avihepadnavirus	CM022841.1	58.396	405	Molothrus ater	Molothrus	Icteridae	Passeriformes
-alignment/AL_EHBV-avi.31-passeriformes/member/fasta-digs-ehbv/Passer_domesticus_27637	Passer_domesticus_27637	Passer_domesticus_27637	Avihepadnavirus	CM004529.1	86.008	1136	Passer domesticus	Passer	Passeridae	Passeriformes
-alignment/AL_EHBV-avi.31-passeriformes/member/fasta-digs-ehbv/Serinus_canaria_28072	Serinus_canaria_28072	Serinus_canaria_28072	Avihepadnavirus	gi|668343359|ref|NW_007931122.1|	69.07	526	Serinus canaria	Serinus	Fringillidae	Passeriformes
-alignment/AL_EHBV-avi.31-passeriformes/member/fasta-digs-ehbv/Setophaga_coronata_28073	Setophaga_coronata_28073	Setophaga_coronata_28073	Avihepadnavirus	MDLI01000006.1	77.492	441	Setophaga coronata	Setophaga	Parulidae	Passeriformes
-alignment/AL_EHBV-avi.31-passeriformes/member/fasta-digs-ehbv/Zonotrichia_albicollis_28099	Zonotrichia_albicollis_28099	Zonotrichia_albicollis_28099	Avihepadnavirus	gi|538542673|ref|NW_005081547.1|	81.761	266	Zonotrichia albicollis	Zonotrichia	Passerellidae	Passeriformes

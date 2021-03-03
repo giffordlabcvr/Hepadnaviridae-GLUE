@@ -1,5 +1,0 @@
-taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order
-alignment/AL_EHBV-avi.42-passeriformes/member/fasta-digs-ehbv/Empidonax_traillii_27360	Empidonax_traillii_27360	Empidonax_traillii_27360	Avihepadnavirus	PWAB01000229.1	90.062	251	Empidonax traillii	Empidonax	Tyrannidae	Passeriformes
-alignment/AL_EHBV-avi.42-passeriformes/member/fasta-digs-ehbv/Lepidothrix_coronata_27395	Lepidothrix_coronata_27395	Lepidothrix_coronata_27395	Avihepadnavirus	KV388216.1	90.526	150	Lepidothrix coronata	Lepidothrix	Pipridae	Passeriformes
-alignment/AL_EHBV-avi.42-passeriformes/member/fasta-digs-ehbv/Manacus_vitellinus_27400	Manacus_vitellinus_27400	Manacus_vitellinus_27400	Avihepadnavirus	scaffold129	86.316	137	Manacus vitellinus	Manacus	Pipridae	Passeriformes
-alignment/AL_EHBV-avi.42-passeriformes/member/fasta-digs-ehbv/Pipra_filicauda_27440	Pipra_filicauda_27440	Pipra_filicauda_27440	Avihepadnavirus	NW_020893988.1	87.5	144	Pipra filicauda	Pipra	Pipridae	Passeriformes

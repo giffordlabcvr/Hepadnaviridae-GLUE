@@ -1,9 +1,0 @@
-taxon	sequenceID	name	genus	scaffold	identity	bitscore	host_species	host_genus	host_family	host_order
-alignment/AL_EHBV-avi.26-psittaciformes/member/fasta-digs-ehbv/Amazona_vittata_4843	Amazona_vittata_4843	Amazona_vittata_4843	Avihepadnavirus	KB257602.1	100	356	Amazona vittata	Amazona	Psittacidae	Psittaciformes
-alignment/AL_EHBV-avi.26-psittaciformes/member/fasta-digs-ehbv/Ara_macao_4870	Ara_macao_4870	Ara_macao_4870	Avihepadnavirus	KE083073.1	86.813	164	Ara macao	Ara	Psittacidae	Psittaciformes
-alignment/AL_EHBV-avi.26-psittaciformes/member/fasta-digs-ehbv/Eupsittula_pertinax_28644	Eupsittula_pertinax_28644	Eupsittula_pertinax_28644	Avihepadnavirus	WUQE01002925.1	83.516	160	Eupsittula pertinax	Eupsittula	Psittacidae	Psittaciformes
-alignment/AL_EHBV-avi.26-psittaciformes/member/fasta-digs-ehbv/Guaruba_guarouba_28672	Guaruba_guarouba_28672	Guaruba_guarouba_28672	Avihepadnavirus	JAABOC010001571.1	84.694	173	Guaruba guarouba	Guaruba	Psittacidae	Psittaciformes
-alignment/AL_EHBV-avi.26-psittaciformes/member/fasta-digs-ehbv/Melopsittacus_undulatus_4946	Melopsittacus_undulatus_4946	Melopsittacus_undulatus_4946	Avihepadnavirus	JH556616	72.043	139	Melopsittacus undulatus	Melopsittacus	Psittaculidae	Psittaciformes
-alignment/AL_EHBV-avi.26-psittaciformes/member/fasta-digs-ehbv/Pionus_senilis_28701	Pionus_senilis_28701	Pionus_senilis_28701	Avihepadnavirus	WURU01067777.1	70.968	131	Pionus senilis	Pionus	Psittacidae	Psittaciformes
-alignment/AL_EHBV-avi.26-psittaciformes/member/fasta-digs-ehbv/Psittacula_krameri_27445	Psittacula_krameri_27445	Psittacula_krameri_27445	Avihepadnavirus	NFZL01001434.1	75.581	128	Psittacula krameri	Psittacula	Psittacidae	Psittaciformes
-alignment/AL_EHBV-avi.26-psittaciformes/member/fasta-digs-ehbv/Psittacula_krameri_4134	Psittacula_krameri_4134	Psittacula_krameri_4134	Avihepadnavirus	NFZL01001103.1	76.515	202	Psittacula krameri	Psittacula	Psittacidae	Psittaciformes
