@@ -4,8 +4,9 @@ Begin SCREENDB;
 ENDBLOCK;
 
 BEGIN SCREENSETS;
-	query_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/hepadna_probes.faa;
-	reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/hepadna_refs_new.faa;
+	query_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/hepadna-probes.faa;
+	reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/hepadna-refs.faa;
+	consolidated_reference_aa_fasta=/home2/giff01r/DIGS/projects/eve/final_fasta/hepadna_refs_consolidate_final.faa;
 	output_path=./tmp/;
 	bitscore_min_tblastn=60;
 	seq_length_minimum=40;
