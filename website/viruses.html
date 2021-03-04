@@ -28,16 +28,17 @@
     <section class="main-content">
 
 	   <h3>
-		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Hepadnavirus data</strong>
+		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background</strong>
 	   </h3>
 	   <hr>
 	   <p>
-         We have used the
-         <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a>
-         software environment to create a sequence data resource
-         (‘Hepadnaviridae-GLUE’) capable of supporting reproducible comparative investigations of
-         hepadnavirus genomes.
-	   </p>
+         Hepadnaviruses (family Hepadnaviridae) are reverse-transcribing DNA viruses that
+         infect vertebrates. The type species - hepatitis B virus (HBV) - is estimated to
+         infect ~300 million people worldwide, causing substantial morbidity and mortality.
+         Recent studies have revealed that hepadnaviruses infect a diverse range of
+         vertebrate species, ranging from fish to mammals. They are associated with
+         disease in many of these species. 
+ 	   </p>
 
 	   
         <p><img src="./images/virus-project-header.png" alt="Species known to be afflicted by hepadnaviruses" /></p>
@@ -57,16 +58,35 @@
          
 </blockquote>
 		 
+	   <br>
+	   <h3>
+		 <a id="GlueProject" class="anchor" href="#GlueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>GLUE Project</strong>
+	   </h3>
+	   <hr>
+	   <p>
+         We have used the
+         <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a>
+         software environment to create a sequence data resource
+         (‘Hepadnaviridae-GLUE’) capable of supporting reproducible comparative investigations of
+         hepadnavirus genomes.
+	   </p>
+
 
 	   <p>
 
          The Hepadnaviridae-GLUE project not only contains data items required for
-         comparative genomic analysis of these viruses (i.e. virus genome sequences,
-         multiple sequence alignments, genome feature annotations, and other
-         sequence-associated data).
-         Loading the project into the GLUE software framework creates a relational database
-         that represents the semantic relationships between these data items.
+         comparative genomic analysis
+         - i.e. virus genome sequences, multiple sequence alignments, genome feature annotations, and other
+         sequence-associated data -
+         but also, loading the project into the GLUE software framework
+         creates a relational database that represents the semantic relationships
+         between these data items.
+         This allows users to perform comparative analysis of hepadnavirus genomes using
+         GLUEs command layer. 
 	   </p>
+
+
+
 
 	   <p>
 
@@ -91,7 +111,7 @@
 		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/coreSchema"><b>core schema</b></a>
 		   through the incorporation of a number of additional fields in the 
 		   sequence table, and a project-specific custom table: 'isolate'.
-		   These schema extensions are defined <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/glue/core/hepadnaviridaeSchemaExtensions.glue"><b>in this file</b></a>.
+		   These schema extensions are defined <a target="_blank" href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/glue/core/hepadnaviridaeSchemaExtensions.glue"><b>here</b></a>.
 		   The isolate table is linked to the main 'sequence' table via the sequence ID field.
 		   It contains information pertaining to viral isolates,  e.g. species sampled, date and location of sample.
 		 </p>
@@ -106,17 +126,22 @@
 		<p>
 		  We used GLUE to derive annotated reference sequences for all known hepadnavirus species.
 		  Reference sequences are linked to auxiliary data in		 
-		  <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/core/hepadna-ncbi-refseqs-side-data.tsv"><b>tabular format</b></a>.
+		  <a target="_blank" href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/core/hepadna-ncbi-refseqs-side-data.tsv"><b>tabular format</b></a>.
 		</p>
-
-
-
+		
 		<p>
-		  <a target="_blank" href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master/sources/ncbi-refseqs">XML-formatted files</a>
-		  are downloaded directly from <a href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI</a>
-		  and are uniquely identified within this project by their
-		  <a target="_blank" href="https://www.ncbi.nlm.nih.gov/Sequin/acc.html">GenBank accession numbers</a>.</li> 
-		</p>
+
+ 		  For each hepadnaviral genus, we defined a 'master' reference sequence, as follows:
+		  <ul>
+		    <li><b><i>Orthohepadnavirus</i></b>: Hepatitis B virus, strain ayw (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_003977"><b>NC_003977</b></a>)</li>
+		    <li><b><i>Avihepadnavirus</i></b>: Duck hepatitis B virus, isolate DHBVQCA34 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001344"><b>NC_001344</b></a>)</li>
+		    <li><b><i>Herpetohepadnavirus</i></b>: Tibetan frog hepatitis B virus, isolate 243398 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_030446"><b>NC_030446</b></a>)</li>
+		    <li><b><i>Metahepadnavirus</i></b>: Bluegill hepatitis B virus (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_030445"><b>NC_030445</b></a>)</li>
+		    <li><b><i>Parahepadnavirus</i></b>: White sucker hepadnavirus, isolate RR173 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_027922"><b>NC_027922</b></a>)</li>
+		  </ul>
+		  
+ 		</p>
+        
 
 
 
