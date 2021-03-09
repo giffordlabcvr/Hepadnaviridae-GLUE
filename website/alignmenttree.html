@@ -32,56 +32,52 @@
     <section class="main-content">
 
 	   <h3>
-		 <a id="'Alignment Trees' in GLUE" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>The GLUE alignment tree structure</strong>
+		 <a id="'Alignment Trees' in GLUE" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>The alignment tree in Hepadnaviridae-GLUE</strong>
 	   </h3>
 	   <hr>
 
-
-
 		<p>
-          GLUE projects have the option of using a structure called an 'alignment tree',
-          which links together nucleotide homologies in a useful, evolution-oriented way.
-          An alignment tree is built by first creating constrained alignments for
-          each of the established clades for the viruses of interest. This can be done
-          within GLUE, or externally using any favoured approach to MSA construction. 
+          GLUE projects have the option of using a data structure called an <b>alignment tree</b>
+          to create a set of linked multiple sequence alignments representing different taxonomic levels.
+          We used this data structure to link MSAs in Hepadnaviridae-GLUE.
  		</p>
 
 
+ 	    <br>
 
-		<p>
-         Where a parent-child relationship between two clades exists within the
-          evolutionary hypothesis, a special relational link is introduced between the
-          corresponding pairs of Alignment objects. Sequence objects are then assigned
-          to clades by adding them as members of the corresponding alignment.
-		</p>
-
-
- 	   <br>
 
 
         <p><img src="./images/alignmentTreeConcept.jpg" alt="Alignment tree concept" /></p>
  		
 
- 	   <br>
-
-
+<blockquote>
 		<p>
-          We created a set of linked alignments that represented distinct
-          taxonomic groups and levels within the family Hepadnaviridae. For the lower
+		  The schematic figure above shows the alignment tree structure in Hepadnaviridae GLUE.
+		  We have constructed 'tip' alignments at genus level, as well as a family-level
+		  alignment (located at an internal node in the tree above) representing the
+		  <i>Hepadnaviridae</i>, and a root alignment that includes the Nackednaviruses
+		  as an outgroup. 
+		</p>
+         
+</blockquote>
+
+
+ 	    <br>
+		<p>       
+          For the lower
           taxonomic levels (i.e. within and below genus level) we aligned complete coding
           sequences.
-          
-		  
-		</p>
-
-		<p>       
-          For higher taxonomic levels we aligned the polymerase or RT genes. 
+          For higher taxonomic levels (i.e. near the root) we aligned the polymerase or RT genes. 
           We used GLUE to link these alignments, via a set of common reference sequences.
           The root alignment contains all reference sequences, whereas all children of the
-          root inherit at least one reference from their immediate parent. Thus, all alignments are linked to one another via our chosen set of references.
+          root inherit at least one reference from their immediate parent.
+          Thus, all alignments are linked to one another via our chosen set of references.
  		</p>
-	   <br>
 
+		<p>       
+          
+          
+ 		</p>
 
 	 <footer class="site-footer">
 	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/">Hepadnaviridae-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
