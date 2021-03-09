@@ -38,25 +38,22 @@
 
 		<p>
           GLUE projects have the option of using a data structure called an <b>alignment tree</b>
-          to create a set of linked multiple sequence alignments representing different taxonomic levels.
-          We used this data structure to link MSAs in Hepadnaviridae-GLUE.
+          to link constrained multiple sequence alignments (cMSAs) representing different
+          taxonomic levels, and we've used this approach in Hepadnaviridae-GLUE.
  		</p>
 
 
  	    <br>
-
-
 
         <p><img src="./images/alignmentTreeConcept.jpg" alt="Alignment tree concept" /></p>
  		
 
 <blockquote>
 		<p>
-		  The schematic figure above shows the alignment tree structure in Hepadnaviridae GLUE.
+		  The schematic figure above shows the alignment tree structure in <b>Hepadnaviridae-GLUE</b>.
 		  We have constructed 'tip' alignments at genus level, as well as a family-level
-		  alignment (located at an internal node in the tree above) representing the
-		  <i>Hepadnaviridae</i>, and a root alignment that includes the Nackednaviruses
-		  as an outgroup. 
+		  alignment representing the <i>Hepadnaviridae</i> (located at an internal node in the tree above),
+		  and a root alignment that includes the recently described 'nackednaviruses' as an outgroup. 
 		</p>
          
 </blockquote>
@@ -67,17 +64,132 @@
           For the lower
           taxonomic levels (i.e. within and below genus level) we aligned complete coding
           sequences.
-          For higher taxonomic levels (i.e. near the root) we aligned the polymerase or RT genes. 
-          We used GLUE to link these alignments, via a set of common reference sequences.
+          For the highest taxonomic levels (i.e. at the root) we aligned only the most
+          conserved gene (the viral polymerase). 
+          We used an alignment tree data structure to link these  alignments,
+          via a set of common reference sequences.
           The root alignment contains all reference sequences, whereas all children of the
           root inherit at least one reference from their immediate parent.
-          Thus, all alignments are linked to one another via our chosen set of references.
+          Thus, all alignments are linked to one another via our chosen set of
+          master reference sequences.
  		</p>
 
-		<p>       
           
+   	    <p>
+
+          The example below illustrates some of the advantages of this.
+          The node representing the root of the <i>Hepadnaviridae</i> contains only the
+          master reference sequences for each genus (i.e. it only has five sequences in it).
+          This makes it <b>very easy to maintain</b>, but what if we want to extract an alignment
+          or build a tree at family level that includes all taxa? 
+  		</p>
+
           
+   	    <p>
+          We can use the alignment tree to accomplish this, as shown below.
+          On the GLUE console, first let's list the members of the relevant  alignment:
+  		</p>
+
+          
+   	    <p>
+
+         
+  <pre>
+  <code>
+  GLUE> project hepadnaviridae alignment AL_Hepadnaviridae list member 
+  +===================+======================+=====================+
+  |  alignment.name   | sequence.source.name | sequence.sequenceID |
+  +===================+======================+=====================+
+  | AL_Hepadnaviridae | ncbi-refseqs         | NC_001344           |
+  | AL_Hepadnaviridae | ncbi-refseqs         | NC_003977           |
+  | AL_Hepadnaviridae | ncbi-refseqs         | NC_027922           |
+  | AL_Hepadnaviridae | ncbi-refseqs         | NC_030445           |
+  | AL_Hepadnaviridae | ncbi-refseqs         | NC_030446           |
+  +===================+======================+=====================+
+  AlignmentMembers found: 5</code></pre>
+   		</p>
+
+ 
+    	<p>
+          As expected, there are only five members. Now lets look the alignment itself,
+          to see how it is linked to the other alignments, by using the 'list children'
+          commands. 
+
+         
+  <pre>
+  <code>
+   Mode path: /
+   GLUE> project hepadnaviridae alignment AL_Hepadnaviridae list children 
+   +========================+==========================+
+   |          name          |     refSequence.name     |
+   +========================+==========================+
+   | AL_Avihepadnavirus     | REF_Avi_MASTER_DHBV      |
+   | AL_Herpetohepadnavirus | REF_Herpeto_MASTER_tfHBV |
+   | AL_Metahepadnavirus    | REF_Meta_MASTER_bgHBV    |
+   | AL_Orthohepadnavirus   | REF_Ortho_MASTER_HBV     |
+   | AL_Parahepadnavirus    | REF_Para_MASTER_wsHBV    |
+   +========================+==========================+
+   Alignments found: 5</code></pre>
+        
  		</p>
+ 
+    	<p>
+          The result shows that - as expected based on the figure above -
+          the Hepadnaviridae alignment is linked to
+          five 'child' alignments, each of which represents a hepadnavirus genus.
+          This means we can use GLUE's 
+          fastAlignmentExporter
+          module to link across all of the alignments and export a codon-level alignment
+          that contains all taxa, as follows: 
+         
+   <pre>
+   <code> 
+   GLUE> project hepadnaviridae module fastaAlignmentExporter
+   OK
+   Mode path: /project/hepadnaviridae/module/fastaAlignmentExporter
+   GLUE> export AL_Hepadnaviridae -r REF_Ortho_MASTER_HBV -f Polymerase -a -e -c -p
+   </code></pre>
+        
+  		</p>
+  		
+ 
+    	<p>
+  		  A few things to explain about this command:
+  		</p>
+  		
+           
+ 		  <ul>
+ 
+ 		   <li> The -r option is used to specify a reference (here we use the project master reference, HBV)
+		   </li>
+ 		   <li> The -f option is used to select a feature within the specified reference
+ 		   (here we select the polymerase gene reading frame)
+		   </li>		 
+		   <li> The -a option means 'all taxa' - it is provided in lieu of a 
+		        where clause (-w) for selecting specific taxa.
+		   </li>
+		   <li> The -e option means 'exclude empty rows' - it prevents inclusion of taxa that
+		        do not span the selected feature in the exported alignment.
+		   </li>
+		   <li> The -c option is the important one for our example - it means 'export recursively' -
+		        in other words, include taxa in alignments that are children of the
+		        specified  alignment.
+		   </li>
+		   <li> The -p option is means 'preview on the command line' -
+		        this will output the result of the command to the console.
+		        To export the alignment as a file use the -o option with a file name,
+		        as shown here:
+		   </li>
+		   
+		 </ul>
+  		
+   <pre>
+   <code> 
+   Mode path: /project/hepadnaviridae/module/fastaAlignmentExporter
+   GLUE> export AL_Hepadnaviridae -r REF_Ortho_MASTER_HBV -f Polymerase -a -e -c -o out.fasta
+   </code></pre>
+  		
+  		
 
 	 <footer class="site-footer">
 	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/">Hepadnaviridae-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>

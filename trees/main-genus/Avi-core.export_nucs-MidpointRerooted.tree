@@ -1,1 +1,111 @@
-(alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_035210:0.23793678027403991800,(((((alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001344:0.04085311277609417896,alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005950:0.08952074700489444370)100:0.04617017982312251329,alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005890:0.07364682025793030384)53:0.01013597827554774469,(alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005888:0.11407226760668957855,alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ441111:0.05691547323351194704)99:0.03113709065755901687)99:0.04405733611277025397,(alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ251934:0.08778090800413858308,alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001486:0.10019367615975824370)100:0.08841440632668981503)75:0.04215501242155076517,alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_016561:0.14682516700279438226):0.00589752663615419718);
+#NEXUS
+begin taxa;
+	dimensions ntax=9;
+	taxlabels
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ251934'[&clade="-",core_shift="type-1",country="Germany:Northern Germany",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Ciconia ciconia",isolate="STHBV-1",name="STHBV",sample_date="-",sequenceID="AJ251934",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ441111'[&clade="-",core_shift="type-1",country="Germany:Berlin",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Balearica regulorum",isolate="CCHBV 1",name="CCHBV",sample_date="-",sequenceID="AJ441111",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001344'[&clade="-",core_shift="type-2",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Anas platyrhynchos",isolate="DHBVQCA34",name="DHBV",sample_date="-",sequenceID="NC_001344",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001486'[&clade="-",core_shift="type-1",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Ardea cinerea",isolate="-",name="HHBV",sample_date="-",sequenceID="NC_001486",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005888'[&clade="-",core_shift="type-1",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Chen rossii",isolate="-",name="RGHBV",sample_date="-",sequenceID="NC_005888",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005890'[&clade="-",core_shift="type-2",country="USA",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Chloephaga poliocephala",isolate="Ashy-headed sheldgoose hepatitis B virus",name="SHBV",sample_date="-",sequenceID="NC_005890",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005950'[&clade="-",core_shift="type-2",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Anser caerulescens",isolate="SGHBV1-13",name="SGHBV",sample_date="-",sequenceID="NC_005950",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_016561'[&clade="-",core_shift="type-1",country="Poland",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Psittacula krameri",isolate="PL",name="PaHBV",sample_date="-",sequenceID="NC_016561",variable_region_type="avi-1-modern"]
+	'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_035210'[&clade="-",core_shift="type-1",country="Germany",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Eudromia elegans",isolate="160050",name="THBV",sample_date="-",sequenceID="NC_035210",variable_region_type="avi-1-modern"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_035210':0.237937,((((('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001344':0.040853,'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005950':0.089521)[&label=100]:0.04617,'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005890':0.073647)[&label=53]:0.010136,('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_005888':0.114072,'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ441111':0.056915)[&label=99]:0.031137)[&label=99]:0.044057,('alignment/AL_Avihepadnavirus/member/ncbi-refseqs/AJ251934':0.087781,'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_001486':0.100194)[&label=100]:0.088414)[&label=75]:0.042155,'alignment/AL_Avihepadnavirus/member/ncbi-refseqs/NC_016561':0.146825):0.005898);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="host_sci_name";
+	set tipLabels.displayAttribute="name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
