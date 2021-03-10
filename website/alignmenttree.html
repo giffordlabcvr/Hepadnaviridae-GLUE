@@ -138,7 +138,14 @@
           The result shows that - as expected based on the figure above -
           the Hepadnaviridae alignment is linked to
           five 'child' alignments, each of which represents a hepadnavirus genus.
-          This means we can use GLUE's 
+          The constraining reference sequence of each alignment is shown in the table.
+          
+   		</p>
+
+ 
+    	<p>
+          
+          Because the alignments are linked, we can use GLUE's 
           fastAlignmentExporter
           module to link across all of the alignments and export a codon-level alignment
           that contains all taxa, as follows: 
@@ -166,8 +173,8 @@
  		   <li> The -f option is used to select a feature within the specified reference
  		   (here we select the polymerase gene reading frame)
 		   </li>		 
-		   <li> The -a option means 'all taxa' - it is provided in lieu of a 
-		        where clause (-w) for selecting specific taxa.
+		   <li> The -a option means 'all taxa' - it is provided instead of a 
+		        where clause (specified using -w option)
 		   </li>
 		   <li> The -e option means 'exclude empty rows' - it prevents inclusion of taxa that
 		        do not span the selected feature in the exported alignment.
