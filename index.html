@@ -30,8 +30,9 @@
 	   <h3>
 		 <a id="Background" class="anchor" href="#Background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Background/Description</strong>
 	   </h3>
-
 	   <hr>
+	   
+
 	   <p>
          Hepadnaviruses (family <i>Hepadnaviridae</i>) are reverse-transcribing DNA viruses that
          infect vertebrates. The type species - <b>hepatitis B virus (HBV)</b> - is estimated to
@@ -99,14 +100,13 @@
 	   
 		   <li> As a source of systematically organised information about
 		   <a href="./website/paleoviruses.html"><b>endogenous viral elements (EVEs) derived from hepadnaviruses</b></a>.
-
 		   </li>
 		   
 		 </ul>
 		  
 		 </p>
 
-
+	   <br>
 	   <h3>
 	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
 	   </h3>
@@ -196,164 +196,183 @@
 	   
 
 
+	   <br>
 	   <h3>
 	   <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does building the Hepadnaviridae-GLUE project offer?</strong>
 	   </h3>
+	   <hr>
 
 		 
  
-	   <p>
+		 <p>
 		 
-		  Hepadnaviridae-GLUE offers a number of advantages for performing comparative sequence
-		  analysis of hepadnaviruses:
+			Hepadnaviridae-GLUE offers a number of advantages for performing comparative sequence
+			analysis of hepadnaviruses:
 
-		 <ol>
+		   <ol>
 
-		   <li> <strong>Reproducibility</strong>. 
-		   For many reasons, bioinformatics analyses are notoriously difficult to reproduce.
-		   The GLUE framework supports the implementation of fully reproducible 
-		   comparative genomics through the introduction of data standards and the use 
-		   of a relational database to capture the semantic links between data items.
-		   </li>
-		   <li> <strong>Making data objects and analysis logic reusable</strong>. 
-		   For many - if not most - comparative genomic analyses, data preparation is nine
-		   tenths of the battle. The GLUE framework has been designed to ensure that 
-		   work spent preparing high-value data items such as multiple sequence alignments
-		   need only be performed once. Hosting of GLUE projects in an online version control 
-		   system such as GitHub allows for collaborative management of important data items
-		   and community testing of hypotheses.
-		   </li>
-		   <li> <strong>Standardisation of the genomic co-ordinate space</strong>. GLUE
-		   projects allow all sequences to utilise the coordinate space of a chosen 
-		   reference sequence. Contingencies associated with insertions and deletions
-		   (indels) are handled in a systematic way.
-		   </li>
-		   <li> <strong>Predefined, fully annotated reference sequences</strong>:
-		   This project includes fully-annotated reference sequences for major lineages
-		   within the <i>Hepadnaviridae</i> family.
-		   </li>
-		   <li> <strong>Alignment trees</strong>:
-		   GLUE allows linking of alignments constructed at distinct taxonomic levels
-		   via an 
-		   "<a target="_blank" href="./website/alignmenttree.html"><b>alignment tree</b></a>"
-		   data structure. In the alignment tree, each alignment
-		   is constrained to a standard reference sequence, thus all multiple sequence
-		   alignments are linked to one another via a standardised coordinate system.
-		   </li>
-		 </ol>
-
-	   </p>
+			 <li> <strong>Reproducibility</strong>. 
+			 For many reasons, bioinformatics analyses are notoriously difficult to reproduce.
+			 The GLUE framework supports the implementation of fully reproducible 
+			 comparative genomics through the introduction of data standards and the use 
+			 of a relational database to capture the semantic links between data items.
+			 </li>
+		   
+			 <li> <strong>Reusable data objects and analysis logic</strong>. 
+			 For many - if not most - comparative genomic analyses, data preparation is nine
+			 tenths of the battle. The GLUE framework has been designed to ensure that 
+			 work spent preparing high-value data items such as multiple sequence alignments
+			 need only be performed once. Hosting of GLUE projects in an online version control 
+			 system such as GitHub allows for collaborative management of important data items
+			 and community testing of hypotheses.
+			 </li>
 
 
+			 <li> <strong>Validation</strong>. 
+			 Building GLUE projects entails mapping the semantic links between data items
+			 (e.g. sequences, tabular data, multiple sequence alignments).
+			 This process provides an opportunity 
+			 for cross-validation, and thereby enforces a high level of data integrity.
+			 </li>
+		 
+			 <li> <strong>Standardisation of the genomic co-ordinate space</strong>. GLUE
+			 projects allow all sequences to utilise the coordinate space of a chosen 
+			 reference sequence. Contingencies associated with insertions and deletions
+			 (indels) are handled in a systematic way.
+			 </li>
+		   
+			 <li> <strong>Predefined, fully annotated reference sequences</strong>:
+			 This project includes fully-annotated reference sequences for major lineages
+			 within the <i>Hepadnaviridae</i> family.
+			 </li>
+		   
+			 <li> <strong>Alignment trees</strong>:
+			 GLUE allows linking of alignments constructed at distinct taxonomic levels
+			 via an 
+			 "<a target="_blank" href="./website/alignmenttree.html"><b>alignment tree</b></a>"
+			 data structure. In the alignment tree, each alignment
+			 is constrained to a standard reference sequence, thus all multiple sequence
+			 alignments are linked to one another via a standardised coordinate system.
+			 </li>
+			 
+		   </ol>
 
+		 </p>
+
+
+
+	   <br>
 	   <h3>
 		 <a id="Related resources" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related resources</strong>
 	   </h3>
+	   <hr>
  
-	   <p>
-		 We have also used the GLUE software environment to construct a sequence-based
-		 resource specifically focussed on <strong>hepatitis B virus</strong> (HBV).
-		 <strong></strong> 
-		 <strong>HBV-GLUE</strong></a>
-		 is an open resource,
-		 <a target="_blank" href="https://github.com/giffordlabcvr/HBV-GLUE"><b>openly accessible via GitHub</b></a>,
-		 that is aimed at investigators interested
-		 in the genetic diversity of HBV and its evolution in response to
-		 vaccine and drug treatment.
-	   </p>
+		 <p>
+		   We have also used the GLUE software environment to construct a sequence-based
+		   resource specifically focussed on <strong>hepatitis B virus</strong> (HBV).
+		   <strong></strong> 
+		   <strong>HBV-GLUE</strong></a>
+		   is an open resource,
+		   <a target="_blank" href="https://github.com/giffordlabcvr/HBV-GLUE"><b>openly accessible via GitHub</b></a>,
+		   that is aimed at investigators interested
+		   in the genetic diversity of HBV and its evolution in response to
+		   vaccine and drug treatment.
+		 </p>
  
-	   <p>
-		 A web user interface to <strong>HBV-GLUE</strong>, hosted by the
-		 <a target="_blank" href="https://www.gla.ac.uk/researchinstitutes/iii/cvr/"><b>MRC-University of Glasgow Centre for Virus Research</b></a>,
-		 can be found 		 
-		 <a target="_blank" href="http://hbv-glue.cvr.gla.ac.uk/"><strong>here</strong></a>.
-	   </p>
- 
+		 <p>
+		   A web user interface to <strong>HBV-GLUE</strong>, hosted by the
+		   <a target="_blank" href="https://www.gla.ac.uk/researchinstitutes/iii/cvr/"><b>MRC-University of Glasgow Centre for Virus Research</b></a>,
+		   can be found 		 
+		   <a target="_blank" href="http://hbv-glue.cvr.gla.ac.uk/"><strong>here</strong></a>.
+		 </p>
 
 
-
+       <br>
 	   <h3>
 	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>GLUE project</strong>
 	   </h3>
+       <hr>
 
-      	   
-	   <p>
+
+		   
+		 <p>
 	
-         On computers with <a href="http://glue-tools.cvr.gla.ac.uk/#/installation">GLUE installed</a>,
-         the <b>Hepadnaviridae-GLUE</b> project can be instantiated by navigating to the project folder,
-         initiating GLUE, and issuing the following command in the GLUE shell:
+		   On computers with <a href="http://glue-tools.cvr.gla.ac.uk/#/installation">GLUE installed</a>,
+		   the <b>Hepadnaviridae-GLUE</b> project can be instantiated by navigating to the project folder,
+		   initiating GLUE, and issuing the following command in the GLUE shell:
          
   <pre>
   <code>Mode path: /
   GLUE> run file hepadnaviridaeProject.glue</code></pre>
 		 
-	   </p>
+		 </p>
 
 
 
-
+	   <br>
 	   <h3>
 		 <a id="Publications" class="anchor" href="#Publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Related Publications</strong>
 	   </h3>
+	   <hr>
 
-
-		<p>
+		  <p>
 		
 		
-		Lytras S, Arriagada G, and RJ Gifford
-		<b>(2020)</b>
-		<br>
-		Ancient evolution of hepadnaviral paleoviruses and their impact on host genomes.
-		<br>
-		<i>Virus Evolution</i>
-		<a href="https://academic.oup.com/ve/advance-article/doi/10.1093/ve/veab012/6157734" target="_blank">[view]</a>
-		<br>
-		<br>
+		  Lytras S, Arriagada G, and RJ Gifford
+		  <b>(2020)</b>
+		  <br>
+		  Ancient evolution of hepadnaviral paleoviruses and their impact on host genomes.
+		  <br>
+		  <i>Virus Evolution</i>
+		  <a href="https://academic.oup.com/ve/advance-article/doi/10.1093/ve/veab012/6157734" target="_blank">[view]</a>
+		  <br>
+		  <br>
 
-		Singer JB, Thomson EC, McLauchlan J, Hughes J, and RJ Gifford
-		<b>(2018)</b>
-		<br>
-		GLUE: A flexible software system for virus sequence data.
-		<br>
-		<i>BMC Bioinformatics</i>
-		<a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2459-9" target="_blank">[view]</a> 
-		<br>
-		<br>
+		  Singer JB, Thomson EC, McLauchlan J, Hughes J, and RJ Gifford
+		  <b>(2018)</b>
+		  <br>
+		  GLUE: A flexible software system for virus sequence data.
+		  <br>
+		  <i>BMC Bioinformatics</i>
+		  <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2459-9" target="_blank">[view]</a> 
+		  <br>
+		  <br>
 
-		Zhu H, Dennis T, Hughes J, and RJ Gifford
-		<b>(2018)</b>
-		<br>
-		Database-integrated genome screening (DIGS): exploring genomes heuristically using sequence similarity search tools and a relational database.
-		<a href="https://www.biorxiv.org/content/early/2018/04/25/246835" target="_blank">[preprint]</a> 
-		<br>
-		<br>
+		  Zhu H, Dennis T, Hughes J, and RJ Gifford
+		  <b>(2018)</b>
+		  <br>
+		  Database-integrated genome screening (DIGS): exploring genomes heuristically using sequence similarity search tools and a relational database.
+		  <a href="https://www.biorxiv.org/content/early/2018/04/25/246835" target="_blank">[preprint]</a> 
+		  <br>
+		  <br>
 
-		Gifford RJ, Blomberg B, Coffin JM, Fan H, Heidmann T, Mayer J, Stoye J, Tristem M, and WE Johnson
-		<b>(2018)</b>
-		<br>
-		Nomenclature for endogenous retrovirus (ERV) loci.
-		<br>
-		<i>Retrovirology</i>
-		<a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">[view]</a> 
-		<br>
-		<br>
+		  Gifford RJ, Blomberg B, Coffin JM, Fan H, Heidmann T, Mayer J, Stoye J, Tristem M, and WE Johnson
+		  <b>(2018)</b>
+		  <br>
+		  Nomenclature for endogenous retrovirus (ERV) loci.
+		  <br>
+		  <i>Retrovirology</i>
+		  <a href="https://retrovirology.biomedcentral.com/articles/10.1186/s12977-018-0442-1" target="_blank">[view]</a> 
+		  <br>
+		  <br>
 
-		Katzourakis A. and RJ. Gifford
-		<b>(2010)</b>
-		<br>
-		Endogenous viral elements in animal genomes.
-		<br>
-		<i>PLoS Genetics</i>
-		<a href="http://www.plosgenetics.org/article/info:doi/10.1371/journal.pgen.1001191" target="_blank">[view]</a>
+		  Katzourakis A. and RJ. Gifford
+		  <b>(2010)</b>
+		  <br>
+		  Endogenous viral elements in animal genomes.
+		  <br>
+		  <i>PLoS Genetics</i>
+		  <a href="http://www.plosgenetics.org/article/info:doi/10.1371/journal.pgen.1001191" target="_blank">[view]</a>
 
- 		</p>
-
-
+		  </p>
 
 
+
+	   <hr>
 	   <h3>
 		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
 	   </h3>
+	   <br>
 
 
 		 <p><a href="https://giffordlabcvr.github.io/virus-evolution/index.html" target="_blank"><b>Robert J. Gifford</b></a> (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>) (Project Leader)</p>
@@ -362,7 +381,7 @@
 
 
 
-
+	   <br>
 	   <h3>
 		 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>License</strong>
 	   </h3>
