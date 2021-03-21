@@ -11,6 +11,4 @@ schema-project hepadnaviridae
 # Build core project
 run file glue/core/buildCoreProject.glue
 
-# Build endogenous hepadnavirus component
-run file glue/eve/buildEveExtension.glue
 
