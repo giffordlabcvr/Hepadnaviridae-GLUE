@@ -30,9 +30,14 @@ project hepadnaviridae
   # Record feature presence
   run file glue/eve/ehbvRecordFeaturePresence.glue
 
-  # Create root and genus phylogenies
-  #run file glue/eve/ehbvCreateRootPhylogenies.glue
-  #run file glue/eve/ehbvCreateGenusPhylogenies.glue
+  # Create root phylogenies
+  run file glue/eve/ehbvCreateRootPhylogenies.glue
+  run file glue/eve/ehbvExportRootAnnotations.glue
+
+  # Create genus phylogenies
+  run file glue/eve/ehbvCreateGenusPhylogenies.glue
+  run file glue/eve/ehbvExportGenusAnnotations.glue
+
 
   # Set up constrained alignment tree for orthologs
   run file glue/eve/ehbvAlignmentTreeDigs.glue
