@@ -1,0 +1,54 @@
+
+reference REF_Nackedna_MASTER_ACNDV
+  
+  add feature-location DR1
+  feature-location DR1
+    add segment 1 19
+    exit
+  
+  add feature-location DR2
+  feature-location DR2
+    add segment 2659 2677
+    exit
+  
+  add feature-location smORF1
+  feature-location smORF1
+    add segment 100 294
+    exit
+  
+  add feature-location smORF2
+  feature-location smORF2
+    add segment 303 554
+    exit
+
+  add feature-location smORF3
+  feature-location smORF3
+    add segment 2444 2665
+    exit
+
+  add feature-location Polymerase
+  feature-location Polymerase
+    add segment 919 2739
+    exit
+
+  add feature-location TP
+  feature-location TP
+    add segment 919 1455
+    exit
+  
+  add feature-location RT
+  feature-location RT
+    add segment 1483 2739
+    exit
+   
+  add feature-location PreCore-Core
+  feature-location PreCore-Core
+    add segment 615 1136
+    exit
+
+
+  exit 
+
+
+
+
