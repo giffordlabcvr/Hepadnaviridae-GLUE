@@ -68,6 +68,11 @@
     <!-- Tai Forest hepadnavirus -->	
     <primaryAccession>MK620908</primaryAccession>
 
+	<!-- Nackednavirus -->
+    <!-- African cichlid nackednavirus -->
+    <primaryAccession>MH158727</primaryAccession>
+
+
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

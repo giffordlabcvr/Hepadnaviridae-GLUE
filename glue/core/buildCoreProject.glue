@@ -7,7 +7,7 @@ project hepadnaviridae
   run file glue/core/hepadnaviridaeModules.glue
 
   # Import sequence data
-  run file glue/core/hepadnaviridaeImportSources.glue
+  run file glue/core/importSources.glue
 
   # Import sequence-associated "side-data" for core project reference sequences
   run file glue/core/hepadnaviridaeImportData.glue
@@ -23,7 +23,8 @@ project hepadnaviridae
 
   # Add feature locations
   run file glue/core/hepadnaviridaeExplicitFeatureLocations.glue
-
+  run file glue/nackednavirusExplicitFeatureLocations.glue
+  
   # Import alignments
   run file glue/core/hepadnaviridaeAlignments.glue
   run file glue/core/hepadnaviridaeAlignmentTree.glue
