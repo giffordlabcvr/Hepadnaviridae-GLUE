@@ -23,7 +23,7 @@ project hepadnaviridae
 
   # Add feature locations
   run file glue/core/hepadnaviridaeExplicitFeatureLocations.glue
-  run file glue/nackednavirusExplicitFeatureLocations.glue
+  run file glue/core/nackednavirusExplicitFeatureLocations.glue
   
   # Import alignments
   run file glue/core/hepadnaviridaeAlignments.glue
