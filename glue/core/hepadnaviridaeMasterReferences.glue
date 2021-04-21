@@ -12,6 +12,7 @@
   create reference REF_Ortho_DcHBV            ncbi-refseqs MH307930
   create reference REF_Ortho_ClHBV            ncbi-refseqs MH484442
   create reference REF_Ortho_ASHV             ncbi-refseqs U29144
+  create reference REF_Ortho_EqHBV            ncbi-refseqs MT134279
   
   # Avi
   create reference REF_Avi_MASTER_DHBV        ncbi-refseqs NC_001344
@@ -23,7 +24,7 @@
   create reference REF_Avi_THBV               ncbi-refseqs NC_035210
   create reference REF_Avi_CCHBV              ncbi-refseqs AJ441111
   create reference REF_Avi_STHBV	          ncbi-refseqs AJ251934
-	
+
   # Herpeto
   create reference REF_Herpeto_MASTER_tfHBV   ncbi-refseqs NC_030446
   create reference REF_Herpeto_SLHBV-1        fasta-refseqs SLHBV-1
@@ -43,6 +44,4 @@
 
   # Nakedna
   create reference REF_Nackedna_MASTER_ACNDV  ncbi-refseqs MH158727
-
-
 

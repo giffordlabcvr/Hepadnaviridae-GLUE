@@ -30,6 +30,7 @@ shiftRight("ncbi-refseqs/MH307930", 1556);  // Feline hepadnavirus = 3187 - (166
 // Arctic ground squirrel (no adjustment)
 // Tai Forest hepadnavirus (to do)
 // Shrew hepadnavirus (to do)
+// EqHBV (to do)
 
 // Avihepadnavirus
 shiftRight("ncbi-refseqs/NC_001344", 504); // Duck hepatitis B virus: adjustment = 3027 - (2524 - 1)
