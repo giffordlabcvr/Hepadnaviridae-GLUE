@@ -1,12 +1,16 @@
   table sequence
     create field name VARCHAR 100  
     create field full_name VARCHAR 100
+    create field length INTEGER
+    create field pubmed_id INTEGER
     create field genus VARCHAR 50
     create field clade VARCHAR 50
     create field rotation INTEGER
     create field reverse_complement BOOLEAN
     create field core_shift VARCHAR 30
     create field variable_region_type VARCHAR 30
+    create field gb_create_date DATE
+    create field gb_update_date DATE
   exit
 
   table alignment
