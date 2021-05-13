@@ -4,6 +4,7 @@ alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ441111	AJ441111	CCHBV	Avi
 alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/AMDV	AMDV	AMDV	Metahepadnavirus	N/A	meta-type-3	-	-	Astatotilapia sp	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/IMDV	IMDV	IMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Chionodraco hamatus	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH307930	MH307930	DCHBV	Orthohepadnavirus	N/A	ortho-type 4	-	Sydney2016	Felis catus	-	-	Australia
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH484442	MH484442	ClHBV	Orthohepadnavirus	N/A	ortho-type 5	-	CX88	Crocidura lasiura	-	-	China
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001344	NC_001344	DHBV	Avihepadnavirus	type-2	avi-1-modern	-	DHBVQCA34	Anas platyrhynchos	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001484	NC_001484	GSHV	Orthohepadnavirus	N/A	ortho-type-2	-	-	Spermophilus beecheyi	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001486	NC_001486	HHBV	Avihepadnavirus	type-1	avi-1-modern	-	-	Ardea cinerea	-	-	-
@@ -21,7 +22,7 @@ alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_028129	NC_028129	WMHBV	O
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030445	NC_030445	bgHBV	Metahepadnavirus	N/A	meta-type-1	-	-	Lepomis macrochirus	-	-	USA
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030446	NC_030446	tfHBV	Herpetohepadnavirus	N/A	herpeto-type-1	-	243398	Nanorana parkeri	-	-	China
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_035210	NC_035210	THBV	Avihepadnavirus	type-1	avi-1-modern	-	160050	Eudromia elegans	-	-	Germany
-alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SkHBV	SkHBV	SkHBV	Herpetohepadnavirus	N/A	herpeto-type-3	-	-	Saproscincus basiliscus	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SLHBV-1	SLHBV-1	SLHBV-1	Herpetohepadnavirus	N/A	herpeto-type-2	-	-	Sceloporus adleri	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SkHBV	SkHBV	SkHBV	Herpetohepadnavirus	N/A	herpeto-type-2	-	-	Saproscincus basiliscus	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SLHBV-1	SLHBV-1	SLHBV-1	Herpetohepadnavirus	N/A	herpeto-type-1	-	-	Sceloporus adleri	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/TMDV	TMDV	TMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Astyanax mexicanus	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/U29144	U29144	ASHV	Orthohepadnavirus	N/A	ortho-type-2	-	-	Spermophilus parryii	-	-	-

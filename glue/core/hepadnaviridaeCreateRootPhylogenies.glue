@@ -59,13 +59,24 @@
     exit
 
 
-  # Re-root phylogeny 
+  # Re-root phylogenies
   module HepadnaPhyloUtility 
 
 	reroot-phylogeny \
       --inputFile trees/main-root/Hepadna-core.export_nucs.tre NEWICK_BOOTSTRAPS \
       --midpoint \
       --outputFile trees/main-root/Hepadna-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-root/Hepadna-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-root/Hepadna-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-root/Hepadna-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-root/Hepadna-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
 
     exit
 

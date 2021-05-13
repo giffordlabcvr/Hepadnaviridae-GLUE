@@ -1,12 +1,12 @@
 #NEXUS
 begin taxa;
-	dimensions ntax=32;
+	dimensions ntax=33;
 	taxlabels
 	'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/AMDV'[&clade="-",core_shift="N/A",country="-",genus="Metahepadnavirus",host_common_name="-",host_sci_name="Astatotilapia sp",isolate="-",name="AMDV",sample_date="-",sequenceID="AMDV",variable_region_type="meta-type-3"]
 	'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/CSKV'[&clade="-",core_shift="N/A",country="-",genus="Parahepadnavirus",host_common_name="-",host_sci_name="Oncorhynchus kisutch",isolate="-",name="CSKV",sample_date="-",sequenceID="CSKV",variable_region_type="ND"]
 	'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/IMDV'[&clade="-",core_shift="N/A",country="-",genus="Metahepadnavirus",host_common_name="-",host_sci_name="Chionodraco hamatus",isolate="-",name="IMDV",sample_date="-",sequenceID="IMDV",variable_region_type="meta-type-4"]
-	'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SLHBV-1'[&clade="-",core_shift="N/A",country="-",genus="Herpetohepadnavirus",host_common_name="-",host_sci_name="Sceloporus adleri",isolate="-",name="SLHBV-1",sample_date="-",sequenceID="SLHBV-1",variable_region_type="herpeto-type-2"]
-	'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SkHBV'[&clade="-",core_shift="N/A",country="-",genus="Herpetohepadnavirus",host_common_name="-",host_sci_name="Saproscincus basiliscus",isolate="-",name="SkHBV",sample_date="-",sequenceID="SkHBV",variable_region_type="herpeto-type-3"]
+	'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SLHBV-1'[&clade="-",core_shift="N/A",country="-",genus="Herpetohepadnavirus",host_common_name="-",host_sci_name="Sceloporus adleri",isolate="-",name="SLHBV-1",sample_date="-",sequenceID="SLHBV-1",variable_region_type="herpeto-type-1"]
+	'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SkHBV'[&clade="-",core_shift="N/A",country="-",genus="Herpetohepadnavirus",host_common_name="-",host_sci_name="Saproscincus basiliscus",isolate="-",name="SkHBV",sample_date="-",sequenceID="SkHBV",variable_region_type="herpeto-type-2"]
 	'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/TMDV'[&clade="-",core_shift="N/A",country="-",genus="Metahepadnavirus",host_common_name="-",host_sci_name="Astyanax mexicanus",isolate="-",name="TMDV",sample_date="-",sequenceID="TMDV",variable_region_type="meta-type-4"]
 	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ251934'[&clade="-",core_shift="type-1",country="Germany:Northern Germany",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Ciconia ciconia",isolate="STHBV-1",name="STHBV",sample_date="-",sequenceID="AJ251934",variable_region_type="avi-1-modern"]
 	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ441111'[&clade="-",core_shift="type-1",country="Germany:Berlin",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Balearica regulorum",isolate="CCHBV 1",name="CCHBV",sample_date="-",sequenceID="AJ441111",variable_region_type="avi-1-modern"]
@@ -15,6 +15,7 @@ begin taxa;
 	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716821'[&clade="-",core_shift="N/A",country="Australia",genus="Parahepadnavirus",host_common_name="-",host_sci_name="Pagrus auratus",isolate="-",name="AsHBV",sample_date="-",sequenceID="MH716821",variable_region_type="ND"]
 	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716822'[&clade="-",core_shift="N/A",country="Australia",genus="Metahepadnavirus",host_common_name="-",host_sci_name="Hyporhamphus australis",isolate="-",name="EsgHBV",sample_date="-",sequenceID="MH716822",variable_region_type="meta-type-2"]
 	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MK620908'[&clade="-",core_shift="N/A",country="Cote d'Ivoire",genus="Orthohepadnavirus",host_common_name="-",host_sci_name="Philantomba maxwellii",isolate="Tai",name="TaiHBV",sample_date="-",sequenceID="MK620908",variable_region_type="ortho-type 3"]
+	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MT134279'[&clade="-",core_shift="N/A",country="Germany",genus="Orthohepadnavirus",host_common_name="-",host_sci_name="donkey",isolate="donkey15",name="EqHBV",sample_date="-",sequenceID="MT134279",variable_region_type="NK"]
 	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001344'[&clade="-",core_shift="type-2",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Anas platyrhynchos",isolate="DHBVQCA34",name="DHBV",sample_date="-",sequenceID="NC_001344",variable_region_type="avi-1-modern"]
 	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001484'[&clade="-",core_shift="N/A",country="-",genus="Orthohepadnavirus",host_common_name="-",host_sci_name="Spermophilus beecheyi",isolate="-",name="GSHV",sample_date="-",sequenceID="NC_001484",variable_region_type="ortho-type-2"]
 	'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001486'[&clade="-",core_shift="type-1",country="-",genus="Avihepadnavirus",host_common_name="-",host_sci_name="Ardea cinerea",isolate="-",name="HHBV",sample_date="-",sequenceID="NC_001486",variable_region_type="avi-1-modern"]
@@ -38,7 +39,7 @@ begin taxa;
 end;
 
 begin trees;
-	tree tree_1 = [&R] ((('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716822':0.280308,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030445':0.186849)[&label=100]:0.318593,(('alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/AMDV':0.611264,'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/IMDV':0.667488)[&label=100]:1.086177,'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/TMDV':0.500714)[&label=89]:0.223297)[&label=99]:0.108943,(((((((('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024443':0.116816,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024444':0.117509)[&label=100]:0.178569,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_020881':0.250722)[&label=100]:0.097507,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_004107':0.083603,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001484':0.110398,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/U29144':0.083938)[&label=79]:0.028242)[&label=100]:0.399409)[&label=48]:0.052538,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH307930':0.463966)[&label=59]:0.061528,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MK620908':0.282527)[&label=84]:0.072709,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_003977':0.155661,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_028129':0.155863)[&label=100]:0.235265)[&label=80]:0.083546,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH484442':0.545667,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024445':0.373007)[&label=55]:0.073127)[&label=100]:0.492265,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716821':0.509648,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_027922':0.516086,'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/CSKV':0.519098)[&label=36]:0.09926)[&label=100]:0.739723,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_016561':0.141846,((('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005890':0.087734,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001344':0.06031,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005950':0.05182)[&label=99]:0.034674)[&label=83]:0.020675,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005888':0.106619,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_035210':0.186174)[&label=59]:0.039967,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ441111':0.079295)[&label=49]:0.01948)[&label=100]:0.056433,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ251934':0.075702,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001486':0.073563)[&label=100]:0.08214)[&label=81]:0.051645)[&label=100]:0.525285,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030446':0.553634,'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SLHBV-1':0.480373)[&label=100]:0.282651,'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SkHBV':0.677573)[&label=80]:0.132843)[&label=93]:0.172414)[&label=100]:0.636462)[&label=99]:0.091362);
+	tree tree_1 = [&R] (('alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/IMDV':0.687587,'alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/AMDV':0.524717)[&label=100]:1.541572,('alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/TMDV':0.331412,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030445':0.153148,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716822':0.235977)[&label=100]:0.321846,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH484442':0.405578,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024445':0.342123,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH307930':0.268733,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MT134279':0.23379,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MK620908':0.222333,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_003977':0.107896,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_028129':0.122122)[&label=100]:0.191322)[&label=53]:0.062748,((('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/U29144':0.076475,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001484':0.071055)[&label=94]:0.033473,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_004107':0.072858)[&label=100]:0.227748,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024444':0.054373,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024443':0.080668)[&label=100]:0.140753,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_020881':0.186373)[&label=92]:0.058652)[&label=37]:0.029994)[&label=14]:0.0327)[&label=45]:0.045653)[&label=83]:0.078177)[&label=43]:0.068901)[&label=100]:0.293614,(('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716821':0.482247,('alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/CSKV':0.493253,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_027922':0.454234)[&label=66]:0.102605)[&label=100]:0.556059,(('alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SkHBV':0.579118,('alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SLHBV-1':0.437139,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030446':0.48621)[&label=99]:0.225088)[&label=74]:0.107956,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_016561':0.116378,(((('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005890':0.076597,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_035210':0.171109,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ441111':0.065507)[&label=35]:0.021293)[&label=34]:0.015758,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001344':0.051189,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005950':0.040807)[&label=92]:0.029717)[&label=78]:0.041496,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005888':0.110754)[&label=96]:0.036926,('alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ251934':0.063032,'alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001486':0.050774)[&label=100]:0.056648)[&label=74]:0.040733)[&label=100]:0.469478)[&label=91]:0.237284)[&label=100]:0.615877)[&label=98]:0.176412)[&label=94]:0.235329)[&label=100]:0.049624);
 end;
 
 begin figtree;
@@ -70,11 +71,11 @@ begin figtree;
 	set nodeBars.displayAttribute=null;
 	set nodeBars.isShown=false;
 	set nodeLabels.colorAttribute="User selection";
-	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.displayAttribute="label";
 	set nodeLabels.fontName="sansserif";
 	set nodeLabels.fontSize=8;
 	set nodeLabels.fontStyle=0;
-	set nodeLabels.isShown=false;
+	set nodeLabels.isShown=true;
 	set nodeLabels.significantDigits=4;
 	set nodeShapeExternal.colourAttribute="User selection";
 	set nodeShapeExternal.isShown=false;
@@ -118,15 +119,15 @@ begin figtree;
 	set scaleBar.lineWidth=1.0;
 	set scaleBar.scaleRange=0.0;
 	set tipLabels.colorAttribute="genus";
-	set tipLabels.displayAttribute="sequenceID";
+	set tipLabels.displayAttribute="name";
 	set tipLabels.fontName="sansserif";
-	set tipLabels.fontSize=14;
+	set tipLabels.fontSize=12;
 	set tipLabels.fontStyle=0;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
 	set trees.order=false;
 	set trees.orderType="increasing";
-	set trees.rooting=false;
+	set trees.rooting=true;
 	set trees.rootingType="User Selection";
 	set trees.transform=false;
 	set trees.transformType="cladogram";

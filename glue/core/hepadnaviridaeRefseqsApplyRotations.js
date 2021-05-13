@@ -18,19 +18,20 @@ glue.command(["multi-unset", "field", "sequence", "-w", whereClause, "rotation"]
 */
 
 // Orthohepadnavirus
-shiftRight("ncbi-refseqs/NC_003977", 1367); // HBV: adjustment = 3182 - (1816 + 1) 
-shiftRight("ncbi-refseqs/NC_028129", 1364); // Woolly monkey hepadnavirus = 3179 - (1816 - 1)
-shiftRight("ncbi-refseqs/NC_004107", 1391); // Woodchuck hepatitis virus = 3323 - (1931 + 1)
-shiftRight("ncbi-refseqs/NC_020881", 1414); // Long-fingered bat hepatitis virus = 3230 - (1815 + 1)
-shiftRight("ncbi-refseqs/NC_024443", 1657); // Roundleaf bat hepatitis virus = 3368 - (1710 + 1)
-shiftRight("ncbi-refseqs/NC_024444", 1720); // Horseshoe bat hepatitis virus = 3377 - (1657 + 1)
-shiftRight("ncbi-refseqs/NC_024445", 1518); // Tent-making bat bat hepatitis virus = 3149 - (1630 + 1)
-shiftRight("ncbi-refseqs/MH307930", 1556);  // Feline hepadnavirus = 3187 - (1665 + 1)
+shiftRight("ncbi-refseqs/NC_003977", 1367); // HBV: adjustment = (3182 - 1816) + 1 
+shiftRight("ncbi-refseqs/NC_028129", 1364); // Woolly monkey hepadnavirus = (3179 - 1816) + 1
+shiftRight("ncbi-refseqs/NC_004107", 1391); // Woodchuck hepatitis virus = (3323 - 1931) + 1
+shiftRight("ncbi-refseqs/NC_020881", 1414); // Long-fingered bat hepatitis virus = (3230 - 1815) + 1
+shiftRight("ncbi-refseqs/NC_024443", 1657); // Roundleaf bat hepatitis virus = (3368 - 1710) + 1
+shiftRight("ncbi-refseqs/NC_024444", 1720); // Horseshoe bat hepatitis virus = (3377 - 1657) + 1
+shiftRight("ncbi-refseqs/NC_024445", 1518); // Tent-making bat bat hepatitis virus = (3149 - 1630) + 1
+shiftRight("ncbi-refseqs/MH307930", 1556);  // Feline hepadnavirus = (3187 - 1665) + 1
+shiftRight("ncbi-refseqs/MH307930", 1475);  // Equine hepadnavirus = (3131 - 1657) + 1
+shiftRight("ncbi-refseqs/MH484442", 1530);  // Shrew hepadnavirus = (3165 - 1636) + 1
+shiftRight("ncbi-refseqs/MH484442", 1469);  // Tai Forest hepadnavirus = (3128 - 1660) + 1
 // Ground squirrel hepatitis virus (no adjustment)
 // Arctic ground squirrel (no adjustment)
-// Tai Forest hepadnavirus (to do)
-// Shrew hepadnavirus (to do)
-// EqHBV (to do)
+
 
 // Avihepadnavirus
 shiftRight("ncbi-refseqs/NC_001344", 504); // Duck hepatitis B virus: adjustment = 3027 - (2524 - 1)
