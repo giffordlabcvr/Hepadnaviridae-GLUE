@@ -1,0 +1,9 @@
+
+# Build core project
+run file buildHepadnaviridaeCoreProject.glue
+
+
+# Build paleovirus project
+run file buildHepadnaviridaePaleoProject.glue
+
+
