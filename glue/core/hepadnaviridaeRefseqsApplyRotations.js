@@ -8,13 +8,7 @@ glue.command(["multi-unset", "field", "sequence", "-w", whereClause, "rotation"]
 
   In this project I have chosen a start point corresponding to the transcriptional
   start site of the hepadnavirus genome (just upstream of the Core protein)
-  
-  Most refseqs outside the orthohepadnavirus group meet the standard.
-  References requiring rotation:
-  
-    REF_MASTER_HBV: NC_003977
-    REF_DHBV: NC_001344
-	
+  	
 */
 
 // Orthohepadnavirus
@@ -33,6 +27,7 @@ shiftRight("ncbi-refseqs/MH484442", 1469);  // Tai Forest hepadnavirus = (3128 -
 // Arctic ground squirrel (no adjustment)
 
 
+
 // Avihepadnavirus
 shiftRight("ncbi-refseqs/NC_001344", 504); // Duck hepatitis B virus: adjustment = 3027 - (2524 - 1)
 shiftRight("ncbi-refseqs/NC_035210", 504); // Tinamou hepatitis B virus: adjustment = 3024 - (2521 - 1)
@@ -44,16 +39,26 @@ shiftRight("ncbi-refseqs/NC_005950", 504); // Snow goose hepatitis B virus
 shiftRight("ncbi-refseqs/AJ441111", 504);  // Crane hepatitis B virus
 shiftRight("ncbi-refseqs/AJ251934", 504);  // Stork hepatitis B virus
 
+
+
 // Herpetohepadnavirus
 // Tibetan frog hepadnavirus (no adjustment)
+
+
 
 // Metahepadnavirus
 shiftRight("ncbi-refseqs/NC_030445", 3122); // Bluegill hepatitis B virus: adjustment = 3260 - (139 - 1) 
 // Eastern sea garfish hepatitis B virus: adjustment = 3260 - (139 - 1) | MH716822
 
+
+
 // Parahepadnavirus
-shiftRight("ncbi-refseqs/NC_027922", 327);// White sucker hepadnavirus: adjustment = 3542 - (3216 - 1) 
+shiftRight("ncbi-refseqs/NC_027922", 327); // White sucker hepadnavirus: adjustment = 3542 - (3216 - 1) 
 // Australasian snapper hepatitis B virus | MH716821
+
+
+
+// FUNCTIONS
 
 function shiftLeft(refSeqId, leftShift) {
 	glue.inMode("sequence/"+refSeqId, function() {
@@ -61,6 +66,7 @@ function shiftLeft(refSeqId, leftShift) {
 		glue.command(["set", "field", "rotation", length-leftShift]);
 	});
 }
+
 
 function shiftRight(refSeqId, rightShift) {
 	glue.inMode("sequence/"+refSeqId, function() {

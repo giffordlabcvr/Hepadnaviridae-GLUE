@@ -20,7 +20,8 @@
       <h2 class="project-tagline">Resources for comparative genomic analysis of hepadnaviruses.</h2>
 
       <a href="../index.html" class="btn">Home</a>
-      <a href="./paleoviruses.html" class="btn">Paleoviruses</a>
+      <a href="./viruses.html" class="btn">Viruses</a>
+      <a href="./paleoviruses.html" class="btn">Paleoviruses</a>    
       <a href="./highlights.html" class="btn">Highlights</a>
       <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/zipball/master" class="btn">Download</a>
       <a href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/tree/master" class="btn">View on GitHub</a>
@@ -29,30 +30,88 @@
 
     <section class="main-content">
 
+
+
 	   <h3>
-		 <a id="EqHBV" class="anchor" href="#EqHBV" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2021-04-30: A hepatitis B virus causes chronic infections in equids worldwide</strong>
+		 <a id="projectPublished" class="anchor" href="#projectPublished" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2021-03-15: Hepadnaviridae-GLUE project published</strong>
 	   </h3>
 	   <hr>
 	   
-
-	<img src="../assets/images/news-eqhbv.jpg" alt="Equine hepatitis B virus related images"/>
 	
-	<p>
-	  An HBV-related virus, which occurs globally in donkeys and zebras (Equid HBV, EqHBV).
-	  EqHBV presumably originated in Africa, approximately at the time when donkey domestication
-	  started. EqHBV causes a hepatotropic disease comparable to human HBV infection and
-	  prolonged infections, resembling chronic hepatitis B in humans.
-	</p>
+	   <p>
+		 Hepadnaviridae-GLUE is the second broadly-scoped 
+		 <a target="_blank" href="glue-tools.cvr.gla.ac.uk"><b>GLUE</b></a>
+		 project to be published by the
+		 <a target="_blank" href="https://github.com/giffordlabcvr"><b>Gifford lab</b></a>
+		 as part of the
+		 <a target="_blank" href="https://giffordlabcvr.github.io/DIGS-tool/website/project/digs-for-eves.html"><b>DIGS-for-EVEs</b></a>
+		 initiative.
+		 
+	   </p>
+
+
+	   <h3>
+		 <a id="EqHBV" class="anchor" href="#EqHBV" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>2021-04-30: Incorporation of equine HBV - a newly discovered hepadnavirus</strong>
+	   </h3>
+	   <hr>
+	   
+	
+	   <p>
+		 Recent work has identified a 
+		 <a target="_blank" href="https://doi.org/10.1073/pnas.2013982118"><b>novel hepadnavirus</b></a>
+         that occurs globally in <b>donkeys and zebras</b>.
+         <b>EqHBV</b> causes a hepatotropic disease comparable to human HBV infection and
+		 prolonged infections, resembling chronic hepatitis B in humans.
+	   </p>
+
+
+	   <br>
+
+
+	   <img src="images/news-eqhbv.jpg" alt="Equine hepatitis B virus related images"/>
+
 	
 <blockquote>
 		<p>
-		  Left to right: Recent research has identified divergent hepadnaviruses in equids.
+		  The identification of <b>EqHBV</b> in zebras and donkeys offers unique opportunities
+		  for comparative studies of hepadnaviruses.
 		</p>    
 </blockquote>
 
 
-
 	   <br>
+
+	
+	   <p>
+		 To incorporate EqHBV into Hepadnaviridae-GLUE, we first needed to virtually 
+		 rotate' the <b>circular genome</b> so that it uses the same start position as
+		 the other HBV reference sequences in our project. 
+	   </p>
+
+	   <p>
+		 For historical reasons, most hepadnavirus sequences are published with 
+		 a genome start position established in the early days of HBV sequencing.
+		 However, this start is located internally within the coding genome, rather
+		 than at the transcriptional 'start'. In Hepadnaviridae-GLUE, reference sequences
+		 start immediately upstream of the Core gene. 
+	   </p>
+
+
+	   <p>
+		 Some of the pubished hepadnavirus genomes in <b>GenBank</b> already
+		 use the equivalent start position
+		 (e.g. ground squirrel hepatitis virus),
+		 but for those that don't we have used
+		 GLUE to  <b>apply the appropriate rotation</b>. The process is implemented
+		 by the GLUE commands in
+		 <a target="_blank" href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/glue/core/hepadnaviridaeRefseqsApplyRotations.js"><b>this script</b></a>.
+	   </p>
+
+
+	   <p>
+		 Note: GLUE's scripting layer is based on <b>JavaScript</b>.
+	   </p>
+
 
 	   <br>
 
