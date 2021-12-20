@@ -68,52 +68,6 @@
 
 		 </p>
 
-
-	   <h3>
-		 <a id="virusReferenceSequences" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Hepadnavirus reference sequences</strong>
-	   </h3>
-	   <hr>
-		
-		 <p>
-
-		   <b>Hepadnavirus-GLUE</b> contains 
-		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/commandModes/commandMode/root_project_reference"><b>reference sequences</b></a>
-		   for all known hepadnavirus species.
-		   Reference sequences are linked to auxiliary data in		 
-		   <a target="_blank" href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/core/hepadna-ncbi-refseqs-side-data.tsv"><b>tabular format</b></a>.
-
-		 </p>
-		
-		 <p>
-
-		   For each hepadnaviral genus, we have created a 'master' reference sequence, as follows:
-		   <ul>
-			 <li><b><i>Orthohepadnavirus</i></b>: Hepatitis B virus, strain ayw (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_003977"><b>NC_003977</b></a>)</li>
-			 <li><b><i>Avihepadnavirus</i></b>: Duck hepatitis B virus, isolate DHBVQCA34 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001344"><b>NC_001344</b></a>)</li>
-			 <li><b><i>Herpetohepadnavirus</i></b>: Tibetan frog hepatitis B virus, isolate 243398 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_030446"><b>NC_030446</b></a>)</li>
-			 <li><b><i>Metahepadnavirus</i></b>: Bluegill hepatitis B virus (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_030445"><b>NC_030445</b></a>)</li>
-			 <li><b><i>Parahepadnavirus</i></b>: White sucker hepadnavirus, isolate RR173 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_027922"><b>NC_027922</b></a>)</li>
-		   </ul>
-
-		 </p>
-
-	     <br>
-	   
-         <p><img src="./../assets/images/hepadna-hosts-3.jpg" alt="Known hepadnavirus host species" /></p>
-
-		 <blockquote>
-				 <p>
-				   Left to right: Recent research has identified divergent hepadnaviruses in:
-				   (i) <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1931312817303025">icefish</a> and
-				   (ii) <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1931312817303025">spiny lizards</a>.
-				   Viruses closely related to hepatitis B virus, which infects humans, have been identified in
-				   a wide range of mammals including
-				   (iii) <a target="_blank" href="https://www.pnas.org/content/95/10/5757">woolly monkeys</a> and
-				   (iv) <a target="_blank" href="https://www.mdpi.com/1999-4915/11/3/279">duikers</a>.
-				 </p>    
-		 </blockquote>
-	   
-
 	   <br>
 	   <h3>
 		 <a id="genomeFeatures" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Hepadnavirus genome features</strong>
@@ -138,6 +92,206 @@
 		  
 		 </p>
 		
+
+
+	   <br>
+	   <h3>
+		 <a id="sequenceData" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Hepadnavirus sequences and sequence-associated data</strong>
+	   </h3>
+       <hr>
+
+
+	   <p>
+		 The sequence data in this project are organised into multiple distinct sources.
+		 Each source contains data in either GenBank XML or plain FASTA format.
+		 The type of data is indicated by the name of the source (all GenBank XML sources 
+		 contain 'ncbi' in the name).
+	   </p>
+	   
+
+	   <p>
+		 GenBank XML files are imported into this project directly from
+		 <b><a target="_blank" href="https://www.ncbi.nlm.nih.gov/genbank/">NCBI GenBank</a></b>
+		 using
+         <a target="_blank" href="https://github.com/giffordlabcvr/Hepadnavirus-GLUE/blob/master/modules/hepadnaviridaeGenbankXmlPopulator.xml">an appropriately configured</a>
+		 version of GLUE's <b>GenBank importer module</b>.
+		 The core Hepadnavirus-GLUE project contains a single NCBI-derived source
+		 - <a target="_blank" href="https://github.com/giffordlabcvr/Hepadnavirus-GLUE/tree/master/sources/ncbi-refseqs"><b>ncbi-refseqs</b></a> -
+		 that contains 'master reference' genome sequences for each hepadnavirus species included in this project.		 		 
+	   </p>
+
+
+
+
+	   <br>
+	   <h3>
+		 <a id="virusReferenceSequences" class="anchor" href="#sequenceData" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Hepadnavirus reference sequences</strong>
+	   </h3>
+	   <hr>
+		
+		 <p>
+
+		   <b>Hepadnavirus-GLUE</b> contains 
+		   <a target="_blank" href="http://glue-tools.cvr.gla.ac.uk/#/commandModes/commandMode/root_project_reference"><b>reference sequences</b></a>
+		   for all known hepadnavirus species.
+		 </p>
+		
+	   
+         <p><img src="./../assets/images/hepadna-hosts-3.jpg" alt="Known hepadnavirus host species" /></p>
+
+		 <blockquote>
+				 <p>
+				   Left to right: Recent research has identified divergent hepadnaviruses in:
+				   (i) <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1931312817303025">icefish</a> and
+				   (ii) <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1931312817303025">spiny lizards</a>.
+				   Viruses closely related to hepatitis B virus, which infects humans, have been identified in
+				   a wide range of mammals including
+				   (iii) <a target="_blank" href="https://www.pnas.org/content/95/10/5757">woolly monkeys</a> and
+				   (iv) <a target="_blank" href="https://www.mdpi.com/1999-4915/11/3/279">duikers</a>.
+				 </p>    
+		 </blockquote>
+
+	     <br>
+	   
+		 <p>
+
+		   For each hepadnaviral genus, we have created a 'master' reference sequence, as follows:
+		   <ul>
+			 <li><b><i>Orthohepadnavirus</i></b>: Hepatitis B virus, strain ayw (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_003977"><b>NC_003977</b></a>)</li>
+			 <li><b><i>Avihepadnavirus</i></b>: Duck hepatitis B virus, isolate DHBVQCA34 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_001344"><b>NC_001344</b></a>)</li>
+			 <li><b><i>Herpetohepadnavirus</i></b>: Tibetan frog hepatitis B virus, isolate 243398 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_030446"><b>NC_030446</b></a>)</li>
+			 <li><b><i>Metahepadnavirus</i></b>: Bluegill hepatitis B virus (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_030445"><b>NC_030445</b></a>)</li>
+			 <li><b><i>Parahepadnavirus</i></b>: White sucker hepadnavirus, isolate RR173 (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_027922"><b>NC_027922</b></a>)</li>
+		   </ul>
+
+		 </p>
+
+
+
+
+
+	   <br>
+		
+		 <p>
+
+		   Reference sequences are linked to auxiliary data in		 
+		   <a target="_blank" href="https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/blob/master/tabular/core/hepadna-ncbi-refseqs-side-data.tsv"><b>tabular format</b></a>.
+
+		 </p>
+
+
+
+	   <br>
+
+	   
+	   <table>
+	
+		   <thead>
+			   <tr>
+				   <th>Parameter</th>
+				   <th>Type</th>
+				   <th>Definition</th>
+			   </tr>
+		   </thead>
+	
+		   <tbody>
+
+			   <tr>
+				   <td><i>full_name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Full name of the virus this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Abbreviated name of the virus this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>genus</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus genus</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>clade</i></td>
+				   <td>VARCHAR</td>
+				   <td>Taxonomy - virus clade</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>isolate_name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Name of the virus isolate this sequence is derived from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>host_sci_name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Species (Latin binomial) virus was isolated from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>host_name</i></td>
+				   <td>VARCHAR</td>
+				   <td>Species (common name) virus was isolated from</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>length</i></td>
+				   <td>INTEGER</td>
+				   <td>Length of the sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>pubmed_id</i></td>
+				   <td>INTEGER</td>
+				   <td>PubMed ID of manuscript associated with sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>gb_create_date</i></td>
+				   <td>GenBank</td>
+				   <td>GenBank creation date of the sequence</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>gb_update_date</i></td>
+				   <td>VARCHAR</td>
+				   <td>Date of most recent GenBank update</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>country</i></td>
+				   <td>VARCHAR</td>
+				   <td>Country where virus was isolated</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>collection_year</i></td>
+				   <td>INTEGER</td>
+				   <td>Year virus was isolated</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>collection_month</i></td>
+				   <td>VARCHAR</td>
+				   <td>Month virus was isolated</td>
+			   </tr>
+
+			   <tr>
+				   <td><i>collection_month_day</i></td>
+				   <td>VARCHAR</td>
+				   <td>Day of month virus was isolated</td>
+			   </tr>
+
+
+		   </tbody>
+		
+	   </table>
+
+
 
 
 	   <br>
