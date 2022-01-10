@@ -37,8 +37,7 @@ project hepadnaviridae
   run script glue/build/eve/ehbvDemoteOrthologsToTipAlignments.js
 
   # Import tip-level EVE alignments
-  #run file glue/build/eve/ehbvImportAlignmentsTips.glue
-
+  run file glue/build/eve/ehbvImportAlignmentsTips.glue
 
   # Validate
   validate
