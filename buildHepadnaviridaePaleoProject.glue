@@ -1,4 +1,0 @@
-
-
-# Build endogenous hepadnavirus component
-run file glue/eve/buildEveExtension.glue

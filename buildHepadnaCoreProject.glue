@@ -4,11 +4,11 @@ create project hepadnaviridae "GLUE project for the Hepadnaviridae" --minVersion
 
 schema-project hepadnaviridae
 
-  run file glue/core/hepadnaviridaeSchemaExtensions.glue
+  run file glue/build/core/hepadnaSchemaExtensions.glue
   exit
 
 
 # Build core project
-run file glue/core/buildCoreProject.glue
+run file glue/build/core/buildCoreProject.glue
 
 

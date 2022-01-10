@@ -1,6 +1,6 @@
 
   # Create links to isolate table for all viruses
-  run script glue/core/hepadnaviridaeLoadIsolateData.js
+  run script glue/build/core/hepadnaLoadIsolateData.js
 
   # Populate tables from GenBank files
   module genbankXmlPopulator populate

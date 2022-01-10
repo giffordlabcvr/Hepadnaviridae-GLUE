@@ -1,0 +1,45 @@
+project hepadnaviridae
+
+  # Load project settings
+  run file glue/build/core/hepadnaProjectSettings.glue
+
+  # Create modules
+  run file glue/build/core/hepadnaModules.glue
+
+  # Import sequence data
+  run file glue/build/core/importSources.glue
+
+  # Import sequence-associated "side-data" for core project reference sequences
+  run file glue/build/core/hepadnaImportData.glue
+    
+  # Define genome features
+  run file glue/build/core/hepadnaFeatures.glue
+
+  # Create reference sequences
+  run file glue/build/core/hepadnaMasterReferences.glue
+
+  # Apply rotations
+  run script glue/build/core/hepadnaRefseqsApplyRotations.js
+
+  # Add feature locations
+  run file glue/build/core/hepadnaExplicitFeatureLocations.glue
+  run file glue/build/core/nackednaExplicitFeatureLocations.glue
+  
+  # Import alignments
+  run file glue/build/core/hepadnaAlignments.glue
+  run file glue/build/core/hepadnaAlignmentTree.glue
+
+  # Record feature coverage in alignments
+  run file glue/build/core/hepadnaRecordFeaturePresence.glue
+
+  # Define variations
+  run file glue/build/core/hepadnaVariations.glue
+
+  # Create phylogenies
+  #run file glue/build/core/hepadnaCreateRootPhylogenies.glue
+  #run file glue/build/core/hepadnaCreateGenusPhylogenies.glue
+
+  # Validate
+  validate
+  
+  exit
