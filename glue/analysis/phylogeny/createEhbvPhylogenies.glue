@@ -1,0 +1,12 @@
+
+  # Create root phylogenies
+  run file glue/build/eve/ehbvCreateRootPhylogenies.glue
+  run file glue/build/eve/ehbvExportRootLevelAnnotations.glue
+
+  # Create genus phylogenies
+  run file glue/build/eve/ehbvCreateGenusPhylogenies.glue
+  run file glue/build/eve/ehbvExportGenusLevelAnnotations.glue
+
+  # Create tip-level phylogenies
+  run script glue/build/eve/ehbvCreateTipPhylogenies.js
+
