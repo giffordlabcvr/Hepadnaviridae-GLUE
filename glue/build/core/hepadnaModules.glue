@@ -1,12 +1,12 @@
 
-  create module -f modules/fastaAlignmentExporter.xml
-  create module -f modules/hepadnaviridaeGenbankXmlPopulator.xml genbankXmlPopulator
-  create module -f modules/unconstrainedAlignmentImporter.xml 
-  create module -f modules/hepadnaviridaeSideDataImporter.xml hepadnaviridaeSideDataImporter
-  create module -f modules/hepadnaviridaeTabularUtility.xml hepadnaviridaeTabularUtility
-  create module -f modules/hepadnavirusCompoundAligner.xml
-  create module -f modules/hepadnaviridaeMafftAligner.xml
-  create module -f modules/hepadnaviridaeStrictFastaAlignmentImporter.xml
-  create module -f modules/hepadnaPhyloUtility.xml
+  create module -f modules/build/fastaAlignmentExporter.xml
+  create module -f modules/build/hepadnaviridaeGenbankXmlPopulator.xml genbankXmlPopulator
+  create module -f modules/build/unconstrainedAlignmentImporter.xml 
+  create module -f modules/build/hepadnaviridaeSideDataImporter.xml hepadnaviridaeSideDataImporter
+  create module -f modules/build/hepadnaviridaeTabularUtility.xml hepadnaviridaeTabularUtility
+  create module -f modules/build/hepadnavirusCompoundAligner.xml
+  create module -f modules/build/hepadnaviridaeMafftAligner.xml
+  create module -f modules/build/hepadnaviridaeStrictFastaAlignmentImporter.xml
+  create module -f modules/build/hepadnaPhyloUtility.xml
   
   create module -t raxmlPhylogenyGenerator

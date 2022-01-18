@@ -15,19 +15,19 @@
  
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/hepadnaPhyloUtility.xml
-  create module -f modules/ehbvFigTreeAnnotationExporterReferences.xml
+  create module -f modules/analysis/hepadnaPhyloUtility.xml
+  create module -f modules/analysis/ehbvFigTreeAnnotationExporterReferences.xml
  
   # Create alignment column selectors
-  create module -f modules/alignmentColumnsSelectorAviCore.xml
-  create module -f modules/alignmentColumnsSelectorAviPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorAviSurface.xml
-  create module -f modules/alignmentColumnsSelectorHerpetoCore.xml
-  create module -f modules/alignmentColumnsSelectorHerpetoPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorHerpetoSurface.xml
-  create module -f modules/alignmentColumnsSelectorMetaCore.xml
-  create module -f modules/alignmentColumnsSelectorMetaPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorMetaSurface.xml
+  create module -f modules/analysis/alignmentColumnsSelectorAviCore.xml
+  create module -f modules/analysis/alignmentColumnsSelectorAviPolymerase.xml
+  create module -f modules/analysis/alignmentColumnsSelectorAviSurface.xml
+  create module -f modules/analysis/alignmentColumnsSelectorHerpetoCore.xml
+  create module -f modules/analysis/alignmentColumnsSelectorHerpetoPolymerase.xml
+  create module -f modules/analysis/alignmentColumnsSelectorHerpetoSurface.xml
+  create module -f modules/analysis/alignmentColumnsSelectorMetaCore.xml
+  create module -f modules/analysis/alignmentColumnsSelectorMetaPolymerase.xml
+  create module -f modules/analysis/alignmentColumnsSelectorMetaSurface.xml
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator

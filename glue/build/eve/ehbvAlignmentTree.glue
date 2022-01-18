@@ -1,6 +1,3 @@
-delete module ehbvCompoundAligner
-
-create module -f modules/ehbvCompoundAligner.xml
 
 ### Add EVE sequences to constrained alignment tree
 
