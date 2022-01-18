@@ -1,5 +1,5 @@
   delete module hepadnaviridaeFeaturePresenceRecorder
-  create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
+  create module -f modules/build/hepadnaviridaeFeaturePresenceRecorder.xml
 
   module hepadnaviridaeFeaturePresenceRecorder 
     record feature-presence AL_Avihepadnavirus     --recursive -f whole_genome --descendentFeatures
