@@ -22,6 +22,10 @@
   feature DR2 set field displayName "Direct repeat 2"
   feature DR2 set metatag INCLUDE_IN_SUMMARY true
 
+  create feature epsilon -p whole_genome "Epsilon element"
+  feature epsilon set field displayName "Epsilon element"
+  feature epsilon set metatag INCLUDE_IN_SUMMARY true
+
   create feature HBeAg -p whole_genome "HBeAg"
   feature HBeAg set field displayName "HBV e-antigen"
   feature HBeAg set metatag OWN_CODON_NUMBERING true
