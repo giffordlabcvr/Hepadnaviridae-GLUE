@@ -9,15 +9,15 @@
   
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/hepadnaPhyloUtility.xml
-  create module -f modules/hepadnaFigTreeAnnotationExporter.xml
-  create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
-  create module -f modules/alignmentColumnsSelectorHepadnaCore.xml
-  create module -f modules/alignmentColumnsSelectorHepadnaPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorHepadnaSurface.xml
-  create module -f modules/alignmentColumnsSelectorAviCore.xml
-  create module -f modules/alignmentColumnsSelectorAviPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorAviSurface.xml
+  create module -f modules/analysis/phylogeny/hepadnaPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/hepadnaFigTreeAnnotationExporter.xml
+  create module -f modules/build/hepadnaviridaeFeaturePresenceRecorder.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaCore.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaPolymerase.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaSurface.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorAviCore.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorAviPolymerase.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorAviSurface.xml
 
   
   # Create the phylogenies
