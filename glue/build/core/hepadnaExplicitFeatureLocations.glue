@@ -1,9 +1,19 @@
   # Add feature locations to genus master reference sequences
+  
+  # Note: where sequences have been rotated, feature locations are defined using 
+  # coordinates on the *rotated* sequences
+  
+  # Orthohepadnavirus master
   reference REF_Ortho_MASTER_HBV
 
 	add feature-location whole_genome
 	feature-location whole_genome
 	  add segment 1 3182
+	  exit
+
+	add feature-location epsilon
+	feature-location epsilon
+	  add segment 34 94
 	  exit
   
 	add feature-location PreCore-Core
@@ -38,12 +48,18 @@
    
 	exit 
 
-
+  
+  # Avihepadnavirus master
   reference REF_Avi_MASTER_DHBV
 
 	add feature-location whole_genome
 	feature-location whole_genome
 	  add segment 1 3027
+	  exit
+
+	add feature-location epsilon
+	feature-location epsilon
+	  add segment 43 99
 	  exit
   
 	add feature-location PreCore-Core
@@ -123,7 +139,8 @@
 
 	exit 
 
-
+  
+  # Herpetohepadnavirus master
   reference REF_Herpeto_MASTER_tfHBV
 
 
@@ -154,7 +171,8 @@
 
 	exit 
 
-
+  
+  # Metahepadnavirus master
   reference REF_Meta_MASTER_bgHBV
   
 
@@ -189,9 +207,10 @@
 	  add segment 2 202 --spliceIndex 1 --transcriptionIndex 2
 	  exit
 
-	exit 
-
-
+	exit
+	
+  
+  # Parahepadnavirus master
   reference REF_Para_MASTER_wsHBV
   
 	add feature-location whole_genome

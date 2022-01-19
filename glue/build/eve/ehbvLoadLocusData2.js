@@ -13,7 +13,7 @@ get_refcon_data(ehbvRefseqResultMap, refconDataPath);
 var loadResult;
 glue.inMode("module/hepadnaviridaeTabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/eve/ehbv-side-data.tsv"]));
-    glue.log("INFO", "load result was:", loadResult);
+    //glue.log("INFO", "load result was:", loadResult);
 });
 
 _.each(loadResult, function(eveObj) {
@@ -21,7 +21,7 @@ _.each(loadResult, function(eveObj) {
     var locus_name;
 	glue.inMode("custom-table-row/locus_data/"+eveObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering locus table data for DIGS sequence:", eveObj.sequenceID);
+		//glue.log("INFO", "Entering locus table data for DIGS sequence:", eveObj.sequenceID);
 		
 		glue.command(["set", "field", "locus_numeric_id", eveObj.locus_numeric_id]);
 		glue.command(["set", "field", "scaffold", eveObj.scaffold]);
@@ -46,7 +46,7 @@ _.each(loadResult, function(eveObj) {
 
 	glue.inMode("sequence/fasta-digs-ehbv/"+eveObj.sequenceID, function() {
 	
-		glue.log("INFO", "Entering sequence table data for DIGS sequence:", eveObj.sequenceID);
+		//glue.log("INFO", "Entering sequence table data for DIGS sequence:", eveObj.sequenceID);
 		glue.command(["set", "field", "name", eveObj.sequenceID]);
 		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
 		glue.command(["set", "field", "genus", eveObj.virus_genus]);
@@ -62,7 +62,7 @@ function get_refcon_data(resultMap, refconDataPath) {
   var loadResult;
   glue.inMode("module/hepadnaviridaeTabularUtility", function() {
 	  loadResult = glue.tableToObjects(glue.command(["load-tabular", refconDataPath]));
-	  glue.log("INFO", "load result was:", loadResult);
+	  //glue.log("INFO", "load result was:", loadResult);
   });
 
   _.each(loadResult, function(eveObj) {
@@ -71,7 +71,7 @@ function get_refcon_data(resultMap, refconDataPath) {
 	  var sequenceID = eveObj.sequenceID
 	  var locus_numeric_id = eveObj.locus_numeric_id;
 	  var locus_name = eveObj.locus_name;
-	  glue.log("INFO", "Setting locus data for EVE locus:", eveObj.locus_name);
+	  //glue.log("INFO", "Setting locus data for EVE locus:", eveObj.locus_name);
 	  resultMap[locus_name] = eveObj;
 	
   });

@@ -33,17 +33,17 @@ _.each(loadResult, function(eveObj) {
 
 	if (locus_numeric_id != 'NK') { // Skip elements that haven't been assigned to a locus
 
-		glue.log("INFO", "Sequence ID", sequenceID);
-		glue.log("INFO", "Locus ID", locus_name);
-		glue.log("INFO", "Locus numeric ID", locus_numeric_id);
+		//glue.log("INFO", "Sequence ID", sequenceID);
+		//glue.log("INFO", "Locus ID", locus_name);
+		//glue.log("INFO", "Locus numeric ID", locus_numeric_id);
 	
 
 		// Does an alignment exist for this locus ID
         var alignmentName = "AL_EHBV-" + locus_name;
 
-		glue.log("INFO", "Adding sequence:", eveObj.sequenceID);
-		glue.log("INFO", "to alignment", alignmentName);
-		glue.log("INFO", "genus:", virus_genus);
+		//glue.log("INFO", "Adding sequence:", eveObj.sequenceID);
+		//glue.log("INFO", "to alignment", alignmentName);
+		//glue.log("INFO", "genus:", virus_genus);
 		
 		var parentAlignmentName;
 		if (virus_genus == 'NK') {	// Skip references that havent been assigned to a genus			
@@ -62,7 +62,7 @@ _.each(loadResult, function(eveObj) {
 				// Create the alignment
 				var refseqName = "REF_EHBV-" + locus_name;
 				
-				glue.log("INFO", "CREATING ALIGNMENT WITH CONSTRAINING REFERENCE: ", refseqName);
+				//glue.log("INFO", "CREATING ALIGNMENT WITH CONSTRAINING REFERENCE: ", refseqName);
 				glue.inMode("/alignment/"+parentAlignmentName, function() {
 					glue.command(["extract", "child", alignmentName, "-r", refseqName]);
 				});
@@ -71,7 +71,7 @@ _.each(loadResult, function(eveObj) {
 
 			// Add the sequence to the alignment
 			glue.inMode("/alignment/"+parentAlignmentName, function() {			
-				glue.log("INFO", "ADDING sequence: ", sequenceID);
+				//glue.log("INFO", "ADDING sequence: ", sequenceID);
 				glue.command(["demote", "member", alignmentName, "-w", "sequence.locus_data.locus_numeric_id = '"+locus_numeric_id+"'"]);
 			});
 			
@@ -91,7 +91,7 @@ function get_refcon_data(resultMap, refconDataPath) {
   var loadResult;
   glue.inMode("module/hepadnaviridaeTabularUtility", function() {
 	  loadResult = glue.tableToObjects(glue.command(["load-tabular", refconDataPath]));
-	  glue.log("INFO", "load result was:", loadResult);
+	  //glue.log("INFO", "load result was:", loadResult);
   });
 
   _.each(loadResult, function(eveObj) {
@@ -100,7 +100,7 @@ function get_refcon_data(resultMap, refconDataPath) {
 	  var sequenceID = eveObj.sequenceID
 	  var locus_numeric_id = eveObj.locus_numeric_id;
 	  var locus_name = eveObj.locus_name;
-	  glue.log("INFO", "Setting locus data for EVE locus:", eveObj.locus_name);
+	  //glue.log("INFO", "Setting locus data for EVE locus:", eveObj.locus_name);
 	  resultMap[locus_name] = eveObj;
 	
   });

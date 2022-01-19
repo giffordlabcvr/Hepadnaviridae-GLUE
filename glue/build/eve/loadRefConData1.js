@@ -7,7 +7,7 @@ var seqIds = glue.getTableColumn(listSeqResult, "sequenceID");
 // for each sequence ID
 _.each(seqIds, function(seqId) {
 
-	glue.log("INFO", "Sequence ID:", seqId);
+	//glue.log("INFO", "Sequence ID:", seqId);
 
     // create an object in the custom table which uses the sequence ID as the row ID.
     glue.command(["create", "custom-table-row", "refcon_data", seqId]);
