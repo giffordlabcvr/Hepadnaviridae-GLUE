@@ -14,14 +14,16 @@
  
   # Create all the modules we need
   create module -f modules/build/fastaAlignmentExporter.xml
-  create module -f modules/analysis/hepadnaTreeAlignmentImporterNucs.xml
+  create module -f modules/build/hepadnaviridaeFeaturePresenceRecorder.xml
+
+  create module -f modules/analysis/phylogeny/hepadnaTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/analysis/hepadnaPhyloUtility.xml
-  create module -f modules/analysis/ehbvFigTreeAnnotationExporterReferences.xml
-  create module -f modules/analysis/hepadnaviridaeFeaturePresenceRecorder.xml
-  create module -f modules/analysis/alignmentColumnsSelectorHepadnaCore.xml
-  create module -f modules/analysis/alignmentColumnsSelectorHepadnaPolymerase.xml
-  create module -f modules/analysis/alignmentColumnsSelectorHepadnaSurface.xml
+  create module -f modules/analysis/phylogeny/hepadnaPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/ehbvFigTreeAnnotationExporterReferences.xml
+
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaCore.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaPolymerase.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaSurface.xml
 
   # Export the recursively populated root gene alignments 
   module fastaAlignmentExporter

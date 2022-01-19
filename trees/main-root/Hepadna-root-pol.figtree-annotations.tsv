@@ -3,6 +3,22 @@ alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ251934	AJ251934	STHBV	Avi
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ441111	AJ441111	CCHBV	Avihepadnavirus	type-1	avi-1-modern	-	CCHBV 1	Balearica regulorum	-	-	Germany:Berlin
 alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/AMDV	AMDV	AMDV	Metahepadnavirus	N/A	meta-type-3	-	-	Astatotilapia sp	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/CSKV	CSKV	CSKV	Parahepadnavirus	N/A	ND	-	-	Oncorhynchus kisutch	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.1-neoaves	ehbv-avi.1-neoaves	ehbv-avi.1-neoaves	Avihepadnavirus	N/A	avi-3	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.10-melopsittacus	ehbv-avi.10-melopsittacus	ehbv-avi.10-melopsittacus	Avihepadnavirus	N/A	avi-1-modern	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.11-tyto	ehbv-avi.11-tyto	ehbv-avi.11-tyto	Avihepadnavirus	N/A	avi-2-rails	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.12-anatidae	ehbv-avi.12-anatidae	ehbv-avi.12-anatidae	Avihepadnavirus	N/A	avi-2-rails	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.14-gavia	ehbv-avi.14-gavia	ehbv-avi.14-gavia	Avihepadnavirus	N/A	avi-2-rails	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.15-gavia	ehbv-avi.15-gavia	ehbv-avi.15-gavia	Avihepadnavirus	N/A	avi-2-rails	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.19-buceros	ehbv-avi.19-buceros	ehbv-avi.19-buceros	Avihepadnavirus	N/A	avi-1-ancient	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.20-cariama	ehbv-avi.20-cariama	ehbv-avi.20-cariama	Avihepadnavirus	N/A	avi-3	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.22-tyto	ehbv-avi.22-tyto	ehbv-avi.22-tyto	Avihepadnavirus	N/A	avi-2-rails	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	ehbv-avi.25-chaetura	Avihepadnavirus	N/A	avi-3	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.28-alauda	ehbv-avi.28-alauda	ehbv-avi.28-alauda	Avihepadnavirus	N/A	avi-1-modern	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	ehbv-avi.29-psittacula	Avihepadnavirus	N/A	avi-4	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.31-passeriformes	ehbv-avi.31-passeriformes	ehbv-avi.31-passeriformes	Avihepadnavirus	N/A	avi-4	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	ehbv-avi.37-phylloscopus	Avihepadnavirus	N/A	avi-4	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	ehbv-avi.9-melopsittacus	Avihepadnavirus	N/A	avi-1-modern	-	-	-	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs-ehbv/ehbv-herpeto.7-serpentes	ehbv-herpeto.7-serpentes	ehbv-herpeto.7-serpentes	Herpetohepadnavirus	N/A	herpeto-type-3-serpentes	-	-	-	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/IMDV	IMDV	IMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Chionodraco hamatus	-	-	-
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH307930	MH307930	DCHBV	Orthohepadnavirus	N/A	ortho-type 4	-	Sydney2016	Felis catus	-	-	Australia
 alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH484442	MH484442	ClHBV	Orthohepadnavirus	N/A	ortho-type 5	-	CX88	Crocidura lasiura	-	-	China

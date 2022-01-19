@@ -12,15 +12,17 @@
   delete module alignmentColumnsSelectorHepadnaSurface
   
   # Create all the modules we need
-  create module -f modules/fastaAlignmentExporter.xml
-  create module -f modules/hepadnaTreeAlignmentImporterNucs.xml
   create module -t raxmlPhylogenyGenerator
-  create module -f modules/hepadnaPhyloUtility.xml
-  create module -f modules/hepadnaFigTreeAnnotationExporter.xml
-  create module -f modules/hepadnaviridaeFeaturePresenceRecorder.xml
-  create module -f modules/alignmentColumnsSelectorHepadnaCore.xml
-  create module -f modules/alignmentColumnsSelectorHepadnaPolymerase.xml
-  create module -f modules/alignmentColumnsSelectorHepadnaSurface.xml
+  
+  create module -f modules/build/fastaAlignmentExporter.xml
+  create module -f modules/build/hepadnaviridaeFeaturePresenceRecorder.xml
+
+  create module -f modules/analysis/phylogeny/hepadnaTreeAlignmentImporterNucs.xml
+  create module -f modules/analysis/phylogeny/hepadnaPhyloUtility.xml
+  create module -f modules/analysis/phylogeny/hepadnaFigTreeAnnotationExporter.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaCore.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaPolymerase.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorHepadnaSurface.xml
 
 
   # Export the recursively populated root gene alignments 
