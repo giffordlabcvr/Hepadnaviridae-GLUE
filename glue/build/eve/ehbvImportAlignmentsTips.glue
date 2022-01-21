@@ -2,10 +2,10 @@
 module unconstrainedAlignmentImporter
 
   #~# Tip aligns Metahepadna genus
-  import AL_UNC_eHBV-Meta.1-Sauria         -f alignments/tip/ehbv-meta.1-sauria-con.aln.fna
+  #import AL_UNC_eHBV-Meta.1-Sauria         -f alignments/tip/ehbv-meta.1-sauria-con.aln.fna
  
   #~# Tip aligns Avihepadna genus
-  import AL_UNC_eHBV-Avi.1-Neoaves         -f alignments/tip/ehbv-avi.1-neoaves.aln.fna
+  #import AL_UNC_eHBV-Avi.1-Neoaves         -f alignments/tip/ehbv-avi.1-neoaves.aln.fna
   import AL_UNC_eHBV-Avi.2-Passeriformes   -f alignments/tip/ehbv-avi.2-passeriformes.aln.fna
   import AL_UNC_eHBV-Avi.13-Paleognathae   -f alignments/tip/ehbv-avi.13-paleognathae.aln.fna
   import AL_UNC_eHBV-Avi.21-Paleognathae   -f alignments/tip/ehbv-avi.21-paleognathae.aln.fna
