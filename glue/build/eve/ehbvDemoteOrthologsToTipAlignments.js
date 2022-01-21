@@ -53,7 +53,7 @@ _.each(loadResult, function(eveObj) {
 				
 			parentAlignmentName = "AL_" + virus_genus;
 
-			glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
+			//glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
 
 			var alignmentExists = does_alignment_exist(alignmentName);
 		

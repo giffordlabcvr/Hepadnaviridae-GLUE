@@ -6,9 +6,9 @@ module unconstrainedAlignmentImporter
  
   #~# Tip aligns Avihepadna genus
   #import AL_UNC_eHBV-Avi.1-Neoaves         -f alignments/tip/ehbv-avi.1-neoaves.aln.fna
-  import AL_UNC_eHBV-Avi.2-Passeriformes   -f alignments/tip/ehbv-avi.2-passeriformes.aln.fna
-  import AL_UNC_eHBV-Avi.13-Paleognathae   -f alignments/tip/ehbv-avi.13-paleognathae.aln.fna
-  import AL_UNC_eHBV-Avi.21-Paleognathae   -f alignments/tip/ehbv-avi.21-paleognathae.aln.fna
+  #import AL_UNC_eHBV-Avi.2-Passeriformes   -f alignments/tip/ehbv-avi.2-passeriformes.aln.fna
+  #import AL_UNC_eHBV-Avi.13-Paleognathae   -f alignments/tip/ehbv-avi.13-paleognathae.aln.fna
+  #import AL_UNC_eHBV-Avi.21-Paleognathae   -f alignments/tip/ehbv-avi.21-paleognathae.aln.fna
 
   #~# Tip aligns Herpetohepadna genus
   import AL_UNC_eHBV-Herpeto.1-Serpentes   -f alignments/tip/ehbv-herpeto.1-serpentes.aln.fna
