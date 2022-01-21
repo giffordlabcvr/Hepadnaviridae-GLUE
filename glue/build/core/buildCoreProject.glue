@@ -35,10 +35,6 @@ project hepadnaviridae
   # Define variations
   run file glue/build/core/hepadnaVariations.glue
 
-  # Create phylogenies
-  #run file glue/build/core/hepadnaCreateRootPhylogenies.glue
-  #run file glue/build/core/hepadnaCreateGenusPhylogenies.glue
-
   # Validate
   validate
   
