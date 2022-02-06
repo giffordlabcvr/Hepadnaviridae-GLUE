@@ -11,6 +11,11 @@
 	  add segment 1 3182
 	  exit
 
+	add feature-location DR1
+	feature-location DR1
+	  add segment 11 21
+	  exit
+
 	add feature-location epsilon
 	feature-location epsilon
 	  add segment 34 94
@@ -45,7 +50,12 @@
 	feature-location X
 	  add segment 2743 3180
 	  exit
-   
+
+	add feature-location DR2
+	feature-location DR2
+	  add segment 2959 2969
+	  exit
+
 	exit 
 
   
