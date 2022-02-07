@@ -240,7 +240,7 @@
 
 	add feature-location large-S
 	  feature-location large-S    
-	  add segment 684 1724
+	  add segment 1011 2048
 	  exit
 
 	exit 
