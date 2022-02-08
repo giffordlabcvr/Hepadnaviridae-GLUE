@@ -11,9 +11,9 @@ module unconstrainedAlignmentImporter
   #import AL_UNC_eHBV-Avi.21-Paleognathae   -f alignments/tip/ehbv-avi.21-paleognathae.aln.fna
 
   #~# Tip aligns Herpetohepadna genus
-  import AL_UNC_eHBV-Herpeto.1-Serpentes   -f alignments/tip/ehbv-herpeto.1-serpentes.aln.fna
-  import AL_UNC_eHBV-Herpeto.2-Serpentes   -f alignments/tip/ehbv-herpeto.2-serpentes.aln.fna
-  import AL_UNC_eHBV-Herpeto.5-Testudines  -f alignments/tip/ehbv-herpeto.5-testudines.aln.fna
-  import AL_UNC_eHBV-Herpeto.9-Serpentes   -f alignments/tip/ehbv-herpeto.9-serpentes.aln.fna
+  #import AL_UNC_eHBV-Herpeto.1-Serpentes   -f alignments/tip/ehbv-herpeto.1-serpentes.aln.fna
+  #import AL_UNC_eHBV-Herpeto.2-Serpentes   -f alignments/tip/ehbv-herpeto.2-serpentes.aln.fna
+  #import AL_UNC_eHBV-Herpeto.5-Testudines  -f alignments/tip/ehbv-herpeto.5-testudines.aln.fna
+  #import AL_UNC_eHBV-Herpeto.9-Serpentes   -f alignments/tip/ehbv-herpeto.9-serpentes.aln.fna
   
   exit
