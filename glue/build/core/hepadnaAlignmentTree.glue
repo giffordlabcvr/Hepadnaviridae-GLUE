@@ -7,20 +7,20 @@ alignment AL_Hepadnaviridae add member --allSequences
 #~# Genus alignments
 alignment AL_Hepadnaviridae
 
-  extract child AL_Orthohepadnavirus -r REF_Ortho_MASTER_HBV
-  demote member AL_Orthohepadnavirus --whereClause "sequence.genus = 'Orthohepadnavirus'"
+  extract child AL_GENUS_Orthohepadnavirus -r REF_Ortho_MASTER_HBV
+  demote member AL_GENUS_Orthohepadnavirus --whereClause "sequence.genus = 'Orthohepadnavirus'"
 
-  extract child AL_Metahepadnavirus -r REF_Meta_MASTER_bgHBV
-  demote member AL_Metahepadnavirus --whereClause "sequence.genus = 'Metahepadnavirus'"
+  extract child AL_GENUS_Metahepadnavirus -r REF_Meta_MASTER_bgHBV
+  demote member AL_GENUS_Metahepadnavirus --whereClause "sequence.genus = 'Metahepadnavirus'"
 
-  extract child AL_Avihepadnavirus -r REF_Avi_MASTER_DHBV
-  demote member AL_Avihepadnavirus --whereClause "sequence.genus = 'Avihepadnavirus'"
+  extract child AL_GENUS_Avihepadnavirus -r REF_Avi_MASTER_DHBV
+  demote member AL_GENUS_Avihepadnavirus --whereClause "sequence.genus = 'Avihepadnavirus'"
 
-  extract child AL_Herpetohepadnavirus -r REF_Herpeto_MASTER_tfHBV
-  demote member AL_Herpetohepadnavirus --whereClause "sequence.genus = 'Herpetohepadnavirus'"
+  extract child AL_GENUS_Herpetohepadnavirus -r REF_Herpeto_MASTER_tfHBV
+  demote member AL_GENUS_Herpetohepadnavirus --whereClause "sequence.genus = 'Herpetohepadnavirus'"
 
-  extract child AL_Parahepadnavirus -r REF_Para_MASTER_wsHBV
-  demote member AL_Parahepadnavirus --whereClause "sequence.genus = 'Parahepadnavirus'"
+  extract child AL_GENUS_Parahepadnavirus -r REF_Para_MASTER_wsHBV
+  demote member AL_GENUS_Parahepadnavirus --whereClause "sequence.genus = 'Parahepadnavirus'"
   exit
 
 
@@ -29,22 +29,22 @@ alignment AL_Hepadnaviridae
   derive segments AL_UNC_HEPADNAVIRIDAE -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Orthohepadnavirus
+alignment AL_GENUS_Orthohepadnavirus
   derive segments AL_UNC_ORTHO -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Metahepadnavirus
+alignment AL_GENUS_Metahepadnavirus
   derive segments AL_UNC_META -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Avihepadnavirus
+alignment AL_GENUS_Avihepadnavirus
   derive segments AL_UNC_AVI -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Herpetohepadnavirus
+alignment AL_GENUS_Herpetohepadnavirus
   derive segments AL_UNC_HERPETO -a --mergeStrategy OVERWRITE
   exit
 
-alignment AL_Parahepadnavirus
+alignment AL_GENUS_Parahepadnavirus
   derive segments AL_UNC_PARA -a --mergeStrategy OVERWRITE
   exit

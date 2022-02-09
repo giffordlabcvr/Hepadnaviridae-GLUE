@@ -6,9 +6,9 @@
 alignment AL_Hepadnaviridae
 
   add member -w "source.name = 'fasta-refseqs-ehbv'"  
-  demote member AL_Avihepadnavirus    -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  demote member AL_Herpetohepadnavirus -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
-  demote member AL_Metahepadnavirus    -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+  demote member AL_GENUS_Avihepadnavirus    -w "sequence.genus = 'Avihepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+  demote member AL_GENUS_Herpetohepadnavirus -w "sequence.genus = 'Herpetohepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
+  demote member AL_GENUS_Metahepadnavirus    -w "sequence.genus = 'Metahepadnavirus' and sequence.source.name = 'fasta-refseqs-ehbv'"
   exit
 
 

@@ -1,6 +1,6 @@
 
 # Build core project
-run file buildHepadnaCoreProject.glue
+run file buildCoreProject.glue
 
 # Build paleovirus project
-run file buildHepadnaPaleoProject.glue
+run file buildPaleoProject.glue

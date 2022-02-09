@@ -51,7 +51,7 @@ _.each(loadResult, function(eveObj) {
 		}
 		else {
 				
-			parentAlignmentName = "AL_" + virus_genus;
+			parentAlignmentName = "AL_GENUS_" + virus_genus;
 
 			//glue.log("INFO", "PARENT ALIGNMENT: ", parentAlignmentName);
 

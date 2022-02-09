@@ -7,10 +7,10 @@
      record feature-presence AL_Hepadnaviridae --recursive --featureName whole_genome --descendentFeatures
     
     #~# Genus alignments
-    record feature-presence AL_Orthohepadnavirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Avihepadnavirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Herpetohepadnavirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Metahepadnavirus --recursive --featureName whole_genome --descendentFeatures
-    record feature-presence AL_Parahepadnavirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Orthohepadnavirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Avihepadnavirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Herpetohepadnavirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Metahepadnavirus --recursive --featureName whole_genome --descendentFeatures
+    record feature-presence AL_GENUS_Parahepadnavirus --recursive --featureName whole_genome --descendentFeatures
     exit
 

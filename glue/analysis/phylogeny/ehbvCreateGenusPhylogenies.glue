@@ -32,39 +32,39 @@
   # Create the phylogenies
   module raxmlPhylogenyGenerator
 
-    generate nucleotide phylogeny AL_Herpetohepadnavirus -s alignmentColumnsSelectorHerpetoCore \
+    generate nucleotide phylogeny AL_GENUS_Herpetohepadnavirus -s alignmentColumnsSelectorHerpetoCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Herpeto-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_Herpetohepadnavirus -s alignmentColumnsSelectorHerpetoPolymerase \
+    generate nucleotide phylogeny AL_GENUS_Herpetohepadnavirus -s alignmentColumnsSelectorHerpetoPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Herpeto-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_Herpetohepadnavirus -s alignmentColumnsSelectorHerpetoSurface \
+    generate nucleotide phylogeny AL_GENUS_Herpetohepadnavirus -s alignmentColumnsSelectorHerpetoSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Herpeto-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_Avihepadnavirus -s alignmentColumnsSelectorAviCore \
+    generate nucleotide phylogeny AL_GENUS_Avihepadnavirus -s alignmentColumnsSelectorAviCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Avi-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_Avihepadnavirus -s alignmentColumnsSelectorAviPolymerase \
+    generate nucleotide phylogeny AL_GENUS_Avihepadnavirus -s alignmentColumnsSelectorAviPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Avi-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_Avihepadnavirus -s alignmentColumnsSelectorAviSurface \
+    generate nucleotide phylogeny AL_GENUS_Avihepadnavirus -s alignmentColumnsSelectorAviSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Avi-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_Metahepadnavirus -s alignmentColumnsSelectorMetaCore \
+    generate nucleotide phylogeny AL_GENUS_Metahepadnavirus -s alignmentColumnsSelectorMetaCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Meta-core.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_Metahepadnavirus -s alignmentColumnsSelectorMetaPolymerase \
+    generate nucleotide phylogeny AL_GENUS_Metahepadnavirus -s alignmentColumnsSelectorMetaPolymerase \
       -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Meta-pol.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
-    generate nucleotide phylogeny AL_Metahepadnavirus -s alignmentColumnsSelectorMetaSurface \
+    generate nucleotide phylogeny AL_GENUS_Metahepadnavirus -s alignmentColumnsSelectorMetaSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/eve-genus/Meta-surface.eve.export_nucs.tre NEWICK_BOOTSTRAPS
 
