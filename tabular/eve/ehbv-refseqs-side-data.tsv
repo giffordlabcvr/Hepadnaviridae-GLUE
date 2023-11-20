@@ -55,6 +55,7 @@ ehbv-herpeto.5-testudines	herpeto.5-testudines	Herpetohepadnavirus	Endogenous he
 ehbv-herpeto.6-varanus	herpeto.6-varanus	Herpetohepadnavirus	Endogenous herpetohepadnavirus 6	ehbv-herpeto.6-varanus	6	fragment	nd	nd	WSCD2 (intronic)	WSCD2 (intronic)	Hepadnaviridae	Species	Varanus	N/A	herpeto-type-2
 ehbv-herpeto.7-serpentes	herpeto.7-serpentes	Herpetohepadnavirus	Endogenous herpetohepadnavirus 9	ehbv-herpeto.7-serpentes	9	complete	nd	nd	ATP2A3	ZZEF1	Hepadnaviridae	Suborder	Serpentes	N/A	herpeto-type-3-serpentes
 ehbv-herpeto.8-serpentes	herpeto.8-serpentes	Herpetohepadnavirus	Endogenous herpetohepadnavirus 8	ehbv-herpeto.8-serpentes	8	complete	nd	nd	OBI1	RBM26	Hepadnaviridae	Suborder	Serpentes	N/A	herpeto-type-3-serpentes
+ehbv-herpeto.10-EleCoq	herpeto.10-EleCoq	Herpetohepadnavirus	Endogenous herpetohepadnavirus 10	ehbv-herpeto.10-EleCoq	10	fragment	nd	nd	nk	nk	Hepadnaviridae	Species	Eleutherodactylus coqui		herpeto.10-EleCoq
 ehbv-meta.1-sauria	meta.1-sauria	Metahepadnavirus	Endogenous metahepadnavirus 1	ehbv-meta.1-sauria	1	complete	Core	1	KLF8	ENSACUG00000005807	Hepadnaviridae	Clade	Sauropsida	N/A	meta-type-5
 ehbv-meta.2-varanus	meta.2-varanus	Metahepadnavirus	Endogenous metahepadnavirus 2	ehbv-meta.2-varanus	2	fragment	nd	nd	NPVF	NFE2L3	Hepadnaviridae	Species	Varanus	N/A	meta-type-6
 ehbv-meta.3-paroedura	meta.3-paroedura	Metahepadnavirus	Endogenous metahepadnavirus 3	ehbv-meta.3-paroedura	3	fragment	nd	nd	NK	NK	Hepadnaviridae	Species	Paroedura	N/A	ND
