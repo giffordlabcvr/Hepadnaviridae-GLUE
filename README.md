@@ -40,7 +40,7 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
   
 - **Standardisation of Genomic Coordinates**: All sequences use the coordinate space of a chosen reference sequence.
   
-- **Predefined Reference Sequences**: Includes fully-annotated reference sequences for Hepadnavirus species.
+- **Predefined Reference Sequences**: Includes fully-annotated reference sequences for hepadnavirus species.
   
 - **Alignment Trees**: Links alignments constructed at distinct taxonomic levels, maintaining a standardised coordinate system.
   
