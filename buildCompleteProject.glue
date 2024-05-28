@@ -1,6 +1,0 @@
-
-# Build core project
-run file buildCoreProject.glue
-
-# Build paleovirus project
-run file buildPaleoProject.glue
