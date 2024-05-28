@@ -12,6 +12,11 @@ Projects are loaded into the GLUE "engine," forming a relational database that r
 
 **Hepadnavirus-GLUE** contains hepadnavirus feature definitions, alignments, and reference sequences for all hepadnavirus species.
 
+This **Hepadnavirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
+
+  - **[Hepadnavirus-GLUE-EVE](https://github.com/giffordlabcvr/Hepadnavirus-GLUE-EVE)**: extends Hepadnavirus-GLUE through the incorporation of endogenous hepadnaviral elements.
+
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -58,24 +63,6 @@ Download the Hepadnavirus-GLUE repository, navigate into the top-level directory
 ```
    Mode path: /
    GLUE> run file buildCoreProject.glue
-```
-
-This command builds the core project, representing diversity among the Hepadnavirus family via a minimal annotated species reference sequences.
-
-2. **Build Paleovirus Extension Projects**:
-
-```
-Mode path: /
-GLUE> run file buildEveProject.glue
-```
-
-This command builds the paleovirus extension, which includes endogenous viral elements (EVEs) from metazoan genomes, enabling automated alignment and phylogeny reconstruction for individual eHBV lineages.
-
-To build all three project layers in one go, run the 'buildHepadnavirusProject.glue' file as follows:
-
-```
-Mode path: /
-GLUE> run file buildHepadnavirusProject.glue
 ```
 
 This will build the base project, which contains a minimal set of feature definitions, clade categories, reference sequences, and alignments.
