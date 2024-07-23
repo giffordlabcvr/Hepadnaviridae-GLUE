@@ -1,3 +1,5 @@
+  
+  # Delete module
   delete module raxmlPhylogenyGenerator
   delete module hepadnaPhyloUtility
   delete module alignmentColumnsSelectorHepadnaCore
@@ -6,7 +8,10 @@
   delete module alignmentColumnsSelectorAviCore
   delete module alignmentColumnsSelectorAviPolymerase
   delete module alignmentColumnsSelectorAviSurface
-  
+  delete module alignmentColumnsSelectorMetaCore
+  delete module alignmentColumnsSelectorMetaPolymerase
+  delete module alignmentColumnsSelectorMetaSurface
+
   # Create all the modules we need
   create module -t raxmlPhylogenyGenerator
   create module -f modules/analysis/phylogeny/hepadnaPhyloUtility.xml
@@ -18,7 +23,9 @@
   create module -f modules/analysis/phylogeny/alignmentColumnsSelectorAviCore.xml
   create module -f modules/analysis/phylogeny/alignmentColumnsSelectorAviPolymerase.xml
   create module -f modules/analysis/phylogeny/alignmentColumnsSelectorAviSurface.xml
-
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorMetaCore.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorMetaPolymerase.xml
+  create module -f modules/analysis/phylogeny/alignmentColumnsSelectorMetaSurface.xml
   
   # Create the phylogenies
   module raxmlPhylogenyGenerator
@@ -35,7 +42,6 @@
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Ortho-surface.export_nucs.tre NEWICK_BOOTSTRAPS
 
-
     generate nucleotide phylogeny AL_GENUS_Avihepadnavirus -s alignmentColumnsSelectorAviCore \
       -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Avi-core.export_nucs.tre NEWICK_BOOTSTRAPS
@@ -47,6 +53,18 @@
     generate nucleotide phylogeny AL_GENUS_Avihepadnavirus -s alignmentColumnsSelectorAviSurface \
       -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
       -o trees/main-genus/Avi-surface.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_GENUS_Metahepadnavirus -s alignmentColumnsSelectorMetaCore \
+      -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-genus/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_GENUS_Metahepadnavirus -s alignmentColumnsSelectorMetaPolymerase \
+      -w "fLocNotes.featureLoc.feature.name = 'Polymerase' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-genus/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS
+
+    generate nucleotide phylogeny AL_GENUS_Metahepadnavirus -s alignmentColumnsSelectorMetaSurface \
+      -w "fLocNotes.featureLoc.feature.name = 'large-S' and fLocNotes.ref_nt_coverage_pct >= 50" \
+      -o trees/main-genus/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS
 
     exit
 
@@ -84,6 +102,21 @@
       --midpoint \
       --outputFile trees/main-genus/Avi-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
 
+	reroot-phylogeny \
+      --inputFile trees/main-genus/Meta-core.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/Meta-core.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/Meta-pol.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/Meta-pol.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
+	reroot-phylogeny \
+      --inputFile trees/main-genus/Meta-surface.export_nucs.tre NEWICK_BOOTSTRAPS \
+      --midpoint \
+      --outputFile trees/main-genus/Meta-surface.export_nucs-MidpointRerooted.tree NEWICK_BOOTSTRAPS
+
     exit
 
 
@@ -103,6 +136,13 @@
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-pol.figtree-annotations.tsv
     export figtree-annotation AL_GENUS_Avihepadnavirus -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
       and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Avi-surface.figtree-annotations.tsv
+
+   export figtree-annotation AL_GENUS_Metahepadnavirus -w "fLocNotes.featureLoc.feature.name = 'PreCore-Core'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Meta-core.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Metahepadnavirus -w "fLocNotes.featureLoc.feature.name = 'Polymerase'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Meta-pol.figtree-annotations.tsv
+    export figtree-annotation AL_GENUS_Metahepadnavirus -w "fLocNotes.featureLoc.feature.name = 'large-S'  \
+      and fLocNotes.ref_nt_coverage_pct >= 50" -f trees/main-genus/Meta-surface.figtree-annotations.tsv
 
   exit
 

@@ -1,13 +1,13 @@
 
   # Create links to isolate table for all viruses
-  run script glue/build/core/hepadnaLoadIsolateData.js
+  run script glue/build/hepadnaLoadIsolateData.js
 
   # Populate tables from GenBank files
   module genbankXmlPopulator populate
 
   # Import metadata for exogenous reference sequences from tabular
   module hepadnaviridaeSideDataImporter 
-    populate -f tabular/core/hepadna-ncbi-refseqs-side-data.tsv
+    populate -f tabular/hepadna-ncbi-refseqs-side-data.tsv
     exit
 
 

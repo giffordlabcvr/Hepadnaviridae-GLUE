@@ -1,3 +1,8 @@
+
+project hepadnaviridae
+
   # Create phylogenies
   run file glue/analysis/phylogeny/createRootPhylogenies.glue
   run file glue/analysis/phylogeny/createGenusPhylogenies.glue
+  
+  exit

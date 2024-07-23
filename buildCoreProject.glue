@@ -4,11 +4,54 @@ create project hepadnaviridae "GLUE project for the Hepadnaviridae" --minVersion
 
 schema-project hepadnaviridae
 
-  run file glue/build/core/hepadnaSchemaExtensions.glue
+  run file glue/build/hepadnaSchemaExtensions.glue
   exit
 
 
 # Build core project
-run file glue/build/core/buildCoreProject.glue
+project hepadnaviridae
 
+  # Load project settings
+  run file glue/build/hepadnaProjectSettings.glue
 
+  # Create modules
+  run file glue/build/hepadnaModules.glue
+
+  # Import sequence data
+  run file glue/build/importSources.glue
+
+  # Import sequence-associated "side-data" for core project reference sequences
+  run file glue/build/hepadnaImportData.glue
+    
+  # Define genome features
+  run file glue/build/hepadnaFeatures.glue
+
+  # Create reference sequences
+  run file glue/build/hepadnaMasterReferences.glue
+
+  # Apply rotations
+  run script glue/build/hepadnaRefseqsApplyRotations.js
+
+  # Add feature locations
+  run file glue/build/hepadnaExplicitFeatureLocations.glue
+  run file glue/build/nackednaExplicitFeatureLocations.glue
+  
+  # Import alignments
+  run file glue/build/hepadnaAlignments.glue
+
+  # Define alignment tree
+  run file glue/build/hepadnaAlignmentTree.glue
+
+  # Compute alignments (for constrained alignments that include taxa absent from imported, unconstrained alignment
+  run file glue/build/hepadnaComputeAlignments.glue
+
+  # Record feature coverage in alignments
+  run file glue/build/hepadnaRecordFeaturePresence.glue
+
+  # Define variations
+  run file glue/build/hepadnaVariations.glue
+
+  # Validate
+  validate
+  
+  exit

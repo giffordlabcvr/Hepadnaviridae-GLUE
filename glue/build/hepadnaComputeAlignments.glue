@@ -1,0 +1,4 @@
+#~# Compute alignments
+
+compute alignment AL_GENUS_Metahepadnavirus hepadnavirusCompoundAligner
+compute alignment AL_GENUS_Orthohepadnavirus hepadnavirusCompoundAligner
