@@ -16,6 +16,7 @@ MH716822	EsgHBV	Eastern sea garfish hepatitis B virus	Hepadnaviridae	Metahepadna
 AMDV	AMDV	Astatotilapia metahepadnavirus	Hepadnaviridae	Metahepadnavirus		Astatotilapia sp	Astatotilapia	N/A	meta-type-3
 TMDV	TMDV	Tetra metahepadnavirus	Hepadnaviridae	Metahepadnavirus		Astyanax mexicanus	Mexican tetra	N/A	meta-type-4
 IMDV	IMDV	Icefish metahepadnavirus	Hepadnaviridae	Metahepadnavirus		Chionodraco hamatus	Crocodile icefish	N/A	meta-type-4
+OQ859059	ApHBV	Alewife metahepadnavirus	Hepadnaviridae	Metahepadnavirus		Alosa pseudoharengus	Alewife	N/A	NK
 NC_003977	HBV	Hepatitis B virus	Hepadnaviridae	Orthohepadnavirus	Primate	Homo sapiens	Human	N/A	ortho-type-1
 NC_028129	WMHBV	Woolly monkey hepatitis B virus	Hepadnaviridae	Orthohepadnavirus	Primate	Lagothrix lagothricha 	Woolly monkey	N/A	ortho-type-1
 NC_001484	GSHV	Ground squirrel hepatitis virus	Hepadnaviridae	Orthohepadnavirus		Spermophilus beecheyi	California ground squirrel	N/A	ortho-type-2
@@ -25,6 +26,7 @@ NC_024443	RlbHBV	Roundleaf bat hepatitis B virus	Hepadnaviridae	Orthohepadnaviru
 NC_024445	TBHBV	Tent-making bat hepatitis B virus	Hepadnaviridae	Orthohepadnavirus		Hipposideros cf. ruber	Tent-making bat	N/A	ortho-type-2a
 NC_004107	WhBv	Woodchuck hepatitis virus	Hepadnaviridae	Orthohepadnavirus		Marmota monax	Woodchuck	N/A	ortho-type-2
 MH307930	DCHBV	Domestic cat hepadnavirus	Hepadnaviridae	Orthohepadnavirus		Felis catus	Domestic cat	N/A	ortho-type 4
+MZ201309	DDHBV	Domestic dog hepadnavirus	Hepadnaviridae	Orthohepadnavirus		Canis familiaris	Domestic dog	N/A	NK
 MH484442	ClHBV	Shrew hepatitis B virus	Hepadnaviridae	Orthohepadnavirus		Crocidura lasiura	Ussuri white-toothed shrew	N/A	ortho-type 5
 MK620908	TaiHBV	Tai Forest hepadnavirus	Hepadnaviridae	Orthohepadnavirus		Philantomba maxwellii	Maxwell's duiker	N/A	ortho-type 3
 MT134279	EqHBV	Equine hepatitis B virus	Hepadnaviridae	Orthohepadnavirus		Equus asinus	Domestic donkey	N/A	NK

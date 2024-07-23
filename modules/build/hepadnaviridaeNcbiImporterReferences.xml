@@ -20,6 +20,8 @@
     <primaryAccession>NC_030445</primaryAccession>
     <!-- Eastern sea garfish hepatitis B virus -->	
     <primaryAccession>MH716822</primaryAccession>
+    <!-- Alewife hepatitis B virus isolate MR4 -->	
+    <primaryAccession>OQ859059</primaryAccession>
 
 	<!-- Avihepadnavirus -->
     <!-- Tinamou hepatitis B virus -->
@@ -42,6 +44,7 @@
     <primaryAccession>AJ251934</primaryAccession>
 
 	<!-- Orthohepadnavirus -->
+	<!-- Hepatitis B virus (strain ayw) -->
     <primaryAccession>NC_003977</primaryAccession>
     <!-- Woolly monkey hepatitis B Virus -->
     <primaryAccession>NC_028129</primaryAccession>
@@ -69,6 +72,10 @@
     <primaryAccession>MK620908</primaryAccession>
     <!-- Equine hepatitis B virus isolate donkey15 -->	
     <primaryAccession>MT134279</primaryAccession>
+    <!-- Domestic dog hepadnavirus -->	
+    <primaryAccession>MZ201309</primaryAccession>
+    <!-- Domestic cat hepadnavirus isolate Sydney2016 -->	
+    <primaryAccession>MH307930</primaryAccession>
 
 	<!-- Nackednavirus -->
     <!-- African cichlid nackednavirus -->

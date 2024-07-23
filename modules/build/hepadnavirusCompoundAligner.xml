@@ -1,11 +1,15 @@
 <compoundAligner>
 	<aligners>
 		<codonAwareBlastAligner>
-			<featureName>Core</featureName>
+			<featureName>PreCore-Core</featureName>
 		</codonAwareBlastAligner>
 		<codonAwareBlastAligner>
 			<featureName>Polymerase</featureName>
 		</codonAwareBlastAligner>
+		<codonAwareBlastAligner>
+			<featureName>large-S</featureName>
+		</codonAwareBlastAligner>
 		<blastAligner/>
 	</aligners>
 </compoundAligner>
+
