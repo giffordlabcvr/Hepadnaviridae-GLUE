@@ -44,6 +44,12 @@
 		<overwriteExistingNonNull>true</overwriteExistingNonNull>
     </textFileColumn>
 
+     <textFileColumn>
+        <header>host_common_name</header>
+        <property>isolate_data.host_common_name</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
+    </textFileColumn>
+
     <skipMissing>true</skipMissing>
 
 </textFilePopulator>

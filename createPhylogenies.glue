@@ -6,3 +6,4 @@ project hepadnaviridae
   run file glue/analysis/phylogeny/createGenusPhylogenies.glue
   
   exit
+w

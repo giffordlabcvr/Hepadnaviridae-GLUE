@@ -1,33 +1,33 @@
 taxon	sequenceID	name	genus	core_shift	variable_region_type	clade	isolate	host_sci_name	host_common_name	sample_date	country
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ251934	AJ251934	STHBV	Avihepadnavirus	type-1	avi-1-modern	-	STHBV-1	Ciconia ciconia	-	-	Germany:Northern Germany
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ441111	AJ441111	CCHBV	Avihepadnavirus	type-1	avi-1-modern	-	CCHBV 1	Balearica regulorum	-	-	Germany:Berlin
-alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/AMDV	AMDV	AMDV	Metahepadnavirus	N/A	meta-type-3	-	-	Astatotilapia sp	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/CSKV	CSKV	CSKV	Parahepadnavirus	N/A	ND	-	-	Oncorhynchus kisutch	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/IMDV	IMDV	IMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Chionodraco hamatus	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH307930	MH307930	DCHBV	Orthohepadnavirus	N/A	ortho-type 4	-	Sydney2016	Felis catus	-	-	Australia
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH484442	MH484442	ClHBV	Orthohepadnavirus	N/A	ortho-type 5	-	CX88	Crocidura lasiura	-	-	China
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716821	MH716821	AsHBV	Parahepadnavirus	N/A	ND	-	-	Pagrus auratus	-	-	Australia
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716822	MH716822	EsgHBV	Metahepadnavirus	N/A	meta-type-2	-	-	Hyporhamphus australis	-	-	Australia
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001344	NC_001344	DHBV	Avihepadnavirus	type-2	avi-1-modern	-	DHBVQCA34	Anas platyrhynchos	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001484	NC_001484	GSHV	Orthohepadnavirus	N/A	ortho-type-2	-	-	Spermophilus beecheyi	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001486	NC_001486	HHBV	Avihepadnavirus	type-1	avi-1-modern	-	-	Ardea cinerea	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_003977	NC_003977	HBV	Orthohepadnavirus	N/A	ortho-type-1	Primate	-	Homo sapiens	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_004107	NC_004107	WhBv	Orthohepadnavirus	N/A	ortho-type-2	-	-	Marmota monax	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005888	NC_005888	RGHBV	Avihepadnavirus	type-1	avi-1-modern	-	-	Chen rossii	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005890	NC_005890	SHBV	Avihepadnavirus	type-2	avi-1-modern	-	Ashy-headed sheldgoose hepatitis B virus	Chloephaga poliocephala	-	-	USA
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005950	NC_005950	SGHBV	Avihepadnavirus	type-2	avi-1-modern	-	SGHBV1-13	Anser caerulescens	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_016561	NC_016561	PaHBV	Avihepadnavirus	type-1	avi-1-modern	-	PL	Psittacula krameri	-	-	Poland
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_020881	NC_020881	LfbHBV	Orthohepadnavirus	N/A	ortho-type-6	-	776	Miniopterus fuliginosus	-	-	Myanmar
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024443	NC_024443	RlbHBV	Orthohepadnavirus	N/A	ortho-type-6	-	RBHBV/GB09-256/Hip_rub/GAB/2009	Hipposideros cf. ruber	-	-	Gabon
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024444	NC_024444	HsbHBV	Orthohepadnavirus	N/A	ortho-type-6	-	HBHBV/GB09-403/Rhi_alc/GAB/2009	Rhinolophus alcyone	-	-	Gabon
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024445	NC_024445	TBHBV	Orthohepadnavirus	N/A	ortho-type-2a	-	TBHBV/Pan372/Uro_bil/PAN/2010	Uroderma bilobatum	-	-	Panama
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_027922	NC_027922	wsHBV	Parahepadnavirus	N/A	ND	-	RR173	Catostomus commersonii	-	-	USA
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_028129	NC_028129	WMHBV	Orthohepadnavirus	N/A	ortho-type-1	Primate	-	Lagothrix lagothricha 	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030445	NC_030445	bgHBV	Metahepadnavirus	N/A	meta-type-1	-	-	Lepomis macrochirus	-	-	USA
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030446	NC_030446	tfHBV	Herpetohepadnavirus	N/A	herpeto-type-1	-	243398	Nanorana parkeri	-	-	China
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_035210	NC_035210	THBV	Avihepadnavirus	type-1	avi-1-modern	-	160050	Eudromia elegans	-	-	Germany
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/OQ859059	OQ859059	ApHBV	Metahepadnavirus	N/A	NK	-	MR4	Alosa pseudoharengus	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SkHBV	SkHBV	SkHBV	Herpetohepadnavirus	N/A	herpeto-type-2	-	-	Saproscincus basiliscus	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SLHBV-1	SLHBV-1	SLHBV-1	Herpetohepadnavirus	N/A	herpeto-type-1	-	-	Sceloporus adleri	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/TMDV	TMDV	TMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Astyanax mexicanus	-	-	-
-alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/U29144	U29144	ASHV	Orthohepadnavirus	N/A	ortho-type-2	-	-	Spermophilus parryii	-	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ251934	AJ251934	STHBV	Avihepadnavirus	type-1	avi-1-modern	-	STHBV-1	Ciconia ciconia	White stork	-	Germany:Northern Germany
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/AJ441111	AJ441111	CCHBV	Avihepadnavirus	type-1	avi-1-modern	-	CCHBV 1	Balearica regulorum	Grey crowned crane	-	Germany:Berlin
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/AMDV	AMDV	AMDV	Metahepadnavirus	N/A	meta-type-3	-	-	Astatotilapia sp	Astatotilapia	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/CSKV	CSKV	CSKV	Parahepadnavirus	N/A	ND	-	-	Oncorhynchus kisutch	Coho salmon	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/IMDV	IMDV	IMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Chionodraco hamatus	Crocodile icefish	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH307930	MH307930	DCHBV	Orthohepadnavirus	N/A	ortho-type 4	-	Sydney2016	Felis catus	Domestic cat	-	Australia
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH484442	MH484442	ClHBV	Orthohepadnavirus	N/A	ortho-type 5	-	CX88	Crocidura lasiura	Ussuri white-toothed shrew	-	China
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716821	MH716821	AsHBV	Parahepadnavirus	N/A	ND	-	-	Pagrus auratus	Australasian snapper	-	Australia
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/MH716822	MH716822	EsgHBV	Metahepadnavirus	N/A	meta-type-2	-	-	Hyporhamphus australis	Eastern sea garfish	-	Australia
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001344	NC_001344	DHBV	Avihepadnavirus	type-2	avi-1-modern	-	DHBVQCA34	Anas platyrhynchos	Domestic duck	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001484	NC_001484	GSHV	Orthohepadnavirus	N/A	ortho-type-2	-	-	Spermophilus beecheyi	California ground squirrel	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_001486	NC_001486	HHBV	Avihepadnavirus	type-1	avi-1-modern	-	-	Ardea cinerea	Grey heron	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_003977	NC_003977	HBV	Orthohepadnavirus	N/A	ortho-type-1	Primate	-	Homo sapiens	Human	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_004107	NC_004107	WhBv	Orthohepadnavirus	N/A	ortho-type-2	-	-	Marmota monax	Woodchuck	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005888	NC_005888	RGHBV	Avihepadnavirus	type-1	avi-1-modern	-	-	Chen rossii	Ross's goose	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005890	NC_005890	SHBV	Avihepadnavirus	type-2	avi-1-modern	-	Ashy-headed sheldgoose hepatitis B virus	Chloephaga poliocephala	Ashy-headed sheldgoose	-	USA
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_005950	NC_005950	SGHBV	Avihepadnavirus	type-2	avi-1-modern	-	SGHBV1-13	Anser caerulescens	Snow goose	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_016561	NC_016561	PaHBV	Avihepadnavirus	type-1	avi-1-modern	-	PL	Psittacula krameri	Rose-ringed parakeet	-	Poland
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_020881	NC_020881	LfbHBV	Orthohepadnavirus	N/A	ortho-type-6	-	776	Miniopterus fuliginosus	Long-fingered bat	-	Myanmar
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024443	NC_024443	RlbHBV	Orthohepadnavirus	N/A	ortho-type-6	-	RBHBV/GB09-256/Hip_rub/GAB/2009	Hipposideros cf. ruber	Roundleaf bat	-	Gabon
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024444	NC_024444	HsbHBV	Orthohepadnavirus	N/A	ortho-type-6	-	HBHBV/GB09-403/Rhi_alc/GAB/2009	Rhinolophus alcyone	Horseshoe bat	-	Gabon
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_024445	NC_024445	TBHBV	Orthohepadnavirus	N/A	ortho-type-2a	-	TBHBV/Pan372/Uro_bil/PAN/2010	Hipposideros cf. ruber	Tent-making bat	-	Panama
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_027922	NC_027922	wsHBV	Parahepadnavirus	N/A	ND	-	RR173	Catostomus commersonii	White sucker	-	USA
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_028129	NC_028129	WMHBV	Orthohepadnavirus	N/A	ortho-type-1	Primate	-	Lagothrix lagothricha 	Woolly monkey	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030445	NC_030445	bgHBV	Metahepadnavirus	N/A	meta-type-1	-	-	Lepomis macrochirus	Bluegill	-	USA
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_030446	NC_030446	tfHBV	Herpetohepadnavirus	N/A	herpeto-type-1	-	243398	Nanorana parkeri	Tibetan frog	-	China
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/NC_035210	NC_035210	THBV	Avihepadnavirus	type-1	avi-1-modern	-	160050	Eudromia elegans 	Elegant crested tinamou	-	Germany
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/OQ859059	OQ859059	ApHBV	Metahepadnavirus	N/A	NK	-	MR4	Alosa pseudoharengus	Alewife	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SkHBV	SkHBV	SkHBV	Herpetohepadnavirus	N/A	herpeto-type-2	-	-	Saproscincus basiliscus	Skink 	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/SLHBV-1	SLHBV-1	SLHBV-1	Herpetohepadnavirus	N/A	herpeto-type-1	-	-	Sceloporus adleri	Spiny lizard 	-	-
+alignment/AL_TREE_Hepadnaviridae/member/fasta-refseqs/TMDV	TMDV	TMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Astyanax mexicanus	Mexican tetra	-	-
+alignment/AL_TREE_Hepadnaviridae/member/ncbi-refseqs/U29144	U29144	ASHV	Orthohepadnavirus	N/A	ortho-type-2	-	-	Spermophilus parryii	Arctic ground squirrel	-	-
