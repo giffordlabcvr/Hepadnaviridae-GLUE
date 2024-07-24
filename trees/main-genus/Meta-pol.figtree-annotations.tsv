@@ -3,4 +3,5 @@ alignment/AL_GENUS_Metahepadnavirus/member/fasta-refseqs/AMDV	AMDV	AMDV	Metahepa
 alignment/AL_GENUS_Metahepadnavirus/member/fasta-refseqs/IMDV	IMDV	IMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Chionodraco hamatus	-	-	-
 alignment/AL_GENUS_Metahepadnavirus/member/ncbi-refseqs/MH716822	MH716822	EsgHBV	Metahepadnavirus	N/A	meta-type-2	-	-	Hyporhamphus australis	-	-	Australia
 alignment/AL_GENUS_Metahepadnavirus/member/ncbi-refseqs/NC_030445	NC_030445	bgHBV	Metahepadnavirus	N/A	meta-type-1	-	-	Lepomis macrochirus	-	-	USA
+alignment/AL_GENUS_Metahepadnavirus/member/ncbi-refseqs/OQ859059	OQ859059	ApHBV	Metahepadnavirus	N/A	NK	-	MR4	Alosa pseudoharengus	-	-	-
 alignment/AL_GENUS_Metahepadnavirus/member/fasta-refseqs/TMDV	TMDV	TMDV	Metahepadnavirus	N/A	meta-type-4	-	-	Astyanax mexicanus	-	-	-

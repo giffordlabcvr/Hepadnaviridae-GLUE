@@ -28,7 +28,6 @@
         <property>clade</property>
     </textFileColumn>
 
-
     <textFileColumn>
         <header>core_shift</header>
         <property>core_shift</property>
@@ -38,11 +37,11 @@
         <header>variable_region_type</header>
         <property>variable_region_type</property>
     </textFileColumn>
-
  
      <textFileColumn>
         <header>host_sci_name</header>
         <property>isolate_data.host_sci_name</property>
+		<overwriteExistingNonNull>true</overwriteExistingNonNull>
     </textFileColumn>
 
     <skipMissing>true</skipMissing>
