@@ -6,16 +6,13 @@ Welcome to Hepadnavirus-GLUE, a sequence-oriented resource for comparative genom
 
 **Hepadnaviruses** (family *Hepadnaviridae*) are reverse-transcribing DNA viruses that infect vertebrates. The type species - hepatitis B virus (HBV) - is estimated to infect ~300 million people worldwide, causing substantial morbidity and mortality. Recent studies have revealed that hepadnaviruses infect a diverse range of vertebrate species, ranging from fish to mammals. They are associated with disease in many of these species. 
 
-**[GLUE](https://github.com/giffordlabcvr/gluetools)** is an open, integrated software toolkit designed for storing and interpreting sequence data. It supports the creation of bespoke projects, incorporating essential data items for comparative genomic analysis, such as sequences, multiple sequence alignments, genome feature annotations, and other associated data.
+**[GLUE](https://github.com/giffordlabcvr/gluetools)** is an open, integrated software toolkit designed for storing and interpreting sequence data. It supports the creation of bespoke projects, incorporating essential data items for comparative genomic analysis, such as sequences, multiple sequence alignments, genome feature annotations, and other associated data. Projects are loaded into the GLUE "engine," forming a relational database that represents the semantic relationships between data items. This foundation supports systematic comparative analyses and the development of sequence-based resources.
 
-Projects are loaded into the GLUE "engine," forming a relational database that represents the semantic relationships between data items. This foundation supports systematic comparative analyses and the development of sequence-based resources.
+**Note**: Those specifically interested in **hepatitis B virus (HBV)** may want to investigate [**HBV-GLUE**](https://github.com/giffordlabcvr/HBV-GLUE) and [**NCBI-HBV-GLUE**](https://github.com/giffordlabcvr/NCBI-HBV-GLUE). This family of GLUE projects was developed specifically for HBV and incorporates a **graphical user interface (GUI)** ([**HBV-GLUE-WEB**](https://github.com/giffordlabcvr/HBV-GLUE-WEB)), which allows users to browse and interrogate the underlying GLUE database via 'point-and-click' methods. The University of Glasgow hosts a web instance of the [**GUI version of HBV-GLUE**](http://hbv-glue.cvr.gla.ac.uk/).
 
 **Hepadnavirus-GLUE** contains hepadnavirus feature definitions, alignments, and reference sequences for all hepadnavirus species.
 
-This **Hepadnavirus-GLUE**  project can be extended with additional layers, openly available via GitHub, including:
-
-  - **[Hepadnavirus-GLUE-EVE](https://github.com/giffordlabcvr/Hepadnavirus-GLUE-EVE)**: extends Hepadnavirus-GLUE through the incorporation of endogenous hepadnaviral elements.
-
+This **Hepadnavirus-GLUE**  project can be extended with an additional layer, also openly available via GitHub, **[Hepadnavirus-GLUE-EVE](https://github.com/giffordlabcvr/Hepadnavirus-GLUE-EVE)**, which extends Hepadnavirus-GLUE through the incorporation of **endogenous hepadnaviral elements**.
 
 ## Table of Contents
 
