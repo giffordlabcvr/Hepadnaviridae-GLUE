@@ -1,5 +1,7 @@
 # Hepadnavirus-GLUE
 
+<img src="md/hepadna-glue-logo.png" align="right" alt="" width="280"/>
+
 Welcome to **Hepadnavirus-GLUE**, a sequence-oriented resource for comparative genomic analysis of hepadnaviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 ## Overview
