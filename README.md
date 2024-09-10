@@ -1,6 +1,6 @@
-# Hepadnavirus-GLUE: Phylogenomic Analysis of Hepadnaviruses
+# Hepadnavirus-GLUE
 
-Welcome to Hepadnavirus-GLUE, a sequence-oriented resource for comparative genomic analysis of hepadnaviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
+Welcome to **Hepadnavirus-GLUE**, a sequence-oriented resource for comparative genomic analysis of hepadnaviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 ## Overview
 
