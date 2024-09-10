@@ -72,9 +72,7 @@ For detailed instructions on how to use Hepadnavirus-GLUE for your comparative g
 
 ## Data Sources
 
-Hepadnavirus-GLUE relies on the following data sources:
-
-- [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore)
+Hepadnavirus-GLUE is constructed using public data availavble via [NCBI Nucleotide](https://www.ncbi.nlm.nih.gov/nuccore).
 
 
 ## Contributing
