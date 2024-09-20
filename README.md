@@ -1,5 +1,7 @@
 # Hepadnavirus-GLUE
 
+<img align="right" width="280" height="280" src="md/hepadna-glue-logo.png">
+
 Welcome to **Hepadnavirus-GLUE**, a sequence-oriented resource for comparative genomic analysis of hepadnaviruses, developed using the [GLUE software framework](https://github.com/giffordlabcvr/gluetools).
 
 **Hepadnaviruses** (family *Hepadnaviridae*) are reverse-transcribing DNA viruses that infect vertebrates. The type species - hepatitis B virus (HBV) - is estimated to infect ~300 million people worldwide, causing substantial morbidity and mortality. Recent studies have revealed that hepadnaviruses infect a diverse range of vertebrate species, ranging from fish to mammals. They are associated with disease in many of these species. 
