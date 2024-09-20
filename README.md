@@ -8,8 +8,7 @@ Welcome to **Hepadnavirus-GLUE**, a sequence-oriented resource for comparative g
 
 **[GLUE](https://github.com/giffordlabcvr/gluetools)** is an open, integrated software toolkit designed for storing and interpreting sequence data. It supports the creation of bespoke projects, incorporating essential data items for comparative genomic analysis, such as sequences, multiple sequence alignments, genome feature annotations, and other associated data. Projects are loaded into the GLUE "engine," forming a relational database that represents the semantic relationships between data items. This foundation supports systematic comparative analyses and the development of sequence-based resources.
 
-**Hepadnavirus-GLUE** is a GLUE project focussing on hepadnaviruses. It contains genome feature definitions, annotated reference sequences, and multiple sequence alignments encompassing all known hepadnavirus species.
-
+**Hepadnavirus-GLUE** is a GLUE project focussing on hepadnaviruses. It contains genome feature definitions, annotated reference sequences, and multiple sequence alignments encompassing all known hepadnavirus species. 
 An additional project 'layer': **[Hepadnavirus-GLUE-EVE](https://github.com/giffordlabcvr/Hepadnaviridae-GLUE-EVE)** can optionally be installed. This layer extends Hepadnavirus-GLUE through the incorporation of **endogenous hepadnaviral elements**.
 
 Please see the **[User Guide](https://github.com/giffordlabcvr/Hepadnaviridae-GLUE/wiki)** for more details.
