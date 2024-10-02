@@ -6,6 +6,9 @@ alignment AL_Hepadnaviridae add member --allSequences
   
 #~# Genus alignments
 alignment AL_Hepadnaviridae
+  
+  set field clade_category "Family"
+  set field displayName "Family Hepadnaviridae"
 
   extract child AL_GENUS_Orthohepadnavirus -r REF_Ortho_MASTER_HBV
   demote member AL_GENUS_Orthohepadnavirus --whereClause "sequence.genus = 'Orthohepadnavirus'"
@@ -24,8 +27,38 @@ alignment AL_Hepadnaviridae
   exit
 
 
+#~# Set name and clade category oin genus-level alignments 
+
+alignment AL_GENUS_Orthohepadnavirus
+  set field clade_category "Genus"
+  set field displayName "Genus Orthohepadnavirus"
+  exit
+
+alignment AL_GENUS_Metahepadnavirus
+  set field clade_category "Genus"
+  set field displayName "Genus Metahepadnavirus"
+  exit
+
+alignment AL_GENUS_Avihepadnavirus
+  set field clade_category "Genus"
+  set field displayName "Genus Avihepadnavirus"
+  exit
+
+alignment AL_GENUS_Herpetohepadnavirus
+  set field clade_category "Genus"
+  set field displayName "Genus Herpetohepadnavirus"
+  exit
+
+alignment AL_GENUS_Parahepadnavirus
+  set field clade_category "Genus"
+  set field displayName "Genus Parahepadnavirus"
+  exit
+
+
 #~# Derive constrained alignment segments from unconstrained alignments  
+
 alignment AL_Hepadnaviridae
+
   derive segments AL_UNC_HEPADNAVIRIDAE -a --mergeStrategy OVERWRITE
   exit
 
